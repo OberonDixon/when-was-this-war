@@ -51,7 +51,7 @@ The attacking commanders attempted to overwhelm the defenders through frontal as
 The siege demonstrated the increasing lethality of defensive warfare and the need for new tactical approaches. The lessons would be studied carefully in military academies—though many commanders would ignore them until forced to relearn them through bitter experience decades later.`,
         hints: [
             { cost: 15, text: "Single-shot breech-loading rifles that could be loaded while prone were standard military weapons from roughly 1860 to 1890, between muzzle-loaders and repeating rifles.", explanation: "The rifle technology helps date this battle." },
-            { cost: 20, text: "Military telegraph communication became standard in the 1860s. The reference to 'lessons relearned decades later' points to World War I (1914-1918).", explanation: "The telegraph and the foreshadowing help narrow the timeframe." }
+            { cost: 20, text: "Military telegraph communication became standard in the 1860s. The reference to 'lessons relearned decades later' points to a major early 20th-century conflict.", explanation: "The telegraph and the foreshadowing help narrow the timeframe." }
         ],
         explanation: "This was the Siege of Plevna (1877) in the Russo-Turkish War. Ottoman commander Osman Pasha held the Bulgarian town for 5 months against repeated Russian assaults, proving that breech-loading rifles behind earthworks could slaughter massed infantry. The Russians lost 40,000+ casualties before starving the garrison out. European observers took detailed notes—then ignored the lessons until WWI proved them catastrophically correct. The single-shot breech-loaders that could be loaded prone place this between 1860 (when they replaced muzzle-loaders) and 1890 (when magazine rifles took over). An army of 185,000 requires railroad logistics, which became militarily decisive in the 1860s. The reference to lessons 'relearned decades later' points toward WWI.",
         tags: ["siege", "19th-century", "balkans", "ottoman", "russia"]
@@ -392,7 +392,7 @@ The fighting continued for years with minimal territorial change. Armies attacke
 
 The war would reshape the region's borders, transferring territories with significant populations who spoke the losing side's language.`,
         hints: [
-            { cost: 15, text: "Machine guns making frontal assaults suicidal was the defining characteristic of World War I (1914-1918). This pattern appeared on all fronts of that conflict.", explanation: "The machine gun dominance helps date this battle." },
+            { cost: 15, text: "Machine guns making frontal assaults suicidal was the defining characteristic of the 1914-1918 period. This pattern appeared on all fronts of that conflict.", explanation: "The machine gun dominance helps date this battle." },
             { cost: 20, text: "Massive siege howitzers (like those weighing over 40 tons) were unique to WWI's industrial-scale warfare. Earlier wars couldn't produce or transport such weapons.", explanation: "The artillery scale helps narrow the timeframe." }
         ],
         explanation: "This was the Italian Front of World War I (1915-1918), where Italy fought Austria-Hungary along the Alpine border. The fighting at extreme altitudes—some positions on glaciers at 10,000+ feet—was unlike any other front. Italian General Luigi Cadorna launched eleven offensives on the Isonzo River alone, each gaining minimal ground at enormous cost. The mine containing 50 tons of explosives describes the Italian attack on Col di Lana in 1916. Machine guns making frontal assaults suicidal was WWI's defining characteristic; earlier wars had machine guns but not enough to create continuous killing zones across entire fronts. The massive siege howitzers (like the Austrian Škoda 305mm or German 420mm) were unique to WWI's industrial scale. The stalemate ending when 'one combatant's larger alliance collapsed' refers to Austria-Hungary's disintegration in late 1918.",
@@ -600,7 +600,7 @@ A portion of the force, over 200 men, was surrounded on a hilltop and annihilate
 The battle became one of the most analyzed in the nation's military history, debated for generations.`,
         hints: [
             { cost: 20, text: "Single-shot breech-loading carbines were standard cavalry weapons from about 1865 to 1890. Repeating rifles existed but were not yet standard military issue.", explanation: "The cavalry weapons help date this battle." },
-            { cost: 25, text: "The mix of repeating rifles, single-shot rifles, and traditional weapons among Plains peoples, while the U.S. Army still carried single-shot carbines, was characteristic of the 1870s American frontier.", explanation: "The weapon mix helps narrow the timeframe precisely." }
+            { cost: 25, text: "The mix of repeating rifles, single-shot rifles, and traditional weapons among indigenous warriors, while the regular army still carried single-shot carbines, was characteristic of the 1870s frontier wars.", explanation: "The weapon mix helps narrow the timeframe precisely." }
         ],
         explanation: "This was the Battle of the Little Bighorn on June 25, 1876. Lieutenant Colonel George Armstrong Custer led five companies of the 7th Cavalry against a village of Lakota Sioux and Northern Cheyenne led by Sitting Bull and Crazy Horse—perhaps 7,000 people with 1,500-2,000 warriors. Custer's men carried Springfield Model 1873 single-shot carbines, while many warriors had Winchester repeating rifles obtained through trade, giving them a significant rate-of-fire advantage. All 210 men with Custer were killed; his body was found with two bullet wounds. The battle was the most famous Indigenous victory against the U.S. Army, but the government's response was overwhelming force—within a year, most bands had surrendered. Single-shot breech-loading carbines as standard cavalry weapons (1865-1890) while repeaters were available through trade is specifically characteristic of the 1870s.",
         tags: ["pitched-battle", "19th-century", "north-america"]
@@ -764,7 +764,7 @@ The battle took place in a valley with water sources that both armies needed. Th
 
 The invaders' general was killed in the fighting. Without his leadership, the army collapsed. The survivors fled, and the invasion that had seemed unstoppable was halted.
 
-The invaders never returned in force. Egypt and the lands beyond remained unconquered.`,
+The invaders never returned in force. The lands beyond remained unconquered.`,
         hints: [
             { cost: 20, text: "Composite bow horse archery dominated Central Asian and Middle Eastern warfare from roughly 500 BCE to 1500 CE. The technology remained effective until firearms made mounted archery obsolete.", explanation: "The horse archer tactics help date this battle to the medieval period." },
             { cost: 25, text: "The mamluk military system—purchasing slave boys and training them as elite cavalry—was prominent from the 9th through 16th centuries, reaching its peak in the 13th-14th centuries.", explanation: "The slave-soldier military system helps narrow the timeframe." }
@@ -1399,8 +1399,8 @@ The battle was brief. The coalition cavalry charged but couldn't break the terci
 
 The leading prince was captured. The emperor's victory seemed to settle the religious question—though the settlement would last barely five years before conflict erupted again.`,
         hints: [
-            { cost: 20, text: "The tercio formation was developed during the Italian Wars (1490s-1500s) and dominated European warfare until the 1630s. Its description as 'proven' but still dominant suggests the mid-16th century.", explanation: "The tercio timeline helps date this battle." },
-            { cost: 25, text: "Religious warfare over a 'new faith' dividing an empire, with conflict that would continue 'for another century,' points to the Protestant Reformation era (1520s-1648).", explanation: "The religious conflict context helps narrow the timeframe." }
+            { cost: 20, text: "The tercio formation was developed in the 1490s-1500s and dominated warfare until the 1630s. Its description as 'proven' but still dominant suggests the mid-16th century.", explanation: "The tercio timeline helps date this battle." },
+            { cost: 25, text: "Religious warfare over a 'new faith' dividing an empire, with conflict that would continue 'for another century,' points to the 1520s-1648 era of religious wars.", explanation: "The religious conflict context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Mühlberg on April 24, 1547, where Holy Roman Emperor Charles V crushed the Schmalkaldic League of Protestant princes. Elector John Frederick of Saxony believed the Elbe River protected his position; Charles's Spanish tercios (pike-and-arquebus formations developed during the Italian Wars, 1490s-1500s, and dominant until the 1630s) found a ford and crossed before John Frederick could react. The battle was brief—John Frederick was captured, his face slashed by a lance. Titian's famous equestrian portrait shows Charles in armor at the moment of triumph. The religious settlement seemed final, but 'another century' of religious conflict culminated in the Thirty Years' War (1618-1648). The Reformation era (1520s-1648, ending with the Peace of Westphalia) was defined by such warfare between Catholic and Protestant powers.",
         tags: ["pitched-battle", "16th-century", "europe"]
@@ -1500,13 +1500,13 @@ But the trading company had been negotiating. Key nobles in the ruler's army had
 
 The engagement began with an artillery duel. The company's guns were modern field pieces served by professional artillerists; the ruler's artillery was larger but poorly served. When monsoon rain fell, the company's gun crews covered their powder; the ruler's did not.
 
-When the rain stopped, the company's artillery resumed firing while the ruler's guns were silent. The company's infantry—disciplined lines of sepoys with flintlock muskets and socket bayonets, using standardized India Pattern weapons—advanced against increasingly demoralized opposition. Their disciplined volley fire could devastate less organized opponents.
+When the rain stopped, the company's artillery resumed firing while the ruler's guns were silent. The company's infantry—disciplined lines of locally recruited soldiers with flintlock muskets and socket bayonets, using standardized colonial-pattern weapons—advanced against increasingly demoralized opposition. Their disciplined volley fire could devastate less organized opponents.
 
 The expected betrayal came. Major contingents of the ruler's army stood aside or withdrew. The battle became a rout. The ruler fled and was soon murdered.
 
 The trading company became the effective ruler of a wealthy province, transforming from merchants into sovereigns.`,
         hints: [
-            { cost: 20, text: "Flintlock muskets with socket bayonets were the dominant infantry weapon from roughly 1700-1850. The standardized 'India Pattern' musket became common in colonial service in the mid-18th century.", explanation: "The infantry weapons help date this battle." },
+            { cost: 20, text: "Flintlock muskets with socket bayonets were the dominant infantry weapon from roughly 1700-1850. Standardized colonial-pattern muskets became common in the mid-18th century.", explanation: "The infantry weapons help date this battle." },
             { cost: 25, text: "Trading companies with private armies fighting in South Asia against larger traditional forces was characteristic of the mid-18th century colonial period.", explanation: "The colonial warfare context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Plassey on June 23, 1757, where Robert Clive's British East India Company defeated Nawab Siraj ud-Daulah of Bengal. The battle was decided more by politics than fighting—Mir Jafar, commanding much of the Nawab's army, had secretly agreed to betray him in exchange for the throne. When the monsoon rain fell, the Company's gun crews kept their powder dry under tarpaulins while the Nawab's artillery fell silent with wet powder. Most of the 50,000-strong Bengali army never engaged. Siraj ud-Daulah fled and was murdered days later. Flintlock muskets with socket bayonets (standard 1700-1850) and disciplined sepoy volleys defeated the larger but disorganized opposition. The Company became effective rulers of Bengal—transforming 'from merchants into sovereigns' began the British conquest of India.",
@@ -1589,7 +1589,7 @@ The siege began with artillery barrages that cratered the runway and destroyed a
 Infantry assaults, supported by artillery and waves of soldiers willing to accept massive casualties, overran position after position. After two months, the garrison surrendered. The colonial power's will to continue the war collapsed with it.`,
         hints: [
             { cost: 20, text: "Air supply as the sole logistics for a major base became feasible with transport aircraft developed in the 1940s. Earlier aircraft couldn't carry enough cargo; later helicopters changed the equation again.", explanation: "The air supply technology helps date this battle." },
-            { cost: 25, text: "Colonial powers fighting guerrilla insurgencies in Asia was characteristic of the 1945-1975 period, as European empires dissolved after World War II.", explanation: "The colonial warfare context helps narrow the timeframe." }
+            { cost: 25, text: "Colonial powers fighting guerrilla insurgencies was characteristic of the 1945-1975 period, as empires dissolved after the second great global conflict.", explanation: "The colonial warfare context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Dien Bien Phu (March-May 1954), where General Vo Nguyen Giap's Viet Minh destroyed the French garrison in a remote valley. French commander General Henri Navarre had established the base hoping to draw Giap into a conventional battle where French firepower would be decisive. Giap's soldiers disassembled artillery and carried it through mountains on bicycles and backs, then dug it into reverse slopes where French counterbattery fire couldn't reach. The airstrip was cratered within days; air supply by parachute couldn't meet the garrison's needs. After 57 days, the 13,000-man garrison surrendered. Air supply as sole logistics for a major base was feasible with 1940s transport aircraft—earlier planes couldn't carry enough, later helicopters would change the equation. France withdrew from Indochina within months; the war America inherited began.",
         tags: ["siege", "20th-century", "asia"]
@@ -1639,7 +1639,7 @@ The city was eventually retaken at enormous cost. Thousands of civilians died, m
         difficulty: "hard",
         description: `A surprise offensive caught the defenders at reduced readiness. On a strategic heights region, perhaps 180 tanks faced an assault by over 1,400 enemy tanks advancing in multiple waves. The attackers had to be stopped or they would descend into the heartland below.
 
-The defenders fought from prepared positions on the ridge line, but they were desperately outnumbered. Their tanks were Western designs—late-model Centurions and Pattons with superior optics and fire control systems. The attackers used massed Soviet T-55s and T-62s, simpler but far more numerous. Tank battles raged for four days.
+The defenders fought from prepared positions on the ridge line, but they were desperately outnumbered. Their tanks were Western designs—late-model Centurions and Pattons with superior optics and fire control systems. The attackers used massed T-55s and T-62s, simpler but far more numerous. Tank battles raged for four days.
 
 The defenders developed a grim routine: engage at maximum range where their gunnery advantage mattered, destroy as many as possible, fall back before being overrun, repeat. Crews fought until their tanks were destroyed, then joined other crews. Ammunition ran low. Reinforcements trickled in.
 
@@ -1677,9 +1677,9 @@ Air attacks with modern jet fighters and anti-ship missiles threatened the fleet
         difficulty: "easy",
         description: `After months of buildup, a coalition launched an air campaign against an army occupying a neighboring country. For six weeks, aircraft systematically destroyed air defenses, command centers, and supply lines. Stealth aircraft evaded radar; precision-guided bombs hit individual buildings; cruise missiles launched from ships struck targets hundreds of miles inland.
 
-When the ground assault began, it was shockingly one-sided. Coalition tanks—equipped with thermal imaging that could see through darkness and smoke—engaged enemy tanks at ranges where return fire was impossible. The defenders' Soviet-designed tanks were destroyed in droves, often before their crews knew they were under attack.
+When the ground assault began, it was shockingly one-sided. Coalition tanks—equipped with thermal imaging that could see through darkness and smoke—engaged enemy tanks at ranges where return fire was impossible. The defenders' older-generation tanks were destroyed in droves, often before their crews knew they were under attack.
 
-One engagement became legendary. A cavalry squadron—tanks and fighting vehicles—stumbled into a Republican Guard division in a sandstorm. Despite being outnumbered, the coalition force destroyed over 80 enemy vehicles in 23 minutes, losing one fighting vehicle to enemy fire.
+One engagement became legendary. A cavalry squadron—tanks and fighting vehicles—stumbled into an elite guard division in a sandstorm. Despite being outnumbered, the coalition force destroyed over 80 enemy vehicles in 23 minutes, losing one fighting vehicle to enemy fire.
 
 The ground war lasted 100 hours. The occupying army was destroyed as a fighting force.`,
         hints: [
@@ -1810,7 +1810,7 @@ The two forces met near a major religious center. For seven days they skirmished
 When the invaders' camp was threatened, their cavalry broke off to protect their plunder. In the confusion, their commander was killed. The army retreated south, never to return in such force. The northern lands remained under different rule than the southern.`,
         hints: [
             { cost: 20, text: "Infantry in mail armor as the primary fighting force, with heavy cavalry not yet dominant, was characteristic of Western European warfare from roughly 500-800 CE, before the mounted knight became supreme.", explanation: "The army composition helps date this battle." },
-            { cost: 25, text: "Cavalry armies 'sweeping across vast distances in less than a century' from the south describes the Umayyad expansion (661-750 CE), which reached its furthest northern extent in the early 8th century.", explanation: "The conquest timeline helps narrow the date." }
+            { cost: 25, text: "Cavalry armies 'sweeping across vast distances in less than a century' from the south describes the great caliphal expansion (661-750 CE), which reached its furthest northern extent in the early 8th century.", explanation: "The conquest timeline helps narrow the date." }
         ],
         explanation: "This was the Battle of Tours (or Poitiers) in October 732, where Charles Martel ('the Hammer') stopped the Umayyad advance into Western Europe. Abd al-Rahman al-Ghafiqi led a raiding force from Muslim Spain across the Pyrenees; they had already destroyed the Visigothic Kingdom and were pillaging wealthy Frankish monasteries. Charles's Frankish infantry, fighting in dense formations with mail armor and spears, stood 'like a wall of ice' against Umayyad cavalry charges for seven days. When their camp (and plunder) was threatened, the Umayyads broke off; Abd al-Rahman was killed in the confusion. Infantry in mail as the primary arm, with heavy cavalry 'not yet dominant,' indicates the early medieval transition (500-800 CE). The Umayyad expansion 'in less than a century' (from 632) marks this as the early 8th century—the limit of Arab expansion into Western Europe.",
         tags: ["pitched-battle", "8th-century", "western-europe"]
@@ -1919,7 +1919,7 @@ The first assaults failed. But the colonial cavalry, instead of counterattacking
 The colonial commander surrendered with his remaining forces. Within a year, the last colonial strongholds on the continent would fall. Three centuries of rule ended not with a negotiated settlement but with military defeat.`,
         hints: [
             { cost: 20, text: "Smoothbore flintlock muskets in linear infantry formations were standard from roughly 1700-1840. The revolutionary/independence war context narrows this further.", explanation: "The weapons and tactics help date this battle." },
-            { cost: 25, text: "Wars of independence against colonial rule in the Americas occurred primarily in two waves: 1775-1783 (North America) and 1810-1825 (Central and South America).", explanation: "The independence war timeline helps narrow the date." }
+            { cost: 25, text: "Wars of independence against colonial rule occurred primarily in two waves: 1775-1783 and 1810-1825, ending three centuries of colonial rule.", explanation: "The independence war timeline helps narrow the date." }
         ],
         explanation: "This was the Battle of Ayacucho on December 9, 1824, the battle that ended Spanish colonial rule in South America. General Antonio José de Sucre commanded the liberation forces against Viceroy José de la Serna's royalist army at over 10,000 feet altitude in the Peruvian Andes. When the royalist cavalry inexplicably withdrew instead of counterattacking, their infantry line collapsed. Sucre captured the Viceroy himself. Within months, the last Spanish strongholds in South America surrendered, ending 'three centuries' of colonial rule (since Pizarro's conquest in the 1530s). Smoothbore flintlock muskets in linear formations (standard 1700-1840) and the South American independence context (1810-1825, following the Napoleonic disruption of Spain) date this precisely. Simón Bolívar's dream of a united South America would fail, but the colonial era was over.",
         tags: ["pitched-battle", "19th-century", "south-america"]
@@ -2154,8 +2154,8 @@ The battle turned on firepower. The westerners' gunnery shattered the allied fle
 
 The victory gave the western nation a monopoly on the spice trade that would last a century, transforming them from a poor kingdom into one of the world's wealthiest empires.`,
         hints: [
-            { cost: 20, text: "Carracks with broadside cannon defeating dhows and traditional vessels was characteristic of early western expansion in the Indian Ocean (1498-1550).", explanation: "The ship types help date this battle." },
-            { cost: 25, text: "A Red Sea power's attempts to expel western seafarers from the Indian Ocean occurred between 1505-1509, before the region changed hands.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Carracks with broadside cannon defeating dhows and traditional vessels was characteristic of early western expansion into eastern waters (1498-1550).", explanation: "The ship types help date this battle." },
+            { cost: 25, text: "A major eastern power's attempts to expel western seafarers from the spice trade routes occurred between 1505-1509.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Diu on February 3, 1509, where Portuguese Viceroy Francisco de Almeida destroyed a combined Mamluk-Gujarati fleet. The Mamluks had sent a fleet from Egypt via the Red Sea to challenge Portuguese control of Indian Ocean trade; Sultan Mahmud of Gujarat provided additional ships. Almeida's cannon-armed carracks devastated the allied fleet—the Mamluk commander Amir Husain was killed. Portugal's spice monopoly was secured for decades. Carracks with broadside cannon versus traditional dhows characterized early Portuguese Indian Ocean expansion (1498-1550). Mamluk naval attempts against Portugal (1505-1509) precisely date this battle.",
         tags: ["naval", "16th-century", "asia"]
@@ -2173,7 +2173,7 @@ As the heavy cavalry funneled across the bridge and onto the causeway, the rebel
 
 When the bridge collapsed—or was cut—the army was split in two. The cavalry on the far side was annihilated; those still across watched helplessly. The occupation's commander was killed and flayed; his skin was made into sword belts. For a brief time, the kingdom was free.`,
         hints: [
-            { cost: 20, text: "Schiltron formations—dense circles of spearmen—were a Scottish innovation of the 1290s, designed specifically to counter heavy cavalry.", explanation: "The infantry formation helps date this battle." },
+            { cost: 20, text: "Schiltron formations—dense circles of spearmen—were an innovation of the 1290s, designed specifically to counter heavy cavalry.", explanation: "The infantry formation helps date this battle." },
             { cost: 25, text: "Heavy cavalry being defeated by defensive spearmen formations became increasingly common in the early 14th century, as infantry learned to hold ground against mounted charges.", explanation: "The tactical evolution helps narrow the date." }
         ],
         explanation: "This was the Battle of Stirling Bridge on September 11, 1297, where William Wallace and Andrew Moray destroyed an English army under John de Warenne, Earl of Surrey. Hugh de Cressingham, the English treasurer, was killed; Scots reportedly made a sword belt from his skin. The narrow bridge and causeway neutralized English cavalry superiority. Wallace was knighted and became Guardian of Scotland. The victory was short-lived—Edward I returned and won at Falkirk the next year. Schiltron formations were a Scottish innovation of the 1290s. English-Scottish warfare identifies the Wars of Scottish Independence (1296-1328).",
@@ -2213,8 +2213,8 @@ The battle was brutal. The African musketeers ran low on powder and shot. The ki
 
 The kingdom fragmented into civil war and never recovered. Within a generation, it existed only in name, its people sold into slavery by the very trade that had once enriched them.`,
         hints: [
-            { cost: 20, text: "African kingdoms using European matchlock muskets acquired through trade, facing European colonial forces with superior firepower, was characteristic of 17th-century West-Central Africa.", explanation: "The military matchup helps date this battle." },
-            { cost: 25, text: "The Kingdom of Kongo's conflicts with Portugal intensified after 1622 and reached crisis in the 1660s.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Local kingdoms using trade-acquired matchlock muskets against colonial forces with superior firepower was characteristic of 17th-century colonial conflicts.", explanation: "The military matchup helps date this battle." },
+            { cost: 25, text: "Conflicts between the major central-western kingdom and its colonial trading partners intensified after 1622 and reached crisis in the 1660s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Mbwila (Ulanga) on October 29, 1665, where Portuguese forces destroyed the Kingdom of Kongo. King António I led the Kongolese army against Governor André Vidal de Negreiros's smaller but better-equipped force. António was killed and beheaded; his head was displayed in Luanda. The battle ended Kongo as a unified power—civil wars fragmented it for the next century. The slave trade, which had enriched the kingdom, now consumed it. African kingdoms using trade-acquired matchlocks against European colonial forces was characteristic of 17th-century West-Central Africa. Kongo-Portuguese conflict peaked in the 1660s.",
         tags: ["pitched-battle", "17th-century", "africa"]
@@ -2233,7 +2233,7 @@ Both commanders were young—the attacker 32, the defender 47. Both would die in
 The attackers waited in silence as the defenders approached. At 40 yards, they delivered a single devastating volley, then charged with bayonets. The battle lasted perhaps 15 minutes. Both commanders were mortally wounded. The city surrendered days later, and a continent changed hands.`,
         hints: [
             { cost: 20, text: "Flintlock muskets with bayonets in linear formations, emphasizing disciplined volleys, was the standard European infantry doctrine from roughly 1700-1840.", explanation: "The infantry tactics help date this battle." },
-            { cost: 25, text: "Colonial warfare between European powers in North America occurred primarily from 1689-1763, ending with the transfer of major territories.", explanation: "The colonial context helps narrow the date." }
+            { cost: 25, text: "Colonial warfare between rival powers over continental territories occurred primarily from 1689-1763, ending with the transfer of major colonies.", explanation: "The colonial context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Plains of Abraham on September 13, 1759, where General James Wolfe's British forces defeated the Marquis de Montcalm's French army outside Quebec City. Wolfe's daring night ascent of the cliffs achieved complete surprise. Both commanders died—Wolfe on the field, Montcalm the next morning. Quebec's fall effectively ended French power in North America; the Treaty of Paris (1763) confirmed British control of Canada. Flintlock muskets with bayonets in linear formations (1700-1840) and colonial warfare between European powers in North America (1689-1763) precisely identify the period.",
         tags: ["pitched-battle", "18th-century", "americas"]
@@ -2270,8 +2270,8 @@ The conqueror had hidden his main striking force behind a hill. At the crucial m
 
 By evening, the allies had lost 27,000 men killed, wounded, or captured—including dozens of standards and hundreds of cannon. The conqueror lost 9,000. One allied emperor fled the field in tears. A peace treaty dissolved a centuries-old empire. Military academies would study this battle for generations as the perfect example of the decisive maneuver.`,
         hints: [
-            { cost: 20, text: "Large armies maneuvering in corps-sized formations, with decisive battles fought in a single day, was characteristic of Napoleonic warfare (1796-1815).", explanation: "The operational scale helps date this battle." },
-            { cost: 25, text: "An emperor commanding armies personally against coalitions of traditional monarchies was unique to the Napoleonic period.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Large armies maneuvering in corps-sized formations, with decisive battles fought in a single day, was characteristic of warfare from 1796-1815.", explanation: "The operational scale helps date this battle." },
+            { cost: 25, text: "A self-crowned emperor commanding armies personally against coalitions of traditional monarchies was unique to the 1796-1815 period.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Austerlitz on December 2, 1805—the 'Battle of the Three Emperors'—Napoleon's greatest victory. Emperor Francis I of Austria and Tsar Alexander I of Russia faced Napoleon. The Allied attack on Napoleon's right (held by Davout's corps) weakened the Pratzen Heights; Soult's corps stormed the heights at the decisive moment. Austria sued for peace; the Holy Roman Empire, founded in 800 CE, was dissolved. Military academies still study Austerlitz as the model of decisive battle. Napoleonic corps-level warfare (1796-1815) and emperors commanding personally against coalitions identify the period precisely.",
         tags: ["pitched-battle", "19th-century", "europe"]
@@ -2308,7 +2308,7 @@ The casualties were staggering: 70,000 killed or wounded between both sides—th
 
 With no supplies, no peace treaty, and winter approaching, the invaders began their retreat. Of 600,000 who had crossed the frontier, perhaps 100,000 returned. It was the beginning of the end for the conqueror's empire.`,
         hints: [
-            { cost: 20, text: "Armies of 600,000 men from multiple nations, supported by massive artillery bombardments, was only possible during the Napoleonic era (1796-1815).", explanation: "The army scale helps date this battle." },
+            { cost: 20, text: "Armies of 600,000 men from multiple nations, supported by massive artillery bombardments, was only possible during the 1796-1815 era of revolutionary and imperial warfare.", explanation: "The army scale helps date this battle." },
             { cost: 25, text: "Scorched-earth retreats before massive invasions, culminating in the deliberate burning of capitals, occurred most famously in 1812.", explanation: "The strategic pattern helps narrow the date." }
         ],
         explanation: "This was the Battle of Borodino on September 7, 1812, the bloodiest day of the Napoleonic Wars. Marshal Kutuzov's Russian army fought Napoleon's Grande Armée to a standstill outside Moscow. Russia lost 44,000; France perhaps 35,000—but Russia could replace its losses, Napoleon couldn't. Moscow burned; Napoleon waited a month for a surrender that never came. The winter retreat destroyed the Grande Armée—of 600,000 who invaded, fewer than 100,000 returned. Napoleonic-scale armies (1796-1815) and the Russian scorched-earth strategy identify this campaign precisely.",
@@ -2388,8 +2388,8 @@ Then they turned. The first invading army, strung out over sixty miles with poor
 
 The victory saved the empire—for now. But four years of brutal warfare lay ahead, and the empire would ultimately collapse. The battle became legend, its name later appropriated for propaganda purposes.`,
         hints: [
-            { cost: 20, text: "Wireless intercepts and railway-based strategic mobility, combined with massive infantry armies, characterized the opening campaigns of World War I (1914).", explanation: "The military technology helps date this battle." },
-            { cost: 25, text: "Encirclement battles on the Eastern Front in 1914 were decisive in ways the Western Front's trench stalemate was not.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "Wireless intercepts and railway-based strategic mobility, combined with massive infantry armies, characterized the opening campaigns of the 1914-1918 war.", explanation: "The military technology helps date this battle." },
+            { cost: 25, text: "Encirclement battles in 1914 were decisive on fronts where terrain permitted maneuver, in contrast to the trench stalemate elsewhere.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Tannenberg, August 26-30, 1914, where Hindenburg and Ludendorff destroyed the Russian Second Army under Samsonov (who committed suicide). The Germans used intercepted Russian wireless messages sent uncoded. The victory made Hindenburg a national hero—the battle was renamed 'Tannenberg' to symbolically avenge the Teutonic Knights' defeat there in 1410. Russia lost 92,000 captured and 30,000 killed; Germany lost 12,000. Wireless intercepts and railway mobility in massive infantry battles characterize early WWI. Eastern Front encirclements in 1914 differed markedly from Western Front stalemate.",
         tags: ["pitched-battle", "20th-century", "europe"]
@@ -2407,8 +2407,8 @@ But the defenders fed in reinforcements along a single road, refusing to yield. 
 
 By year's end, the attackers had gained almost nothing and lost their strategic reserve. The defenders had held—barely. "They shall not pass" became a national motto. The battle became a symbol of futile slaughter.`,
         hints: [
-            { cost: 20, text: "Massive artillery bombardments with 420mm howitzers destroying concrete fortifications characterized WWI siege warfare (1914-1918).", explanation: "The artillery scale helps date this battle." },
-            { cost: 25, text: "Battles lasting months with hundreds of thousands of casualties for minimal territorial gain were unique to the Western Front of WWI.", explanation: "The battle pattern helps narrow the date." }
+            { cost: 20, text: "Massive artillery bombardments with 420mm howitzers destroying concrete fortifications characterized the siege warfare of 1914-1918.", explanation: "The artillery scale helps date this battle." },
+            { cost: 25, text: "Battles lasting months with hundreds of thousands of casualties for minimal territorial gain were unique to the trench warfare of 1914-1918.", explanation: "The battle pattern helps narrow the date." }
         ],
         explanation: "This was the Battle of Verdun, February-December 1916, where German Chief of Staff Falkenhayn tried to 'bleed France white.' General Pétain organized the defense along the Voie Sacrée (Sacred Road). France suffered 377,000 casualties; Germany 337,000—for a few miles of cratered moonscape. 'Ils ne passeront pas' (They shall not pass) became France's rallying cry. The battle epitomized WWI's industrial slaughter. 420mm howitzers destroying concrete forts and months-long battles for minimal gains were unique to WWI's Western Front (1914-1918).",
         tags: ["siege", "20th-century", "europe"]
@@ -2427,7 +2427,7 @@ The battle sprawled across hundreds of square miles of grey sea. Visibility was 
 The smaller fleet lost fewer ships but retreated to port and never seriously challenged the larger fleet again. Strategically, nothing changed: the blockade continued, the fleet-in-being remained. It was the last great battleship duel of the war—and perhaps of history.`,
         hints: [
             { cost: 20, text: "Dreadnought battleships with 12-15 inch guns in multiple turrets, plus battlecruisers, were the capital ships of roughly 1906-1945.", explanation: "The ship types help date this battle." },
-            { cost: 25, text: "The only major fleet engagement between dreadnought battleships occurred during World War I, when both sides were reluctant to risk their fleets.", explanation: "The strategic context helps narrow the date." }
+            { cost: 25, text: "The only major fleet engagement between dreadnought battleships occurred during the 1914-1918 war, when both sides were reluctant to risk their fleets.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Jutland on May 31-June 1, 1916, the only major dreadnought fleet action of WWI. Admiral Jellicoe's British Grand Fleet faced Admiral Scheer's German High Seas Fleet. Britain lost more ships (14 vs 11) and men (6,094 vs 2,551), but Germany retreated and never again seriously contested British control of the North Sea. Three British battlecruisers exploded when shells reached their magazines—their armor was inadequate. Dreadnoughts (1906-1945) with 12-15 inch guns in turrets and the single WWI fleet engagement precisely identify this battle.",
         tags: ["naval", "20th-century", "europe"]
@@ -2446,7 +2446,7 @@ For seven months, the rebellion burned. The rebels won early battles through she
 At dawn, after a night of farewells, the survivors charged down the hill with swords drawn. The Gatling guns cut them down in minutes. The rebel leader was wounded, then took his own life in the traditional manner. The warrior class—which had ruled for seven centuries—ended on that hillside.`,
         hints: [
             { cost: 20, text: "Gatling guns and breech-loading rifles against traditional sword-armed warriors characterized the final samurai resistance of the 1870s.", explanation: "The weapon contrast helps date this battle." },
-            { cost: 25, text: "Samurai rebellions against the Meiji government occurred between 1874-1877, as Japan rapidly industrialized.", explanation: "The political context helps narrow the date." }
+            { cost: 25, text: "Rebellions by the traditional warrior class against a modernizing government occurred between 1874-1877, as the empire rapidly industrialized.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Shiroyama on September 24, 1877, the final battle of the Satsuma Rebellion. Saigo Takamori—the 'Last Samurai'—led his final 400 warriors in a sword charge against 30,000 Imperial troops armed with Gatling guns and modern artillery. Saigo was wounded and committed seppuku (or was beheaded by a retainer—accounts differ). The Meiji government's conscript army proved that modern weapons trumped samurai skill. The warrior class's military monopoly, lasting since the 12th century, ended that morning. Gatling guns versus traditional warriors (1870s) and anti-Meiji samurai rebellions (1874-1877) precisely date this battle.",
         tags: ["pitched-battle", "19th-century", "asia"]
@@ -2464,8 +2464,8 @@ The attacker feigned retreat, drawing the defenders out of their fortifications.
 
 After 46 days, they surrendered. What happened next became the most infamous atrocity in ancient history: the general ordered all 400,000 prisoners executed—buried alive or beheaded—keeping only 240 young boys to send home as witnesses. The defending kingdom never recovered; within forty years, all six rivals would be conquered by the victor.`,
         hints: [
-            { cost: 20, text: "Mass infantry armies numbering hundreds of thousands, equipped with bronze weapons and crossbows, were characteristic of Warring States China (475-221 BCE).", explanation: "The army scale helps date this battle." },
-            { cost: 25, text: "The wars of unification that ended the Warring States period occurred primarily between 260-221 BCE, culminating in the Qin conquest.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Mass infantry armies numbering hundreds of thousands, equipped with bronze weapons and crossbows, were characteristic of the Warring States period (475-221 BCE).", explanation: "The army scale helps date this battle." },
+            { cost: 25, text: "The wars of unification that ended the Warring States period occurred primarily between 260-221 BCE, culminating in a single kingdom conquering all rivals.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Changping in 260 BCE, where Qin general Bai Qi annihilated the army of Zhao. The Zhao commander Zhao Kuo—inexperienced and rash—replaced the cautious Lian Po and led his army into a trap. After 46 days without food, 400,000 Zhao soldiers surrendered; Bai Qi ordered them all executed to prevent future resistance. Only 240 boys were spared. Zhao never recovered; Qin unified China in 221 BCE. Mass infantry with crossbows characterizes Warring States warfare (475-221 BCE). Qin's wars of conquest (260-221 BCE) precisely date this battle.",
         tags: ["pitched-battle", "ancient", "asia"]
@@ -2483,8 +2483,8 @@ The offensive began with 900,000 attackers against 1.3 million defenders. Within
 
 After two weeks, the attackers withdrew. They had lost 200,000 men and hundreds of tanks. More importantly, they had lost the strategic initiative permanently. From this point on, they would only retreat—all the way back to their own capital.`,
         hints: [
-            { cost: 20, text: "Tiger heavy tanks with 88mm guns facing T-34 medium tanks in massive armored battles was specific to 1943-1945 Eastern Front combat.", explanation: "The tank types help date this battle." },
-            { cost: 25, text: "Defensive preparations including deep minefields and anti-tank guns in depth were perfected on the Eastern Front by 1943.", explanation: "The defensive tactics help narrow the date." }
+            { cost: 20, text: "Tiger heavy tanks with 88mm guns facing T-34 medium tanks in massive armored battles was specific to 1943-1945 combat.", explanation: "The tank types help date this battle." },
+            { cost: 25, text: "Defensive preparations including deep minefields and anti-tank guns in depth were perfected by 1943 on fronts where massive armored warfare dominated.", explanation: "The defensive tactics help narrow the date." }
         ],
         explanation: "This was the Battle of Kursk, July-August 1943, the largest tank battle in history. Hitler's Operation Citadel attacked the Kursk salient with 900,000 men including new Tiger and Panther tanks. The Soviets under Zhukov and Vasilevsky had prepared defenses eight lines deep with thousands of anti-tank guns and millions of mines. German losses—200,000 casualties and 500+ tanks—were irreplaceable. The Soviets lost more but could replace them. After Kursk, the Wehrmacht never regained the initiative. Tiger tanks with 88mm guns facing T-34s in massive armored battles identifies 1943-1945 Eastern Front combat.",
         tags: ["pitched-battle", "20th-century", "europe"]
@@ -2560,7 +2560,7 @@ Outside the ancient capital, perhaps 20,000 cavalry charged the invaders' line. 
 The ancient dynasty ended that day. The invaders would rule the conquered lands for four centuries, and the holy cities of Islam passed to their control.`,
         hints: [
             { cost: 20, text: "Slave-soldier cavalry refusing to adopt firearms against arquebus-armed opponents was specific to their final defeats in the 1510s.", explanation: "The technological asymmetry helps date this battle." },
-            { cost: 25, text: "The conquest of Egypt by a gunpowder empire from Anatolia occurred in 1516-1517.", explanation: "The political context helps narrow the date." }
+            { cost: 25, text: "The conquest of an ancient dynasty's realm by a gunpowder empire occurred in 1516-1517.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Ridaniya on January 22, 1517, where Ottoman Sultan Selim I destroyed the Mamluk Sultanate. Sultan Tuman bay II's Mamluk cavalry, who scorned firearms, were slaughtered by Janissary arquebuses. Tuman bay was captured and hanged at the Zuweila Gate in Cairo. The Mamluks had ruled since 1250 and defeated the Mongols at Ain Jalut; their contempt for gunpowder weapons destroyed them. The Ottomans gained Egypt, the Hejaz (with Mecca and Medina), and the title of Caliph. Mamluk cavalry versus arquebus infantry was specific to 1516-1517. Ottoman conquest of Egypt precisely dates this battle.",
         tags: ["pitched-battle", "16th-century", "middle-east"]
@@ -2570,7 +2570,7 @@ The ancient dynasty ended that day. The invaders would rule the conquered lands 
         title: "The Diamond Throne's Fall",
         actualYear: 1565,
         difficulty: "hard",
-        description: `The wealthiest Hindu empire in the subcontinent—famous for its temples, its diamond mines, and its military might—faced a coalition of five sultanates united by faith and fear. The empire's army of perhaps 140,000 included the finest heavy cavalry in India and hundreds of war elephants.
+        description: `The wealthiest empire in the subcontinent—famous for its temples, its diamond mines, and its military might—faced a coalition of five sultanates united by faith and fear. The empire's army of perhaps 140,000 included the finest heavy cavalry in the subcontinent and hundreds of war elephants.
 
 The sultanates assembled 80,000 men but possessed a crucial advantage: field artillery served by foreign-trained gunners. The imperial general, a brilliant commander who had won many victories, chose to stand and fight near the capital rather than use his cavalry's mobility.
 
@@ -2578,24 +2578,24 @@ The battle was close. The imperial heavy cavalry nearly broke through; the sulta
 
 The imperial army was annihilated. The capital—one of the world's largest and wealthiest cities—was looted for six months. The temples were demolished, the treasuries emptied. An empire that had flourished for two centuries was utterly destroyed.`,
         hints: [
-            { cost: 20, text: "Foreign-trained artillery in Indian warfare, combined with war elephants and heavy cavalry, was characteristic of 16th-century Deccan conflicts.", explanation: "The military technologies help date this battle." },
-            { cost: 25, text: "The Deccan sultanates' coalition against Hindu kingdoms peaked in the 1560s-1570s.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Foreign-trained artillery combined with war elephants and heavy cavalry was characteristic of 16th-century subcontinental warfare.", explanation: "The military technologies help date this battle." },
+            { cost: 25, text: "Coalitions of sultanates against the dominant empire in the subcontinent peaked in the 1560s-1570s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Talikota (Rakshasa-Tangadi) on January 26, 1565, where a coalition of Deccan sultanates destroyed the Vijayanagara Empire. The sultanates—Ahmadnagar, Bijapur, Golconda, Bidar, and Berar—united against Hindu Vijayanagara. Rama Raya, the imperial regent, was captured and beheaded on the battlefield; two Muslim generals in his service switched sides mid-battle. Vijayanagara, then among the world's largest cities, was sacked for months. Ottoman-trained artillery in Deccan warfare and the sultanate coalition characterize the 1560s-1570s.",
         tags: ["pitched-battle", "16th-century", "asia"]
     },
     {
         id: "campaign_136",
-        title: "The Rajput Last Stand",
+        title: "The Defiant King",
         actualYear: 1576,
         difficulty: "hard",
-        description: `The greatest of the Mughal emperors sought to crush the last independent Rajput kingdom. His general led 10,000 men—a mix of Mughal cavalry and Rajput vassals who had submitted—against a king who refused to bow.
+        description: `The greatest emperor of a vast realm sought to crush the last independent warrior kingdom. His general led 10,000 men—a mix of imperial cavalry and vassals who had already submitted—against a king who refused to bow.
 
-The Rajput king had only 3,000 warriors, including his famed cavalry and war elephants. But these were the finest warriors in India, raised from birth for war, their honor bound to death before surrender.
+The defiant king had only 3,000 warriors, including his famed cavalry and war elephants. These were the finest warriors in the subcontinent, raised from birth for war, their honor bound to death before surrender.
 
-The battle was fought in a mountain pass. The Rajput king, riding his war elephant, led charge after charge into the Mughal lines. At one point he nearly reached the Mughal commander. But weight of numbers told; the Rajputs were slowly overwhelmed.
+The battle was fought in a mountain pass. The defiant king, riding his war elephant, led charge after charge into the imperial lines. At one point he nearly reached the imperial commander. But weight of numbers told; the defenders were slowly overwhelmed.
 
-The king was wounded but escaped—carried from the field by his loyal horse, who died of wounds after bearing him to safety. He never submitted, fighting from jungle hideouts until his death years later. The Mughals never broke his spirit; his legend inspired resistance for centuries.`,
+The king was wounded but escaped—carried from the field by his loyal horse, who died of wounds after bearing him to safety. He never submitted, fighting from jungle hideouts until his death years later. The empire never broke his spirit; his legend inspired resistance for centuries.`,
         hints: [
             { cost: 20, text: "Armies combining Central Asian cavalry tactics with war elephants characterized 16th-17th century subcontinental warfare.", explanation: "The military composition helps date this battle." },
             { cost: 25, text: "Imperial expansion into the western kingdoms of the subcontinent occurred primarily in the 1560s-1580s.", explanation: "The political context helps narrow the date." }
@@ -2660,19 +2660,19 @@ The empire captured a ruin filled with corpses. The sultan's body was carried ho
     },
     {
         id: "campaign_140",
-        title: "The Swiss Avalanche",
+        title: "The Pike Avalanche",
         actualYear: 1476,
         difficulty: "hard",
-        description: `The most powerful duke in Europe—richer than most kings, commander of the finest army money could buy—invaded a confederation of mountain peasants and townsmen. He had conquered province after province; surely these rustic pikemen would crumble before his Burgundian knights and artillery.
+        description: `The most powerful duke in Europe—richer than most kings, commander of the finest army money could buy—invaded a confederation of mountain peasants and townsmen. He had conquered province after province; surely these rustic pikemen would crumble before his knights and artillery.
 
-The Swiss had other plans. Their infantry—dense columns of pikemen wielding 18-foot spears—advanced in echelon, singing hymns. The duke's artillery fired but couldn't stop the advance. His cavalry charged but couldn't break the hedge of pike points. The Burgundian infantry, mercenaries from many lands, had no answer for the disciplined Swiss columns.
+The confederates had other plans. Their infantry—dense columns of pikemen wielding 18-foot spears—advanced in echelon, singing hymns. The duke's artillery fired but couldn't stop the advance. His cavalry charged but couldn't break the hedge of pike points. The ducal infantry, mercenaries from many lands, had no answer for the disciplined confederate columns.
 
-The battle became a rout. The duke's camp was overrun; his treasury—including the great diamonds of Burgundy—was captured by peasants who didn't know their value. Hundreds of nobles were killed; thousands of soldiers died in the freezing lake as they fled.
+The battle became a rout. The duke's camp was overrun; his treasury—including his great diamonds—was captured by peasants who didn't know their value. Hundreds of nobles were killed; thousands of soldiers died in the freezing lake as they fled.
 
 The duke survived to fight again, but his legend of invincibility was shattered. Within a year, he would be dead and his realm divided among his enemies.`,
         hints: [
-            { cost: 20, text: "Swiss pike columns advancing in echelon against Burgundian cavalry and artillery was characteristic of the Burgundian Wars (1474-1477).", explanation: "The tactical system helps date this battle." },
-            { cost: 25, text: "The Swiss Confederacy's decisive defeats of Burgundy established their military reputation that would dominate European warfare for 50 years.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "Pike columns advancing in echelon against mounted knights and artillery characterized a brief period of infantry revolution in the 1470s-1480s.", explanation: "The tactical system helps date this battle." },
+            { cost: 25, text: "The mountain confederation's decisive defeats of the great duchy established pike infantry's dominance over heavy cavalry, a reputation that lasted 50 years.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Grandson on March 2, 1476, where the Swiss Confederacy routed Charles the Bold of Burgundy. The Swiss pike squares, advancing in echelon formation, were unstoppable; Charles's cavalry and artillery couldn't break them. The Burgundians fled across frozen Lake Neuchâtel; many drowned. Charles lost his treasury, including the great Sancy diamond. Two more defeats followed—Morat and Nancy—and Charles died in 1477. Swiss pike tactics (1470s-1520s) and the Burgundian Wars (1474-1477) precisely date this battle.",
         tags: ["pitched-battle", "15th-century", "europe"]
@@ -2686,12 +2686,12 @@ The duke survived to fight again, but his legend of invincibility was shattered.
 
 The confederation's army arrived in January—perhaps 20,000 strong. The duke, weakened by months of siege and desertions, had perhaps 10,000. His advisors urged caution; he demanded battle.
 
-The Swiss infantry attacked in their signature style: dense columns of pikemen, flanked by halberdiers, advancing to the sound of drums. The duke's cavalry charged but couldn't penetrate the forest of pikes. When the second Swiss column struck the flank, the Burgundian army broke.
+The confederate infantry attacked in their signature style: dense columns of pikemen, flanked by halberdiers, advancing to the sound of drums. The duke's cavalry charged but couldn't penetrate the forest of pikes. When the second confederate column struck the flank, the ducal army broke.
 
 The duke was last seen riding toward the enemy with a handful of knights. His naked body was found two days later in a frozen stream, skull split by a halberd, face half-eaten by wolves. His signet ring confirmed the identity. The great duchy died with him, divided between his rivals.`,
         hints: [
             { cost: 20, text: "Halberdiers and pikemen in dense formations defeating heavy cavalry characterized Swiss warfare from roughly 1470-1520.", explanation: "The infantry weapons help date this battle." },
-            { cost: 25, text: "The death of Charles the Bold ended Burgundy as an independent power in the 1470s.", explanation: "The political context helps narrow the date." }
+            { cost: 25, text: "The great duchy's destruction by the mountain confederation occurred in the late 1470s, ending a generation of expansion.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Nancy on January 5, 1477, where Swiss and Lorrainer forces destroyed Charles the Bold's army. Charles's body was found two days later, frozen in a stream with his head split open. His death ended the Burgundian state—France seized the duchy, while the Low Countries passed to the Habsburgs through his daughter. Swiss pike and halberd tactics (1470s-1520s) and Charles's death (1477) precisely date this battle.",
         tags: ["pitched-battle", "15th-century", "europe"]
@@ -2709,8 +2709,8 @@ Instead, the arquebusiers stood behind a ditch and a wooden palisade. Their fire
 
 The defending commander was killed. His army fled. For the first time in history, firearms—not cavalry, not pikes—had won a major battle. A new age of warfare had begun.`,
         hints: [
-            { cost: 20, text: "Arquebusiers behind field fortifications defeating Swiss pikemen marked the beginning of gunpowder infantry dominance, roughly 1500-1520.", explanation: "The tactical revolution helps date this battle." },
-            { cost: 25, text: "The Italian Wars between France and Spain lasted from 1494-1559, with the first decade seeing rapid military innovation.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "Arquebusiers behind field fortifications defeating massed pikemen marked the beginning of gunpowder infantry dominance, roughly 1500-1520.", explanation: "The tactical revolution helps date this battle." },
+            { cost: 25, text: "The great wars over the southern peninsula lasted from 1494-1559, with the first decade seeing rapid military innovation.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Cerignola on April 28, 1503, the first battle in history decided by gunpowder small arms. Spanish commander Gonzalo Fernández de Córdoba placed his arquebusiers behind a ditch and palisade; their fire destroyed the French cavalry and Swiss pike charges. The Duke of Nemours was killed leading the French. Córdoba, 'the Great Captain,' pioneered the tactics that would evolve into the tercio. Arquebusiers defeating Swiss pikes (1500-1520) and the Italian Wars (1494-1559) precisely date this battle.",
         tags: ["pitched-battle", "16th-century", "europe"]
@@ -2728,8 +2728,8 @@ The combined force met the rebel army at the pass. The rebels had 100,000 men bu
 
 The commander thought he was using the barbarians; instead, they used him. Within a year, they had seized the capital and declared a new dynasty. The commander, realizing too late his mistake, rebelled and was killed. The new rulers would govern for nearly three centuries.`,
         hints: [
-            { cost: 20, text: "Manchu banner cavalry with composite bows and early firearms characterized the conquest period of 1618-1683.", explanation: "The military forces help date this battle." },
-            { cost: 25, text: "The Ming-Qing transition occurred in 1644, when rebels captured Beijing and the Manchus intervened.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Banner cavalry with composite bows and early firearms characterized the northern conquest period of 1618-1683.", explanation: "The military forces help date this battle." },
+            { cost: 25, text: "The dynastic transition in which rebels captured the capital and northern invaders intervened occurred in 1644.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Shanhai Pass on May 27, 1644, where General Wu Sangui allied with the Manchus to defeat Li Zicheng's rebel army. Li had captured Beijing and driven the Chongzhen Emperor to suicide. Wu, caught between Li and the Manchus, chose to let the Manchus through the Great Wall. The Manchu cavalry routed Li's rebels; the Qing dynasty took Beijing within weeks. Wu later rebelled (the Revolt of the Three Feudatories) and was crushed. Manchu banner cavalry (1618-1683) and the Ming-Qing transition (1644) precisely date this battle.",
         tags: ["pitched-battle", "17th-century", "asia"]
@@ -2758,16 +2758,16 @@ Both sides claimed victory. The war dragged on for another decade, ending in exh
         title: "The Battle of Three Kings",
         actualYear: 1578,
         difficulty: "hard",
-        description: `A young king, obsessed with glory, led his nation's entire nobility into Africa to restore a deposed sultan. He landed 18,000 men—the flower of his realm's chivalry—and marched inland against all advice.
+        description: `A young king, obsessed with glory, led his nation's entire nobility across the sea to restore a deposed sultan. He landed 18,000 men—the flower of his realm's chivalry—and marched inland against all advice.
 
-The army that met him numbered 50,000, including thousands of arquebusiers and cavalry. The invaders formed a square, but their formation was too large and unwieldy. The African cavalry circled them, harrying, exhausting, picking off stragglers.
+The army that met him numbered 50,000, including thousands of arquebusiers and cavalry. The invaders formed a square, but their formation was too large and unwieldy. The defending cavalry circled them, harrying, exhausting, picking off stragglers.
 
 When the invaders finally broke, the slaughter was total. The young king was killed—his body never found. Two sultans also died in the fighting (one from illness, one in combat), giving the battle its strange name: the Battle of Three Kings.
 
 The kingdom lost its king, its heir, and most of its nobility in a single afternoon. Within two years, a neighboring monarch claimed the vacant throne. The kingdom would not be independent again for sixty years.`,
         hints: [
-            { cost: 20, text: "North African arquebusiers and cavalry defeating European heavy cavalry was characteristic of the late 16th-century frontier.", explanation: "The military matchup helps date this battle." },
-            { cost: 25, text: "European crusading expeditions to Morocco occurred from the 1410s to 1578, ending in decisive defeat.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "Arquebusiers and cavalry defeating invading heavy cavalry was characteristic of the late 16th-century frontier between faiths.", explanation: "The military matchup helps date this battle." },
+            { cost: 25, text: "Crusading expeditions across the strait occurred from the 1410s to 1578, ending in decisive defeat.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Alcácer Quibir (Battle of Three Kings) on August 4, 1578, where Moroccan Sultan Abd al-Malik destroyed King Sebastian I of Portugal's crusading army. Three kings died: Sebastian (killed), Abd al-Malik (died of illness during the battle), and the pretender Muhammad II (drowned fleeing). Portugal lost 8,000 dead and 15,000 captured, including most of its nobility. The ransom bankrupted the nation; Philip II of Spain claimed the throne in 1580. Portuguese crusading in Morocco ended forever. Moroccan firearms defeating European cavalry characterized the late 16th century.",
         tags: ["pitched-battle", "16th-century", "africa"]
@@ -2823,8 +2823,8 @@ But the usurper had hidden his reserve behind a hill. As the prince's cavalry sc
 
 Two months later, the boy was publicly beheaded in the marketplace—the pope's blessing on his execution. His dynasty ended; the usurper's line ruled for two centuries. It was the last time a Hohenstaufen tried to reclaim the imperial heritage.`,
         hints: [
-            { cost: 20, text: "Heavy cavalry with great helms facing southern Italian forces was characteristic of the 1260s dynastic conflicts.", explanation: "The military forces help date this battle." },
-            { cost: 25, text: "The struggle for Sicily between Hohenstaufen claimants and Charles of Anjou occurred in 1266-1268.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Heavy cavalry with great helms facing southern forces was characteristic of the 1260s dynastic conflicts.", explanation: "The military forces help date this battle." },
+            { cost: 25, text: "The papal-backed struggle for the southern kingdom between rival claimants occurred in 1266-1268.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Tagliacozzo on August 23, 1268, where Charles I of Anjou defeated Conradin, the last Hohenstaufen. Conradin's German cavalry broke two Angevin divisions, but Charles's hidden reserve under Erard de Valéry counterattacked and routed the disordered Germans. Conradin was captured and beheaded in Naples on October 29, 1268—he was sixteen. The Hohenstaufen dynasty ended; the Angevins ruled southern Italy until the Sicilian Vespers (1282). German heavy cavalry with great helms characterized 1260s warfare. The Hohenstaufen-Angevin conflict (1266-1268) precisely dates this battle.",
         tags: ["pitched-battle", "13th-century", "europe"]
@@ -2834,16 +2834,16 @@ Two months later, the boy was publicly beheaded in the marketplace—the pope's 
         title: "The Sultanate Broken",
         actualYear: 1243,
         difficulty: "hard",
-        description: `The most powerful state in Anatolia—heir to the Seljuks who had once threatened Constantinople—faced invasion from the steppes. The invaders had already destroyed dozens of kingdoms; now they demanded submission and tribute.
+        description: `A powerful sultanate—heir to a dynasty that had once threatened the greatest city in the world—faced invasion from the steppes. The invaders had already destroyed dozens of kingdoms; now they demanded submission and tribute.
 
-The sultan refused and gathered his army: perhaps 80,000 men, including heavy cavalry, infantry, and thousands of Georgian and Armenian auxiliaries. The invaders had perhaps 30,000—the usual army of horse archers and heavy lancers that had conquered half the world.
+The sultan refused and gathered his army: perhaps 80,000 men, including heavy cavalry, infantry, and thousands of Christian auxiliaries from neighboring kingdoms. The invaders had perhaps 30,000—the usual army of horse archers and heavy lancers that had conquered half the world.
 
-The two armies met in a mountain pass. The sultan's army formed battle lines, but when the invaders' horse archers began their encirclement and arrow storm, panic spread. The Georgian auxiliaries fled first; the rest followed. The sultan himself barely escaped.
+The two armies met in a mountain pass. The sultan's army formed battle lines, but when the invaders' horse archers began their encirclement and arrow storm, panic spread. The Christian auxiliaries fled first; the rest followed. The sultan himself barely escaped.
 
 The sultanate became a vassal state, its independence ended forever. The invaders would dominate the region for a century, until their own empire fragmented and new powers rose from the chaos.`,
         hints: [
             { cost: 20, text: "Steppe cavalry tactics—horse archer encirclement with heavy cavalry reserve—shattered conventional armies across Eurasia between roughly 1210-1280.", explanation: "The tactical pattern helps date this battle." },
-            { cost: 25, text: "The steppe invasion that reduced the major sultanate of Anatolia to vassalage occurred in the 1240s.", explanation: "The political context helps narrow the date." }
+            { cost: 25, text: "The steppe invasion that reduced the region's major sultanate to vassalage occurred in the 1240s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Köse Dağ on June 26, 1243, where Mongol commander Baiju defeated Sultan Kaykhusraw II of the Seljuk Sultanate of Rum. The Seljuks had perhaps 80,000 men; the Mongols perhaps 30,000. The sultan's army panicked when Mongol horse archers began their encirclement; the rout was total. The sultanate became a Mongol vassal and never recovered independence. The Mongols dominated Anatolia until the Ilkhanate fragmented in the 1330s; the Ottomans rose from the chaos. Mongol cavalry tactics (1210-1280) and the invasion of Anatolia precisely date this battle.",
         tags: ["pitched-battle", "13th-century", "middle-east"]
@@ -2861,8 +2861,8 @@ In the riverbed, the imperial knights' heavier armor proved a liability. The inv
 
 The pope's champion had won. But his harsh rule provoked rebellion within twenty years; on one evening, every foreign soldier on the island was massacred, and the kingdom was lost forever.`,
         hints: [
-            { cost: 20, text: "Imperial cavalry with great helms and full mail facing southern forces characterized the 1260s Italian conflicts.", explanation: "The military forces help date this battle." },
-            { cost: 25, text: "The papal-backed conquest of southern Italy from the Hohenstaufen occurred in 1265-1266.", explanation: "The political context helps narrow the date." }
+            { cost: 20, text: "Imperial cavalry with great helms and full mail facing southern forces characterized the 1260s dynastic conflicts.", explanation: "The military forces help date this battle." },
+            { cost: 25, text: "The papal-backed conquest of the southern kingdom from the imperial dynasty occurred in 1265-1266.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Benevento on February 26, 1266, where Charles I of Anjou defeated and killed King Manfred of Sicily. Manfred, illegitimate son of Frederick II, held strong ground but his German cavalry charged prematurely. The battle in the riverbed favored the lighter French horse; Manfred died fighting on foot after his horse was killed. Charles's harsh rule provoked the Sicilian Vespers (1282), when the French were massacred and Sicily passed to Aragon. German imperial cavalry with great helms characterized 1260s warfare. Charles's conquest (1265-1266) precisely dates this battle.",
         tags: ["pitched-battle", "13th-century", "europe"]
@@ -3404,7 +3404,7 @@ The battle lasted months. Perhaps 20,000 attackers died in the marshes; the defe
         title: "The Toyota Victory",
         actualYear: 1987,
         difficulty: "hard",
-        description: `A desert nation, armed by Western powers but considered a hopeless case, faced invasion by a well-equipped neighbor with tanks, aircraft, and Soviet advisors. The invaders had occupied the northern third of the country for years; now a new commander launched a counteroffensive.
+        description: `A desert nation, armed by Western powers but considered a hopeless case, faced invasion by a well-equipped neighbor with tanks, aircraft, and superpower advisors. The invaders had occupied the northern third of the country for years; now a new commander launched a counteroffensive.
 
 The defenders had almost no heavy weapons—just pickup trucks mounted with machine guns, recoilless rifles, and anti-tank missiles. But they knew the desert, and their enemy had grown complacent.
 
@@ -3412,27 +3412,27 @@ The counteroffensive was devastating. The defenders' pickup trucks—faster and 
 
 In six weeks, the defenders destroyed or captured 7,500 troops, 1,500 vehicles, and dozens of aircraft. The invader's military was humiliated; the war effectively ended. Western observers, amazed, named it after the vehicles that won it.`,
         hints: [
-            { cost: 20, text: "Pickup trucks with MILAN anti-tank missiles and machine guns defeating conventional armor was unique to the 1987 Chad-Libya conflict.", explanation: "The distinctive tactics help date this battle." },
-            { cost: 25, text: "Chadian victories against Libyan armor occurred in early 1987.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "Pickup trucks with MILAN anti-tank missiles and machine guns defeating conventional armor was unique to a single 1987 desert conflict.", explanation: "The distinctive tactics help date this battle." },
+            { cost: 25, text: "A desert nation's pickup-truck counteroffensive against a neighboring power's conventional armor occurred in early 1987.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Toyota War of early 1987, where Chad routed Libya's armored forces in the Aouzou Strip. Commander Hassan Djamous led Toyota pickup trucks armed with MILAN missiles and machine guns against Libyan T-55 tanks. At the Battle of Fada, Chad destroyed 70 tanks and killed 700 Libyans for 18 dead. Libya lost billions in equipment; Gaddafi's military reputation was shattered. Toyota pickups with MILAN missiles defeating conventional armor was unique to this conflict.",
         tags: ["campaign", "20th-century", "africa"]
     },
     {
         id: "campaign_180",
-        title: "The Southern African Siege",
+        title: "The Proxy Siege",
         actualYear: 1988,
         difficulty: "hard",
-        description: `A regional superpower—defending an allied government against a Soviet-backed army with Cuban expeditionary forces—found itself besieging a strategic town that had become an enemy symbol. The siege dragged on for months, becoming a test of wills.
+        description: `A regional superpower—defending an allied government against a superpower-backed army with foreign expeditionary forces—found itself besieging a strategic town that had become an enemy symbol. The siege dragged on for months, becoming a test of wills.
 
-The besieging force had the best equipment on the continent: excellent tanks, modern artillery, and total air superiority. But the defenders had Cuban armored brigades, Soviet advisors, and increasingly effective air defenses that began limiting the attackers' dominance.
+The besieging force had the best equipment on the continent: excellent tanks, modern artillery, and total air superiority. But the defenders had foreign armored brigades, superpower advisors, and increasingly effective air defenses that began limiting the attackers' dominance.
 
 Neither side could win decisively. The besiegers' armored assaults were repulsed with heavy losses; the defenders' attempts to relieve the town also failed. Both sides lost dozens of aircraft and tanks. The regional power's black conscripts fought alongside white officers in a war their countrymen increasingly opposed.
 
-Eventually, exhaustion forced negotiations. The regional power withdrew; the Cubans went home; the allied government fell. The siege became the last major battle of the Cold War in Africa—and a turning point that led to democracy in the regional power itself.`,
+Eventually, exhaustion forced negotiations. The regional power withdrew; the foreign expeditionary forces went home; the allied government fell. The siege became the last major battle of the Cold War on the continent—and a turning point that led to democracy in the regional power itself.`,
         hints: [
-            { cost: 20, text: "Ratel IFVs and Olifant tanks facing T-55s and Cuban forces, with increasing SAM threats, characterized southern African warfare of the late 1980s.", explanation: "The equipment helps date this battle." },
-            { cost: 25, text: "South African-Cuban clashes in Angola peaked in 1987-1988, ending with negotiated withdrawal.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "Ratel IFVs and Olifant tanks facing T-55s with increasing SAM threats characterized late 1980s Cold War proxy warfare on the continent.", explanation: "The equipment helps date this battle." },
+            { cost: 25, text: "The last major Cold War proxy battle on the continent, pitting a regional power against superpower-backed forces, occurred in 1987-1988.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Cuito Cuanavale, November 1987-March 1988, the largest African battle since WWII. South African forces besieged Angolan/Cuban troops for four months. Neither side won militarily, but the political consequences were immense: South Africa withdrew from Angola and Namibia; Cuba brought its troops home; and the resulting regional settlement contributed to apartheid's end. Ratel IFVs versus Cuban armor characterized late 1980s southern African warfare. The Angolan-Cuban-South African conflict precisely dates this battle.",
         tags: ["siege", "20th-century", "africa"]
@@ -3458,19 +3458,19 @@ After three weeks, the great power declared victory and withdrew—having suffer
     },
     {
         id: "campaign_182",
-        title: "The Horn of Africa",
+        title: "The Switched Alliance",
         actualYear: 1977,
         difficulty: "hard",
-        description: `A military dictatorship, allied with the Soviets and armed with advanced weapons, faced invasion by its neighbor, which sought to annex a disputed desert region inhabited by ethnic kin. The irony: just months earlier, the invader had been the Soviet client, and the defender the Western ally.
+        description: `A military dictatorship, allied with one superpower and armed with advanced weapons, faced invasion by its neighbor, which sought to annex a disputed desert region inhabited by ethnic kin. The irony: just months earlier, the invader had been the superpower's client, and the defender aligned with the rival bloc.
 
 The invader's tanks swept through the disputed region, routing the defender's forces. Within weeks, 90% of the territory was occupied; the defender's army was shattered. The capital seemed within reach.
 
-Then the Cold War's bizarre logic intervened. The Soviets switched sides, airlifting massive supplies to the defender. Cuban troops arrived—15,000 soldiers with tanks and artillery. The defender's army rebuilt around a Soviet general's plan.
+Then the Cold War's bizarre logic intervened. The superpower switched sides, airlifting massive supplies to the defender. Foreign expeditionary troops arrived—15,000 soldiers with tanks and artillery. The defender's army rebuilt around a foreign general's plan.
 
 The counteroffensive was devastating. The invader's army was driven back in weeks; the disputed region was recaptured. But the war poisoned both nations—famines, coups, and civil wars followed. The disputed region still fights for independence today.`,
         hints: [
-            { cost: 20, text: "T-55 tanks and Cuban expeditionary forces in Horn of Africa warfare characterized late 1970s Cold War proxy conflicts.", explanation: "The forces help date this battle." },
-            { cost: 25, text: "The Ogaden War between Ethiopia and Somalia, with Cold War power switching sides, occurred in 1977-1978.", explanation: "The strategic context helps narrow the date." }
+            { cost: 20, text: "T-55 tanks and foreign expeditionary forces characterized late 1970s Cold War proxy conflicts.", explanation: "The forces help date this battle." },
+            { cost: 25, text: "A Cold War proxy conflict in which the superpowers switched client states mid-war occurred in 1977-1978.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Ogaden War of 1977-1978, where Somalia invaded Ethiopia's Ogaden region. Initially successful, Somalia was driven back when the USSR switched from supporting Somalia to Ethiopia. Cuban forces and Soviet advisors led Ethiopia's counteroffensive. Somalia lost 8,000 dead; Ethiopia perhaps 10,000. The war destabilized both nations for decades. T-55 tanks with Cuban/Soviet support characterized late 1970s Horn of Africa warfare. The Cold War power-switching makes this conflict unique.",
         tags: ["campaign", "20th-century", "africa"]
@@ -3592,15 +3592,15 @@ The great fortress was destroyed; the raiders' grip on the heart of the continen
         title: "The Caliph's Humiliation",
         actualYear: 740,
         difficulty: "hard",
-        description: `The great caliphate, which had conquered from Spain to India, faced an unprecedented disaster in the distant west. Their governor had angered the fierce mountain tribes with unjust taxation and broken promises. The tribes rose—all of them, across the entire province.
+        description: `The great caliphate, which had conquered across three continents, faced an unprecedented disaster in the distant west. Their governor had angered the fierce mountain tribes with unjust taxation and broken promises. The tribes rose—all of them, across the entire province.
 
-The caliph sent an army to crush the rebellion—perhaps 30,000 men, including Syrian veterans of many campaigns. They marched into the mountains expecting easy victory over primitives with inferior weapons.
+The caliph sent an army to crush the rebellion—perhaps 30,000 men, veterans of many campaigns drawn from the caliphate's heartland. They marched into the mountains expecting easy victory over primitives with inferior weapons.
 
-The tribesmen—perhaps 20,000 Berbers fighting on their home ground—ambushed the caliphal army in a narrow valley. The Syrians couldn't form their lines; the tribal cavalry and infantry swarmed them from the heights. The slaughter was complete. The army was annihilated; the general was killed; the survivors were too few to count.
+The tribesmen—perhaps 20,000 fighting on their home ground—ambushed the caliphal army in a narrow valley. The caliphal soldiers couldn't form their lines; the tribal cavalry and infantry swarmed them from the heights. The slaughter was complete. The army was annihilated; the general was killed; the survivors were too few to count.
 
 The western provinces were lost forever. The caliphate would never reclaim them; the tribes would forge their own kingdoms. It was the caliphate's worst defeat since its founding—a shock that contributed to the dynasty's overthrow a decade later.`,
         hints: [
-            { cost: 20, text: "Caliphate cavalry with lance and bow facing mountain tribesmen characterized 8th-century North African conflicts.", explanation: "The forces help date this battle." },
+            { cost: 20, text: "Caliphate cavalry with lance and bow facing mountain tribesmen characterized 8th-century conflicts on the caliphate's western frontier.", explanation: "The forces help date this battle." },
             { cost: 25, text: "The great tribal revolt in the western provinces of the caliphate occurred in 739-743.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Nobles (Battle of Bagdoura) in 740, where Berber rebels destroyed an Umayyad army sent from Syria. The Arab force—elite Syrian junds—was annihilated in a mountain ambush. The defeat cost the Umayyads their North African provinces permanently; the Berber kingdoms that emerged lasted centuries. The disaster contributed to the Abbasid revolution (750). Arab cavalry versus Berber warriors characterized 8th-century North African warfare. The Great Berber Revolt (739-743) precisely dates this battle.",
@@ -3803,14 +3803,14 @@ The raider army was destroyed; their leaders were captured and hanged. The threa
         difficulty: "hard",
         description: `The young emperor marched south to drive the infidels from territory they had seized from his empire. His army was small but elite: perhaps 4,000 of the finest heavy cavalry in Christendom, the armored knights who had proven unstoppable in battle after battle.
 
-The enemy waited in chosen ground near the coast. They numbered perhaps 5,000—Arab and Berber cavalry and infantry, including ghazi holy warriors eager for martyrdom. They had experience fighting heavy cavalry and knew the terrain.
+The enemy waited in chosen ground near the coast. They numbered perhaps 5,000—light cavalry and infantry, including ghazi holy warriors eager for martyrdom. They had experience fighting heavy cavalry and knew the terrain.
 
 The emperor's impetuosity doomed him. He charged without proper reconnaissance, into terrain that broke up his formation. The enemy cavalry swarmed the disordered knights. The slaughter was immense—perhaps 2,000 dead, including the cream of the nobility.
 
 The emperor barely escaped, swimming to a ship. He died within a year, probably of his wounds and the fever of the southern coasts. The disaster halted Christian expansion southward for generations and ended dreams of driving Islam from the peninsula entirely.`,
         hints: [
-            { cost: 20, text: "Northern heavy cavalry versus southern Mediterranean forces characterized 10th century warfare.", explanation: "The forces help date this battle." },
-            { cost: 25, text: "Major Imperial campaigns against Muslim forces in southern Italy occurred in the late 10th century.", explanation: "The context helps narrow the date." }
+            { cost: 20, text: "Northern heavy cavalry versus southern Mediterranean forces characterized 10th-century warfare.", explanation: "The forces help date this battle." },
+            { cost: 25, text: "Major imperial campaigns against Muslim forces in the southern peninsula occurred in the late 10th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Stilo (Cape Colonna) on July 13, 982, where Emperor Otto II's German heavy cavalry was crushed by the Kalbid Emirate of Sicily. Otto lost half his army, including many nobles; he escaped by swimming to a Byzantine ship. He died in Rome in 983, age 28, leaving a 3-year-old heir. The disaster ended German expansion into southern Italy and emboldened the Slavic revolt that would follow. German heavy cavalry versus Arab-Berber forces identifies late 10th century Mediterranean conflicts. An emperor's rashness leading to disaster is a recurring theme.",
         tags: ["pitched-battle", "10th-century", "mediterranean"]
