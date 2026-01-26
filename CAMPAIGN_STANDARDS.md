@@ -276,6 +276,6 @@ Before adding a new campaign, verify it doesn't already exist:
 ## Coverage Gaps to Fill
 
 When writing new campaigns, prioritize underrepresented:
-- Regions: Sub-Saharan Africa, Southeast Asia, South America, Central Asia
-- Periods: 6th-10th centuries, pre-classical ancient
-- Types: Naval battles, sieges in non-European contexts
+- Regions: Sub-Saharan Africa, Southeast Asia, Central and South America, Central Asia, China
+- Periods: 6th-10th centuries, pre-classical ancient (e.g. near east), pre-colonial outside of Europe
+- Types: Naval battles, sieges in non-European contexts, formative pre-1500AD battles for important polities outside Europe and the Mediterranean
