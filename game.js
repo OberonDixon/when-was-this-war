@@ -9,69 +9,74 @@ const state = {
     currentCampaign: null,
     hintsRevealed: 0,
     roundResults: [],
-    // New State for Map
+    // Map State
     yearGuess: null,
-    locationGuess: null, // { lat: 0, lng: 0 }
+    locationGuess: null,
     mapInstance: null,
     guessMarker: null,
     resultMapInstance: null
 };
 
-// DOM Elements
-const elements = {
-    // Screens
-    startScreen: document.getElementById('start-screen'),
-    gameScreen: document.getElementById('game-screen'),
-    endScreen: document.getElementById('end-screen'),
-
-    // Start screen
-    difficultySelect: document.getElementById('difficulty-select'),
-    roundsSelect: document.getElementById('rounds-select'),
-    startBtn: document.getElementById('start-btn'),
-    highScoreDisplay: document.getElementById('high-score-display'),
-
-    // Game screen
-    currentRound: document.getElementById('current-round'),
-    totalRounds: document.getElementById('total-rounds'),
-    currentScore: document.getElementById('current-score'),
-    campaignTitle: document.getElementById('campaign-title'),
-    campaignDescription: document.getElementById('campaign-description'),
-    hintBtn: document.getElementById('hint-btn'),
-    hintCost: document.getElementById('hint-cost'),
-    hintsList: document.getElementById('hints-list'),
-    hintsContainer: document.getElementById('hints-container'),
-    yearInput: document.getElementById('year-input'),
-    submitBtn: document.getElementById('submit-btn'),
-    giveUpBtn: document.getElementById('give-up-btn'),
-    guessSection: document.getElementById('guess-section'),
-    resultSection: document.getElementById('result-section'),
-    resultDisplay: document.getElementById('result-display'),
-    timelineViz: document.getElementById('timeline-viz'),
-    explanation: document.getElementById('explanation'),
-    nextBtn: document.getElementById('next-btn'),
-
-    // End screen
-    finalScore: document.getElementById('final-score'),
-    maxScore: document.getElementById('max-score'),
-    scoreBreakdown: document.getElementById('score-breakdown'),
-    shareBtn: document.getElementById('share-btn'),
-    shareFeedback: document.getElementById('share-feedback'),
-    playAgainBtn: document.getElementById('play-again-btn'),
-    
-    // Map Elements
-    guessMap: document.getElementById('guess-map'),
-    resultMap: document.getElementById('result-map')
-};
+// DOM Elements Container
+let elements = {};
 
 // Initialize
+document.addEventListener('DOMContentLoaded', init);
+
 function init() {
+    // Populate DOM elements safely after load
+    elements = {
+        startScreen: document.getElementById('start-screen'),
+        gameScreen: document.getElementById('game-screen'),
+        endScreen: document.getElementById('end-screen'),
+        
+        difficultySelect: document.getElementById('difficulty-select'),
+        roundsSelect: document.getElementById('rounds-select'),
+        startBtn: document.getElementById('start-btn'),
+        highScoreDisplay: document.getElementById('high-score-display'),
+        
+        currentRound: document.getElementById('current-round'),
+        totalRounds: document.getElementById('total-rounds'),
+        currentScore: document.getElementById('current-score'),
+        campaignTitle: document.getElementById('campaign-title'),
+        campaignDescription: document.getElementById('campaign-description'),
+        
+        hintBtn: document.getElementById('hint-btn'),
+        hintCost: document.getElementById('hint-cost'),
+        hintsList: document.getElementById('hints-list'),
+        
+        yearInput: document.getElementById('year-input'),
+        submitBtn: document.getElementById('submit-btn'),
+        giveUpBtn: document.getElementById('give-up-btn'),
+        
+        guessSection: document.getElementById('guess-section'),
+        guessMap: document.getElementById('guess-map'),
+        
+        resultSection: document.getElementById('result-section'),
+        resultDisplay: document.getElementById('result-display'),
+        timelineViz: document.getElementById('timeline-viz'),
+        resultMap: document.getElementById('result-map'),
+        explanation: document.getElementById('explanation'),
+        nextBtn: document.getElementById('next-btn'),
+        
+        finalScore: document.getElementById('final-score'),
+        maxScore: document.getElementById('max-score'),
+        scoreBreakdown: document.getElementById('score-breakdown'),
+        shareBtn: document.getElementById('share-btn'),
+        shareFeedback: document.getElementById('share-feedback'),
+        playAgainBtn: document.getElementById('play-again-btn')
+    };
+
     displayHighScore();
     attachEventListeners();
 }
 
 function attachEventListeners() {
     elements.startBtn.addEventListener('click', startGame);
-    elements.submitBtn.addEventListener('click', handlePhaseSubmit);
+    elements.submitBtn.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent any weird form submission defaults
+        handlePhaseSubmit();
+    });
     elements.giveUpBtn.addEventListener('click', giveUp);
     elements.hintBtn.addEventListener('click', revealHint);
     elements.nextBtn.addEventListener('click', nextRound);
@@ -106,41 +111,37 @@ function startGame() {
 
     // Get previously seen campaigns
     const seenIds = getSeenCampaigns();
-
-    // Separate into unseen and seen
     const unseen = filteredCampaigns.filter(c => !seenIds.includes(c.id));
     const seen = filteredCampaigns.filter(c => seenIds.includes(c.id));
 
-    // If all campaigns have been seen, reset the seen list
     if (unseen.length === 0 && seen.length > 0) {
         resetSeenCampaigns();
         state.campaigns = shuffleArray([...filteredCampaigns]);
     } else {
-        // Prioritize unseen campaigns, then add seen ones (both shuffled)
         state.campaigns = [...shuffleArray([...unseen]), ...shuffleArray([...seen])];
     }
 
     showScreen(elements.gameScreen);
     elements.totalRounds.textContent = state.totalRounds;
     
-    // Initialize Map for the first time
+    // Initialize Map
     initGuessMap();
     
     nextRound();
 }
 
 function initGuessMap() {
-    // Check if L (Leaflet) is loaded
     if (typeof L === 'undefined') return;
 
+    // Reset map container if needed
     if (state.mapInstance) {
-        state.mapInstance.remove(); // Clean up previous map
+        state.mapInstance.remove();
     }
 
-    state.mapInstance = L.map('guess-map').setView([20, 0], 2); // World view centered
+    state.mapInstance = L.map('guess-map').setView([20, 0], 2);
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        attribution: '©OpenStreetMap, ©CARTO',
         subdomains: 'abcd',
         maxZoom: 19
     }).addTo(state.mapInstance);
@@ -155,10 +156,10 @@ function initGuessMap() {
             state.guessMarker = L.marker(e.latlng).addTo(state.mapInstance);
         }
         
-        // Enable Final Submit button once a pin is dropped
-        elements.submitBtn.disabled = false;
+        // Update button state immediately on click
         elements.submitBtn.textContent = "Confirm Location";
-        elements.submitBtn.classList.add('primary-action'); 
+        elements.submitBtn.classList.add('primary-action');
+        elements.submitBtn.disabled = false;
     });
 }
 
@@ -173,15 +174,23 @@ function nextRound() {
         return;
     }
 
-    // Get next campaign
     state.currentCampaign = getNextCampaign();
     if (!state.currentCampaign) {
-        // Ran out of campaigns, end early
         endGame();
         return;
     }
 
-    // Update UI
+    // === CHANGE STARTS HERE: Wipe previous results ===
+    elements.resultDisplay.innerHTML = '';
+    elements.timelineViz.innerHTML = '';
+    elements.explanation.innerHTML = '';
+    if (state.resultMapInstance) {
+        state.resultMapInstance.remove();
+        state.resultMapInstance = null;
+    }
+    // === CHANGE ENDS HERE ===
+
+    // UI Updates
     elements.currentRound.textContent = state.currentRound;
     elements.currentScore.textContent = state.score;
     elements.campaignTitle.textContent = state.currentCampaign.title;
@@ -190,81 +199,35 @@ function nextRound() {
         .map(p => `<p>${p}</p>`)
         .join('');
 
-    // Reset hints
     elements.hintsList.innerHTML = '';
     updateHintButton();
 
-    // Reset Guess Section UI
+    // Reset Guess Section
     elements.guessSection.classList.remove('hidden');
     elements.resultSection.classList.add('hidden');
     
-    // Step 1 State: Year Input Only
+    // Reset Year Input
     elements.yearInput.value = '';
     elements.yearInput.disabled = false;
     elements.yearInput.classList.remove('hidden');
     
-    // Hide Map initially
+    // Reset Map
     elements.guessMap.classList.add('hidden');
-    // Clear marker from map logic
-    if (state.guessMarker) {
+    if (state.guessMarker && state.mapInstance) {
         state.mapInstance.removeLayer(state.guessMarker);
         state.guessMarker = null;
     }
+    // Re-invalidate map size to prevent gray tiles on hidden re-show
+    if (state.mapInstance) state.mapInstance.invalidateSize();
 
+    // Reset Button
     elements.submitBtn.textContent = "Next: Guess Location";
-    elements.submitBtn.disabled = false;
     elements.submitBtn.classList.remove('primary-action');
+    elements.submitBtn.disabled = false;
 
-    // Scroll to top
-    setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: 'instant' });
-        elements.yearInput.focus({ preventScroll: true });
-    }, 0);
+    // Scroll top
+    window.scrollTo({ top: 0, behavior: 'instant' });
 }
-
-function getNextCampaign() {
-    for (const campaign of state.campaigns) {
-        if (!state.usedCampaignIds.includes(campaign.id)) {
-            state.usedCampaignIds.push(campaign.id);
-            // Mark as seen in localStorage for future sessions
-            markCampaignSeen(campaign.id);
-            return campaign;
-        }
-    }
-    return null;
-}
-
-function parseYearInput(input) {
-    const trimmed = input.trim().toLowerCase();
-
-    // Handle decade format like "1870s"
-    const decadeMatch = trimmed.match(/^(\d{3,4})s$/);
-    if (decadeMatch) {
-        return parseInt(decadeMatch[1]) + 5; // Middle of decade
-    }
-
-    // Handle BCE/BC format like "53 bce", "53 bc"
-    const bceMatch = trimmed.match(/^(\d{1,4})\s*(?:bce|bc|b\.c\.e\.?|b\.c\.?)$/);
-    if (bceMatch) {
-        return -parseInt(bceMatch[1]);
-    }
-
-    // Handle negative year like "-53"
-    const negativeMatch = trimmed.match(/^-(\d{1,4})$/);
-    if (negativeMatch) {
-        return -parseInt(negativeMatch[1]);
-    }
-
-    // Handle plain year
-    const yearMatch = trimmed.match(/^(\d{3,4})$/);
-    if (yearMatch) {
-        return parseInt(yearMatch[1]);
-    }
-
-    return null;
-}
-
-// === NEW LOGIC: Two-Phase Submission ===
 
 function handlePhaseSubmit() {
     // Phase 1: Year Guess
@@ -273,91 +236,48 @@ function handlePhaseSubmit() {
         const guess = parseYearInput(input);
 
         if (guess === null || guess < -5000 || guess > 2025) {
-            elements.yearInput.style.borderColor = '#c62828';
-            setTimeout(() => {
-                elements.yearInput.style.borderColor = '';
-            }, 1000);
+            flashError(elements.yearInput);
             return;
         }
 
-        // Lock Year, Show Map
+        // Lock Year, Transition to Map
         state.yearGuess = guess;
         elements.yearInput.disabled = true;
         
         elements.guessMap.classList.remove('hidden');
-        state.mapInstance.invalidateSize(); // Fix leaflet rendering issue when unhiding
+        if (state.mapInstance) state.mapInstance.invalidateSize();
         
-        elements.submitBtn.textContent = "Click Map to Drop Pin";
-        elements.submitBtn.disabled = true; // Disable until pin dropped
+        elements.submitBtn.textContent = "Place Pin on Map";
+        // Do NOT disable button, just prompt user if they click it again
         
     } else {
-        // Phase 2: Location Guess (Submit Round)
+        // Phase 2: Location Guess
+        if (!state.locationGuess) {
+            // User hasn't clicked map yet
+            elements.submitBtn.textContent = "Please Click Map First!";
+            setTimeout(() => {
+                if(state.locationGuess) return;
+                elements.submitBtn.textContent = "Place Pin on Map";
+            }, 1500);
+            return;
+        }
         processRound();
     }
-}
-
-function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
-    const R = 6371; // Radius of the earth in km
-    const dLat = deg2rad(lat2 - lat1);
-    const dLon = deg2rad(lon2 - lon1);
-    const a =
-        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
-        Math.sin(dLon / 2) * Math.sin(dLon / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    const d = R * c; // Distance in km
-    return d;
-}
-
-function deg2rad(deg) {
-    return deg * (Math.PI / 180);
-}
-
-function calculateMapScore(distanceKm) {
-    if (distanceKm < 50) return 100;
-    if (distanceKm < 200) return 90;
-    if (distanceKm < 500) return 75;
-    if (distanceKm < 1000) return 50;
-    if (distanceKm < 2000) return 25;
-    return 0;
-}
-
-function calculateScore(guess, actual) {
-    const diff = Math.abs(guess - actual);
-    const age = 2026 - actual; // how old the battle is
-
-    // Scale factor: 1x for recent battles, up to 3x for ancient battles
-    const scale = Math.min(3, Math.max(1, age / 500));
-
-    if (diff <= 5 * scale) return 100;   // Exact
-    if (diff <= 10 * scale) return 90;   // Very close
-    if (diff <= 25 * scale) return 75;   // Close
-    if (diff <= 50 * scale) return 60;   // Good
-    if (diff <= 100 * scale) return 40;  // Fair
-    if (diff <= 200 * scale) return 20;  // Distant
-    return 0;                             // Way off
-}
-
-function giveUp() {
-    state.yearGuess = null; // null signifies give up
-    state.locationGuess = null;
-    processRound();
 }
 
 function processRound() {
     const campaign = state.currentCampaign;
     
-    // 1. Calculate Year Score
+    // 1. Year Score
     let yearPoints = 0;
     if (state.yearGuess !== null) {
         yearPoints = calculateScore(state.yearGuess, campaign.actualYear);
     }
 
-    // 2. Calculate Map Score
+    // 2. Map Score
     let mapPoints = 0;
     let distance = null;
     
-    // Handle give up or no pin dropped
     if (state.locationGuess !== null && campaign.latitude) {
         distance = getDistanceFromLatLonInKm(
             state.locationGuess.lat, state.locationGuess.lng,
@@ -369,12 +289,9 @@ function processRound() {
     // 3. Hint Penalty
     let hintPenalty = 0;
     for (let i = 0; i < state.hintsRevealed; i++) {
-        if (campaign.hints[i]) {
-            hintPenalty += campaign.hints[i].cost;
-        }
+        if (campaign.hints[i]) hintPenalty += campaign.hints[i].cost;
     }
 
-    // Total Score (Max 200 per round)
     const rawTotal = yearPoints + mapPoints;
     const finalRoundScore = Math.max(0, rawTotal - hintPenalty);
 
@@ -386,18 +303,8 @@ function processRound() {
         totalPoints: finalRoundScore
     });
 
-    // Update score display
     elements.currentScore.textContent = state.score;
-
-    // Show result
     displayResult(yearPoints, mapPoints, distance, hintPenalty);
-}
-
-function getScoreClass(pts) {
-    if (pts >= 90) return 'perfect';
-    if (pts >= 60) return 'good';
-    if (pts >= 30) return 'okay';
-    return 'miss';
 }
 
 function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
@@ -406,7 +313,6 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
 
     const actualYear = state.currentCampaign.actualYear;
     const userYear = state.yearGuess !== null ? formatYear(state.yearGuess) : "Given up";
-    
     const distText = distance !== null ? `${Math.round(distance)} km` : "No guess";
 
     let resultHTML = `
@@ -434,30 +340,21 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
 
     elements.resultDisplay.innerHTML = resultHTML;
 
-    // Timeline visualization
+    // Timeline Viz
     if (state.yearGuess !== null) {
         displayTimeline(state.yearGuess, actualYear);
     } else {
         elements.timelineViz.innerHTML = '';
     }
 
-    // Map visualization
     displayResultMap();
 
-    // Explanation
-    let explanationHTML = `
-        <h3>Historical Context</h3>
-        <p>${state.currentCampaign.explanation}</p>
-    `;
-
-    // Add explanations for hints the player revealed
+    // Explanations
+    let explanationHTML = `<h3>Historical Context</h3><p>${state.currentCampaign.explanation}</p>`;
     const revealedHints = state.currentCampaign.hints.slice(0, state.hintsRevealed);
     for (const hint of revealedHints) {
-        if (hint.explanation) {
-            explanationHTML += `<p>${hint.explanation}</p>`;
-        }
+        if (hint.explanation) explanationHTML += `<p>${hint.explanation}</p>`;
     }
-
     elements.explanation.innerHTML = explanationHTML;
 }
 
@@ -465,19 +362,16 @@ function displayResultMap() {
     const c = state.currentCampaign;
     if (!c.latitude || typeof L === 'undefined') return;
 
-    if (state.resultMapInstance) {
-        state.resultMapInstance.remove();
-    }
+    if (state.resultMapInstance) state.resultMapInstance.remove();
 
     state.resultMapInstance = L.map('result-map').setView([c.latitude, c.longitude], 4);
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
         subdomains: 'abcd',
         maxZoom: 19
     }).addTo(state.resultMapInstance);
 
-    // Actual Location (Green)
+    // Actual Location
     const actualIcon = L.divIcon({
         className: 'custom-pin actual-pin',
         html: `<div style="background-color: #2e7d32; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>`
@@ -485,7 +379,7 @@ function displayResultMap() {
     L.marker([c.latitude, c.longitude], {icon: actualIcon}).addTo(state.resultMapInstance)
      .bindPopup("Actual Location").openPopup();
 
-    // User Guess (Red)
+    // User Guess
     if (state.locationGuess) {
         const guessIcon = L.divIcon({
             className: 'custom-pin guess-pin',
@@ -494,13 +388,11 @@ function displayResultMap() {
         L.marker([state.locationGuess.lat, state.locationGuess.lng], {icon: guessIcon}).addTo(state.resultMapInstance)
          .bindPopup("Your Guess");
 
-        // Draw Line
         L.polyline([
             [state.locationGuess.lat, state.locationGuess.lng],
             [c.latitude, c.longitude]
         ], {color: 'blue', dashArray: '5, 10'}).addTo(state.resultMapInstance);
         
-        // Fit bounds to show both
         const bounds = L.latLngBounds(
             [state.locationGuess.lat, state.locationGuess.lng],
             [c.latitude, c.longitude]
@@ -509,12 +401,47 @@ function displayResultMap() {
     }
 }
 
+function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
+    const R = 6371; 
+    const dLat = deg2rad(lat2 - lat1);
+    const dLon = deg2rad(lon2 - lon1);
+    const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+}
+
+function deg2rad(deg) { return deg * (Math.PI / 180); }
+
+function calculateMapScore(distanceKm) {
+    if (distanceKm < 50) return 100;
+    if (distanceKm < 200) return 90;
+    if (distanceKm < 500) return 75;
+    if (distanceKm < 1000) return 50;
+    if (distanceKm < 2000) return 25;
+    return 0;
+}
+
+function calculateScore(guess, actual) {
+    const diff = Math.abs(guess - actual);
+    const age = 2026 - actual;
+    const scale = Math.min(3, Math.max(1, age / 500));
+
+    if (diff <= 5 * scale) return 100;
+    if (diff <= 10 * scale) return 90;
+    if (diff <= 25 * scale) return 75;
+    if (diff <= 50 * scale) return 60;
+    if (diff <= 100 * scale) return 40;
+    if (diff <= 200 * scale) return 20;
+    return 0;
+}
+
 function displayTimeline(guess, actual) {
-    // Determine range
     const minYear = Math.min(guess, actual) - 50;
     const maxYear = Math.max(guess, actual) + 50;
     const range = maxYear - minYear;
-
     const guessPos = ((guess - minYear) / range) * 100;
     const actualPos = ((actual - minYear) / range) * 100;
 
@@ -528,30 +455,32 @@ function displayTimeline(guess, actual) {
             <span>${formatYear(maxYear)}</span>
         </div>
         <div class="timeline-legend">
-            <div class="legend-item">
-                <div class="legend-dot guess"></div>
-                <span>Your guess (${formatYear(guess)})</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-dot actual"></div>
-                <span>Actual (${formatYear(actual)})</span>
-            </div>
+            <div class="legend-item"><div class="legend-dot guess"></div><span>Your guess (${formatYear(guess)})</span></div>
+            <div class="legend-item"><div class="legend-dot actual"></div><span>Actual (${formatYear(actual)})</span></div>
         </div>
     `;
+}
+
+function flashError(element) {
+    element.style.borderColor = '#c62828';
+    setTimeout(() => { element.style.borderColor = ''; }, 1000);
+}
+
+function giveUp() {
+    state.yearGuess = null;
+    state.locationGuess = null;
+    processRound();
 }
 
 function revealHint() {
     const hints = state.currentCampaign.hints;
     if (state.hintsRevealed >= hints.length) return;
-
     const hint = hints[state.hintsRevealed];
     state.hintsRevealed++;
-
     const hintEl = document.createElement('div');
     hintEl.className = 'hint-item';
     hintEl.textContent = hint.text;
     elements.hintsList.appendChild(hintEl);
-
     updateHintButton();
 }
 
@@ -562,27 +491,50 @@ function updateHintButton() {
         elements.hintBtn.textContent = 'No more hints';
     } else {
         elements.hintBtn.disabled = false;
-        const nextCost = hints[state.hintsRevealed].cost;
-        elements.hintCost.textContent = nextCost;
-        elements.hintBtn.innerHTML = `Buy Hint (<span id="hint-cost">${nextCost}</span> pts)`;
+        elements.hintCost.textContent = hints[state.hintsRevealed].cost;
+        elements.hintBtn.innerHTML = `Buy Hint (<span id="hint-cost">${hints[state.hintsRevealed].cost}</span> pts)`;
     }
+}
+
+function getNextCampaign() {
+    for (const campaign of state.campaigns) {
+        if (!state.usedCampaignIds.includes(campaign.id)) {
+            state.usedCampaignIds.push(campaign.id);
+            markCampaignSeen(campaign.id);
+            return campaign;
+        }
+    }
+    return null;
+}
+
+function parseYearInput(input) {
+    const trimmed = input.trim().toLowerCase();
+    const decadeMatch = trimmed.match(/^(\d{3,4})s$/);
+    if (decadeMatch) return parseInt(decadeMatch[1]) + 5;
+    const bceMatch = trimmed.match(/^(\d{1,4})\s*(?:bce|bc|b\.c\.e\.?|b\.c\.?)$/);
+    if (bceMatch) return -parseInt(bceMatch[1]);
+    const negativeMatch = trimmed.match(/^-(\d{1,4})$/);
+    if (negativeMatch) return -parseInt(negativeMatch[1]);
+    const yearMatch = trimmed.match(/^(\d{3,4})$/);
+    if (yearMatch) return parseInt(yearMatch[1]);
+    return null;
+}
+
+function getScoreClass(pts) {
+    if (pts >= 90) return 'perfect';
+    if (pts >= 60) return 'good';
+    if (pts >= 30) return 'okay';
+    return 'miss';
 }
 
 function endGame() {
     showScreen(elements.endScreen);
-
-    // Max score is now higher because of map round (100 for year + 100 for map = 200 per round)
     const maxPossible = state.roundResults.length * 200;
-    
     elements.finalScore.textContent = state.score;
     elements.maxScore.textContent = maxPossible;
-
-    // Score breakdown
     let breakdownHTML = '';
     for (const result of state.roundResults) {
-        const title = result.campaign.title.length > 30
-            ? result.campaign.title.substring(0, 30) + '...'
-            : result.campaign.title;
+        const title = result.campaign.title.length > 30 ? result.campaign.title.substring(0, 30) + '...' : result.campaign.title;
         breakdownHTML += `
             <div class="breakdown-item">
                 <span class="campaign">${title}</span>
@@ -591,47 +543,33 @@ function endGame() {
         `;
     }
     elements.scoreBreakdown.innerHTML = breakdownHTML;
-
-    // Save high score
     saveHighScore(state.score, maxPossible);
 }
 
 function saveHighScore(score, maxPossible) {
     const key = `highscore_${state.difficulty}_${state.totalRounds}`;
     const existing = localStorage.getItem(key);
-    if (!existing || score > parseInt(existing)) {
-        localStorage.setItem(key, score);
-    }
+    if (!existing || score > parseInt(existing)) localStorage.setItem(key, score);
     displayHighScore();
 }
 
 function displayHighScore() {
+    if (!elements.difficultySelect) return;
     const difficulty = elements.difficultySelect.value;
     const rounds = elements.roundsSelect.value;
     const key = `highscore_${difficulty}_${rounds}`;
     const score = localStorage.getItem(key);
-
-    // Note: Max score calculation changed (rounds * 200)
-    if (score) {
-        elements.highScoreDisplay.textContent = `High score: ${score}/${rounds * 200}`;
-    } else {
-        elements.highScoreDisplay.textContent = '';
-    }
+    if (score) elements.highScoreDisplay.textContent = `High score: ${score}/${rounds * 200}`;
+    else elements.highScoreDisplay.textContent = '';
 }
 
 function shareResult() {
-    // Max score is rounds * 200 now
     const maxPossible = state.roundResults.length * 200;
     const percent = Math.round((state.score / maxPossible) * 100);
-    const text = `I scored ${state.score}/${maxPossible} (${percent}%) on When Was This War? Can you guess historical battles by their descriptions?`;
-
+    const text = `I scored ${state.score}/${maxPossible} (${percent}%) on When Was This War?`;
     navigator.clipboard.writeText(text).then(() => {
-        elements.shareFeedback.textContent = 'Copied to clipboard!';
-        setTimeout(() => {
-            elements.shareFeedback.textContent = '';
-        }, 2000);
-    }).catch(() => {
-        elements.shareFeedback.textContent = 'Could not copy to clipboard';
+        elements.shareFeedback.textContent = 'Copied!';
+        setTimeout(() => { elements.shareFeedback.textContent = ''; }, 2000);
     });
 }
 
@@ -640,12 +578,8 @@ function resetGame() {
     displayHighScore();
 }
 
-// Utility
 function formatYear(year) {
-    if (year < 0) {
-        return `${Math.abs(year)} BCE`;
-    }
-    return year.toString();
+    return year < 0 ? `${Math.abs(year)} BCE` : year.toString();
 }
 
 function shuffleArray(array) {
@@ -656,14 +590,11 @@ function shuffleArray(array) {
     return array;
 }
 
-// Seen campaigns tracking (localStorage)
 const SEEN_CAMPAIGNS_KEY = 'seen_campaigns';
-
 function getSeenCampaigns() {
     const stored = localStorage.getItem(SEEN_CAMPAIGNS_KEY);
     return stored ? JSON.parse(stored) : [];
 }
-
 function markCampaignSeen(id) {
     const seen = getSeenCampaigns();
     if (!seen.includes(id)) {
@@ -671,14 +602,4 @@ function markCampaignSeen(id) {
         localStorage.setItem(SEEN_CAMPAIGNS_KEY, JSON.stringify(seen));
     }
 }
-
-function resetSeenCampaigns() {
-    localStorage.removeItem(SEEN_CAMPAIGNS_KEY);
-}
-
-// Update high score display when settings change
-elements.difficultySelect.addEventListener('change', displayHighScore);
-elements.roundsSelect.addEventListener('change', displayHighScore);
-
-// Start
-init();
+function resetSeenCampaigns() { localStorage.removeItem(SEEN_CAMPAIGNS_KEY); }

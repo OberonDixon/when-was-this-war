@@ -547,10 +547,24 @@ h1 {
 }
 
 /* Dark mode support for cards (optional, adjust colors to match your theme) */
+/* Dark mode support for cards */
 @media (prefers-color-scheme: dark) {
     .result-card {
         background: #2a2a2a;
         border-color: #444;
+        color: #ffffff; /* Fixes the main text color */
+    }
+    
+    .result-card h4 {
+        color: #b0b0b0; /* Lightens the "YEAR" / "LOCATION" labels */
+    }
+
+    .guess-val {
+        color: #ffffff; /* Ensures the numbers (e.g. "120") are white */
+    }
+
+    .actual-val {
+        color: #cccccc; /* Makes "Actual: 16" readable grey */
     }
 }
 
