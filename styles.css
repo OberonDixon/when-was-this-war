@@ -621,7 +621,7 @@ h1 {
 
 /* --- Primary Action Button Styling --- */
 /* Highlights the button when it's time to confirm map choice */
-#submit-btn.primary-action {
+#map-submit-btn.primary-action {
     background-color: #1565c0;
     color: white;
     border: none;
@@ -641,6 +641,180 @@ h1 {
     grid-template-columns: 1fr;
     max-width: 400px;
     margin: 0 auto 1rem auto;
+}
+
+/* --- Guess Panels (Command side-by-side, Chronicle/Surveyor single) --- */
+
+/* Widen container when side-by-side layout is active */
+.container:has(.side-by-side) {
+    max-width: 900px;
+}
+
+.guess-panel {
+    transition: border-color 0.3s, opacity 0.3s, box-shadow 0.3s;
+}
+
+.guess-panel label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+}
+
+/* Side-by-side layout for Command mode */
+.guess-section.side-by-side {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.guess-section.side-by-side #year-panel {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.guess-section.side-by-side #map-panel {
+    flex: 1 1 0;
+    min-width: 300px;
+}
+
+.guess-controls {
+    margin-top: 1rem;
+}
+
+.guess-section.side-by-side .guess-controls {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+/* Year panel in side-by-side: stack input and button vertically */
+.side-by-side #year-panel .input-row {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.side-by-side #year-panel #year-input {
+    width: 100%;
+    max-width: none;
+}
+
+/* Map panel submit button */
+#map-panel .btn {
+    display: block;
+    width: 100%;
+    margin-top: 0.75rem;
+}
+
+/* Single-mode layout (Chronicle/Surveyor) */
+.guess-section:not(.side-by-side) {
+    text-align: center;
+}
+
+.guess-section:not(.side-by-side) .guess-panel {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Panel states */
+.guess-panel.panel-completed {
+    border: 2px solid var(--success-color);
+    opacity: 0.75;
+    background: #f0f7f0;
+}
+
+.guess-panel.panel-emphasized {
+    border: 2px solid var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.15);
+    opacity: 1;
+}
+
+/* --- Guess Feedback (partial "how far off" display) --- */
+.guess-feedback {
+    margin-top: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.feedback-perfect {
+    background: #e8f5e9;
+    color: var(--success-color);
+}
+
+.feedback-good {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.feedback-okay {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.feedback-miss {
+    background: #fce4ec;
+    color: var(--error-color);
+}
+
+/* --- Error Pulse Animation --- */
+@keyframes errorPulse {
+    0%, 100% { background-color: var(--accent-color); }
+    50% { background-color: var(--error-color); }
+}
+
+.error-pulse {
+    animation: errorPulse 0.5s ease 2;
+}
+
+/* --- Mobile: stack side-by-side panels vertically --- */
+@media (max-width: 600px) {
+    .guess-section.side-by-side {
+        flex-direction: column;
+    }
+
+    .guess-section.side-by-side #year-panel {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .guess-section.side-by-side #map-panel {
+        flex: 1 1 auto;
+        min-width: unset;
+        width: 100%;
+    }
+
+    .guess-section.side-by-side #guess-map {
+        height: 280px !important;
+    }
+
+    .container:has(.side-by-side) {
+        max-width: 800px;
+    }
+}
+
+/* Dark mode support for panel states */
+@media (prefers-color-scheme: dark) {
+    .guess-panel.panel-completed {
+        background: #1a2e1a;
+        border-color: #4caf50;
+    }
+
+    .guess-panel.panel-emphasized {
+        border-color: #cd7f32;
+        box-shadow: 0 0 0 3px rgba(205, 127, 50, 0.2);
+    }
+
+    .feedback-perfect { background: #1b3a1b; }
+    .feedback-good { background: #0d2744; }
+    .feedback-okay { background: #3e2200; }
+    .feedback-miss { background: #3a0a0a; }
 }
 
 /* Ensure hidden really means hidden */

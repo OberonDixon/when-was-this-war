@@ -72,16 +72,28 @@
             </div>
 
             <div id="guess-section" class="guess-section">
-                <label for="year-input">Your guess:</label>
-                <div class="input-row">
-                    <input type="text" id="year-input" placeholder="e.g. 1877, 1870s, or 490 BCE" maxlength="10">
-                    <button id="submit-btn" class="btn btn-primary">Submit</button>
+                <div id="year-panel" class="guess-panel">
+                    <label>When was this?</label>
+                    <div class="input-row">
+                        <input type="text" id="year-input" placeholder="e.g. 1877, 1870s, or 490 BCE" maxlength="10">
+                        <button id="year-submit-btn" class="btn btn-primary">Submit Year</button>
+                    </div>
+                    <div id="year-feedback" class="guess-feedback hidden"></div>
                 </div>
-                <div id="guess-map" class="hidden" style="height: 400px; margin-top: 20px;"></div>
-                <button id="skip-btn" class="secondary-btn">
-                            <i class="icon-refresh"></i> I've seen this one
-                        </button>
-                <button id="give-up-btn" class="btn btn-text">I give up (0 points)</button>
+
+                <div id="map-panel" class="guess-panel">
+                    <label>Where was this?</label>
+                    <div id="guess-map" style="height: 350px;"></div>
+                    <button id="map-submit-btn" class="btn btn-primary" disabled>Place Pin on Map</button>
+                    <div id="map-feedback" class="guess-feedback hidden"></div>
+                </div>
+
+                <div class="guess-controls">
+                    <button id="skip-btn" class="secondary-btn">
+                        <i class="icon-refresh"></i> I've seen this one
+                    </button>
+                    <button id="give-up-btn" class="btn btn-text">I give up (0 points)</button>
+                </div>
             </div>
 
             <div id="result-section" class="result-section hidden">

@@ -15,7 +15,10 @@ const state = {
     locationGuess: null,
     mapInstance: null,
     guessMarker: null,
-    resultMapInstance: null
+    resultMapInstance: null,
+    // Command mode two-phase state
+    commandPhase: 0,       // 0=both open, 1=one submitted, 2=both done
+    firstGuessType: null   // 'year' or 'location'
 };
 
 // DOM Elements Container
@@ -47,11 +50,15 @@ function init() {
         
         // Guess Section
         guessSection: document.getElementById('guess-section'),
-        guessLabel: document.querySelector('label[for="year-input"]'),
+        yearPanel: document.getElementById('year-panel'),
+        mapPanel: document.getElementById('map-panel'),
         yearInput: document.getElementById('year-input'),
-        submitBtn: document.getElementById('submit-btn'),
+        yearSubmitBtn: document.getElementById('year-submit-btn'),
+        mapSubmitBtn: document.getElementById('map-submit-btn'),
+        yearFeedback: document.getElementById('year-feedback'),
+        mapFeedback: document.getElementById('map-feedback'),
         giveUpBtn: document.getElementById('give-up-btn'),
-        skipBtn: document.getElementById('skip-btn'), // <--- NEW ELEMENT
+        skipBtn: document.getElementById('skip-btn'),
         guessMap: document.getElementById('guess-map'),
         
         // Result Section
@@ -80,13 +87,16 @@ function init() {
 
 function attachEventListeners() {
     elements.startBtn.addEventListener('click', startGame);
-    elements.submitBtn.addEventListener('click', (e) => {
-        e.preventDefault(); 
-        handlePhaseSubmit();
+    elements.yearSubmitBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        handleYearSubmit();
+    });
+    elements.mapSubmitBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        handleMapSubmit();
     });
     elements.giveUpBtn.addEventListener('click', giveUp);
-    
-    // <--- NEW LISTENER
+
     if(elements.skipBtn) {
         elements.skipBtn.addEventListener('click', skipRound);
     }
@@ -97,7 +107,7 @@ function attachEventListeners() {
     elements.playAgainBtn.addEventListener('click', resetGame);
 
     elements.yearInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') handlePhaseSubmit();
+        if (e.key === 'Enter') handleYearSubmit();
     });
 }
 
@@ -143,6 +153,22 @@ function startGame() {
     nextRound();
 }
 
+function onMapClick(e) {
+    if (elements.mapPanel.classList.contains('panel-completed')) return;
+
+    state.locationGuess = e.latlng;
+
+    if (state.guessMarker) {
+        state.guessMarker.setLatLng(e.latlng);
+    } else {
+        state.guessMarker = L.marker(e.latlng).addTo(state.mapInstance);
+    }
+
+    elements.mapSubmitBtn.textContent = "Confirm Location";
+    elements.mapSubmitBtn.classList.add('primary-action');
+    elements.mapSubmitBtn.disabled = false;
+}
+
 function initGuessMap() {
     if (typeof L === 'undefined') return;
 
@@ -158,19 +184,7 @@ function initGuessMap() {
         maxZoom: 19
     }).addTo(state.mapInstance);
 
-    state.mapInstance.on('click', function(e) {
-        state.locationGuess = e.latlng;
-        
-        if (state.guessMarker) {
-            state.guessMarker.setLatLng(e.latlng);
-        } else {
-            state.guessMarker = L.marker(e.latlng).addTo(state.mapInstance);
-        }
-        
-        elements.submitBtn.textContent = "Confirm Location";
-        elements.submitBtn.classList.add('primary-action');
-        elements.submitBtn.disabled = false;
-    });
+    state.mapInstance.on('click', onMapClick);
 }
 
 // --- NEW FUNCTION: SKIPS CURRENT CARD ---
@@ -191,6 +205,8 @@ function skipRound() {
     state.hintsRevealed = 0;
     state.yearGuess = null;
     state.locationGuess = null;
+    state.commandPhase = 0;
+    state.firstGuessType = null;
 
     // 5. Re-render the level (without incrementing round count)
     startLevel();
@@ -201,6 +217,8 @@ function nextRound() {
     state.hintsRevealed = 0;
     state.yearGuess = null;
     state.locationGuess = null;
+    state.commandPhase = 0;
+    state.firstGuessType = null;
 
     if (state.currentRound > state.totalRounds) {
         endGame();
@@ -253,110 +271,210 @@ function startLevel() {
 }
 
 function setupRoundInputs() {
-    // Reset defaults
+    // Reset inputs
     elements.yearInput.value = '';
     elements.yearInput.disabled = false;
-    elements.submitBtn.disabled = false;
-    elements.submitBtn.classList.remove('primary-action');
-    
+    state.commandPhase = 0;
+    state.firstGuessType = null;
+
+    // Clear previous guess marker
     if (state.guessMarker && state.mapInstance) {
         state.mapInstance.removeLayer(state.guessMarker);
         state.guessMarker = null;
     }
 
-    // Ensure label is visible by default
-    if(elements.guessLabel) elements.guessLabel.classList.remove('hidden');
+    // Reset feedback areas
+    elements.yearFeedback.classList.add('hidden');
+    elements.yearFeedback.innerHTML = '';
+    elements.mapFeedback.classList.add('hidden');
+    elements.mapFeedback.innerHTML = '';
+
+    // Reset panel visual states
+    elements.yearPanel.classList.remove('panel-completed', 'panel-emphasized', 'hidden');
+    elements.mapPanel.classList.remove('panel-completed', 'panel-emphasized', 'hidden');
+
+    // Reset buttons
+    elements.yearSubmitBtn.disabled = false;
+    elements.yearSubmitBtn.classList.remove('primary-action');
+    elements.yearSubmitBtn.textContent = 'Submit Year';
+    elements.mapSubmitBtn.disabled = true;
+    elements.mapSubmitBtn.classList.remove('primary-action');
+    elements.mapSubmitBtn.textContent = 'Place Pin on Map';
+
+    // Re-enable map clicks (may have been disabled on previous round)
+    if (state.mapInstance) {
+        state.mapInstance.off('click', onMapClick);
+        state.mapInstance.on('click', onMapClick);
+    }
 
     // MODE SPECIFIC UI
     if (state.mode === 'date') {
-        elements.yearInput.classList.remove('hidden');
-        elements.guessMap.classList.add('hidden');
-        elements.submitBtn.textContent = "Submit Date";
+        // Chronicle: year panel only
+        elements.yearPanel.classList.remove('hidden');
+        elements.mapPanel.classList.add('hidden');
+        elements.guessSection.classList.remove('side-by-side');
+        elements.yearSubmitBtn.textContent = 'Submit Date';
         elements.yearInput.focus({ preventScroll: true });
-        
+
     } else if (state.mode === 'place') {
-        elements.yearInput.classList.add('hidden');
-        if(elements.guessLabel) elements.guessLabel.classList.add('hidden');
-        
-        elements.guessMap.classList.remove('hidden');
+        // Surveyor: map panel only
+        elements.yearPanel.classList.add('hidden');
+        elements.mapPanel.classList.remove('hidden');
+        elements.guessSection.classList.remove('side-by-side');
         if (state.mapInstance) state.mapInstance.invalidateSize();
-        
-        elements.submitBtn.textContent = "Place Pin on Map";
-        
+
     } else {
-        // Classic
-        elements.yearInput.classList.remove('hidden');
-        elements.guessMap.classList.add('hidden');
-        elements.submitBtn.textContent = "Confirm Year";
+        // Command: both panels side-by-side
+        elements.yearPanel.classList.remove('hidden');
+        elements.mapPanel.classList.remove('hidden');
+        elements.guessSection.classList.add('side-by-side');
+        if (state.mapInstance) {
+            setTimeout(() => state.mapInstance.invalidateSize(), 100);
+        }
         elements.yearInput.focus({ preventScroll: true });
     }
 }
 
-function handlePhaseSubmit() {
-    // Hide the skip button once they start guessing
-    if(elements.skipBtn) elements.skipBtn.classList.add('hidden');
+function handleYearSubmit() {
+    const input = elements.yearInput.value;
+    const guess = parseYearInput(input);
+    if (guess === null || guess < -5000 || guess > 2025) {
+        flashError(elements.yearInput);
+        return;
+    }
 
-    // === DATE ONLY MODE ===
+    // Hide skip button once guessing begins
+    if (elements.skipBtn) elements.skipBtn.classList.add('hidden');
+
+    // Lock the year
+    state.yearGuess = guess;
+    elements.yearInput.disabled = true;
+    elements.yearSubmitBtn.disabled = true;
+    elements.yearPanel.classList.add('panel-completed');
+
     if (state.mode === 'date') {
-        const input = elements.yearInput.value;
-        const guess = parseYearInput(input);
-        if (guess === null || guess < -5000 || guess > 2025) {
-            flashError(elements.yearInput);
-            return;
-        }
-        state.yearGuess = guess;
+        // Chronicle mode: go straight to results
         processRound();
         return;
     }
 
-    // === PLACE ONLY MODE ===
-    if (state.mode === 'place') {
-        if (!state.locationGuess) {
-            warnButton("Please Click Map First!");
-            return;
-        }
-        processRound();
-        return;
-    }
+    // Command mode
+    if (state.commandPhase === 0) {
+        // First guess is year
+        state.firstGuessType = 'year';
+        state.commandPhase = 1;
 
-    // === CLASSIC MODE (Two Phases) ===
-    if (state.yearGuess === null) {
-        // Phase 1
-        const input = elements.yearInput.value;
-        const guess = parseYearInput(input);
+        const diff = Math.abs(guess - state.currentCampaign.actualYear);
+        showYearFeedback(diff);
 
-        if (guess === null || guess < -5000 || guess > 2025) {
-            flashError(elements.yearInput);
-            return;
-        }
-
-        // Lock Year, Transition to Map
-        state.yearGuess = guess;
-        elements.yearInput.disabled = true;
-        
-        elements.guessMap.classList.remove('hidden');
-        if (state.mapInstance) state.mapInstance.invalidateSize();
-        
-        elements.submitBtn.textContent = "Place Pin on Map";
-        
+        // Emphasize the map panel
+        elements.mapPanel.classList.add('panel-emphasized');
     } else {
-        // Phase 2
-        if (!state.locationGuess) {
-            warnButton("Please Click Map First!");
-            return;
-        }
+        // Second guess (location was first)
+        state.commandPhase = 2;
         processRound();
     }
 }
 
-function warnButton(msg) {
-    const originalText = elements.submitBtn.textContent;
-    elements.submitBtn.textContent = msg;
-    elements.submitBtn.classList.add('error-pulse');
+function handleMapSubmit() {
+    if (!state.locationGuess) {
+        warnMapButton("Click the map first!");
+        return;
+    }
+
+    // Hide skip button once guessing begins
+    if (elements.skipBtn) elements.skipBtn.classList.add('hidden');
+
+    // Lock the map
+    elements.mapSubmitBtn.disabled = true;
+    elements.mapPanel.classList.add('panel-completed');
+    if (state.mapInstance) state.mapInstance.off('click', onMapClick);
+
+    if (state.mode === 'place') {
+        // Surveyor mode: go straight to results
+        processRound();
+        return;
+    }
+
+    // Command mode
+    if (state.commandPhase === 0) {
+        // First guess is location
+        state.firstGuessType = 'location';
+        state.commandPhase = 1;
+
+        const campaign = state.currentCampaign;
+        const distance = getDistanceFromLatLonInKm(
+            state.locationGuess.lat, state.locationGuess.lng,
+            campaign.latitude, campaign.longitude
+        );
+        showMapFeedback(distance);
+
+        // Emphasize the year panel
+        elements.yearPanel.classList.add('panel-emphasized');
+        elements.yearInput.focus({ preventScroll: true });
+    } else {
+        // Second guess (year was first)
+        state.commandPhase = 2;
+        processRound();
+    }
+}
+
+function showYearFeedback(diff) {
+    const el = elements.yearFeedback;
+    let text, cssClass;
+
+    if (diff === 0) {
+        text = "Exact year!";
+        cssClass = "feedback-perfect";
+    } else if (diff <= 10) {
+        text = `${diff} year${diff !== 1 ? 's' : ''} off`;
+        cssClass = "feedback-good";
+    } else if (diff <= 50) {
+        text = `${diff} years off`;
+        cssClass = "feedback-okay";
+    } else {
+        text = `${diff} years off`;
+        cssClass = "feedback-miss";
+    }
+
+    el.textContent = text;
+    el.className = 'guess-feedback ' + cssClass;
+    el.classList.remove('hidden');
+}
+
+function showMapFeedback(distanceKm) {
+    const el = elements.mapFeedback;
+    const rounded = Math.round(distanceKm);
+    let text, cssClass;
+
+    if (rounded <= 50) {
+        text = "Within 50 km!";
+        cssClass = "feedback-perfect";
+    } else if (rounded <= 300) {
+        text = `${rounded} km away`;
+        cssClass = "feedback-good";
+    } else if (rounded <= 1000) {
+        text = `${rounded} km away`;
+        cssClass = "feedback-okay";
+    } else {
+        text = `${rounded} km away`;
+        cssClass = "feedback-miss";
+    }
+
+    el.textContent = text;
+    el.className = 'guess-feedback ' + cssClass;
+    el.classList.remove('hidden');
+}
+
+function warnMapButton(msg) {
+    const btn = elements.mapSubmitBtn;
+    const originalText = btn.textContent;
+    btn.textContent = msg;
+    btn.classList.add('error-pulse');
     setTimeout(() => {
-        if (elements.submitBtn.textContent === msg) {
-            elements.submitBtn.textContent = "Place Pin on Map";
-            elements.submitBtn.classList.remove('error-pulse');
+        if (btn.textContent === msg) {
+            btn.textContent = originalText;
+            btn.classList.remove('error-pulse');
         }
     }, 1500);
 }
@@ -570,8 +688,17 @@ function flashError(element) {
 }
 
 function giveUp() {
-    state.yearGuess = null;
-    state.locationGuess = null;
+    if (state.mode === 'classic' && state.commandPhase === 1) {
+        // Keep the first guess, null out the second
+        if (state.firstGuessType === 'year') {
+            state.locationGuess = null;
+        } else {
+            state.yearGuess = null;
+        }
+    } else {
+        state.yearGuess = null;
+        state.locationGuess = null;
+    }
     processRound();
 }
 
