@@ -644,7 +644,7 @@ function calculateMapScore(distanceKm) {
     if (distanceKm >= maxDist) return 0;
     const scale = 1200;
     const decay = (scale / (scale + distanceKm)) * ((maxDist - distanceKm) / maxDist);
-    return Math.floor(100 * decay);
+    return Math.floor(20 * decay) * 5;
 }
 
 function calculateYearScore(guess, actual) {
@@ -656,7 +656,7 @@ function calculateYearScore(guess, actual) {
     if (diff <= minDist) return 100;
     if (diff >= maxDist) return 0;
     const logFraction = Math.log(diff / minDist) / Math.log(maxDist / minDist);
-    return Math.floor(100 * Math.pow(1 - logFraction, 0.7));
+    return Math.floor(20 * Math.pow(1 - logFraction, 0.7)) * 5;
 }
 
 function displayTimeline(guess, actual) {
