@@ -4,7 +4,7 @@ const state = {
     totalRounds: 10,
     score: 0,
     difficulty: 'all',
-    mode: 'classic', // 'classic', 'date', 'place'
+    mode: 'classic', 
     campaigns: [],
     usedCampaignIds: [],
     currentCampaign: null,
@@ -21,7 +21,6 @@ const state = {
 // DOM Elements Container
 let elements = {};
 
-// Initialize
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
@@ -52,6 +51,7 @@ function init() {
         yearInput: document.getElementById('year-input'),
         submitBtn: document.getElementById('submit-btn'),
         giveUpBtn: document.getElementById('give-up-btn'),
+        skipBtn: document.getElementById('skip-btn'), // <--- NEW ELEMENT
         guessMap: document.getElementById('guess-map'),
         
         // Result Section
@@ -85,6 +85,12 @@ function attachEventListeners() {
         handlePhaseSubmit();
     });
     elements.giveUpBtn.addEventListener('click', giveUp);
+    
+    // <--- NEW LISTENER
+    if(elements.skipBtn) {
+        elements.skipBtn.addEventListener('click', skipRound);
+    }
+
     elements.hintBtn.addEventListener('click', revealHint);
     elements.nextBtn.addEventListener('click', nextRound);
     elements.shareBtn.addEventListener('click', shareResult);
@@ -102,7 +108,6 @@ function showScreen(screen) {
     screen.classList.remove('hidden');
 }
 
-// Game Flow
 function startGame() {
     state.difficulty = elements.difficultySelect.value;
     state.totalRounds = parseInt(elements.roundsSelect.value);
@@ -168,6 +173,29 @@ function initGuessMap() {
     });
 }
 
+// --- NEW FUNCTION: SKIPS CURRENT CARD ---
+function skipRound() {
+    // 1. Get a replacement
+    const replacement = getNextCampaign();
+    
+    // 2. Handle case where we ran out of campaigns
+    if (!replacement) {
+        alert("No more historical events available to swap!");
+        return;
+    }
+
+    // 3. Swap the campaign
+    state.currentCampaign = replacement;
+
+    // 4. Reset round state
+    state.hintsRevealed = 0;
+    state.yearGuess = null;
+    state.locationGuess = null;
+
+    // 5. Re-render the level (without incrementing round count)
+    startLevel();
+}
+
 function nextRound() {
     state.currentRound++;
     state.hintsRevealed = 0;
@@ -185,6 +213,11 @@ function nextRound() {
         return;
     }
 
+    startLevel();
+}
+
+// --- NEW FUNCTION: Extracted UI logic to reuse in nextRound and skipRound ---
+function startLevel() {
     // Wipe previous results
     elements.resultDisplay.innerHTML = '';
     elements.timelineViz.innerHTML = '';
@@ -210,6 +243,9 @@ function nextRound() {
     elements.guessSection.classList.remove('hidden');
     elements.resultSection.classList.add('hidden');
     
+    // Show the Skip Button
+    if(elements.skipBtn) elements.skipBtn.classList.remove('hidden');
+    
     // SETUP BASED ON MODE
     setupRoundInputs();
 
@@ -233,14 +269,12 @@ function setupRoundInputs() {
 
     // MODE SPECIFIC UI
     if (state.mode === 'date') {
-        // Date Only: Show input, Hide map
         elements.yearInput.classList.remove('hidden');
         elements.guessMap.classList.add('hidden');
         elements.submitBtn.textContent = "Submit Date";
         elements.yearInput.focus({ preventScroll: true });
         
     } else if (state.mode === 'place') {
-        // Place Only: Hide input/label, Show map immediately
         elements.yearInput.classList.add('hidden');
         if(elements.guessLabel) elements.guessLabel.classList.add('hidden');
         
@@ -250,7 +284,7 @@ function setupRoundInputs() {
         elements.submitBtn.textContent = "Place Pin on Map";
         
     } else {
-        // Classic (Both): Show input, Hide map initially
+        // Classic
         elements.yearInput.classList.remove('hidden');
         elements.guessMap.classList.add('hidden');
         elements.submitBtn.textContent = "Confirm Year";
@@ -259,6 +293,9 @@ function setupRoundInputs() {
 }
 
 function handlePhaseSubmit() {
+    // Hide the skip button once they start guessing
+    if(elements.skipBtn) elements.skipBtn.classList.add('hidden');
+
     // === DATE ONLY MODE ===
     if (state.mode === 'date') {
         const input = elements.yearInput.value;
@@ -330,12 +367,10 @@ function processRound() {
     let mapPoints = 0;
     let distance = null;
 
-    // 1. Calculate Year Score (if applicable)
     if (state.mode !== 'place' && state.yearGuess !== null) {
         yearPoints = calculateYearScore(state.yearGuess, campaign.actualYear);
     }
 
-    // 2. Calculate Map Score (if applicable)
     if (state.mode !== 'date' && state.locationGuess !== null && campaign.latitude) {
         distance = getDistanceFromLatLonInKm(
             state.locationGuess.lat, state.locationGuess.lng,
@@ -344,7 +379,6 @@ function processRound() {
         mapPoints = calculateMapScore(distance);
     }
 
-    // 3. Hint Penalty
     let hintPenalty = 0;
     for (let i = 0; i < state.hintsRevealed; i++) {
         if (campaign.hints[i]) hintPenalty += campaign.hints[i].cost;
@@ -368,18 +402,19 @@ function processRound() {
 function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
     elements.guessSection.classList.add('hidden');
     elements.resultSection.classList.remove('hidden');
+    
+    // Ensure skip button is hidden in results
+    if(elements.skipBtn) elements.skipBtn.classList.add('hidden');
 
     const actualYear = state.currentCampaign.actualYear;
     const userYear = state.yearGuess !== null ? formatYear(state.yearGuess) : "-";
     const distText = distance !== null ? `${Math.round(distance)} km` : "-";
 
-    // Add 'single-mode' class if only one card will be shown
     const isSingleMode = (state.mode === 'date' || state.mode === 'place');
     const gridClass = isSingleMode ? 'result-grid single-mode' : 'result-grid';
 
     let gridHTML = `<div class="${gridClass}">`;
     
-    // Year Card
     if (state.mode !== 'place') {
         gridHTML += `
             <div class="result-card">
@@ -390,7 +425,6 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
             </div>`;
     }
 
-    // Location Card
     if (state.mode !== 'date') {
         gridHTML += `
             <div class="result-card">
@@ -413,14 +447,12 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
 
     elements.resultDisplay.innerHTML = resultHTML;
 
-    // Timeline Viz
     if (state.mode !== 'place' && state.yearGuess !== null) {
         displayTimeline(state.yearGuess, actualYear);
     } else {
         elements.timelineViz.innerHTML = '';
     }
 
-    // Map Viz
     if (state.mode !== 'date') {
         elements.resultMap.style.display = 'block'; 
         displayResultMap();
