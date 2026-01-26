@@ -32,7 +32,6 @@ function init() {
         
         difficultySelect: document.getElementById('difficulty-select'),
         roundsSelect: document.getElementById('rounds-select'),
-        // NEW: Mode Selector
         modeSelect: document.getElementById('mode-select'), 
         startBtn: document.getElementById('start-btn'),
         highScoreDisplay: document.getElementById('high-score-display'),
@@ -47,13 +46,15 @@ function init() {
         hintCost: document.getElementById('hint-cost'),
         hintsList: document.getElementById('hints-list'),
         
+        // Guess Section
+        guessSection: document.getElementById('guess-section'),
+        guessLabel: document.querySelector('label[for="year-input"]'),
         yearInput: document.getElementById('year-input'),
         submitBtn: document.getElementById('submit-btn'),
         giveUpBtn: document.getElementById('give-up-btn'),
-        
-        guessSection: document.getElementById('guess-section'),
         guessMap: document.getElementById('guess-map'),
         
+        // Result Section
         resultSection: document.getElementById('result-section'),
         resultDisplay: document.getElementById('result-display'),
         timelineViz: document.getElementById('timeline-viz'),
@@ -69,7 +70,6 @@ function init() {
         playAgainBtn: document.getElementById('play-again-btn')
     };
 
-    // Listen for mode changes to update high score preview
     if(elements.modeSelect) {
         elements.modeSelect.addEventListener('change', displayHighScore);
     }
@@ -106,7 +106,6 @@ function showScreen(screen) {
 function startGame() {
     state.difficulty = elements.difficultySelect.value;
     state.totalRounds = parseInt(elements.roundsSelect.value);
-    // NEW: Capture mode
     state.mode = elements.modeSelect ? elements.modeSelect.value : 'classic';
     
     state.currentRound = 0;
@@ -132,7 +131,6 @@ function startGame() {
     showScreen(elements.gameScreen);
     elements.totalRounds.textContent = state.totalRounds;
     
-    // Initialize Map if mode requires it
     if (state.mode !== 'date') {
         initGuessMap();
     }
@@ -215,7 +213,6 @@ function nextRound() {
     // SETUP BASED ON MODE
     setupRoundInputs();
 
-    // Scroll top
     window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
@@ -231,6 +228,9 @@ function setupRoundInputs() {
         state.guessMarker = null;
     }
 
+    // Ensure label is visible by default
+    if(elements.guessLabel) elements.guessLabel.classList.remove('hidden');
+
     // MODE SPECIFIC UI
     if (state.mode === 'date') {
         // Date Only: Show input, Hide map
@@ -240,17 +240,20 @@ function setupRoundInputs() {
         elements.yearInput.focus({ preventScroll: true });
         
     } else if (state.mode === 'place') {
-        // Place Only: Hide input, Show map immediately
+        // Place Only: Hide input/label, Show map immediately
         elements.yearInput.classList.add('hidden');
+        if(elements.guessLabel) elements.guessLabel.classList.add('hidden');
+        
         elements.guessMap.classList.remove('hidden');
         if (state.mapInstance) state.mapInstance.invalidateSize();
+        
         elements.submitBtn.textContent = "Place Pin on Map";
         
     } else {
         // Classic (Both): Show input, Hide map initially
         elements.yearInput.classList.remove('hidden');
         elements.guessMap.classList.add('hidden');
-        elements.submitBtn.textContent = "Next: Guess Location";
+        elements.submitBtn.textContent = "Confirm Year";
         elements.yearInput.focus({ preventScroll: true });
     }
 }
@@ -280,8 +283,8 @@ function handlePhaseSubmit() {
     }
 
     // === CLASSIC MODE (Two Phases) ===
-    // Phase 1: Year Guess
     if (state.yearGuess === null) {
+        // Phase 1
         const input = elements.yearInput.value;
         const guess = parseYearInput(input);
 
@@ -300,7 +303,7 @@ function handlePhaseSubmit() {
         elements.submitBtn.textContent = "Place Pin on Map";
         
     } else {
-        // Phase 2: Location Guess
+        // Phase 2
         if (!state.locationGuess) {
             warnButton("Please Click Map First!");
             return;
@@ -314,7 +317,6 @@ function warnButton(msg) {
     elements.submitBtn.textContent = msg;
     elements.submitBtn.classList.add('error-pulse');
     setTimeout(() => {
-        // Only revert if we haven't successfully guessed in the meantime
         if (elements.submitBtn.textContent === msg) {
             elements.submitBtn.textContent = "Place Pin on Map";
             elements.submitBtn.classList.remove('error-pulse');
@@ -371,8 +373,11 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
     const userYear = state.yearGuess !== null ? formatYear(state.yearGuess) : "-";
     const distText = distance !== null ? `${Math.round(distance)} km` : "-";
 
-    // Build the grid based on mode
-    let gridHTML = '<div class="result-grid">';
+    // Add 'single-mode' class if only one card will be shown
+    const isSingleMode = (state.mode === 'date' || state.mode === 'place');
+    const gridClass = isSingleMode ? 'result-grid single-mode' : 'result-grid';
+
+    let gridHTML = `<div class="${gridClass}">`;
     
     // Year Card
     if (state.mode !== 'place') {
@@ -408,23 +413,21 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
 
     elements.resultDisplay.innerHTML = resultHTML;
 
-    // Timeline Viz (Only if Date mode or Classic)
+    // Timeline Viz
     if (state.mode !== 'place' && state.yearGuess !== null) {
         displayTimeline(state.yearGuess, actualYear);
     } else {
         elements.timelineViz.innerHTML = '';
     }
 
-    // Map Viz (Only if Place mode or Classic)
+    // Map Viz
     if (state.mode !== 'date') {
-        // Need specific style to ensure visibility
         elements.resultMap.style.display = 'block'; 
         displayResultMap();
     } else {
         elements.resultMap.style.display = 'none';
     }
 
-    // Explanations
     let explanationHTML = `<h3>Historical Context</h3><p>${state.currentCampaign.explanation}</p>`;
     const revealedHints = state.currentCampaign.hints.slice(0, state.hintsRevealed);
     for (const hint of revealedHints) {
@@ -432,8 +435,6 @@ function displayResult(yearPoints, mapPoints, distance, hintPenalty) {
     }
     elements.explanation.innerHTML = explanationHTML;
 }
-
-// ... (displayResultMap, getDistanceFromLatLonInKm, deg2rad, calculateMapScore, calculateScore, displayTimeline... Keep existing math functions) ...
 
 function displayResultMap() {
     const c = state.currentCampaign;
@@ -448,7 +449,6 @@ function displayResultMap() {
         maxZoom: 19
     }).addTo(state.resultMapInstance);
 
-    // Actual Location
     const actualIcon = L.divIcon({
         className: 'custom-pin actual-pin',
         html: `<div style="background-color: #2e7d32; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>`
@@ -456,7 +456,6 @@ function displayResultMap() {
     L.marker([c.latitude, c.longitude], {icon: actualIcon}).addTo(state.resultMapInstance)
      .bindPopup("Actual Location").openPopup();
 
-    // User Guess
     if (state.locationGuess) {
         const guessIcon = L.divIcon({
             className: 'custom-pin guess-pin',
@@ -603,7 +602,6 @@ function getScoreClass(pts) {
 function endGame() {
     showScreen(elements.endScreen);
     
-    // Max score varies by mode!
     let ptsPerRound = (state.mode === 'classic') ? 200 : 100;
     const maxPossible = state.roundResults.length * ptsPerRound;
     
@@ -624,7 +622,6 @@ function endGame() {
 }
 
 function saveHighScore(score, maxPossible) {
-    // Include mode in key to separate high scores
     const key = `highscore_${state.difficulty}_${state.totalRounds}_${state.mode}`;
     const existing = localStorage.getItem(key);
     if (!existing || score > parseInt(existing)) localStorage.setItem(key, score);
@@ -635,9 +632,7 @@ function displayHighScore() {
     if (!elements.difficultySelect) return;
     const difficulty = elements.difficultySelect.value;
     const rounds = elements.roundsSelect.value;
-    // Get mode safely (might not be initialized yet)
     const mode = elements.modeSelect ? elements.modeSelect.value : 'classic';
-    
     const key = `highscore_${difficulty}_${rounds}_${mode}`;
     const score = localStorage.getItem(key);
     

@@ -635,3 +635,15 @@ h1 {
     background: transparent;
     border: none;
 }
+
+/* Center the scorecard if there is only one result */
+.result-grid.single-mode {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto 1rem auto;
+}
+
+/* Ensure hidden really means hidden */
+.hidden {
+    display: none !important;
+}
