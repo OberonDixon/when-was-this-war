@@ -504,3 +504,120 @@ h1 {
         font-size: 3rem;
     }
 }
+/* --- Map Containers --- */
+#guess-map, #result-map {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    z-index: 1; /* Ensures map stays below overlaid UI elements if any */
+}
+
+/* Leaflet fix for dark mode if you have one, 
+   keeps tiles readable */
+.leaflet-container {
+    background: #f8f9fa;
+}
+
+/* --- Two-Column Result Grid --- */
+.result-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* On mobile, stack them vertically */
+@media (max-width: 600px) {
+    .result-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- Result Cards --- */
+.result-card {
+    background: #f8f9fa; /* Light grey background */
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dark mode support for cards (optional, adjust colors to match your theme) */
+@media (prefers-color-scheme: dark) {
+    .result-card {
+        background: #2a2a2a;
+        border-color: #444;
+    }
+}
+
+.result-card h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.guess-val {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.actual-val {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.75rem;
+}
+
+.penalty-text {
+    color: #c62828;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.round-total {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+/* --- Score Pills --- */
+.pts-pill {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+}
+
+.pts-pill.perfect { background-color: #2e7d32; } /* Green */
+.pts-pill.good    { background-color: #1565c0; } /* Blue */
+.pts-pill.okay    { background-color: #f57f17; } /* Orange */
+.pts-pill.miss    { background-color: #c62828; } /* Red */
+
+/* --- Primary Action Button Styling --- */
+/* Highlights the button when it's time to confirm map choice */
+#submit-btn.primary-action {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
+
+/* --- Map Pin Customization --- */
+/* Removes default leaflet square background from our custom div icons */
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}
