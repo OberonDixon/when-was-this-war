@@ -4393,5 +4393,215 @@ The consequences were concrete: within months, four neighboring kingdoms submitt
         tags: ["pitched-battle", "9th-century", "europe"],
         latitude: 51.5333,
         longitude: -1.8000
+    },
+    {
+        id: "campaign_210",
+        title: "The Wars of Unification",
+        actualYear: -221,
+        latitude: 34.3416,
+        longitude: 108.9398,
+        difficulty: "hard",
+        description: `A single state, renowned for its ruthless efficiency and legalist philosophy, launches a final series of campaigns to annex six remaining rival kingdoms, ending centuries of feudal fragmentation and endemic warfare.
+
+The conquering army had been reformed over generations into a professional force organized by strict merit. Soldiers were promoted based on the number of enemy heads taken in battle, creating a fearsome incentive structure. The army relied on massed infantry formations equipped with standardized bronze crossbow triggers—mass-produced to such precision that parts were interchangeable between weapons—and long iron swords that were replacing the shorter bronze blades of the previous era.
+
+Logistics were revolutionized by the standardization of axle widths, allowing supply wagons to travel on unified road networks across newly seized territories. Chariot-based aristocratic warfare, which had dominated for centuries, gave way entirely to disciplined infantry levies numbering in the hundreds of thousands.
+
+The final rival kingdom surrendered without a battle, and the victorious ruler declared himself the first emperor of a unified realm—a title no one had claimed before. He immediately standardized weights, measures, currency, and even the written script across his new domain.`,
+        hints: [
+            { cost: 20, text: "Mass-produced bronze crossbow mechanisms with interchangeable parts were standard military equipment from the 4th to 2nd centuries BCE in this region.", explanation: "Standardization allowed for the rapid equipping of enormous peasant levies." },
+            { cost: 25, text: "The transition from bronze to iron weapons occurred unevenly across the ancient world. In this case, iron swords coexisted with bronze crossbow triggers in the 3rd century BCE.", explanation: "This technological overlap helps narrow the period." }
+        ],
+        explanation: "This was the Unification of China by the State of Qin in 221 BCE. King Zheng (later Qin Shi Huang) conquered the final rival state of Qi, founding the Qin Dynasty and becoming the first Emperor. The Qin army's success relied on legalist military reforms and the mass production of standardized weapons—archaeologists found thousands of interchangeable bronze crossbow triggers in the Terracotta Army pits. The shift from aristocratic chariot warfare to mass infantry levies armed with crossbows and iron weaponry defines the transition from the Warring States period to the Imperial era.",
+        tags: ["land", "3rd-century-bce", "east-asia"]
+    },
+    {
+        id: "campaign_211",
+        title: "The Rebel General's March",
+        actualYear: 755,
+        latitude: 34.6342,
+        longitude: 112.4509,
+        difficulty: "hard",
+        description: `A frontier general of foreign extraction, commanding veteran border troops hardened by years of campaigning against steppe nomads, turns his armies against the imperial court. His rebellion exploits the vast distances of the empire and the complacency of a government that had enjoyed decades of prosperity and cultural flowering.
+
+The rebel forces are built around heavy armored cavalry—cataphracts in which both horse and rider wear articulated iron lamellar armor—supported by skilled mounted archers recruited from the frontier peoples. These veterans are far superior to the hastily conscripted imperial loyalist forces, who have not seen serious combat in a generation.
+
+The eastern capital falls quickly. The emperor flees, his army mutinies along the road, and his most powerful consort is executed by the imperial guard as the price of their continued loyalty. Garrisons must be recalled from distant western territories to defend the heartland, permanently ending the empire's expansion along the great overland trade routes.
+
+The rebellion takes eight years to suppress and devastates the heartland so thoroughly that census records show a population drop of tens of millions—reflecting the total collapse of the administrative system as much as direct mortality.`,
+        hints: [
+            { cost: 20, text: "Lamellar armor—small rectangular plates laced together with cord—dominated cavalry warfare in this region from roughly the 4th to 10th centuries.", explanation: "Lamellar replaced earlier scale armor and preceded the later brigandine." },
+            { cost: 25, text: "The recall of western frontier garrisons permanently ended imperial control of overland trade routes in the mid-8th century.", explanation: "This withdrawal marks a pivotal geopolitical shift." }
+        ],
+        explanation: "This was the An Lushan Rebellion (755–763), which nearly destroyed the Tang Dynasty. An Lushan, a general of Sogdian and Göktürk descent, led the frontier armies of Fanyang against Emperor Xuanzong. The rebellion is famous for its staggering demographic impact—census records drop by tens of millions, reflecting state collapse as much as mortality. The loyalists saved the dynasty only by allying with the Uighur Khaganate, but the Tang never regained control of the Silk Road.",
+        tags: ["land", "8th-century", "east-asia"]
+    },
+    {
+        id: "campaign_212",
+        title: "The Great Fleet's Departure",
+        actualYear: 1405,
+        latitude: 32.0603,
+        longitude: 118.7969,
+        difficulty: "medium",
+        description: `A massive armada assembles in a river estuary, comprising over three hundred vessels including the largest wooden ships ever constructed. The flagships—so-called "treasure ships"—are reportedly over four hundred feet long with nine masts, dwarfing any vessels built elsewhere in the world at the time. Their hulls incorporate watertight bulkhead compartments and stern-post rudders, technologies centuries ahead of other seafaring traditions.
+
+The fleet carries thousands of soldiers, translators, and merchants, along with vast quantities of silk and porcelain intended as diplomatic gifts. Yet this is not a voyage of conquest—the fleet's purpose is to project imperial power, collect tribute from foreign rulers, and chart the sea routes connecting dozens of kingdoms and sultanates across distant oceans.
+
+The eunuch admiral commanding the fleet is a Muslim of foreign ancestry, appointed by an emperor who seized his throne through civil war and seeks legitimacy through spectacular displays of power. The fleet will make seven voyages over three decades, reaching shores thousands of miles away.
+
+Then, abruptly, it all stops. Court factions who view the voyages as extravagant and the admiral's influence as dangerous prevail. The great ships are dismantled, the records ordered destroyed, and the empire turns inward for centuries.`,
+        hints: [
+            { cost: 20, text: "Watertight bulkhead compartments in ship construction were standard in this tradition by the 12th century—centuries before they appeared elsewhere.", explanation: "This technology allowed for the construction of unprecedentedly large wooden vessels." },
+            { cost: 25, text: "State-sponsored oceanic expeditions of this scale occurred only in the early 15th century, ceasing abruptly within a few decades due to court factionalism.", explanation: "The fleet was dismantled and never rebuilt." }
+        ],
+        explanation: "This was the first voyage of the Treasure Fleet commanded by Admiral Zheng He in 1405. Under the Yongle Emperor of the Ming Dynasty, China projected naval power as far as East Africa and the Red Sea. The 'Treasure Ships' (baochuan) were likely the largest wooden ships ever built. The voyages were stopped in 1433 by Confucian officials who viewed them as wasteful and feared the rising power of the eunuch faction to which Zheng He belonged.",
+        tags: ["naval", "15th-century", "east-asia"]
+    },
+    {
+        id: "campaign_213",
+        title: "The Iron Fleet",
+        actualYear: 1841,
+        latitude: 23.1291,
+        longitude: 113.2644,
+        difficulty: "medium",
+        description: `An expeditionary naval force from a distant maritime power navigates shallow river networks using a revolutionary new weapon: iron-hulled paddle steamers. These vessels, impervious to the fire-rafts and war junks of the defending empire, bypass formidable coastal fortifications by steaming directly upriver into the heartland.
+
+The expeditionary troops carry percussion-cap muskets, which fire reliably in the humid climate that would render the defenders' matchlock mechanisms useless. Their mobile field artillery outranges the defenders' fixed heavy cannons, which are bolted into static positions on fortress walls and cannot be traversed to track moving vessels.
+
+The defenders, despite fielding far larger numbers, rely on military technology that has not fundamentally changed in two centuries. Their matchlock muskets, smooth-bore cannon, and war junks—wooden vessels propelled by oars and sails—are hopelessly outclassed. Attempts to deploy fire-rafts against the enemy fleet are easily evaded by the maneuverable steam-powered warships.
+
+The resulting defeat forces the ancient empire to sign a humiliating treaty opening multiple ports to foreign trade and ceding a strategic island. It marks the beginning of a century of unequal treaties and foreign encroachment.`,
+        hints: [
+            { cost: 20, text: "Iron-hulled paddle-wheel steam warships first saw combat in the late 1830s and early 1840s, before screw propellers replaced paddlewheels.", explanation: "These vessels were devastating in riverine warfare against wooden fleets." },
+            { cost: 25, text: "Percussion-cap ignition replaced flintlock mechanisms in modern armies during the 1830s and 1840s, offering reliable firing in wet weather.", explanation: "This technology gap was decisive in humid theaters of war." }
+        ],
+        explanation: "This was the Second Battle of Canton (1841) during the First Opium War. The British steamer HMS Nemesis, the first iron-hulled warship to see action in China, devastated the Qing dynasty's war junks. The technological disparity was stark: British forces used percussion-cap Brunswick rifles and Congreve rockets, while Qing troops were largely equipped with matchlocks and bows. The defeat led to the Treaty of Nanking and the cession of Hong Kong.",
+        tags: ["naval", "19th-century", "east-asia"]
+    },
+    {
+        id: "campaign_214",
+        title: "The Retreat to the Caves",
+        actualYear: 1935,
+        latitude: 36.6512,
+        longitude: 109.4842,
+        difficulty: "medium",
+        description: `A revolutionary army of roughly eighty thousand soldiers, encircled by a vastly superior nationalist force, breaks through the siege lines and begins a desperate retreat. What follows is a circuitous march of over nine thousand kilometers through some of the most punishing terrain on the continent—snow-covered mountain passes above four thousand meters, malarial swamps, and territories controlled by hostile warlords.
+
+The retreating army is armed with a hodgepodge of captured bolt-action rifles, stick grenades, and a handful of light machine guns. They carry no heavy weapons—their few field pieces are abandoned early when the mountain trails become impassable. The nationalist forces pursuing them enjoy air superiority, using biplanes to strafe the columns on open ground.
+
+Warlord cavalry harasses the flanks. River crossings become desperate battles as advance units seize bridges under fire or construct improvised pontoons. Political leadership of the movement changes hands during the march as military setbacks discredit the original commanders and elevate a new leader who advocates guerrilla tactics over conventional positional warfare.
+
+Less than a tenth of the original force survives to reach a remote base area, sheltering in cave dwellings carved into soft yellowish sediment cliffs. Yet this catastrophic retreat becomes the founding myth of a revolutionary movement that will ultimately seize power across the entire country.`,
+        hints: [
+            { cost: 20, text: "Bolt-action rifles were the standard infantry weapon worldwide from the 1890s through the 1940s. The mix of captured weapons from multiple nations suggests an irregular force.", explanation: "The absence of semi-automatic weapons narrows the period to before 1945." },
+            { cost: 25, text: "Biplane ground-attack aircraft were used for strafing in the 1920s and 1930s, before being replaced by monoplanes in most air forces.", explanation: "Air superiority over ground forces without anti-aircraft weapons was devastating." }
+        ],
+        explanation: "This was the end of the Long March in 1935, specifically the arrival of the Chinese Red Army at Yan'an in Shaanxi province. Under the command of Mao Zedong, the Communists retreated from the Jiangxi Soviet to escape Chiang Kai-shek's Kuomintang encirclement campaigns. Of the approximately 86,000 who started, only about 7,000 reached their destination. This survival became the foundational myth of the People's Republic of China and solidified Mao's leadership.",
+        tags: ["land", "20th-century", "east-asia"]
+    },
+    {
+        id: "campaign_215",
+        title: "The Battle of the Savannah",
+        actualYear: 1235,
+        latitude: 12.6392,
+        longitude: -8.0029,
+        difficulty: "hard",
+        description: `On the broad grasslands between the great desert to the north and the dense forests to the south, a coalition of clans rises against a tyrannical sorcerer-king who has subjugated them. The coalition is led by a prince who, according to oral tradition, overcame childhood paralysis to become a great warrior and hunter.
+
+The armies fight primarily on foot with iron-tipped spears, swords, and bows, but the decisive innovation is the use of heavy cavalry. Riders wear quilted cotton armor—multiple layers stitched tightly together—that provides effective protection against arrows and slashing blades while remaining light enough for the scorching climate. Their mounts are larger breeds acquired through long-distance trade, giving them a significant advantage over infantry formations.
+
+The sorcerer-king is said to possess supernatural powers that make him invulnerable to iron weapons. According to the epic tradition preserved by hereditary storytellers, the coalition prince defeats him using a specially crafted arrow or spear tipped with a rooster's spur—the one material to which the sorcerer is vulnerable.
+
+The victory establishes a vast new empire controlling the lucrative gold and salt trade routes that cross the great desert. Within a century, its wealth will astound foreign visitors, and one of its rulers will become legendary for distributing so much gold on a pilgrimage abroad that he crashes the metal's value in foreign markets for a decade.`,
+        hints: [
+            { cost: 20, text: "Cavalry warfare became dominant in the semi-arid grasslands south of the great desert during the 13th century, enabled by access to larger horse breeds and iron weaponry.", explanation: "Earlier warfare in the region was predominantly infantry-based." },
+            { cost: 25, text: "Quilted cotton armor, made from multiple compressed layers, was the standard cavalry protection in this region from the 1200s through the 1600s.", explanation: "It was lightweight, effective against arrows, and suited to hot climates." }
+        ],
+        explanation: "This was the Battle of Kirina in 1235, where Sundiata Keita defeated the Sorcerer King Soumaoro Kanté of the Sosso Kingdom. The victory led to the founding of the Mali Empire, which would become one of the wealthiest states in the medieval world—most famously through Mansa Musa's legendary pilgrimage to Mecca in 1324, during which he distributed so much gold that he depressed its price in Egypt for years. The battle is preserved in the Epic of Sundiata, maintained by griots (hereditary oral historians).",
+        tags: ["land", "13th-century", "west-africa"]
+    },
+    {
+        id: "campaign_216",
+        title: "The Gunpowder Victory",
+        actualYear: 1526,
+        latitude: 29.3909,
+        longitude: 76.9635,
+        difficulty: "medium",
+        description: `A brilliant but dispossessed prince, descended from two of history's greatest conquerors, leads a small army across mountain passes from his impoverished homeland to challenge the sultan of a wealthy and populous kingdom. Despite being outnumbered by as much as ten to one, the invader possesses a decisive technological advantage: field artillery and matchlock firearms, weapons his opponents have never encountered on a battlefield.
+
+The invader deploys his cannons secured by leather thongs to a line of carts, creating an improvised fortification. Behind this barrier, matchlock musketeers fire from protected positions using forked rests to steady their heavy weapons. Gaps between the carts allow cavalry to sally forth and withdraw.
+
+The sultan responds with his most fearsome weapon: over a thousand war elephants, armored and carrying archers in wooden howdahs on their backs. But when the cannons roar, the elephants panic and stampede backward through their own lines, crushing infantry and spreading chaos. The invader's light cavalry exploits the disorder with sweeping flanking movements, encircling and destroying the broken army.
+
+The sultan dies on the battlefield. The invader, a poet and memoirist as much as a warrior, records the victory in meticulous detail in his autobiography—one of the great works of world literature—before establishing a dynasty that will rule for three centuries.`,
+        hints: [
+            { cost: 20, text: "Field artillery appeared on battlefields outside of Europe beginning in the early 16th century, often introduced by commanders who had learned from Ottoman military innovations.", explanation: "The combination of cannons lashed to carts was a tactic borrowed from steppe and Ottoman warfare." },
+            { cost: 25, text: "War elephants remained a significant military force in southern regions until gunpowder weapons made them a liability, roughly 1500–1600.", explanation: "Elephants panicking from cannon fire was a recurring problem in this transitional period." }
+        ],
+        explanation: "This was the First Battle of Panipat in 1526. Babur, a descendant of both Tamerlane and Genghis Khan, defeated Sultan Ibrahim Lodi to establish the Mughal Empire. Babur's use of the tulughma (flanking) tactic and field artillery—technology unknown to the Lodi dynasty—negated the Sultan's massive advantage in numbers and war elephants. Babur recorded the battle in vivid detail in the Baburnama, his celebrated autobiography. This battle marks the beginning of the gunpowder age in the Indian subcontinent.",
+        tags: ["land", "16th-century", "south-asia"]
+    },
+    {
+        id: "campaign_217",
+        title: "The Mountain Crossing",
+        actualYear: 1817,
+        latitude: -32.9392,
+        longitude: -70.7099,
+        difficulty: "medium",
+        description: `A revolutionary general leads an army of five thousand infantry and mounted grenadiers on an audacious crossing of one of the world's highest mountain ranges. The army dismantles its field cannons and loads them onto mule trains for the treacherous passage through passes above four thousand meters, where altitude sickness and freezing temperatures claim soldiers and animals alike.
+
+The army crosses in multiple columns through different passes to confuse the royalist defenders on the far side. The plan depends on precise timing—the columns must converge simultaneously despite traveling different routes through unmapped mountain terrain.
+
+The royalist garrison, loyal to the colonial monarchy, is caught off guard. In the battle that follows, the revolutionary infantry forms disciplined squares to repel cavalry charges while the patriot mounted grenadiers execute a devastating pincer movement against the flanks. The flintlock muskets of both armies are identical in technology—the advantage lies entirely in surprise, morale, and tactical skill.
+
+The victory liberates the colonial capital on the western side of the mountains and is hailed as one of the great military feats of the era, frequently compared to the legendary alpine crossings of antiquity. The general, however, considers it merely a stepping stone toward the liberation of an entire continent from colonial rule.`,
+        hints: [
+            { cost: 20, text: "Infantry squares were the standard defensive formation against cavalry from the mid-18th century through the 1850s, when rifled weapons made such dense formations suicidal.", explanation: "The ability to hold a square required excellent discipline and drill." },
+            { cost: 25, text: "Flintlock smoothbore muskets were the dominant infantry weapon from roughly 1700 to 1840. Percussion caps began replacing flintlocks in the 1830s.", explanation: "The absence of percussion-cap weapons helps narrow the timeframe." }
+        ],
+        explanation: "This was the Battle of Chacabuco in 1817, following the Army of the Andes' epic crossing led by General José de San Martín. Fighting to liberate Chile from Spanish Royalist rule, San Martín's maneuver is often compared to Hannibal's crossing of the Alps. The victory captured the Royalist capital of Santiago and was a decisive moment in the South American Wars of Independence.",
+        tags: ["land", "19th-century", "south-america"]
+    },
+    {
+        id: "campaign_218",
+        title: "The Battle of the Horns",
+        actualYear: 1187,
+        latitude: 32.7994,
+        longitude: 35.4554,
+        difficulty: "hard",
+        description: `A powerful sultan, having unified the fractious kingdoms around him, marches to destroy the field army of a foreign-born warrior kingdom established by religious invaders nearly a century earlier. He chooses his moment carefully, luring the enemy army into marching across a waterless plateau in the height of summer.
+
+The invaders' field army—the entire military strength of their kingdom—consists of heavily armored knights in full chain mail hauberks and great helms, supported by infantry crossbowmen. The weight of their armor is an advantage in the shock of a charge but a death sentence in blistering heat without water. The knights' warhorses, also suffering from thirst, can barely be goaded into a gallop.
+
+The sultan's forces are predominantly light cavalry archers, mounted on swift horses and wearing lighter mail or lamellar armor. They maintain distance, pouring arrows into the staggering columns. When the desperate knights attempt to reach a nearby water source, they find the sultan's troops blocking every approach. Grass fires are lit, and the smoke chokes the exhausted men further.
+
+By the end of the day, the invader army is annihilated on a twin-peaked hill. The king himself is captured, along with the kingdom's most sacred religious relic. With no field army remaining, the holy city that justified the invaders' presence falls within months, shocking the western world and provoking a massive military response.`,
+        hints: [
+            { cost: 20, text: "Great helms and full mail hauberks were standard European heavy cavalry equipment in the 12th century. Plate armor would not become common for another two centuries.", explanation: "The armor type helps place this in the High Middle Ages." },
+            { cost: 25, text: "The composite recurve bow used by horse archers in this period could fire accurately at a gallop, giving light cavalry a decisive advantage over slower heavy cavalry in open terrain.", explanation: "This asymmetry defined warfare in the region during the 12th and 13th centuries." }
+        ],
+        explanation: "This was the Battle of Hattin in 1187. Saladin (Salah ad-Din) annihilated the army of the Kingdom of Jerusalem, capturing King Guy de Lusignan and the relic of the True Cross. Saladin exploited the terrain and climate, cutting the Crusaders off from water. The destruction of the field army left the Crusader Kingdom defenseless, leading to the fall of Jerusalem later that year and sparking the Third Crusade.",
+        tags: ["land", "12th-century", "middle-east"]
+    },
+    {
+        id: "campaign_219",
+        title: "The Fall of the Temple City",
+        actualYear: 1431,
+        latitude: 13.4125,
+        longitude: 103.8670,
+        difficulty: "hard",
+        description: `After a siege lasting seven months, invaders from a rival kingdom to the west breach the walls of what may be the largest city in the world—a vast hydraulic metropolis whose elaborate system of reservoirs, canals, and moats supports a population approaching a million people. At its heart stand hundreds of stone temple complexes, their towers carved to resemble divine faces gazing serenely in every direction.
+
+The besieging army employs war elephants mounted with light swivel guns and ballistae to clear the ramparts. The defenders' fortifications are formidable—a massive moat system and laterite walls—but the prolonged siege exhausts the city's supplies. The hydraulic infrastructure that made the city possible becomes a vulnerability: the complex water management system, dependent on constant maintenance, begins to fail as the siege disrupts normal operations.
+
+The invaders sack the city, carrying away treasures, court dancers, scholars, and artisans. The political center of the defeated empire shifts south to a river confluence better suited for maritime trade, abandoning the great inland capital and its monumental architecture.
+
+Within decades, the jungle begins reclaiming the temples and reservoirs. The largest religious monument ever constructed—originally dedicated to one faith, later converted to another—stands as a silent testament to a civilization that at its height was the most extensive urban complex in the pre-industrial world.`,
+        hints: [
+            { cost: 20, text: "Swivel guns—small cannon mounted on pivots—first appeared on war elephants in the early 15th century, marking the integration of gunpowder weapons into traditional elephant warfare.", explanation: "This hybrid tactic was short-lived as firearms soon made elephants obsolete on most battlefields." },
+            { cost: 25, text: "The decline of great inland agrarian empires in tropical regions during the 1400s was often driven by shifts toward coastal maritime trade and ecological pressures on hydraulic infrastructure.", explanation: "Power moved from inland capitals to coastal and riverine trading cities." }
+        ],
+        explanation: "This was the Sack of Angkor in 1431 by the Ayutthaya Kingdom (modern Thailand). The defeat of the Khmer Empire marked the end of the Angkorian period. While Angkor Wat was never completely abandoned, the Khmer court moved south to Phnom Penh to tap into maritime trade and escape proximity to the rival kingdom. The jungle slowly reclaimed the vast urban complex, which at its peak was the largest pre-industrial city in the world, with a sophisticated hydraulic system supporting nearly a million inhabitants.",
+        tags: ["siege", "15th-century", "southeast-asia"]
     }
 ];
