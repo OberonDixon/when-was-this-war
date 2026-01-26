@@ -16,7 +16,9 @@ The final assault came through a gate left unlocked in the confusion of battle. 
             { cost: 25, text: "Crossbows dominated European armies from about 1100 to 1450. Handguns (arquebuses) began replacing them in the late 15th century and were standard by 1550.", explanation: "The reliance on crossbows over handguns helps date this battle." }
         ],
         explanation: "This was the Fall of Constantinople in 1453—the end of the Byzantine Empire after 1,123 years. Sultan Mehmed II ('the Conqueror'), age 21, besieged the city with ~80,000 Ottoman troops against Emperor Constantine XI Palaiologos's 7,000 defenders. The massive bombards were cast on-site by Hungarian engineer Orban; the largest required 60 oxen to move. Constantine XI died fighting on the walls—the last Roman Emperor. The city became Istanbul, Ottoman capital for 460 years. The bombards having to be cast on-site places this in the early gunpowder period; by the 1480s mobile bronze cannon had made such monsters obsolete. Defenders using crossbows rather than handguns suggests before 1500, when arquebuses became standard. A thousand-year empire whose emperor dies in the final defense can only be Byzantium.",
-        tags: ["siege", "15th-century", "mediterranean", "ottoman", "byzantine"]
+        tags: ["siege", "15th-century", "mediterranean", "ottoman", "byzantine"],
+        latitude: 41.0082,
+        longitude: 28.9784
     },
     {
         id: "campaign_002",
@@ -35,7 +37,9 @@ When the imperial cavalry shattered the northern left wing, the day seemed lost.
             { cost: 25, text: "The massive pike-and-musket squares (tercios) dominated from the 1530s to about 1640. Shallower linear formations then proved superior and replaced them.", explanation: "The tactical transition described helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Breitenfeld in 1631, during the Thirty Years' War. King Gustavus Adolphus of Sweden—the 'Lion of the North'—defeated the Catholic Imperial army under Count Tilly. Gustavus revolutionized warfare: shallower formations (6 ranks vs 30), mobile artillery, cavalry charging home with swords instead of the ineffective pistol caracole. Tilly lost 13,000 dead and his aura of invincibility. Gustavus died the next year at Lützen but changed warfare forever. The tercio formation losing to shallower linear tactics marks the 1630s-40s transition point. Matchlocks rather than flintlocks, partial armor rather than full plate, and no bayonets yet all point to the early-to-mid 17th century.",
-        tags: ["pitched-battle", "17th-century", "germany", "thirty-years-war"]
+        tags: ["pitched-battle", "17th-century", "germany", "thirty-years-war"],
+        latitude: 51.4070,
+        longitude: 12.3360
     },
     {
         id: "campaign_003",
@@ -54,7 +58,9 @@ The siege demonstrated the increasing lethality of defensive warfare and the nee
             { cost: 20, text: "Military telegraph communication became standard in the 1860s. The reference to 'lessons relearned decades later' points to a major early 20th-century conflict.", explanation: "The telegraph and the foreshadowing help narrow the timeframe." }
         ],
         explanation: "This was the Siege of Plevna (1877) in the Russo-Turkish War. Ottoman commander Osman Pasha held the Bulgarian town for 5 months against repeated Russian assaults, proving that breech-loading rifles behind earthworks could slaughter massed infantry. The Russians lost 40,000+ casualties before starving the garrison out. European observers took detailed notes—then ignored the lessons until WWI proved them catastrophically correct. The single-shot breech-loaders that could be loaded prone place this between 1860 (when they replaced muzzle-loaders) and 1890 (when magazine rifles took over). An army of 185,000 requires railroad logistics, which became militarily decisive in the 1860s. The reference to lessons 'relearned decades later' points toward WWI.",
-        tags: ["siege", "19th-century", "balkans", "ottoman", "russia"]
+        tags: ["siege", "19th-century", "balkans", "ottoman", "russia"],
+        latitude: 43.4167,
+        longitude: 24.6167
     },
     {
         id: "campaign_004",
@@ -73,7 +79,9 @@ The captured king would spend a year as a prisoner before being ransomed for an 
             { cost: 25, text: "The pike-to-shot ratio of 3:1 was typical of the early 1500s. By 1600 it was closer to 1:1, and by 1700 pikes were obsolete, replaced by bayonets.", explanation: "The formation ratio helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Pavia in 1525, during the Italian Wars. King Francis I of France was captured—the first French king taken in battle since Poitiers (1356). Spanish arquebusiers under the Marquis of Pescara shot down the French knights from behind hedges; the 'flower of French chivalry' died in minutes. Francis was imprisoned in Madrid for a year. His famous letter to his mother: 'All is lost save honor.' The heavy arquebuses requiring forked rests place this 1500-1550; lighter models came mid-century. A 3:1 pike-to-shot ratio was typical of the early 1500s (by 1600 it was 1:1, by 1700 pikes were gone). Knights still charging en masse suggests before 1550—after that, firearms made such tactics suicidal.",
-        tags: ["pitched-battle", "16th-century", "italy"]
+        tags: ["pitched-battle", "16th-century", "italy"],
+        latitude: 45.1950,
+        longitude: 9.1550
     },
     {
         id: "campaign_005",
@@ -92,7 +100,9 @@ The war ended in negotiated access for pilgrims—a pale shadow of original ambi
             { cost: 25, text: "Chain mail hauberks without plate armor were standard from about 1000 to 1250. Plate armor began appearing in the late 13th century and dominated by 1400.", explanation: "The armor type helps narrow the timeframe." }
         ],
         explanation: "This was the Third Crusade (1189-1192). Richard I 'the Lionheart' of England and Philip II of France answered Saladin's capture of Jerusalem in 1187. Emperor Frederick Barbarossa drowned crossing a river in Anatolia. Richard besieged Acre for two years, massacred 2,700 prisoners when Saladin delayed ransom, and won at Arsuf—but never took Jerusalem. He famously refused to even look at the city he couldn't capture. The equipment is classic High Medieval: chain mail without plate (plate comes in around 1300), crossbows as the main missile weapon (before firearms). A king drowning on the journey and prisoners massacred during ransom negotiations are specific Third Crusade details.",
-        tags: ["crusade", "12th-century", "middle-east", "siege"]
+        tags: ["crusade", "12th-century", "middle-east", "siege"],
+        latitude: 32.9290,
+        longitude: 35.0710
     },
     {
         id: "campaign_006",
@@ -111,7 +121,9 @@ The victory transformed the continental balance of power and set the stage for u
             { cost: 20, text: "Railroads first played a decisive strategic role in military mobilization in the 1860s. Telegraph coordination of armies became standard in the same period.", explanation: "The transportation and communication technology helps narrow the timeframe." }
         ],
         explanation: "This was the Austro-Prussian War (Seven Weeks' War) of 1866. Prussia under Otto von Bismarck and General Helmuth von Moltke crushed Austria in just seven weeks, shocking Europe. At Königgrätz (Sadowa), Prussian needle guns fired 5 rounds to every Austrian muzzle-loader shot. Moltke pioneered railway mobilization—Prussia concentrated faster than anyone imagined. The victory excluded Austria from German affairs and enabled German unification under Prussia in 1871. The Dreyse needle gun (first widely-adopted bolt-action rifle) was in service 1848-1871. The decisive advantage of breech-loaders over muzzle-loaders—and the revolutionary use of railroads for mobilization—both mark the 1860s specifically.",
-        tags: ["pitched-battle", "19th-century", "central-europe"]
+        tags: ["pitched-battle", "19th-century", "central-europe"],
+        latitude: 50.2580,
+        longitude: 15.7670
     },
     {
         id: "campaign_007",
@@ -130,7 +142,9 @@ The armies who faced them—feudal knights from across the region—never develo
             { cost: 25, text: "The early 15th century was when firearms first achieved tactical parity with crossbows. By 1500, arquebuses were clearly superior; by 1550, crossbows were obsolete.", explanation: "The firearms-crossbow relationship helps narrow the timeframe." }
         ],
         explanation: "These were the Hussite Wars (1419-1434) in Bohemia (now Czech Republic). After reformer Jan Hus was burned at the stake in 1415, his followers revolted against the Catholic Church and Holy Roman Empire. General Jan Žižka, a one-eyed military genius, invented the Wagenburg—farm wagons chained into mobile fortresses with gunports. The Hussites defeated five crusades, terrifying enemies with battle hymns and fanatical discipline. They fell when moderates (Utraquists) allied with Catholics to destroy the radical Taborites at Lipany (1434). Hook-guns and crossbows used together indicates early gunpowder warfare—firearms were still unreliable enough to need crossbow backup. By 1500 arquebuses were clearly superior; before 1380 firearms barely existed in Europe. The war wagon tactics were a Hussite innovation specific to this conflict.",
-        tags: ["religious-war", "15th-century", "central-europe"]
+        tags: ["religious-war", "15th-century", "central-europe"],
+        latitude: 50.0860,
+        longitude: 14.4560
     },
     {
         id: "campaign_008",
@@ -151,7 +165,9 @@ The ensuing battle was a disaster. The exhausted, outnumbered invaders attacked 
             { cost: 25, text: "Smoothbore artillery firing solid shot was standard from the 16th century until explosive shells became reliable in the 1840s-1850s.", explanation: "The artillery technology provides a broad timeframe that other clues narrow." }
         ],
         explanation: "This was the Battle of Poltava (1709) in the Great Northern War. King Charles XII of Sweden—considered the era's greatest soldier—invaded Russia with 40,000 men but was destroyed by Tsar Peter the Great's scorched-earth tactics and the brutal winter of 1708-09 (the coldest in 500 years). Charles, wounded and carried on a litter, attacked with 20,000 survivors against 45,000 Russians and was annihilated. Sweden never recovered its great-power status; Peter built St. Petersburg and modernized Russia. Bayonets 'recently' replacing pikes is the key dating clue—that transition happened around 1690-1710. The 'coldest winter in a century' is historically famous as the Great Frost of 1709.",
-        tags: ["pitched-battle", "18th-century", "eastern-europe"]
+        tags: ["pitched-battle", "18th-century", "eastern-europe"],
+        latitude: 49.6300,
+        longitude: 34.5520
     },
     {
         id: "campaign_009",
@@ -170,7 +186,9 @@ The campaign was a strategic failure. Despite suffering fewer casualties, the in
             { cost: 20, text: "Observation balloons were first used militarily in the 1860s. Ironclad warships first saw combat in 1862.", explanation: "These technologies together pinpoint the era precisely." }
         ],
         explanation: "This was the Peninsula Campaign (1862) in the American Civil War. General George McClellan landed 100,000+ Union troops on the Virginia Peninsula to take Richmond. Despite outnumbering the Confederates, McClellan was paralyzed by caution, convinced (wrongly) he faced superior numbers. General Robert E. Lee counterattacked in the Seven Days Battles, driving McClellan back. Thaddeus Lowe's observation balloons provided the first aerial reconnaissance in warfare. The USS Monitor vs CSS Virginia had just demonstrated ironclad combat. Rifled muskets accurate to 500 yards replaced smoothbores in the 1850s. Observation balloons and ironclads both entered military use in the early 1860s—ironclads specifically in 1862, which pinpoints this precisely.",
-        tags: ["civil-war", "19th-century", "north-america", "siege"]
+        tags: ["civil-war", "19th-century", "north-america", "siege"],
+        latitude: 37.5260,
+        longitude: -77.4170
     },
     {
         id: "campaign_010",
@@ -189,7 +207,9 @@ This brief campaign demonstrated the power of mobile artillery and inaugurated d
             { cost: 25, text: "Pike and crossbow dominated infantry until about 1500. Arquebuses became the primary infantry firearm by 1530; crossbows were obsolete by 1550.", explanation: "The infantry weapons help narrow the timeframe." }
         ],
         explanation: "This was Charles VIII's invasion of Italy in 1494-1495, beginning the Italian Wars. The young French king's campaign inaugurated six decades of warfare over Italy. His artillery train—bronze cannon on wheeled carriages that could keep pace with infantry—was revolutionary; medieval walls crumbled in hours rather than months. The Italian city-states were shocked. Mobile bronze cannon first appeared in the 1490s; before this, artillery meant iron bombards too heavy to move quickly. Infantry still using pike and crossbow with arquebuses 'present but not dominant' indicates the narrow window before firearms took over around 1530.",
-        tags: ["invasion", "15th-century", "southern-europe"]
+        tags: ["invasion", "15th-century", "southern-europe"],
+        latitude: 44.6930,
+        longitude: 10.0990
     },
     {
         id: "campaign_011",
@@ -208,7 +228,9 @@ Infantry formed linear formations three ranks deep with flintlock muskets and so
             { cost: 25, text: "Cavalry lances fell out of use in Western European armies around 1600-1650, replaced by sword and pistol tactics. Lances returned in the early 1800s.", explanation: "The cavalry weapons help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Blenheim in 1704, during the War of the Spanish Succession. John Churchill, Duke of Marlborough, and Prince Eugene of Savoy marched 250 miles from the Netherlands to Bavaria, then crushed the French and Bavarian army. France lost 30,000 killed, wounded, or captured—their first major defeat since 1664. Marlborough became one of history's most celebrated generals. Three-rank linear formations with flintlock muskets and socket bayonets became the European standard around 1700. Cavalry using sword and pistol (rather than lances) indicates post-1650. The 'first major defeat in forty years' for the dominant power specifically suggests 1704.",
-        tags: ["pitched-battle", "18th-century", "central-europe"]
+        tags: ["pitched-battle", "18th-century", "central-europe"],
+        latitude: 48.6380,
+        longitude: 10.6130
     },
     {
         id: "campaign_012",
@@ -227,7 +249,9 @@ The defeated power signed a neutrality pact that would hold for nearly two years
             { cost: 25, text: "Military aviation transitioned from biplanes to monoplanes between 1935 and 1940. Mixed biplane/monoplane air forces indicate this brief transition period.", explanation: "The aircraft types help narrow the timeframe precisely." }
         ],
         explanation: "This was the Battle of Khalkhin Gol (Nomonhan) in 1939—a massive undeclared war between the Soviet Union and Japan on the Mongolian-Manchurian border. General Georgy Zhukov commanded Soviet forces, using combined-arms tactics that presaged his WWII victories. Japan suffered 18,000+ casualties and signed a neutrality pact in April 1941—freeing Stalin to focus on Germany and convincing Japan to expand south toward US/British colonies rather than north. The mixed biplane/monoplane air force indicates the brief 1935-1940 transition period. Light tanks dominating with medium tanks just entering service also suggests the late 1930s. The neutrality pact lasting 'nearly two years' before a greater test points to 1939.",
-        tags: ["pitched-battle", "20th-century", "asia"]
+        tags: ["pitched-battle", "20th-century", "asia"],
+        latitude: 47.7170,
+        longitude: 118.5830
     },
     {
         id: "campaign_013",
@@ -246,7 +270,9 @@ The empire's treasures were seized and sent home. A new colonial society emerged
             { cost: 25, text: "The combination of steel weapons, horses, and firearms against peoples without iron-working or cavalry occurred during the Age of Exploration, roughly 1490-1550.", explanation: "The technological mismatch helps narrow the timeframe." }
         ],
         explanation: "This was the Spanish Conquest of the Aztec Empire (1519-1521). Hernán Cortés landed with ~600 men and conquered Moctezuma II's empire of millions. The 'Noche Triste' (Sad Night) saw the Spanish driven from Tenochtitlan with heavy losses. Cortés allied with Tlaxcala and other peoples resentful of Aztec tribute, besieged the city with 13 brigantines he'd built, and took it after 80 days. Smallpox killed perhaps half the defenders. The empire became New Spain until Mexican independence in 1821. Matchlock arquebuses place this 1475-1650. Steel weapons, horses, and firearms meeting peoples without iron-working indicates the Age of Exploration (1490-1550). 'Three centuries' of colonial rule ending around 1820 points back to conquest around 1520.",
-        tags: ["conquest", "16th-century", "americas"]
+        tags: ["conquest", "16th-century", "americas"],
+        latitude: 19.4320,
+        longitude: -99.1330
     },
     {
         id: "campaign_014",
@@ -265,7 +291,9 @@ As darkness fell, both armies were fought out. The attackers claimed victory bec
             { cost: 25, text: "Artillery using canister and solid shot (before reliable explosive shells) indicates the period from 1700 to about 1840. Explosive shells became reliable in the 1840s-1850s.", explanation: "The artillery ammunition helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Eylau (1807), one of the bloodiest battles of the Napoleonic Wars. Napoleon fought the Russians and Prussians to a bloody stalemate in a blizzard; 40,000+ casualties for no decisive result. Marshal Murat's legendary cavalry charge of 10,000 horsemen briefly broke through the Russian center. It was Napoleon's first serious check, though he claimed victory when the allies withdrew. Smoothbore flintlock muskets were standard 1700-1840, but dense column formations (rather than thin lines) narrow this to the Napoleonic era (1792-1815). Explosive shells being unreliable indicates before the 1840s-50s when they improved.",
-        tags: ["pitched-battle", "19th-century", "eastern-europe", "napoleonic"]
+        tags: ["pitched-battle", "19th-century", "eastern-europe", "napoleonic"],
+        latitude: 54.4011,
+        longitude: 20.6275
     },
     {
         id: "campaign_015",
@@ -282,7 +310,9 @@ The victory became legendary, a symbol of resistance against western aggression.
             { cost: 25, text: "Composite bows used from horseback were a steppe military tradition from ancient times through the medieval period, roughly until firearms made them obsolete around 1500-1600.", explanation: "The combination of steppe cavalry traditions with crusading military orders narrows the timeframe." }
         ],
         explanation: "This was the Battle on the Ice (1242) at Lake Peipus. Prince Alexander Nevsky of Novgorod defeated the Teutonic Knights, ending their eastward expansion. The battle became legendary in Russian culture—heavily mythologized, including in Eisenstein's famous 1938 film. Whether the ice actually broke under the knights is disputed, but the defeat was real and decisive. Chain mail with great helms but no plate armor indicates 1150-1300; plate came in around 1300. Crusading military orders expanding into Baltic pagan territories was specifically a 13th century phenomenon.",
-        tags: ["pitched-battle", "13th-century", "eastern-europe"]
+        tags: ["pitched-battle", "13th-century", "eastern-europe"],
+        latitude: 58.4140,
+        longitude: 27.5020
     },
     {
         id: "campaign_016",
@@ -301,7 +331,9 @@ This defeat marked the permanent turning of the tide. Over the following decades
             { cost: 25, text: "Flintlock muskets became the European standard around 1650-1700. Forces mixing flintlocks with archers indicate a clash between modernized and traditional armies in the late 17th century.", explanation: "The mixed weapons technologies help narrow the timeframe." }
         ],
         explanation: "This was the Siege of Vienna in 1683, the Ottoman Empire's last major attempt to expand into Central Europe. Grand Vizier Kara Mustafa Pasha led perhaps 150,000 Ottoman troops against a garrison of only 15,000 under Count Ernst Rüdiger von Starhemberg. The relief force was commanded by Polish King Jan III Sobieski, who led the largest cavalry charge in history—18,000 horsemen including 3,000 of Poland's famous Winged Hussars. The heavy lance charge breaking the siege places this in the late 17th century; Western European cavalry had largely abandoned such tactics after 1650, but Polish hussars retained them into the 1690s. The mention of defenders mixing flintlocks with the Ottoman army's archers shows the clash between modernizing European armies and traditional Ottoman forces characteristic of this period.",
-        tags: ["siege", "17th-century", "central-europe"]
+        tags: ["siege", "17th-century", "central-europe"],
+        latitude: 48.2764,
+        longitude: 16.3353
     },
     {
         id: "campaign_017",
@@ -320,7 +352,9 @@ The offensive demonstrated the attacking army's mastery of combined arms warfare
             { cost: 20, text: "Routine air-ground coordination with dedicated ground-attack aircraft was perfected in 1943-1945. Earlier in the war, such coordination was improvised and less effective.", explanation: "The combined arms doctrine helps narrow the timeframe." }
         ],
         explanation: "This was Operation Bagration, launched June 22, 1944—exactly three years after Germany invaded the Soviet Union. Marshal Georgy Zhukov coordinated the offensive that destroyed German Army Group Center, killing or capturing over 400,000 soldiers in weeks. The operation's scale—2.3 million troops, 5,200 tanks—was unprecedented. Heavy tanks like the IS-2 with 122mm guns indicate late war; early WWII tanks like the T-26 or Panzer III were much lighter with smaller guns. The sophisticated deep operations doctrine, with armored spearheads racing into rear areas to encircle entire armies, took years to perfect after early-war disasters. The reference to 'three years of occupation' confirms 1944, counting from the June 1941 invasion.",
-        tags: ["offensive", "20th-century", "eastern-europe", "ww2"]
+        tags: ["offensive", "20th-century", "eastern-europe", "ww2"],
+        latitude: 53.9006,
+        longitude: 27.5590
     },
     {
         id: "campaign_018",
@@ -339,7 +373,9 @@ The victory shattered the enemy's power forever. The great southern cities would
             { cost: 25, text: "Crossbowmen as the primary missile infantry (rather than longbowmen or handgunners) indicates the period from about 1100 to 1350 in most of Europe.", explanation: "The infantry weapons help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Las Navas de Tolosa in 1212, the turning point of the Reconquista. Kings Alfonso VIII of Castile, Sancho VII of Navarre, and Pedro II of Aragon united against the Almohad Caliph Muhammad al-Nasir. The 'fierce warriors from across the strait' were Almohad Berbers from North Africa. Sancho VII of Navarre led the flanking charge that broke the Almohad guard—legend says he personally cut the chains protecting the caliph's tent, which is why chains appear on Navarre's coat of arms. The armor details are precise: chain mail hauberks with surcoats were standard 1150-1300, and great helms 'coming into fashion but not yet universal' specifically indicates around 1200—they emerged circa 1200 and were standard by 1250. Crossbowmen as primary missile infantry (rather than longbowmen or handgunners) confirms the period 1100-1350.",
-        tags: ["pitched-battle", "13th-century", "southern-europe"]
+        tags: ["pitched-battle", "13th-century", "southern-europe"],
+        latitude: 38.3442,
+        longitude: -3.5453
     },
     {
         id: "campaign_019",
@@ -358,7 +394,9 @@ The defeat opened the empire's heartland to invasion. Within a generation, vast 
             { cost: 25, text: "Composite bow horse archers using feigned flight tactics were the signature of steppe peoples from ancient times through the medieval period, roughly until firearms made such tactics obsolete.", explanation: "The cavalry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Manzikert in 1071, when Seljuk Sultan Alp Arslan defeated and captured Byzantine Emperor Romanos IV Diogenes. This was genuinely the first time a Byzantine emperor had been captured by a foreign enemy in the empire's 700+ year history—a stunning humiliation. Alp Arslan reportedly placed his foot on Romanos's neck before treating him with surprising generosity. Lamellar armor identifies this as Byzantine or Central Asian medieval warfare (600-1300). The nomadic horse archers using feigned retreats were the Seljuk Turks, who had recently converted to Islam and carved a sultanate from Abbasid territory. The defeat opened Anatolia to Turkish settlement, beginning a transformation that would eventually make it Turkey rather than the Greek heartland it had been for millennia.",
-        tags: ["pitched-battle", "11th-century", "asia-minor"]
+        tags: ["pitched-battle", "11th-century", "asia-minor"],
+        latitude: 39.1458,
+        longitude: 42.5361
     },
     {
         id: "campaign_020",
@@ -377,7 +415,9 @@ This battle established western dominance over the subcontinent's richest provin
             { cost: 25, text: "War elephants were used in South Asian warfare from ancient times until the 18th century, when disciplined musket fire made them increasingly obsolete.", explanation: "The war elephants help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Plassey in 1757, where Robert Clive's 3,000 troops defeated Siraj ud-Daulah, Nawab of Bengal, despite facing perhaps 50,000 men with war elephants. The 'two great trading companies' were the British and French East India Companies, competing during the Mughal Empire's fragmentation following Emperor Aurangzeb's death in 1707. The monsoon rains played a crucial role—Clive's artillery kept their powder dry with tarpaulins while the Nawab's guns were rendered useless. Flintlock muskets with socket bayonets were the European infantry standard from 1700-1840. War elephants, used in South Asia since ancient times, became obsolete in the 18th century as disciplined musket volleys could panic them. The 'trading company would control virtually the entire region' within a century points to the British Raj (formally established 1858).",
-        tags: ["pitched-battle", "18th-century", "south-asia", "colonial"]
+        tags: ["pitched-battle", "18th-century", "south-asia", "colonial"],
+        latitude: 23.7969,
+        longitude: 88.2458
     },
     {
         id: "campaign_021",
@@ -396,7 +436,9 @@ The war would reshape the region's borders, transferring territories with signif
             { cost: 20, text: "Massive siege howitzers (like those weighing over 40 tons) were unique to WWI's industrial-scale warfare. Earlier wars couldn't produce or transport such weapons.", explanation: "The artillery scale helps narrow the timeframe." }
         ],
         explanation: "This was the Italian Front of World War I (1915-1918), where Italy fought Austria-Hungary along the Alpine border. The fighting at extreme altitudes—some positions on glaciers at 10,000+ feet—was unlike any other front. Italian General Luigi Cadorna launched eleven offensives on the Isonzo River alone, each gaining minimal ground at enormous cost. The mine containing 50 tons of explosives describes the Italian attack on Col di Lana in 1916. Machine guns making frontal assaults suicidal was WWI's defining characteristic; earlier wars had machine guns but not enough to create continuous killing zones across entire fronts. The massive siege howitzers (like the Austrian Škoda 305mm or German 420mm) were unique to WWI's industrial scale. The stalemate ending when 'one combatant's larger alliance collapsed' refers to Austria-Hungary's disintegration in late 1918.",
-        tags: ["trench-warfare", "20th-century", "southern-europe", "ww1"]
+        tags: ["trench-warfare", "20th-century", "southern-europe", "ww1"],
+        latitude: 46.5025,
+        longitude: 11.9619
     },
     {
         id: "campaign_022",
@@ -415,7 +457,9 @@ The general eventually slipped away, abandoning his army to return home and seiz
             { cost: 25, text: "Military expeditions including scientists and scholars were an Enlightenment phenomenon, roughly 1750-1820, when systematic knowledge-gathering accompanied conquest.", explanation: "The inclusion of scholars helps narrow the timeframe." }
         ],
         explanation: "This was Napoleon's Egyptian Campaign (1798-1801). Napoleon, age 28, led 40,000 troops to Egypt partly to threaten British India. The Battle of the Pyramids saw his infantry squares destroy the Mamluk cavalry—slave-soldiers who had ruled Egypt since 1250. But Admiral Nelson's destruction of the French fleet at the Battle of the Nile stranded the army. The failed siege was Acre, defended by Ottoman troops with British naval support. The expedition included 167 scientists and scholars—the famous 'savants'—whose work founded modern Egyptology and discovered the Rosetta Stone. This scientific approach to conquest was an Enlightenment phenomenon (roughly 1750-1820). Infantry squares with flintlock muskets and socket bayonets were the standard cavalry-defeating formation from 1700-1850. Napoleon slipped away in 1799 to seize power in France, leaving the army to surrender in 1801.",
-        tags: ["invasion", "18th-century", "north-africa", "napoleonic"]
+        tags: ["invasion", "18th-century", "north-africa", "napoleonic"],
+        latitude: 30.0761,
+        longitude: 31.2128
     },
     {
         id: "campaign_023",
@@ -434,7 +478,9 @@ When the fortress finally fell, the eastern empire was forced to accept humiliat
             { cost: 25, text: "Telegraph enabling rapid war correspondence to civilians was revolutionary in the 1850s. Earlier wars had weeks of delay; later wars took this for granted.", explanation: "The communication technology helps narrow the timeframe." }
         ],
         explanation: "This was the Siege of Sevastopol (1854-1855) during the Crimean War, where Britain, France, and the Ottoman Empire attacked Russia's Black Sea naval base. The 'legendary cavalry charge born of confusion' was the Charge of the Light Brigade at Balaclava—Lord Cardigan led 670 men into a valley swept by Russian artillery due to miscommunicated orders. The medical reformer was Florence Nightingale, who exposed the horrific conditions through statistics and telegraphed reports. The Crimean War saw the first war correspondents sending dispatches by telegraph, reaching London within days—a revolution in how civilians experienced war. The weapons transition is key: smoothbore muskets were standard before 1850, rifled muskets universal after 1860. The Crimean War caught armies mid-transition, with both types in use. This combination of technologies pinpoints the mid-1850s.",
-        tags: ["siege", "19th-century", "eastern-europe"]
+        tags: ["siege", "19th-century", "eastern-europe"],
+        latitude: 44.6166,
+        longitude: 33.5254
     },
     {
         id: "campaign_024",
@@ -451,7 +497,9 @@ As the island chain fell, enemy supply lines were severed and their main bases c
             { cost: 20, text: "Landing craft that could beach directly and unload vehicles were developed specifically for WWII (1939-1945). Earlier amphibious operations used improvised methods.", explanation: "The landing craft technology helps narrow the timeframe." }
         ],
         explanation: "This was the Pacific Island Hopping Campaign of WWII (1943-1945), the American strategy to defeat Japan. Admiral Chester Nimitz and General Douglas MacArthur led the dual advance across the Pacific, bypassing heavily fortified islands like Rabaul to seize strategically vital ones. Battles like Tarawa (1943), Saipan (1944), and Iwo Jima (1945) featured the brutal cave-and-bunker fighting described. Japanese defenders fought nearly to the last man—at Iwo Jima, of 21,000 Japanese soldiers, only 216 were captured. Carrier-based aircraft providing air cover far from land was a capability developed in the 1930s but only became decisive in the 1940s. The specialized landing craft (like the LCVP 'Higgins Boat') were developed specifically for WWII. The 'new weapons of unprecedented destructive power' were the atomic bombs dropped on Hiroshima and Nagasaki in August 1945.",
-        tags: ["amphibious", "20th-century", "pacific", "ww2"]
+        tags: ["amphibious", "20th-century", "pacific", "ww2"],
+        latitude: 24.7825,
+        longitude: 141.3183
     },
     {
         id: "campaign_025",
@@ -469,8 +517,10 @@ The proper armies, arriving months later, would prove far more formidable—heav
             { cost: 20, text: "Peasant armies with improvised weapons (farming tools, clubs) were a feature of medieval popular movements from about 1000 to 1500. Later periods had more organized militias.", explanation: "The peasant equipment helps date this battle." },
             { cost: 25, text: "Heavy cavalry as the striking arm with crossbow and spear infantry was the standard western European military system from about 1050 to 1350.", explanation: "The professional army composition helps narrow the timeframe." }
         ],
-        explanation: "This was the People's Crusade of 1096, the chaotic first wave of the First Crusade. Peter the Hermit, a charismatic preacher, and Walter Sans Avoir (Walter the Penniless) led perhaps 30,000 poorly armed peasants and minor knights toward the Holy Land. The massacres of 'local populations blamed for ancient wrongs' were the Rhineland pogroms—attacks on Jewish communities in Speyer, Worms, Mainz, and Cologne that killed thousands. Byzantine Emperor Alexios I Komnenos rushed them across the Bosporus to get them away from Constantinople. They were annihilated at Civetot by the Seljuk Turks. The 'proper armies arriving months later' were the knights of the First Crusade—Godfrey of Bouillon, Raymond of Toulouse, Bohemond of Taranto—who would capture Jerusalem in 1099. The distinction between peasant rabble and professional heavy cavalry with crossbows identifies the medieval period around 1050-1350.",
-        tags: ["crusade", "11th-century", "middle-east"]
+        explanation: "This was the People's Crusade (1096), the prelude to the First Crusade. Led by Peter the Hermit and Walter Sans Avoir, this undisciplined mob massacred Jews in the Rhineland (the Rhineland Massacres) before being ferried across the Bosporus by Byzantine Emperor Alexios I. They were annihilated by the Seljuk Turks at the Battle of Civetot (Kibotos) in October 1096. Few survived. The 'proper armies' refers to the Princes' Crusade that arrived later and succeeded in taking Jerusalem. The description captures the tragic fanaticism of the event.",
+        tags: ["crusade", "11th-century", "asia-minor"],
+        latitude: 40.7167,
+        longitude: 29.5000
     },
     {
         id: "campaign_026",
@@ -489,7 +539,9 @@ A siege of six weeks followed. Both sides dug extensive trench networks. Starvat
             { cost: 20, text: "Extensive trench networks during sieges became common in the 1860s, presaging World War I. Earlier sieges used more traditional approaches.", explanation: "The siege tactics help narrow the timeframe." }
         ],
         explanation: "This was the Vicksburg Campaign of 1863, General Ulysses S. Grant's masterpiece during the American Civil War. Vicksburg, the 'Gibraltar of the Confederacy,' controlled the Mississippi River from 200-foot bluffs. Grant's daring gambit—running Admiral David Porter's ironclads past the batteries at night, marching his army down the Louisiana side, then crossing below the city—was considered reckless by many subordinates. The subsequent siege saw both armies dig elaborate trench systems that presaged WWI warfare. Ironclad gunboats identify the 1860s specifically: they first saw combat in 1862 (the Monitor vs. Virginia), dominated river warfare through the decade, and were replaced by steel-hulled ships afterward. The surrender on July 4, 1863—the day after Gettysburg—marked the Confederacy's irreversible decline.",
-        tags: ["siege", "19th-century", "north-america", "civil-war"]
+        tags: ["siege", "19th-century", "north-america", "civil-war"],
+        latitude: 32.3526,
+        longitude: -90.8779
     },
     {
         id: "campaign_027",
@@ -508,7 +560,9 @@ The destruction was so complete that the region's population and prosperity woul
             { cost: 25, text: "Compound bows from horseback were the steppe warrior's signature weapon from ancient times through the medieval period, roughly until firearms made them obsolete around 1500-1600.", explanation: "The weapons provide a broad timeframe that other clues narrow." }
         ],
         explanation: "This was the Mongol Siege of Baghdad in 1258, one of history's most destructive events. Hulagu Khan, grandson of Genghis Khan, led the assault against Caliph al-Musta'sim, the 37th Abbasid Caliph. The Mongols included Chinese and Persian siege engineers—a capability unique to the Mongol period (1210-1280), as earlier steppe peoples couldn't take walled cities. The Abbasid Caliphate had ruled since 750 CE (hence 'five centuries'). Al-Musta'sim was reportedly rolled in a carpet and trampled by horses—the Mongol method of executing royalty without spilling blood on the ground. Estimates of the dead range from 200,000 to over a million. The destruction of Baghdad's irrigation canals turned fertile land into desert for centuries. The House of Wisdom, containing irreplaceable manuscripts, was destroyed—accounts say the Tigris ran black with ink from discarded books.",
-        tags: ["siege", "13th-century", "middle-east", "mongol"]
+        tags: ["siege", "13th-century", "middle-east", "mongol"],
+        latitude: 33.3333,
+        longitude: 44.3833
     },
     {
         id: "campaign_028",
@@ -527,7 +581,9 @@ After three months, the larger power finally broke through the defensive lines t
             { cost: 25, text: "Improvised bottle incendiary devices against tanks became famous in 1939-1940 and were widely imitated afterward. The tactic was new at this time.", explanation: "The anti-tank improvisation helps narrow the timeframe." }
         ],
         explanation: "This was the Winter War (1939-1940), when Finland fought the Soviet Union to a standstill. Stalin expected victory in weeks; instead, Finnish troops under Marshal Carl Gustaf Mannerheim held out for over three months. Finnish ski troops with Suomi submachine guns devastated Soviet columns trapped on forest roads. The improvised incendiary bottles were named 'Molotov cocktails' as a sardonic tribute to Soviet Foreign Minister Vyacheslav Molotov—the tactic became famous in this war. The Soviet army's incompetence stemmed directly from Stalin's Great Purge of 1937-1938, which had executed most experienced officers. The weapons combination—bolt-action rifles (like the Mosin-Nagant) alongside submachine guns—identifies the 1930s-1940s; earlier armies lacked submachine guns, later ones used assault rifles. Hitler drew fatally wrong conclusions from Soviet performance, contributing to his decision to invade in 1941.",
-        tags: ["winter-war", "20th-century", "northern-europe"]
+        tags: ["winter-war", "20th-century", "northern-europe"],
+        latitude: 64.8833,
+        longitude: 28.9167
     },
     {
         id: "campaign_029",
@@ -545,8 +601,10 @@ The new king would establish a dynasty that would rule for over a century, trans
             { cost: 20, text: "Full plate armor for mounted knights was standard from about 1400 to 1550. Before 1400, chain mail dominated; after 1550, firearms made heavy armor increasingly impractical.", explanation: "The armor type helps date this battle." },
             { cost: 25, text: "Longbows were dominant in northwestern European armies from about 1340 to 1480. Firearms began replacing them in the late 15th century and were clearly superior by 1550.", explanation: "The longbow-to-firearms transition helps narrow the timeframe." }
         ],
-        explanation: "This was the Battle of Bosworth Field on August 22, 1485, ending the Wars of the Roses and the Plantagenet dynasty. Henry Tudor landed with a small force of French mercenaries and Welsh supporters against King Richard III, who had the larger army. The Stanleys—Lord Thomas Stanley and Sir William Stanley—commanded a third of Richard's army but held back until the outcome was clear, then charged Richard's flank. Richard III became the last English king to die in battle; his body was found in 2012 under a Leicester parking lot with battle wounds matching chronicle accounts. Full plate armor identifies 1400-1550—earlier knights wore mail, later firearms made heavy armor obsolete. Longbows fading while firearms improved indicates the 1470s-1490s transition. Henry VII would establish the Tudor dynasty that ruled until 1603.",
-        tags: ["pitched-battle", "15th-century", "western-europe"]
+        explanation: "This was the Battle of Bosworth Field on August 22, 1485, ending the Wars of the Roses and the Plantagenet dynasty. Henry Tudor landed with a small force of French mercenaries and Welsh supporters against King Richard III, who had the larger army. The Stanleys—Lord Thomas Stanley and Sir William Stanley—commanded a third of Richard's army but held back until the outcome was clear, then charged Richard's flank. Richard III became the last English king to die in battle; his body was found with two bullet wounds. Full plate armor identifies 1400-1550—earlier knights wore mail, later firearms made heavy armor obsolete. Longbows fading while firearms improved indicates the 1470s-1490s transition. Henry VII would establish the Tudor dynasty that ruled until 1603.",
+        tags: ["pitched-battle", "15th-century", "western-europe"],
+        latitude: 52.5913,
+        longitude: -1.4103
     },
     {
         id: "campaign_030",
@@ -565,7 +623,9 @@ The new nation, when it emerged, was far smaller than the territory its people i
             { cost: 25, text: "Smoothbore flintlock muskets were standard infantry weapons from about 1700 to 1840. Percussion caps and rifled barrels came in the 1840s-1850s.", explanation: "The infantry weapons help narrow the timeframe." }
         ],
         explanation: "This was the Greek War of Independence (1821-1829), when Greece broke free from Ottoman rule after nearly 400 years (since the fall of Constantinople in 1453). The romantic volunteers included Lord Byron, the famous poet, who died of fever at Missolonghi in 1824 without seeing significant combat—his death made him a martyr and galvanized European support. The three great powers were Britain, France, and Russia, whose combined fleet destroyed the Ottoman-Egyptian navy at Navarino in 1827—the last major battle between wooden sailing ships with broadside cannon. Smoothbore flintlock muskets (standard 1700-1840) and sailing warships (dominant until steam navies emerged in the 1850s) place this firmly in the early 19th century. The new Greek state was indeed much smaller than historic Greek territory—Greeks in Asia Minor, Crete, and northern regions remained under Ottoman rule for decades more.",
-        tags: ["independence", "19th-century", "southern-europe"]
+        tags: ["independence", "19th-century", "southern-europe"],
+        latitude: 36.9167,
+        longitude: 21.7000
     },
     {
         id: "campaign_031",
@@ -584,7 +644,9 @@ The prince was eventually killed in a skirmish, his brother captured and execute
             { cost: 25, text: "Crossbows dominated as the main missile weapon from about 1100 to 1350. The longbow became dominant in certain northwestern European armies after about 1340.", explanation: "The missile weapons help narrow the timeframe." }
         ],
         explanation: "This was Edward I's conquest of Wales (1277-1283). Llywelyn ap Gruffudd, the last native Prince of Wales, ambushed and killed the Earl of Gloucester in 1282, but Edward returned with overwhelming force. The 'Iron Ring' of castles—Caernarfon, Conwy, Harlech, Beaumaris, and others—were designed by Master James of St. George, the greatest military architect of the age. These concentric castles with round towers represented cutting-edge design from 1180-1350: round towers resisted mining better than square ones, and earlier castles lacked the sophisticated interlocking fields of fire. Crossbows as the primary missile weapon (1100-1350) rather than longbows is significant—the English longbow only became dominant after about 1340 at Crécy. Llywelyn was killed in a skirmish in December 1282; his brother Dafydd was executed in 1283.",
-        tags: ["conquest", "13th-century", "western-europe"]
+        tags: ["conquest", "13th-century", "western-europe"],
+        latitude: 52.8606,
+        longitude: -4.1089
     },
     {
         id: "campaign_032",
@@ -603,7 +665,9 @@ The battle became one of the most analyzed in the nation's military history, deb
             { cost: 25, text: "The mix of repeating rifles, single-shot rifles, and traditional weapons among indigenous warriors, while the regular army still carried single-shot carbines, was characteristic of the 1870s frontier wars.", explanation: "The weapon mix helps narrow the timeframe precisely." }
         ],
         explanation: "This was the Battle of the Little Bighorn on June 25, 1876. Lieutenant Colonel George Armstrong Custer led five companies of the 7th Cavalry against a village of Lakota Sioux and Northern Cheyenne led by Sitting Bull and Crazy Horse—perhaps 7,000 people with 1,500-2,000 warriors. Custer's men carried Springfield Model 1873 single-shot carbines, while many warriors had Winchester repeating rifles obtained through trade, giving them a significant rate-of-fire advantage. All 210 men with Custer were killed; his body was found with two bullet wounds. The battle was the most famous Indigenous victory against the U.S. Army, but the government's response was overwhelming force—within a year, most bands had surrendered. Single-shot breech-loading carbines as standard cavalry weapons (1865-1890) while repeaters were available through trade is specifically characteristic of the 1870s.",
-        tags: ["pitched-battle", "19th-century", "north-america"]
+        tags: ["pitched-battle", "19th-century", "north-america"],
+        latitude: 45.5658,
+        longitude: -107.4267
     },
     {
         id: "campaign_033",
@@ -622,7 +686,9 @@ The northern kingdom had not lost a major battle in forty years. Now it had. The
             { cost: 25, text: "Cavalry 'caracole' tactics—firing pistols at range rather than charging—were common from about 1550 to 1680, before aggressive shock tactics returned to favor.", explanation: "The cavalry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Fehrbellin on June 28, 1675, where Frederick William, the 'Great Elector' of Brandenburg, shattered Swedish invincibility. The Swedish Empire had dominated northern Europe since the 1630s, but Frederick William caught their army crossing the Rhin Canal and attacked while they were divided. The weapons details place this precisely: matchlock muskets with pikes (standard 1500-1700, before socket bayonets eliminated pikes) and cavalry using the caracole (firing pistols at range rather than charging), which was common 1550-1680 before aggressive shock tactics returned. Sweden remained powerful for decades—they would fight the Great Northern War (1700-1721)—but Fehrbellin began the shift. Brandenburg-Prussia would eventually become the dominant German power and unify Germany in 1871.",
-        tags: ["pitched-battle", "17th-century", "central-europe"]
+        tags: ["pitched-battle", "17th-century", "central-europe"],
+        latitude: 52.7917,
+        longitude: 12.7750
     },
     {
         id: "campaign_034",
@@ -641,7 +707,9 @@ The siege became legendary. The order would rule the island for another two cent
             { cost: 25, text: "The tercio formation (disciplined arquebus volleys with pike charges) dominated European warfare from roughly 1530 to 1630, when linear tactics replaced them.", explanation: "The elite infantry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Great Siege of Malta in 1565, when the Knights of St. John (the Hospitallers) held off the Ottoman Empire. Grand Master Jean de Valette, age 70, led about 6,000 defenders against perhaps 40,000 Ottoman troops including elite Janissaries. Fort St. Elmo fell after a month of brutal fighting—all 1,500 defenders were killed, but they cost the Ottomans perhaps 8,000 casualties. The trace italienne fortifications (low, thick walls with angled bastions developed 1500-1530) absorbed bombardment that would have leveled medieval walls. The Janissaries' arquebus-and-pike tercio tactics dominated 1530-1630. The Knights ruled Malta until Napoleon expelled them in 1798 ('another two centuries'), which works backward to the 1560s-1590s. The capital city Valletta, built after the siege, was named for the Grand Master.",
-        tags: ["siege", "16th-century", "mediterranean"]
+        tags: ["siege", "16th-century", "mediterranean"],
+        latitude: 35.8997,
+        longitude: 14.5147
     },
     {
         id: "campaign_035",
@@ -660,7 +728,9 @@ Only the death of the supreme leader far to the east caused the invaders to with
             { cost: 25, text: "Coordinated multi-column invasions with messenger networks across hundreds of miles were uniquely possible with one steppe empire's military organization (1210-1280).", explanation: "The coordination capability helps narrow the timeframe." }
         ],
         explanation: "This was the Mongol invasion of Europe in 1241, culminating in the Battle of Mohi. Subutai, perhaps history's greatest general, coordinated multiple armies across Poland and Hungary simultaneously while Batu Khan led the main force. King Béla IV of Hungary and the combined Hungarian-Croat army of 25,000 were destroyed at Mohi; both kings of Poland had already died at Legnica two days earlier. The Mongols used fireworks and smoke screens—technologies unknown to Europeans—adding to the terror. Chain mail hauberks with great helms place this at 1150-1300, before plate armor became standard. The coordinated multi-column invasion with messenger networks across hundreds of miles was uniquely possible with Mongol organization. The death of Great Khan Ögedei in December 1241 forced the Mongol withdrawal, as princes had to return for the succession. Europe was saved by dynastic politics, not military resistance.",
-        tags: ["invasion", "13th-century", "central-europe", "mongol"]
+        tags: ["invasion", "13th-century", "central-europe", "mongol"],
+        latitude: 47.9833,
+        longitude: 20.9333
     },
     {
         id: "campaign_036",
@@ -677,7 +747,9 @@ The first charge broke the infantry's leading formations. Before the rest could 
             { cost: 25, text: "Cavalry lancers fell from favor in Western Europe around 1600 but remained effective in Eastern Europe until the 18th century, when firearms became truly universal.", explanation: "The cavalry weapons help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Kircholm on September 27, 1605, one of the greatest cavalry victories in history. Grand Hetman Jan Karol Chodkiewicz led 3,600 Polish-Lithuanian cavalry—including the famous Winged Hussars—against 11,000 Swedish infantry under Charles IX's commander. The Hussars' charge shattered the Swedish formations in barely 20 minutes; Sweden lost over 8,000 killed while Polish casualties were under 100. The Hussars used 16-foot lances and wore distinctive 'wings' (wooden frames with feathers) that created terrifying noise at full gallop. Matchlock muskets with pike formations (standard 1500-1700) versus cavalry lancers (obsolete in Western Europe by 1600 but devastating in Eastern Europe) precisely identifies the early 17th century. The Polish-Lithuanian Commonwealth at this time fielded arguably the best cavalry in the world.",
-        tags: ["pitched-battle", "17th-century", "eastern-europe"]
+        tags: ["pitched-battle", "17th-century", "eastern-europe"],
+        latitude: 56.8500,
+        longitude: 24.3500
     },
     {
         id: "campaign_037",
@@ -694,7 +766,9 @@ By morning, the relief force was in retreat, leaving behind thousands of dead an
             { cost: 25, text: "Night attacks were rare in this era because commanders couldn't control troops in darkness without radio communication. They were typically desperate measures when conventional battle seemed impossible.", explanation: "The tactical choice of a night assault suggests unusual circumstances." }
         ],
         explanation: "This was the Battle of Belgrade on August 16, 1717. Prince Eugene of Savoy, perhaps the era's greatest general, faced a desperate situation: his 40,000-man besieging army was itself about to be crushed by a 150,000-strong Ottoman relief force under Grand Vizier Halil Pasha. Eugene's night attack through fog achieved complete surprise—fighting erupted among the tents in such confusion that neither side could form proper lines. By morning, the Ottomans were in full retreat. Flintlock muskets (standard after 1680-1700) with socket bayonets (adopted 1690s-1700s) identify the early 18th century. Night attacks were extremely rare before radio communication because commanders couldn't control their troops in darkness—Eugene's gamble was a measure of how dire his situation was. Belgrade's fall secured the Habsburg frontier for a generation.",
-        tags: ["siege", "18th-century", "balkans"]
+        tags: ["siege", "18th-century", "balkans"],
+        latitude: 44.8176,
+        longitude: 20.4633
     },
     {
         id: "campaign_038",
@@ -713,7 +787,9 @@ It was a catastrophic failure that cost the defenders most of their armored stre
             { cost: 25, text: "Tank battles involving thousands of vehicles on a single front only occurred from 1941-1945, when industrialized nations could produce armor in such quantities.", explanation: "The massive scale of tank warfare helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Brody (June 23-30, 1941), the largest tank battle to that date. Soviet mechanized corps threw nearly 2,500 tanks against German Army Group South's 1st Panzer Group in a desperate counterattack after Operation Barbarossa's launch. The Soviet tank mix—obsolete T-26 light tanks, BT series with unreliable Christie suspensions, plus modern KV-1 and T-34 heavy tanks—reflects the transitional 1940-1942 period. The Germans had fewer tanks but the Junkers Ju 87 Stuka dive bombers (prominent 1939-1943 before cannon-armed ground attack aircraft replaced them) devastated Soviet armor from above. Poor Soviet coordination, undertrained crews, and mechanical breakdowns turned numerical superiority into catastrophe—over 2,000 tanks lost in a week. The scale of armor involved (thousands of tanks in one battle) was only possible from 1941 onward.",
-        tags: ["armored-warfare", "20th-century", "eastern-europe", "ww2"]
+        tags: ["armored-warfare", "20th-century", "eastern-europe", "ww2"],
+        latitude: 50.0865,
+        longitude: 25.1456
     },
     {
         id: "campaign_039",
@@ -732,7 +808,9 @@ A larger naval force would return the following year, delivering a decisive defe
             { cost: 25, text: "Rifled naval guns replaced smoothbores primarily in the 1855-1870 period. The range and accuracy advantage was so dramatic that smoothbore-armed forces were helpless against rifled opponents.", explanation: "The rifled versus smoothbore mismatch helps narrow the timeframe." }
         ],
         explanation: "This was the First Battle of Shimonoseki Straits in 1863, when the Chōshū domain attempted to close the strait to foreign shipping during Japan's turbulent final years of Tokugawa rule. The USS Wyoming (a steam-powered sloop with rifled Dahlgren guns) destroyed Chōshū's sailing vessels and bombarded shore batteries in a one-sided engagement. The technological mismatch was stark: steam propulsion (militarily decisive 1850s-1860s) allowed maneuver regardless of wind, while rifled naval guns (replacing smoothbores 1855-1870) could hit accurately at ranges smoothbore cannon couldn't reach. A larger multinational fleet returned in 1864, delivering a crushing defeat that convinced Japanese reformers that modernization was urgent. Within five years, the Meiji Restoration would transform Japan.",
-        tags: ["naval", "19th-century", "asia"]
+        tags: ["naval", "19th-century", "asia"],
+        latitude: 33.9583,
+        longitude: 130.9417
     },
     {
         id: "campaign_040",
@@ -751,7 +829,9 @@ The rapid fall revolutionized thinking about fortifications. Fixed defenses were
             { cost: 25, text: "Reinforced concrete fortifications became standard in the 1880s-1900s. They were considered nearly invulnerable until heavy howitzers proved otherwise in the 1910s.", explanation: "The fortification technology helps narrow the timeframe." }
         ],
         explanation: "This was the Siege of Antwerp in September-October 1914, during the opening weeks of WWI. The Brialmont forts—reinforced concrete with steel cupolas, built in the 1880s-1900s—were considered state-of-the-art and expected to hold for months. Germany's 'Big Bertha' (42cm) and Škoda 30.5cm siege howitzers, transported by rail (too heavy for any animal team), demolished them in days. The shells used delayed-action fuses—a new technology that let them penetrate concrete before detonating. Fort Loncin's magazine explosion killed 350 men instantly. The rapid fall shocked military observers worldwide: the age of fixed fortifications seemed over. Super-heavy railway artillery was developed specifically in the 1900s-1910s to crack modern concrete—earlier guns couldn't achieve the necessary calibers. This technology combination pinpoints 1914.",
-        tags: ["siege", "20th-century", "western-europe", "ww1"]
+        tags: ["siege", "20th-century", "western-europe", "ww1"],
+        latitude: 51.2194,
+        longitude: 4.4025
     },
     {
         id: "campaign_041",
@@ -770,7 +850,9 @@ The invaders never returned in force. The lands beyond remained unconquered.`,
             { cost: 25, text: "The mamluk military system—purchasing slave boys and training them as elite cavalry—was prominent from the 9th through 16th centuries, reaching its peak in the 13th-14th centuries.", explanation: "The slave-soldier military system helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Ain Jalut on September 3, 1260—the battle that stopped the Mongol advance into Africa and saved Egypt. Mamluk Sultan Qutuz and his general Baybars faced a Mongol force under Kitbuqa (a Nestorian Christian commanding a Mongol army—the empire's diversity was remarkable). The Mamluks used the Mongols' own tactics against them: Baybars led a feigned retreat that drew Kitbuqa into pursuit, then the main Mamluk force counterattacked. Kitbuqa was killed; the Mongols retreated. The Mamluk military system—purchasing Turkic and Circassian boys and training them from childhood as elite cavalry—reached peak effectiveness in the 13th-14th centuries. The Mongol conquests occurred 1210-1280; this battle marked their western limit. Baybars would later seize the throne and become one of history's great sultans.",
-        tags: ["pitched-battle", "13th-century", "middle-east"]
+        tags: ["pitched-battle", "13th-century", "middle-east"],
+        latitude: 32.5514,
+        longitude: 35.3725
     },
     {
         id: "campaign_042",
@@ -789,7 +871,9 @@ The river was now open to the coalition's warships. The defenders' government, u
             { cost: 25, text: "Muzzle-loading rifles were standard infantry weapons from roughly 1850-1870. Breech-loaders became standard afterward, offering much faster rates of fire.", explanation: "The rifle technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Taku Forts on August 21, 1860, during the Second Opium War. A combined British-French force stormed the fortifications guarding the Hai River approach to Beijing. The technological mismatch was decisive: British Armstrong rifled breech-loaders could hit at ranges Chinese smoothbore cannon couldn't match, while infantry with Enfield rifles outranged the defenders' mixed weaponry. The storming was still brutal—hand-to-hand fighting at the walls—but the outcome was never in doubt. The fall of the Taku Forts opened the road to Beijing; the Anglo-French force would soon burn the Summer Palace. Rifled guns replacing smoothbores (1850s-1870s) and muzzle-loading rifles as standard infantry weapons (1850-1870, before breech-loaders) precisely identifies this period.",
-        tags: ["amphibious", "19th-century", "asia"]
+        tags: ["amphibious", "19th-century", "asia"],
+        latitude: 38.9736,
+        longitude: 117.7125
     },
     {
         id: "campaign_043",
@@ -808,7 +892,9 @@ By evening, the hill was carpeted with dead and wounded. The attackers withdrew,
             { cost: 25, text: "Smokeless powder replaced black powder in the 1880s-1890s, eliminating the telltale smoke clouds that had revealed shooters' positions for centuries.", explanation: "The smokeless powder technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Spion Kop on January 24, 1900, during the Second Boer War. British forces under General Charles Warren seized the summit at night but discovered at dawn that they were overlooked by higher Boer positions on three sides. Boer marksmen with Mauser magazine rifles and smokeless powder ammunition picked off British soldiers from 500+ yards—the victims couldn't even see where fire was coming from. The rocky ground prevented digging adequate trenches. Among the stretcher-bearers that day was a young journalist named Winston Churchill; the medical officer was Mahatma Gandhi. Magazine rifles (standard from the 1880s-1890s) combined with smokeless powder (replacing black powder 1880s-1890s) created a new killing equation: rapid, accurate fire from invisible positions. This preview of WWI trench warfare went largely unheeded.",
-        tags: ["pitched-battle", "20th-century", "africa"]
+        tags: ["pitched-battle", "20th-century", "africa"],
+        latitude: -28.6500,
+        longitude: 29.5167
     },
     {
         id: "campaign_044",
@@ -827,7 +913,9 @@ The gamble had paid off. What had seemed like a desperate situation was transfor
             { cost: 25, text: "Mixed jet and propeller-driven air forces were characteristic of the 1945-1955 transition period. Earlier air forces were all-propeller; later ones became all-jet for combat roles.", explanation: "The aircraft technology mix helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Inchon on September 15, 1950, General Douglas MacArthur's masterstroke during the Korean War. Inchon's harbor had 30-foot tides, narrow channels, and seawalls instead of beaches—the Joint Chiefs considered it too risky. MacArthur insisted, arguing that the very difficulty of the landing guaranteed surprise. He was right. The X Corps landed against minimal opposition, seized Seoul within two weeks, and cut North Korean supply lines to the south. The trapped North Korean army collapsed. Specialized landing craft (developed for WWII's Pacific island-hopping) and mixed jet/propeller air cover (the 1945-1955 transition period—F9F Panthers flew alongside F4U Corsairs) precisely date this to the early 1950s.",
-        tags: ["amphibious", "20th-century", "asia"]
+        tags: ["amphibious", "20th-century", "asia"],
+        latitude: 37.4563,
+        longitude: 126.7052
     },
     {
         id: "campaign_045",
@@ -846,7 +934,9 @@ The battle was tactically indecisive—a bloody stalemate that did not change th
             { cost: 25, text: "Armies of 90,000 men in a single engagement were rare before the 18th century (logistics couldn't support them) and became even larger in the 19th century Napoleonic era.", explanation: "The army size helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Lauffeld on July 2, 1747, during the War of the Austrian Succession. Marshal Maurice de Saxe led French forces against the Allied army under the Duke of Cumberland. The fighting centered on fortified villages—Lauffeld changed hands multiple times in brutal house-to-house combat, a contrast to the open-field linear tactics the era preferred. Both armies suffered heavy casualties (perhaps 20,000 combined) for no decisive result; the fortress of Maastricht fell anyway after a subsequent siege. Flintlock muskets with socket bayonets in linear formations were standard 1700-1850. Armies of 90,000 men in a single engagement were rare before the 18th century (logistics couldn't support them) but became even larger in the Napoleonic era. This army size at the peak of linear tactics indicates the mid-18th century.",
-        tags: ["pitched-battle", "18th-century", "western-europe"]
+        tags: ["pitched-battle", "18th-century", "western-europe"],
+        latitude: 50.8167,
+        longitude: 5.5833
     },
     {
         id: "campaign_046",
@@ -865,7 +955,9 @@ The battle demonstrated the vulnerability of armies caught in march formation—
             { cost: 25, text: "Cavalry saber charges against infantry were most effective in the 18th century. Earlier, pikemen could stop cavalry; later, rifle firepower made such charges increasingly costly.", explanation: "The cavalry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Rossbach on November 5, 1757, Frederick the Great's most famous victory. A combined French and Imperial army of 42,000 under Soubise and Hildburghausen attempted a flanking march in full view of Frederick's 22,000 Prussians. Frederick let them march, then struck while they were strung out in column. General Friedrich Wilhelm von Seydlitz's cavalry charge scattered the enemy before they could form battle lines; the whole engagement lasted barely 90 minutes. French casualties exceeded 5,000; Prussian losses were under 550. Flintlock muskets with socket bayonets in three-rank linear formations were standard 1700-1850. Cavalry saber charges remained effective in the 18th century—earlier pikemen could stop cavalry, later rifle firepower made such charges suicidal. Frederick's tactical genius made Rossbach a model studied by military academies for generations.",
-        tags: ["pitched-battle", "18th-century", "central-europe"]
+        tags: ["pitched-battle", "18th-century", "central-europe"],
+        latitude: 51.2667,
+        longitude: 11.8833
     },
     {
         id: "campaign_047",
@@ -884,7 +976,9 @@ The action demonstrated the overwhelming power of modern naval artillery against
             { cost: 25, text: "The technological gap between rifled naval guns and smoothbore shore batteries was most pronounced in the 1860s-1880s, before most nations modernized their coastal defenses.", explanation: "The technological mismatch helps narrow the timeframe." }
         ],
         explanation: "This was the Bombardment of Alexandria on July 11, 1882. A British squadron under Admiral Frederick Seymour bombarded Egyptian fortifications in response to anti-European riots and the nationalist movement led by Ahmed Urabi. Eight British ironclads—including HMS Inflexible with 16-inch guns—systematically destroyed forts whose smoothbore cannon couldn't effectively reply. The bombardment lasted all day; by evening, fires burned across the city. Britain would occupy Egypt for the next 70 years. Ironclad warships with rifled turret guns were dominant naval technology 1860-1900—earlier ships were wooden, later ones had all-steel construction. The technological gap between modern naval guns and obsolete shore batteries was most pronounced in the 1860s-1880s, before most nations modernized coastal defenses.",
-        tags: ["naval", "19th-century", "africa"]
+        tags: ["naval", "19th-century", "africa"],
+        latitude: 31.2001,
+        longitude: 29.9187
     },
     {
         id: "campaign_048",
@@ -901,7 +995,9 @@ When the garrison finally surrendered, it was from exhaustion and starvation rat
             { cost: 25, text: "Quick-firing artillery (using recoil mechanisms to allow rapid aiming) and electric searchlights were cutting-edge military technology in the 1890s-1900s.", explanation: "The combined technologies help narrow the timeframe." }
         ],
         explanation: "This was the Siege of Port Arthur (1904-1905) during the Russo-Japanese War. Japanese General Nogi Maresuke's Third Army besieged the Russian naval base for 154 days at a cost of over 57,000 Japanese casualties—Nogi lost both his sons in the assaults. The Russian defenders under General Anatoly Stessel held concrete forts with interlocking machine gun fields. The assault on 203 Meter Hill alone cost 17,000 Japanese lives. Military observers from every major power watched this preview of WWI trench warfare: machine guns in concrete emplacements (becoming standard 1890s-1900s), barbed wire entanglements, quick-firing artillery (developed 1890s), and searchlights for night defense. All these technologies were new since the 1890s. When Port Arthur finally surrendered, it demonstrated that modern fortifications could resist for months even against determined assault.",
-        tags: ["siege", "20th-century", "asia"]
+        tags: ["siege", "20th-century", "asia"],
+        latitude: 38.8167,
+        longitude: 121.2500
     },
     {
         id: "campaign_049",
@@ -922,7 +1018,9 @@ The invasion fleet withdrew. The admiral had won a 10-to-1 victory without losin
             { cost: 25, text: "Warships with reinforced ramming prows and protective roofed decks were a distinctive East Asian design tradition, most developed in the 15th-16th centuries.", explanation: "The ship design helps narrow the timeframe and location." }
         ],
         explanation: "This was the Battle of Myeongnyang on October 26, 1597, one of history's most remarkable naval victories. Admiral Yi Sun-sin, with only 13 ships remaining after a Japanese surprise attack that destroyed most of the Korean fleet, faced 133 Japanese warships in the Myeongnyang Strait. Yi positioned his ships where the treacherous whirlpool currents would work against the Japanese. As the tide shifted, his fleet attacked the disorganized Japanese, sinking 31 ships without losing any. The Korean panokseon warships combined cannon with archers—a mix characteristic of East Asian naval warfare 1550-1650. Yi Sun-sin is considered one of history's greatest admirals, undefeated in over 20 naval engagements. He died at the Battle of Noryang in 1598, shot by a Japanese arquebus.",
-        tags: ["naval", "16th-century", "asia"]
+        tags: ["naval", "16th-century", "asia"],
+        latitude: 34.5667,
+        longitude: 126.3000
     },
     {
         id: "campaign_050",
@@ -943,7 +1041,9 @@ The political consequences were transformative. The victor gained control of his
             { cost: 25, text: "The combination of traditional weapons (spears, swords, bows) as primary arms with limited gunpowder weapons indicates a transitional period before firearms became the dominant battlefield weapon.", explanation: "The weapons mix helps narrow the timeframe to the mid-16th century." }
         ],
         explanation: "This was the Battle of Okehazama on June 12, 1560, the victory that launched Oda Nobunaga's rise to power. Imagawa Yoshimoto led 25,000 warriors toward Kyoto; Nobunaga had only about 2,500. Rather than defend his castle, Nobunaga attacked Yoshimoto's camp during a thunderstorm. The surprise was total—Yoshimoto was killed before he could don his armor, reportedly thinking the commotion was his own men celebrating. Matchlock arquebuses had arrived in Japan via Portuguese traders in 1543; describing them as 'new' and 'just beginning to spread' indicates about 15-25 years after introduction—precisely the late 1550s-1560s. Within 22 years, Nobunaga would control most of Japan. Traditional weapons (spears, swords, bows) as the main arms with limited firearms confirms this early transition period, before the mass matchlock warfare of the 1570s-1600s.",
-        tags: ["ambush", "16th-century", "asia"]
+        tags: ["ambush", "16th-century", "asia"],
+        latitude: 35.0614,
+        longitude: 136.9833
     },
     {
         id: "campaign_051",
@@ -964,7 +1064,9 @@ The garrison surrendered, but the assault troops were beyond control. Three days
             { cost: 25, text: "Sophisticated defensive preparations at breaches—chevaux-de-frise, controlled flooding, prepared explosives—reached their peak development in the early 19th century before explosive shells made walls obsolete.", explanation: "The defensive technology helps narrow the timeframe." }
         ],
         explanation: "This was the Siege of Badajoz in April 1812, during Wellington's Peninsular War campaign. Wellington needed to take the fortress before French Marshal Soult could relieve it. The assault on the night of April 6 was catastrophic: 40 separate attacks on the main breaches failed, with over 3,500 casualties in a few hours. Officers died in waves—the 'forlorn hope' (first assault party) was nearly annihilated. Success came only when escalade parties found weakly defended points. The following three-day sack was one of the worst atrocities by British troops—Wellington wept viewing the aftermath. Heavy siege artillery (18-24 pounders) transported by armies was standard 1700-1860. Assault columns with fascines and ladders, plus sophisticated defenses (chevaux-de-frise, command-detonated mines), were Napoleonic-era warfare (1792-1815).",
-        tags: ["siege", "19th-century", "europe"]
+        tags: ["siege", "19th-century", "europe"],
+        latitude: 38.8786,
+        longitude: -6.9703
     },
     {
         id: "campaign_052",
@@ -985,7 +1087,9 @@ The disaster had strategic consequences for generations. Territories that might 
             { cost: 25, text: "The lack of gunpowder weapons in the description—the night attack relied on cold steel and surprise—suggests warfare before firearms became common in this region (roughly before the 1400s).", explanation: "The absence of firearms helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Maritsa (also called Chernomen) on September 26, 1371. Serbian King Vukašin and his brother King John Uglješa led perhaps 20,000 crusaders against Ottoman positions; the night before battle, the camp reportedly celebrated too enthusiastically. Ottoman commander Lala Şahin Pasha attacked before dawn with perhaps 5,000 men, including early Janissaries—the elite slave-soldier corps (devshirme system, prominent from the 1360s-1400s). Both Serbian kings died—Vukašin in combat, Uglješa likely drowned in the Maritsa River. The disaster ended serious resistance to Ottoman expansion in the Balkans for a generation. The absence of gunpowder weapons—the attack relied on cold steel and surprise—indicates warfare before firearms became common in the region (roughly before 1400).",
-        tags: ["ambush", "14th-century", "europe"]
+        tags: ["ambush", "14th-century", "europe"],
+        latitude: 41.7167,
+        longitude: 26.2167
     },
     {
         id: "campaign_053",
@@ -1004,7 +1108,9 @@ The king who had transformed European warfare was dead at 37. His reforms—ligh
             { cost: 25, text: "Shallower infantry formations (6 ranks instead of 30) maximizing musket firepower became standard in the 1630s-1640s, replacing the deeper tercio formations.", explanation: "The infantry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Lützen on November 16, 1632, where King Gustavus Adolphus of Sweden—the 'Lion of the North'—met his death. Gustavus had revolutionized warfare: lighter muskets, shallower formations (6 ranks instead of 30), and mobile artillery that could reposition during battle (a revolutionary 1620s-1630s innovation). Fighting Albrecht von Wallenstein's Imperials in dense fog, Gustavus led a cavalry charge and became separated from his guards. He was shot multiple times and killed, his body found stripped of armor. The Swedish army, unaware of his death for hours, fought on and won. But Sweden, without its genius king, struggled to maintain its position through the remaining sixteen years of the Thirty Years' War (1618-1648). His military reforms shaped European warfare for the next century.",
-        tags: ["pitched-battle", "17th-century", "europe"]
+        tags: ["pitched-battle", "17th-century", "europe"],
+        latitude: 51.2500,
+        longitude: 12.1500
     },
     {
         id: "campaign_054",
@@ -1025,7 +1131,9 @@ The defeat revealed a fundamental strategic problem: infantry-based armies could
             { cost: 25, text: "Professional heavy infantry relying on short swords, javelins, large shields, and close combat dominated Mediterranean warfare from roughly 300 BCE to 300 CE.", explanation: "The infantry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Carrhae in 53 BCE, Rome's worst defeat since Cannae. Marcus Licinius Crassus, the third member of the First Triumvirate with Caesar and Pompey, led seven legions into Mesopotamia seeking military glory to match his partners. Parthian general Surena commanded only 10,000 horse archers and 1,000 cataphracts, but his camel trains carried limitless arrows. The Roman legionaries formed testudo (turtle) formations, shields locked overhead, waiting for the Parthians to exhaust their ammunition. It never happened. Crassus's son Publius died leading a desperate cavalry charge. Crassus himself was killed during truce negotiations—legend says the Parthians poured molten gold down his throat, mocking his famous wealth. Of 40,000 Romans, only 10,000 escaped. Roman heavy infantry (pilum, gladius, scutum) facing Parthian horse archers with composite bows identifies the late Republic period.",
-        tags: ["pitched-battle", "ancient", "asia"]
+        tags: ["pitched-battle", "ancient", "asia"],
+        latitude: 36.8667,
+        longitude: 39.0333
     },
     {
         id: "campaign_055",
@@ -1046,7 +1154,9 @@ The tactical lesson was clear: the phalanx was superior on level ground but fata
             { cost: 25, text: "The manipular legion—javelin-throwing infantry with short swords in flexible independent units—reached its tactical peak in the 3rd-2nd centuries BCE before evolving into different formations.", explanation: "The opposing tactical system helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Cynoscephalae ('Dog's Heads,' named for the hills) in 197 BCE, where Rome's flexible legions defeated the Macedonian phalanx. Roman consul Titus Quinctius Flamininus faced Philip V of Macedon on broken, fog-covered terrain. The phalanx, which Alexander the Great's army had used to conquer an empire 'a century and a half earlier' (334-323 BCE), was devastatingly effective on level ground—the 18-foot sarissa pikes created an impenetrable wall. But when gaps opened on the uneven terrain, an unnamed tribune led his men into the phalanx's exposed flank. The pikemen, unable to use their unwieldy weapons in close quarters, were slaughtered. The 'wars ending two decades before' that refined Roman manipular tactics were the Punic Wars against Carthage (ending 201 BCE). Cynoscephalae proved the legion superior to the phalanx on anything but perfect terrain.",
-        tags: ["pitched-battle", "ancient", "europe"]
+        tags: ["pitched-battle", "ancient", "europe"],
+        latitude: 39.4167,
+        longitude: 22.5833
     },
     {
         id: "campaign_056",
@@ -1067,7 +1177,9 @@ When the order's Grand Master led his reserve into the fight, the exhausted knig
             { cost: 25, text: "Military-religious orders of knight-brothers reached their peak in the 13th-14th centuries and declined in the 15th century as secular states grew stronger.", explanation: "The military-religious order context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Grunwald (also called Tannenberg) on July 15, 1410, the greatest defeat of a crusading military order. The Teutonic Knights under Grand Master Ulrich von Jungingen faced a Polish-Lithuanian alliance led by King Władysław II Jagiełło and Grand Duke Vytautas. Lithuanian light cavalry employed the feigned retreat that had destroyed European armies at Legnica in 1241—the Teutonic Knights remembered, but their commander pursued anyway. Von Jungingen and most of the order's leadership died in the final melee. Early bronze bombards with crude on-site-mixed powder (characteristic 1380-1430) were present but not decisive. Military-religious orders of knight-brothers reached their peak in the 13th-14th centuries; 'two centuries of conquest' dates their founding to the early 1200s. The order never recovered—within a century, it would become a secular duchy.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 53.4833,
+        longitude: 20.1167
     },
     {
         id: "campaign_057",
@@ -1088,7 +1200,9 @@ When the armies met, the king's cavalry smashed through the enemy center. The ho
             { cost: 25, text: "The practice of fighting to capture nobles for ransom (rather than to destroy enemy forces) was characteristic of medieval warfare and declined rapidly in the late 15th-early 16th centuries.", explanation: "The ransom warfare context helps narrow the timeframe to the transitional period." }
         ],
         explanation: "This was the Battle of Fornovo on July 6, 1495, fought as Charles VIII of France retreated from his easy conquest of Naples. A coalition of Italian states—Venice, Milan, the Papal States—caught him at the Taro River crossing. Charles's French gendarmes (heavy cavalry) smashed through the Italian center in a charge that became legendary, while his horse-drawn mobile artillery (a revolutionary 1490s innovation—earlier guns needed slow oxen) created havoc. But the Italians captured the French baggage train with immense loot from Naples. Both sides claimed victory—France because Charles escaped, Italy because they recovered the plunder. The Italians fighting for ransom and glory rather than destruction reflects medieval values that would vanish by 1520 as gunpowder warfare grew more lethal. Fornovo marks the transition between medieval and early modern warfare.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 44.6931,
+        longitude: 10.1000
     },
     {
         id: "campaign_058",
@@ -1109,7 +1223,9 @@ Yet the strategic impact was limited. Shipyards replaced losses within a year. T
             { cost: 25, text: "Galley warfare with arquebus-armed marines dominated Mediterranean naval combat from roughly 1520-1580, before sailing warships proved their superiority.", explanation: "The naval warfare style helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Lepanto on October 7, 1571, the largest naval battle since antiquity. Don John of Austria commanded the Holy League fleet against the Ottoman navy under Ali Pasha. Over 400 galleys clashed in the Gulf of Patras. The six Venetian galleasses—hybrid ships mounting broadside cannon—disrupted Ottoman formations before the main engagement. Cervantes (later author of Don Quixote) fought aboard the Marquesa, losing use of his left hand. The Ottomans lost over 200 ships and 30,000 men; the Christians lost 17 ships and 7,500 men. Galleys (oar-powered ramming ships) and arquebus-armed marines dominated Mediterranean naval warfare from 1520-1580. Galleasses were an experimental 1560s-1570s design, transitional toward broadside sailing warships. The Ottoman navy rebuilt within a year—Lepanto's significance was psychological, breaking the myth of Ottoman invincibility at sea.",
-        tags: ["naval", "16th-century", "mediterranean"]
+        tags: ["naval", "16th-century", "mediterranean"],
+        latitude: 38.2500,
+        longitude: 21.3000
     },
     {
         id: "campaign_059",
@@ -1128,7 +1244,9 @@ The horse archers pressed closer, trying to provoke a response. Finally, at a pl
             { cost: 25, text: "Heavy mail armor covering the entire body was characteristic of the 11th-13th centuries. Earlier periods used less complete coverage; later periods transitioned to plate armor.", explanation: "The armor technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Arsuf on September 7, 1191, Richard the Lionheart's tactical masterpiece during the Third Crusade. Richard led his army south along the coast from Acre to Jaffa while Saladin's horse archers harassed continuously from the landward side. Richard's iron discipline kept his knights from charging prematurely—the Hospitallers on the vulnerable rear endured hours of arrow fire. When the Knights Hospitaller finally charged (possibly against orders), Richard committed his entire cavalry in a coordinated mass charge that shattered Saladin's center. Belt-hook crossbows (drawn by leg strength, standard 1000-1250) and heavy mail covering the entire body (pre-1300, before plate armor) identify the High Crusader period. The coastal march with fleet supply was specifically the Third Crusade's strategic situation (1189-1192).",
-        tags: ["pitched-battle", "12th-century", "middle-east"]
+        tags: ["pitched-battle", "12th-century", "middle-east"],
+        latitude: 32.2014,
+        longitude: 34.8144
     },
     {
         id: "campaign_060",
@@ -1149,7 +1267,9 @@ The aftermath was systematic: execution of enemy leaders, redistribution of terr
             { cost: 25, text: "Armies of 80,000 per side, drawn from dozens of semi-autonomous lords whose loyalties could shift during battle, was characteristic of the late 16th-early 17th century before more centralized states emerged.", explanation: "The political-military context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Sekigahara on October 21, 1600, which unified Japan under Tokugawa Ieyasu. After Toyotomi Hideyoshi's death left an infant heir, two factions formed: Ieyasu's 'Eastern Army' and Ishida Mitsunari's 'Western Army.' Both sides fielded about 80,000 men, but loyalties were uncertain. Kobayakawa Hideaki commanded 15,000 Western troops but had secretly agreed to defect. When his betrayal came—attacking his own side's flank—the Western Army collapsed. Mass matchlock arquebus infantry (standard in Japan from the 1560s-1600s) were largely ineffective in the fog and rain, which extinguished the slow matches. The Tokugawa shogunate established afterward would rule Japan for 268 years until the Meiji Restoration in 1868. Armies assembled from lords of questionable loyalty was characteristic of the late Sengoku period (1560-1615).",
-        tags: ["pitched-battle", "17th-century", "asia"]
+        tags: ["pitched-battle", "17th-century", "asia"],
+        latitude: 35.3644,
+        longitude: 136.4678
     },
     {
         id: "campaign_061",
@@ -1170,7 +1290,9 @@ Casualty estimates suggest 20,000 or more died—an almost inconceivable proport
             { cost: 25, text: "Primitive handguns existed by the mid-15th century but were slow and inaccurate. Their presence alongside dominant longbows indicates the 1450s-1480s, before firearms replaced bows.", explanation: "The weapons transition helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Towton on Palm Sunday, March 29, 1461, the bloodiest battle ever fought on English soil. Edward of York (soon Edward IV) faced the Lancastrian army of Henry VI in a driving snowstorm. The Yorkists had the wind at their backs—their arrows flew farther, forcing the Lancastrians to advance into the storm. Fighting lasted nearly ten hours. When the Duke of Norfolk's reinforcements struck the Lancastrian flank, the line broke. Fleeing men drowned in the swollen River Cock or were cut down in their heavy plate armor. Estimates suggest 20,000-28,000 dead—perhaps 1% of England's population. Full plate harnesses were standard for wealthy fighters 1400-1470. Longbows with 100-150 pound draw weights were at their peak in the 15th century; by 1550, firearms had replaced them. Towton epitomized the Wars of the Roses' savagery.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 53.8360,
+        longitude: -1.2720
     },
     {
         id: "campaign_062",
@@ -1191,7 +1313,9 @@ This was among the first demonstrations that broadside sailing warships could de
             { cost: 25, text: "Broadside sailing warships defeating galley/dhow fleets through stand-off gunnery was a revolutionary development of the early 1500s that would define naval warfare for 350 years.", explanation: "The tactical revolution helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Diu on February 3, 1509, when Portuguese viceroy Francisco de Almeida destroyed a combined Egyptian-Gujarati fleet. The Portuguese had perhaps 18 ships against over 100, but their carracks mounted heavy bronze cannon in broadside batteries—a capability only recently reliable enough for naval use (late 1400s-early 1500s). The Indian Ocean naval tradition emphasized boarding; ships were designed to carry soldiers, not heavy guns. The Portuguese stood off at range and destroyed enemies who couldn't effectively reply. The victory secured Portuguese control of Indian Ocean trade routes for a century. This was among the first demonstrations that broadside sailing warships could defeat any number of traditional vessels—a revolution that would define naval warfare for 350 years.",
-        tags: ["naval", "16th-century", "asia"]
+        tags: ["naval", "16th-century", "asia"],
+        latitude: 20.7144,
+        longitude: 70.9875
     },
     {
         id: "campaign_063",
@@ -1212,7 +1336,9 @@ The battle demonstrated conclusively that massed gunpowder infantry, properly po
             { cost: 25, text: "Rotating volley fire—maintaining continuous fire by having ranks alternate shooting and reloading—was independently developed in the late 16th century and became standard doctrine by the 1590s-1600s.", explanation: "The volley fire technique helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Nagashino on June 29, 1575, where Oda Nobunaga revolutionized Japanese warfare. Nobunaga deployed 3,000 arquebusiers behind wooden palisades and a stream—the arquebuses were matchlock designs introduced by Portuguese traders in 1543 ('just thirty years earlier'). Takeda Katsuyori, whose father's cavalry had been invincible, ordered charge after charge against the prepared position. The rotating volley fire—ranks alternating shooting and reloading—maintained continuous fire. The famed Takeda cavalry was annihilated; estimates suggest 10,000 of 15,000 died, including most senior commanders. Nagashino proved that massed gunpowder infantry with proper defenses could destroy any cavalry. Within seven years, Nobunaga would control most of Japan. The rotating volley technique was independently developed in Europe around the same time, becoming standard doctrine by the 1590s-1600s.",
-        tags: ["pitched-battle", "16th-century", "asia"]
+        tags: ["pitched-battle", "16th-century", "asia"],
+        latitude: 34.9211,
+        longitude: 137.5611
     },
     {
         id: "campaign_064",
@@ -1233,7 +1359,9 @@ The victory secured the colony's survival and established the border between two
             { cost: 25, text: "Elaborate colorful military uniforms became standard in the 18th century, distinguishing it from both earlier (plainer) and later (more practical) military dress.", explanation: "The uniform style helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Bloody Marsh on July 7, 1742, when Georgia's founder James Oglethorpe repelled a Spanish invasion. Spanish forces from Florida landed about 2,000 troops on St. Simons Island; Oglethorpe had perhaps 650 regulars, militia, and allied Yamacraw warriors. When the Spanish column advanced through marshland on a narrow trail, Oglethorpe's ambush was devastating—the confined terrain prevented the Spanish from deploying their superior numbers. Spanish casualties are disputed but likely several hundred; the invasion collapsed. Flintlock muskets with paper cartridges (standard 1690-1850) and elaborate colorful uniforms (characteristic of 18th-century armies) identify the period. The battle secured Georgia's southern frontier and established the border between British and Spanish America for a generation.",
-        tags: ["ambush", "18th-century", "americas"]
+        tags: ["ambush", "18th-century", "americas"],
+        latitude: 31.1500,
+        longitude: -81.3917
     },
     {
         id: "campaign_065",
@@ -1254,7 +1382,9 @@ The coalition army shattered. The emperor fled, abandoning his imperial regalia.
             { cost: 25, text: "Mail hauberks as the primary armor (rather than full plate) combined with unarmored horses indicates the period before 1300, when plate armor and horse barding began to spread.", explanation: "The armor technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Bouvines on July 27, 1214, which established France as the dominant power in medieval Europe. King Philip II Augustus of France faced a coalition of Emperor Otto IV, Count Ferrand of Flanders, and King John of England's mercenaries. Philip was unhorsed during the battle and nearly killed before his bodyguards rescued him. The French knights broke Otto's center; the Emperor fled, abandoning his imperial eagle standard. Ferrand was captured (held for ransom for 13 years), and John's continental ambitions were ruined—the resulting English baronial revolt produced Magna Carta the following year. Flat-topped great helms (emerging 1180-1200) and mail hauberks without plate armor indicate the early 13th century. Fighting for ransom rather than destruction reflects High Medieval values before gunpowder changed warfare's economics.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 50.5790,
+        longitude: 3.2260
     },
     {
         id: "campaign_066",
@@ -1275,7 +1405,9 @@ The defending sultan died in the rout. The invader's dynasty would rule for thre
             { cost: 25, text: "War elephants' vulnerability to gunfire—panicking at the noise and smoke—was a lesson learned throughout the early 16th century as firearms spread through South Asia.", explanation: "The elephant reaction to firearms helps narrow the timeframe to the early gunpowder era." }
         ],
         explanation: "This was the First Battle of Panipat on April 21, 1526, where Babur founded the Mughal Empire. Babur, a Timurid prince descended from both Timur and Genghis Khan, had spent years fighting in Central Asia before turning toward India. His 12,000 veterans faced Sultan Ibrahim Lodi's estimated 100,000 troops and 100 war elephants. Babur chained his cannon together and placed matchlock-armed infantry behind them—a tactic combining Central Asian wagon-fort traditions with Ottoman-style gunpowder warfare (characteristic of the early 16th century). The elephants, encountering firearms for the first time, panicked at the noise and smoke—a common reaction in the early gunpowder era (1500s-1530s) before armies adapted. Ibrahim Lodi died in the fighting. The Mughal dynasty Babur established would rule until 1857, 'three centuries' later.",
-        tags: ["pitched-battle", "16th-century", "asia"]
+        tags: ["pitched-battle", "16th-century", "asia"],
+        latitude: 29.3909,
+        longitude: 76.9635
     },
     {
         id: "campaign_067",
@@ -1296,7 +1428,9 @@ Nearly the entire army was killed or captured, including the king himself. Withi
             { cost: 25, text: "Composite recurve bows made from wood, horn, and sinew were the standard steppe and Middle Eastern weapon from antiquity through the medieval period, ideal for mounted archery.", explanation: "The bow technology confirms the medieval timeframe." }
         ],
         explanation: "This was the Battle of Hattin on July 4, 1187, the greatest disaster in Crusader history. King Guy of Lusignan marched 20,000 men across waterless terrain to relieve the siege of Tiberias, ignoring advice from experienced commanders like Raymond of Tripoli. Saladin positioned his army between the Crusaders and the water sources at the Sea of Galilee. By the time battle was joined, the Crusaders were dying of thirst. The True Cross (Christianity's holiest relic, carried into battle) was captured; King Guy was captured; most of the army was killed or enslaved. Mail hauberks with flat-topped helmets and kite shields were standard Crusader equipment 1150-1250. Unarmored horses indicate pre-1300. Within three months, Saladin captured Jerusalem—the city the First Crusade had taken 'nearly a century' earlier in 1099.",
-        tags: ["pitched-battle", "12th-century", "middle-east"]
+        tags: ["pitched-battle", "12th-century", "middle-east"],
+        latitude: 32.8050,
+        longitude: 35.4470
     },
     {
         id: "campaign_068",
@@ -1317,7 +1451,9 @@ The victory gave the coalition control of an entire province and demonstrated th
             { cost: 25, text: "Three-rank linear infantry formations were standard from roughly 1700-1800. Earlier formations were deeper; later (Napoleonic) formations often used columns.", explanation: "The formation depth helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Ramillies on May 23, 1706, the Duke of Marlborough's most complete victory. Marlborough caught the French army under Marshal Villeroi with its flanks unsecured on open ground near Namur. While feinting at the French left, Marlborough concentrated his cavalry against the right. When his horsemen broke through, they rolled up the French line from the flank. The pursuit was relentless—France lost over 15,000 casualties and prisoners; the Allies lost 3,600. Nearly all of Spanish Netherlands fell within weeks. Socket bayonets 'recently becoming universal' indicates 1700-1720—they replaced plug bayonets and pikes during this transition. Three-rank linear formations were standard 1700-1800. Cavalry remaining decisive at the operational level (pursuit destroying broken armies) was characteristic of 18th-century warfare before rifles increased infantry firepower.",
-        tags: ["pitched-battle", "18th-century", "europe"]
+        tags: ["pitched-battle", "18th-century", "europe"],
+        latitude: 50.6380,
+        longitude: 4.9140
     },
     {
         id: "campaign_069",
@@ -1338,7 +1474,9 @@ The survivors faced a legendary march home, abandoned in hostile territory thous
             { cost: 25, text: "Scythed chariots were used by eastern empires primarily in the 5th-4th centuries BCE. They were intended to break up infantry formations but were rarely effective against disciplined troops.", explanation: "The chariot technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Cunaxa in 401 BCE, immortalized in Xenophon's Anabasis. Prince Cyrus the Younger hired 10,000 Greek mercenaries to help seize the Persian throne from his brother Artaxerxes II. The Greek phalanx was invincible on their part of the field—the scythed chariots (used by Persian armies primarily in the 5th-4th centuries BCE) were defeated when disciplined hoplites simply opened lanes and let them pass harmlessly through. But Cyrus, instead of waiting for the Greeks to win, led a reckless cavalry charge directly at Artaxerxes and was killed. With Cyrus dead, the cause was lost. The hoplite panoply (bronze helmet, aspis shield, thrusting spear) dominated Greek warfare from ~700 BCE until Alexander's reforms ~330 BCE; described as dominant 'for over two centuries' places this after 500 BCE. The Greek mercenaries' legendary 'March of the Ten Thousand' home inspired Alexander's later invasion of Persia.",
-        tags: ["pitched-battle", "ancient", "asia"]
+        tags: ["pitched-battle", "ancient", "asia"],
+        latitude: 33.3200,
+        longitude: 44.1100
     },
     {
         id: "campaign_070",
@@ -1361,7 +1499,9 @@ The victory secured the frontier for years and made the young commander's reputa
             { cost: 25, text: "The two-handed lance (kontos) requiring the rider to forgo a shield was characteristic of eastern heavy cavalry traditions in the late ancient period.", explanation: "The cavalry equipment details help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Dara in 530 CE, where the young general Belisarius made his reputation. Only 25 years old, Belisarius faced a Sasanian Persian army twice the size of his own. His system of interrupted trenches channeled the Persian cataphract cavalry charges into killing zones. When the Persian cataphracts (fully armored riders on armored horses, reaching peak effectiveness 300-700 CE) charged with their two-handed kontos lances (requiring no shield—characteristic of Persian and Byzantine cavalry), the trenches disrupted their formation. A concealed cavalry force struck the decisive blow from a hidden position on a hill. Belisarius would go on to reconquer North Africa and Italy for the Byzantine Empire. The sophisticated trench engineering represents late Roman military science at its finest.",
-        tags: ["pitched-battle", "6th-century", "middle-east"]
+        tags: ["pitched-battle", "6th-century", "middle-east"],
+        latitude: 37.1781,
+        longitude: 40.9547
     },
     {
         id: "campaign_071",
@@ -1382,7 +1522,9 @@ At close quarters, the long pike was useless. The swordsmen cut down the pikemen
             { cost: 25, text: "The 18-foot sarissa pike phalanx had 'conquered an empire two centuries earlier'—placing its creation around 350 BCE and suggesting this battle around 150 BCE.", explanation: "The phalanx timeline helps narrow the date." }
         ],
         explanation: "This was the Battle of Pydna on June 22, 168 BCE, which ended the Macedonian kingdom that Alexander the Great's successors had ruled for 150 years. Roman consul Lucius Aemilius Paullus faced King Perseus of Macedon's 40,000-man army, built around the sarissa phalanx that had 'conquered an empire two centuries earlier' under Alexander (334-323 BCE). The battle began accidentally when a runaway horse triggered a skirmish. On level ground, the 18-foot sarissa pikes created an impenetrable wall. But when the phalanx advanced across rough terrain near Mount Olympus, gaps opened. Roman legionaries pushed into the gaps with their gladii (short swords) and scuta (curved shields)—weapons 'perfected over two centuries' since Rome adopted them around 350 BCE. At close quarters, the long pikes were useless. Perseus was captured and paraded through Rome. Macedonia became a Roman province.",
-        tags: ["pitched-battle", "ancient", "europe"]
+        tags: ["pitched-battle", "ancient", "europe"],
+        latitude: 40.3953,
+        longitude: 22.5350
     },
     {
         id: "campaign_072",
@@ -1403,7 +1545,9 @@ The leading prince was captured. The emperor's victory seemed to settle the reli
             { cost: 25, text: "Religious warfare over a 'new faith' dividing an empire, with conflict that would continue 'for another century,' points to the 1520s-1648 era of religious wars.", explanation: "The religious conflict context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Mühlberg on April 24, 1547, where Holy Roman Emperor Charles V crushed the Schmalkaldic League of Protestant princes. Elector John Frederick of Saxony believed the Elbe River protected his position; Charles's Spanish tercios (pike-and-arquebus formations developed during the Italian Wars, 1490s-1500s, and dominant until the 1630s) found a ford and crossed before John Frederick could react. The battle was brief—John Frederick was captured, his face slashed by a lance. Titian's famous equestrian portrait shows Charles in armor at the moment of triumph. The religious settlement seemed final, but 'another century' of religious conflict culminated in the Thirty Years' War (1618-1648). The Reformation era (1520s-1648, ending with the Peace of Westphalia) was defined by such warfare between Catholic and Protestant powers.",
-        tags: ["pitched-battle", "16th-century", "europe"]
+        tags: ["pitched-battle", "16th-century", "europe"],
+        latitude: 51.4314,
+        longitude: 13.2222
     },
     {
         id: "campaign_073",
@@ -1424,7 +1568,9 @@ The stronghold fell shortly after. The war was effectively over. More importantl
             { cost: 25, text: "Field artillery used against cavalry (rather than just for siege work) was a revolutionary development of the 1440s-1450s, before which armies relied primarily on armored cavalry charges.", explanation: "The tactical use of artillery helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Castillon on July 17, 1453, the battle that ended the Hundred Years' War. The English commander John Talbot, Earl of Shrewsbury, led his men-at-arms in a mounted charge against French positions protected by earthworks and 300 field guns. The Bureau brothers' artillery (using reliable corned powder, which replaced serpentine powder in the early-to-mid 15th century) massacred the charging cavalry. Talbot, age 80, was killed when his horse was shot and fell on him. This was the first major battle where field artillery (as opposed to siege artillery) defeated a cavalry charge—a revolutionary development of the 1440s-1450s that announced the end of the armored knight's dominance. Three months later, Constantinople fell to Ottoman guns. 1453 marked the end of medieval warfare.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 44.8547,
+        longitude: -0.0461
     },
     {
         id: "campaign_074",
@@ -1445,7 +1591,9 @@ The westerners were annihilated. Thousands were killed or captured. The ransoms 
             { cost: 25, text: "The slave-soldier infantry (devshirme/Janissary system) in their early period—before widespread firearms adoption—indicates the late 14th century, when this military institution was first becoming significant.", explanation: "The military system helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Nicopolis on September 25, 1396, the last major crusade of the medieval era. French and Burgundian knights under John of Nevers joined Hungarian King Sigismund against Ottoman Sultan Bayezid I. The French demanded the honor of leading the charge, despite Sigismund's warnings that Bayezid had hidden his main force behind a hill. The knights easily scattered Ottoman light cavalry and infantry, then charged uphill—directly into Bayezid's sipahi heavy cavalry and Janissaries (the slave-soldier corps established in the 1360s, before they adopted firearms in the 15th-16th centuries). The exhausted crusaders were annihilated. John of Nevers was captured; his enormous ransom impoverished Burgundy. Full plate armor 'just becoming common' indicates the 1380s-1400s—earlier knights wore mail with plate additions; by 1420-1430, full plate was universal.",
-        tags: ["pitched-battle", "14th-century", "europe"]
+        tags: ["pitched-battle", "14th-century", "europe"],
+        latitude: 43.7050,
+        longitude: 24.8972
     },
     {
         id: "campaign_075",
@@ -1466,7 +1614,9 @@ The kingdom was partitioned. The invaders would occupy the central portion for n
             { cost: 25, text: "Feudal heavy cavalry charging against disciplined arquebus infantry was the characteristic—and usually disastrous—tactical matchup of the early 16th century.", explanation: "The tactical mismatch helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Mohács on August 29, 1526, which destroyed the medieval Kingdom of Hungary. King Louis II, only 20 years old, faced Sultan Suleiman the Magnificent's 50,000-strong army, including Janissary arquebusiers and modern artillery. The Hungarian feudal cavalry charged in the traditional manner—and were slaughtered by disciplined Ottoman gunfire. The battle lasted barely two hours. Louis drowned fleeing across a swollen stream, weighed down by his armor. Seven bishops, 500 nobles, and perhaps 14,000 soldiers died. Ottoman firearms and artillery reached peak advantage over opponents in the early 16th century (1500s-1530s); later, other powers caught up. Hungary was partitioned: the Ottomans held the center for 'nearly two centuries' (until 1699), the Habsburgs took the west, and Transylvania became an Ottoman vassal.",
-        tags: ["pitched-battle", "16th-century", "europe"]
+        tags: ["pitched-battle", "16th-century", "europe"],
+        latitude: 45.9906,
+        longitude: 18.6706
     },
     {
         id: "campaign_076",
@@ -1487,7 +1637,9 @@ The siege demonstrated both the power of determined defense and the brutal natur
             { cost: 25, text: "Arquebusiers as the standard infantry firearm indicates the period from roughly 1520-1600, before the musket became dominant.", explanation: "The infantry weapons help narrow the timeframe." }
         ],
         explanation: "This was the Siege of Famagusta (1570-1571), where Venetian commander Marcantonio Bragadin held out for nearly 11 months against an Ottoman army under Lala Kara Mustafa Pasha. Venice had held Cyprus for 'nearly a century' since 1489. The garrison of 7,000 faced perhaps 200,000 besiegers. When only 1,800 defenders remained and walls built in the 'older medieval style' (vulnerable to artillery; trace italienne bastions provided better defense) were rubble, Bragadin negotiated surrender with safe passage guaranteed. Mustafa broke the agreement: Bragadin was tortured for days, then flayed alive, his skin stuffed with straw and sent to Constantinople. The atrocity contributed to the fury at 'the great naval battle months later'—Lepanto in October 1571. Arquebus-armed infantry (standard infantry firearm 1520-1600) on both sides identifies the period.",
-        tags: ["siege", "16th-century", "mediterranean"]
+        tags: ["siege", "16th-century", "mediterranean"],
+        latitude: 35.1250,
+        longitude: 33.9417
     },
     {
         id: "campaign_077",
@@ -1510,7 +1662,9 @@ The trading company became the effective ruler of a wealthy province, transformi
             { cost: 25, text: "Trading companies with private armies fighting in South Asia against larger traditional forces was characteristic of the mid-18th century colonial period.", explanation: "The colonial warfare context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Plassey on June 23, 1757, where Robert Clive's British East India Company defeated Nawab Siraj ud-Daulah of Bengal. The battle was decided more by politics than fighting—Mir Jafar, commanding much of the Nawab's army, had secretly agreed to betray him in exchange for the throne. When the monsoon rain fell, the Company's gun crews kept their powder dry under tarpaulins while the Nawab's artillery fell silent with wet powder. Most of the 50,000-strong Bengali army never engaged. Siraj ud-Daulah fled and was murdered days later. Flintlock muskets with socket bayonets (standard 1700-1850) and disciplined sepoy volleys defeated the larger but disorganized opposition. The Company became effective rulers of Bengal—transforming 'from merchants into sovereigns' began the British conquest of India.",
-        tags: ["pitched-battle", "18th-century", "asia"]
+        tags: ["pitched-battle", "18th-century", "asia"],
+        latitude: 23.8000,
+        longitude: 88.2500
     },
     {
         id: "campaign_078",
@@ -1531,7 +1685,9 @@ The rebel army was destroyed. But the lesson of the schiltron—that common infa
             { cost: 25, text: "Knights in mail with early plate additions (rather than full plate harnesses) indicates the late 13th century transitional period, before plate armor became standard in the 14th century.", explanation: "The armor technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Falkirk on July 22, 1298, where Edward I of England avenged the disaster at Stirling Bridge the year before. William Wallace's Scottish army, lacking cavalry and noble support, formed schiltrons—dense circular pike formations that had won at Stirling. Edward's cavalry charged but couldn't break the hedgehog of pikes. Then Edward ordered his Welsh longbowmen forward. Longbow draw weights of 80-100 pounds were characteristic of the late 13th-early 14th century (war bows later reached 150+ pounds). The Scots couldn't charge to silence the archers without breaking formation and being ridden down; they died in place under the arrow storm. Knights in mail with early plate additions (rather than full plate) indicates the late 13th century transition. Schiltron pike tactics were a recent Scottish innovation of the 1290s—they would influence pike warfare for centuries.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 55.9946,
+        longitude: -3.7663
     },
     {
         id: "campaign_079",
@@ -1552,7 +1708,9 @@ The survivors surrendered with honor, allowed to march away with their weapons. 
             { cost: 25, text: "The tercio formation dominated European warfare from roughly 1500-1640. Its defeat and replacement by 'thinner, more flexible linear formations' occurred in the 1630s-1650s.", explanation: "The tactical transition helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Rocroi on May 19, 1643, which ended Spanish military supremacy in Europe. The 21-year-old Duke of Enghien (later the Great Condé) commanded French forces against the Spanish Army of Flanders under Francisco de Melo. The Spanish tercios—pike-and-musket formations that had dominated European warfare 'for 150 years' since their development in the Italian Wars—were invincible from the front. But when Enghien's cavalry won on one wing, they wheeled into the tercios' flanks rather than pursuing. No tercio had ever been broken in pitched battle before; that day, several were destroyed. The surviving tercios surrendered with honor, allowed to march away with arms. Matchlock muskets (dominant 1550-1680) with flintlocks 'existing but not standard' indicates the 1620s-1660s transition. Within a generation, linear formations replaced the tercio entirely.",
-        tags: ["pitched-battle", "17th-century", "europe"]
+        tags: ["pitched-battle", "17th-century", "europe"],
+        latitude: 49.9250,
+        longitude: 4.5230
     },
     {
         id: "campaign_080",
@@ -1573,7 +1731,9 @@ The challenger's heir died in the battle or its immediate aftermath—murdered, 
             { cost: 25, text: "Handguns as 'primitive' secondary weapons, present but not decisive, indicates the early gunpowder transition of the 15th century before firearms became dominant.", explanation: "The firearm status helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Tewkesbury on May 4, 1471, the battle that effectively ended the House of Lancaster. Edward IV crushed Queen Margaret of Anjou's army; her son Edward, Prince of Wales (the Lancastrian heir), was killed in the battle or murdered shortly after—chronicles differ. The Duke of Somerset led a premature charge from the strong Lancastrian position behind hedges, and Edward's counterattack broke the entire army. Soldiers violated sanctuary in Tewkesbury Abbey to kill fugitives. Full plate armor was standard for wealthy fighters 1400-1550. The pollax (hammer, spike, and axe blade optimized for armored combat) was the premier weapon of the 15th century. Handguns as 'primitive' secondary weapons indicates the early gunpowder transition. Henry VI was murdered in the Tower weeks later, ending the Lancastrian line.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 51.9880,
+        longitude: -2.1610
     },
     {
         id: "campaign_081",
@@ -1592,7 +1752,9 @@ Infantry assaults, supported by artillery and waves of soldiers willing to accep
             { cost: 25, text: "Colonial powers fighting guerrilla insurgencies was characteristic of the 1945-1975 period, as empires dissolved after the second great global conflict.", explanation: "The colonial warfare context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Dien Bien Phu (March-May 1954), where General Vo Nguyen Giap's Viet Minh destroyed the French garrison in a remote valley. French commander General Henri Navarre had established the base hoping to draw Giap into a conventional battle where French firepower would be decisive. Giap's soldiers disassembled artillery and carried it through mountains on bicycles and backs, then dug it into reverse slopes where French counterbattery fire couldn't reach. The airstrip was cratered within days; air supply by parachute couldn't meet the garrison's needs. After 57 days, the 13,000-man garrison surrendered. Air supply as sole logistics for a major base was feasible with 1940s transport aircraft—earlier planes couldn't carry enough, later helicopters would change the equation. France withdrew from Indochina within months; the war America inherited began.",
-        tags: ["siege", "20th-century", "asia"]
+        tags: ["siege", "20th-century", "asia"],
+        latitude: 21.3861,
+        longitude: 103.0208
     },
     {
         id: "campaign_082",
@@ -1611,7 +1773,9 @@ After three days, the enemy withdrew. Both sides claimed victory and drew lesson
             { cost: 25, text: "Helicopter gunships armed with rockets and miniguns were developed specifically for this conflict, entering service in 1962-1965.", explanation: "The gunship technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Ia Drang Valley in November 1965, the first major engagement between U.S. and North Vietnamese Army (NVA) forces. Lieutenant Colonel Hal Moore's 1st Battalion, 7th Cavalry landed at LZ X-Ray and found three NVA regiments. For three days, Moore's 450 men fought desperately against 2,000+ NVA soldiers who charged to 'grab them by the belt buckle'—getting close enough that American firepower couldn't be used without hitting friendlies. B-52 strikes, helicopter gunships, and artillery broke the attacks. Both sides claimed victory; both drew conclusions that shaped the war—America that firepower could win, the NVA that they could survive it. Turbine-powered UH-1 'Huey' helicopters (operational early 1960s) enabled air assault tactics. Helicopter gunships (developed 1962-1965 for Vietnam) provided close support. This was the first war fought with air assault as primary doctrine.",
-        tags: ["pitched-battle", "20th-century", "asia"]
+        tags: ["pitched-battle", "20th-century", "asia"],
+        latitude: 13.5667,
+        longitude: 107.7167
     },
     {
         id: "campaign_084",
@@ -1630,7 +1794,9 @@ The city was eventually retaken at enormous cost. Thousands of civilians died, m
             { cost: 25, text: "Coordinated surprise attacks across an entire country, combined with urban combat in historic cities, was characteristic of the guerrilla warfare phase of Southeast Asian conflicts in the 1960s-1970s.", explanation: "The operational context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Hue during the Tet Offensive (January-February 1968). On January 31, NVA and Viet Cong forces seized most of the former imperial capital, including the ancient Citadel—a 19th-century fortress—and held it for 26 days. U.S. Marines and South Vietnamese troops retook the city block by block in brutal house-to-house fighting. Air and artillery support was limited to avoid destroying the historic city. American M14 battle rifles (7.62x51mm, designed for longer range) faced NVA AK-47 assault rifles (7.62x39mm) in close urban combat where neither weapon was ideal. Mass graves revealed the massacre of thousands of civilians by the occupiers. Tet was a military defeat for the NVA but a political victory—American public opinion turned against the war. The rifle matchup (heavier battle rifles vs. assault rifles with curved magazines) was characteristic of 1960s Cold War conflicts.",
-        tags: ["urban", "20th-century", "asia"]
+        tags: ["urban", "20th-century", "asia"],
+        latitude: 16.4637,
+        longitude: 107.5909
     },
     {
         id: "campaign_085",
@@ -1649,7 +1815,9 @@ On the fourth day, the last defensive line held. The attackers, having lost over
             { cost: 25, text: "Cold War-era proxy conflicts where Western and Soviet equipment faced each other directly occurred primarily in the Middle East, Southeast Asia, and Africa from the 1960s-1980s.", explanation: "The geopolitical context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of the Valley of Tears on the Golan Heights during the Yom Kippur War (October 6-9, 1973). Syria attacked on Yom Kippur with over 1,400 tanks against roughly 180 Israeli tanks defending the strategic heights. The Israeli 7th Armored Brigade, commanded by Colonel Avigdor Ben-Gal, fought for four days without sleep, engaging at maximum range where their Centurions' superior optics and fire control gave them an advantage over Syrian T-55s and T-62s. Crews whose tanks were destroyed joined surviving vehicles. By October 9, the Israelis had fewer than 20 operational tanks—but the Syrians, having lost over 500 tanks, withdrew. The valley earned its name from the burned-out wrecks that filled it. Centurions and Pattons facing T-55s and T-62s was the characteristic tank matchup of Middle Eastern wars from 1967-1982; the Western tanks' superior fire control at range was a specific Cold War-era advantage.",
-        tags: ["armored-warfare", "20th-century", "middle-east"]
+        tags: ["armored-warfare", "20th-century", "middle-east"],
+        latitude: 33.0500,
+        longitude: 35.7950
     },
     {
         id: "campaign_086",
@@ -1668,7 +1836,9 @@ Air attacks with modern jet fighters and anti-ship missiles threatened the fleet
             { cost: 25, text: "A European power projecting force 8,000 miles to retake colonial islands was unusual in the post-WWII era when most colonies had gained independence.", explanation: "The geopolitical context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Goose Green on May 28-29, 1982, during the Falklands War. Lieutenant Colonel 'H' Jones led 2nd Battalion, Parachute Regiment against an Argentine garrison three times their size. Jones was killed leading a charge against a machine gun position and received a posthumous Victoria Cross. The Paras took Goose Green after 14 hours of fighting. Meanwhile, Argentine Exocet missiles sank HMS Sheffield, Atlantic Conveyor, and other ships—proving modern surface fleets were vulnerable to anti-ship missiles in ways not seen since WWII. Britain's 8,000-mile power projection to retake colonial islands was unusual in the post-WWII era of decolonization. The Argentine junta fell within days of the war's end.",
-        tags: ["amphibious", "20th-century", "americas"]
+        tags: ["amphibious", "20th-century", "americas"],
+        latitude: -51.8267,
+        longitude: -58.9714
     },
     {
         id: "campaign_087",
@@ -1687,7 +1857,9 @@ The ground war lasted 100 hours. The occupying army was destroyed as a fighting 
             { cost: 25, text: "Stealth aircraft, precision-guided bombs, and cruise missiles used together in a systematic air campaign represented 1990s military technology at its peak.", explanation: "The combined air warfare technology helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of 73 Easting on February 26, 1991, during the Gulf War. Captain H.R. McMaster's Eagle Troop, 2nd Armored Cavalry Regiment—nine M1A1 Abrams tanks and twelve Bradley fighting vehicles—stumbled into the Iraqi Republican Guard's Tawakalna Division in a sandstorm. The M1A1s' thermal sights could see through the storm; the Iraqi T-72s were blind. In 23 minutes, Eagle Troop destroyed over 80 Iraqi vehicles while losing only one Bradley. The six-week air campaign before the ground assault used F-117 stealth aircraft (first used operationally 1989) and precision-guided bombs hitting individual buildings. Thermal imaging letting tanks see through darkness and smoke was decisive late-1980s-1990s technology. The '100-hour ground war' destroyed the Iraqi army as a fighting force.",
-        tags: ["armored-warfare", "20th-century", "middle-east"]
+        tags: ["armored-warfare", "20th-century", "middle-east"],
+        latitude: 29.8000,
+        longitude: 46.5000
     },
     {
         id: "campaign_089",
@@ -1708,7 +1880,9 @@ That same afternoon, a nearby garrison of barely 150 men held a supply station a
             { cost: 25, text: "Colonial armies suffering major defeats against non-European forces was relatively rare in the 1870s-1890s, when the technological gap was at its widest before machine guns became standard.", explanation: "The colonial warfare context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Isandlwana on January 22, 1879, the worst defeat the British Army suffered in the Victorian era. Lord Chelmsford's column of 1,800 men camped at Isandlwana without forming a defensive perimeter. Lieutenant Colonel Henry Pulleine was killed along with over 1,300 British and allied troops when 20,000 Zulu warriors under King Cetshwayo's commanders swept over the camp. The Zulu 'chest and horns' formation—developed by Shaka Zulu in the early 19th century—enveloped the scattered defenders. Single-shot Martini-Henry breech-loaders (standard 1865-1890) killed thousands of Zulus, but ammunition distribution failed. That afternoon, 150 men at Rorke's Drift held off 4,000 Zulus for 12 hours—the contrast illustrating that breech-loaders behind prepared defenses were nearly invincible. Eleven Victoria Crosses were awarded for Rorke's Drift.",
-        tags: ["pitched-battle", "19th-century", "africa"]
+        tags: ["pitched-battle", "19th-century", "africa"],
+        latitude: -28.3581,
+        longitude: 30.6517
     },
     {
         id: "campaign_090",
@@ -1729,7 +1903,9 @@ The kingdom remained independent, its mountain terrain and military strength pro
             { cost: 25, text: "The 'scramble for Africa'—European powers rapidly colonizing the continent—occurred primarily between 1880 and 1914.", explanation: "The colonial context helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Adwa on March 1, 1896, where Ethiopia became the only African nation to defeat a European colonial power and remain independent. Emperor Menelik II gathered perhaps 100,000 warriors against General Oreste Baratieri's 18,000 Italian troops. The Italians advanced in three columns with poor maps and worse coordination; Ethiopian forces destroyed each column in detail. Over 6,000 Italians died; 4,000 were captured. Menelik had purchased modern rifles from France and Russia—his army wasn't fighting with spears against magazine rifles, but with magazine rifles of their own. The defeat shocked Europe during the 'scramble for Africa' (1880-1914). Ethiopia remained independent until Mussolini's invasion in 1935-36, and even then required poison gas to subdue. Magazine rifles (bolt-action, multiple rounds) replacing single-shot breech-loaders as standard identifies the 1880s-1890s.",
-        tags: ["pitched-battle", "19th-century", "africa"]
+        tags: ["pitched-battle", "19th-century", "africa"],
+        latitude: 14.1625,
+        longitude: 38.8950
     },
     {
         id: "campaign_091",
@@ -1750,7 +1926,9 @@ The territory was reconquered, and the religious state that had ruled it was des
             { cost: 20, text: "Cavalry lance charges were becoming anachronistic by the 1890s as machine guns and magazine rifles increased firepower. Such charges still occurred occasionally through WWI but with diminishing success.", explanation: "The cavalry tactics help narrow the timeframe." }
         ],
         explanation: "This was the Battle of Omdurman on September 2, 1898, where General Kitchener reconquered Sudan for Britain. The Mahdist state had existed since Muhammad Ahmad declared himself the Mahdi in 1881 and destroyed General Gordon's force at Khartoum in 1885 ('over a decade earlier'). Kitchener's Maxim guns firing 500 rounds per minute slaughtered the Mahdist charges—11,000 Sudanese died for 48 British killed. Winston Churchill participated in the 21st Lancers' famous charge, 'the last meaningful cavalry charge by the British Army.' The Lancers' 400 men charged 2,500 Dervishes, losing 70 men in two minutes—a dramatic last gasp of cavalry shock tactics in the machine gun age. The one-sided casualty ratios demonstrated the industrial firepower gap at its most extreme.",
-        tags: ["pitched-battle", "19th-century", "africa"]
+        tags: ["pitched-battle", "19th-century", "africa"],
+        latitude: 15.7500,
+        longitude: 32.5167
     },
     {
         id: "campaign_092",
@@ -1771,7 +1949,9 @@ The battle determined which civilization would dominate the wealthy trade route 
             { cost: 25, text: "The rapid expansion of the caliphate eastward occurred primarily from 632-750 CE. By 750, the caliphate had reached its greatest extent.", explanation: "The expansion timeline helps narrow the date." }
         ],
         explanation: "This was the Battle of Talas in July 751, where the Abbasid Caliphate defeated Tang China—the only time these two great empires ever fought. General Gao Xianzhi led Tang forces to support a local ruler against Abbasid expansion along the Silk Road. When Karluk Turkish cavalry switched sides during the battle, the Tang line collapsed. The defeat ended Chinese influence in Central Asia permanently. Legend says Chinese papermakers captured at Talas taught the Arabs papermaking, spreading the technology westward to Europe—though this may be apocryphal. Crossbows and halberds were characteristic Tang infantry weapons (618-907 CE). The Arab/Islamic expansion 'sweeping eastward in a century of conquest' identifies the Umayyad/early Abbasid period (632-750s). This frontier clash defined which civilization would dominate the Silk Road cities for centuries.",
-        tags: ["pitched-battle", "8th-century", "central-asia"]
+        tags: ["pitched-battle", "8th-century", "central-asia"],
+        latitude: 42.5228,
+        longitude: 71.3094
     },
     {
         id: "campaign_093",
@@ -1792,7 +1972,9 @@ Within years, the empire would lose its wealthiest provinces—territories it ha
             { cost: 25, text: "Armies 'united under a new faith' expanding against the eastern empire occurred specifically in the 630s-640s, the initial caliphate conquests.", explanation: "The conquest context narrows the date precisely." }
         ],
         explanation: "This was the Battle of Yarmouk in August 636, the decisive battle of the early Islamic conquests. Khalid ibn al-Walid commanded the Arab forces against the Byzantine army of Emperor Heraclius—the same emperor who had just defeated Persia in a 26-year war that exhausted both empires. The armies faced each other across the Yarmouk River for days in August heat. When Arab auxiliaries in the Byzantine army defected and a sandstorm blinded the Byzantines, their cataphract cavalry (fully armored riders on armored horses, peak use 300-700 CE) were overwhelmed. Within a decade, Byzantium lost Syria, Palestine, Egypt, and North Africa—provinces held for 600 years. The Arab armies 'united under a new faith' just four years after Muhammad's death (632) achieved one of history's most rapid and permanent territorial transformations.",
-        tags: ["pitched-battle", "7th-century", "middle-east"]
+        tags: ["pitched-battle", "7th-century", "middle-east"],
+        latitude: 32.8122,
+        longitude: 35.8078
     },
     {
         id: "campaign_094",
@@ -1813,7 +1995,9 @@ When the invaders' camp was threatened, their cavalry broke off to protect their
             { cost: 25, text: "Cavalry armies 'sweeping across vast distances in less than a century' from the south describes the great caliphal expansion (661-750 CE), which reached its furthest northern extent in the early 8th century.", explanation: "The conquest timeline helps narrow the date." }
         ],
         explanation: "This was the Battle of Tours (or Poitiers) in October 732, where Charles Martel ('the Hammer') stopped the Umayyad advance into Western Europe. Abd al-Rahman al-Ghafiqi led a raiding force from Muslim Spain across the Pyrenees; they had already destroyed the Visigothic Kingdom and were pillaging wealthy Frankish monasteries. Charles's Frankish infantry, fighting in dense formations with mail armor and spears, stood 'like a wall of ice' against Umayyad cavalry charges for seven days. When their camp (and plunder) was threatened, the Umayyads broke off; Abd al-Rahman was killed in the confusion. Infantry in mail as the primary arm, with heavy cavalry 'not yet dominant,' indicates the early medieval transition (500-800 CE). The Umayyad expansion 'in less than a century' (from 632) marks this as the early 8th century—the limit of Arab expansion into Western Europe.",
-        tags: ["pitched-battle", "8th-century", "western-europe"]
+        tags: ["pitched-battle", "8th-century", "western-europe"],
+        latitude: 47.3833,
+        longitude: 0.6833
     },
     {
         id: "campaign_095",
@@ -1834,7 +2018,9 @@ The western sultan was captured and died in captivity. His empire was nearly des
             { cost: 25, text: "Central Asian conquerors emulating the great steppe conquests of a century earlier appeared in the late 14th century. The combination of steppe cavalry traditions with early gunpowder weapons was characteristic of 1370-1405.", explanation: "The conquest context helps narrow the date." }
         ],
         explanation: "This was the Battle of Ankara on July 20, 1402, where Timur (Tamerlane) captured Ottoman Sultan Bayezid I—the only Ottoman sultan ever captured in battle. Timur's empire stretched from India to Anatolia; he consciously emulated Genghis Khan's conquests 'a century and a half earlier' (1210-1280). Bayezid's army included Janissary slave-soldiers and early Ottoman bombards, but when Anatolian vassals defected to Timur mid-battle, the flanks collapsed. Bayezid died in captivity (legends say in an iron cage, though historians doubt this). The Ottoman Empire nearly disintegrated in the civil war that followed; the 'Interregnum' lasted until 1413. The combination of early bombards with steppe horse archers indicates the late 14th-early 15th century transition when gunpowder was present but not yet dominant.",
-        tags: ["pitched-battle", "15th-century", "asia-minor"]
+        tags: ["pitched-battle", "15th-century", "asia-minor"],
+        latitude: 39.9333,
+        longitude: 32.8667
     },
     {
         id: "campaign_096",
@@ -1857,7 +2043,9 @@ The empire never again seriously attempted to conquer the lands beyond the river
             { cost: 25, text: "Legion formations (heavy infantry supported by auxiliary cavalry) were the core of imperial military power from roughly 100 BCE to 300 CE, before cavalry became dominant.", explanation: "The army organization helps narrow the timeframe." }
         ],
         explanation: "This was the Battle of Teutoburg Forest (also called the Varian Disaster) in 9 CE. Publius Quinctilius Varus led three legions (XVII, XVIII, XIX) into the Germanic forests; Arminius, a Romanized Germanic chieftain who held Roman citizenship, organized the ambush. The legions were caught strung out along a narrow path in rain and mud; fighting lasted three days as the column disintegrated. Varus fell on his sword. Augustus reportedly wandered his palace crying 'Varus, give me back my legions!' The three eagle standards were lost—Rome's greatest shame—and recovered only decades later. The pilum, gladius, and scutum were Roman equipment 300 BCE-300 CE, but eagle standards as near-religious objects were specifically Imperial features (after 27 BCE). Rome never seriously attempted to conquer beyond the Rhine again.",
-        tags: ["ambush", "1st-century", "europe"]
+        tags: ["ambush", "1st-century", "europe"],
+        latitude: 52.4083,
+        longitude: 8.1294
     },
     {
         id: "campaign_097",
@@ -1880,7 +2068,9 @@ The battle demonstrated the new dominance of heavy cavalry over infantry that ha
             { cost: 25, text: "Heavy cavalry becoming tactically decisive against imperial infantry was a development of the 4th-5th centuries CE, reversing centuries of infantry dominance.", explanation: "The tactical transition helps narrow the date." }
         ],
         explanation: "This was the Battle of Adrianople on August 9, 378 CE, when Gothic cavalry destroyed a Roman army and killed Emperor Valens. The Goths had been admitted as refugees fleeing the Huns; Roman officials' abuse drove them to revolt. Valens attacked without waiting for reinforcements under his co-emperor Gratian. The Roman infantry pushed back the Gothic foot, but when Gothic cavalry returned from foraging, they struck the Roman flank. The packed infantry couldn't maneuver; two-thirds of the army died. Valens's body was never found. The oval shields and spears (replacing earlier scutum and pilum) indicate late Roman equipment (250-500 CE). Heavy cavalry defeating Roman infantry so decisively was characteristic of the 4th-5th century transition from infantry to cavalry dominance. The Western Empire had 'less than a century remaining'—it fell in 476 CE.",
-        tags: ["pitched-battle", "4th-century", "europe"]
+        tags: ["pitched-battle", "4th-century", "europe"],
+        latitude: 41.6772,
+        longitude: 26.5558
     },
     {
         id: "campaign_098",
@@ -1901,9 +2091,11 @@ By nightfall, neither side had won decisively, but the invaders withdrew. Their 
             { cost: 25, text: "Coalition armies combining imperial forces with barbarian 'allies settled within imperial territory' was specifically a 5th century arrangement, as the western empire relied increasingly on federate troops.", explanation: "The coalition structure helps narrow the date." }
         ],
         explanation: "This was the Battle of the Catalaunian Plains (also called Châlons) in June 451 CE, where Attila the Hun was finally stopped. The Roman general Aetius ('the last of the Romans') assembled a coalition including the Visigoths under King Theodoric I, Burgundians, Franks, and other Germanic peoples 'settled within imperial territory' as federates—the characteristic 5th-century arrangement. Attila's Hunnic horse archers and Germanic allies attacked the coalition. Theodoric was killed, but his son Thorismund rallied the Visigoths and nearly trapped Attila's army. Attila withdrew—possibly the only significant defeat he ever suffered. He died two years later, and his empire fragmented among quarreling sons. Composite bow horse archers threatening Rome indicates the 4th-5th century. The Western Empire had 'only decades remaining'—it fell in 476 CE.",
-        tags: ["pitched-battle", "5th-century", "europe"]
+        tags: ["pitched-battle", "5th-century", "europe"],
+        latitude: 49.0000,
+        longitude: 4.5000
     },
-    {
+{
         id: "campaign_099",
         title: "The Liberation",
         actualYear: 1824,
@@ -1922,7 +2114,9 @@ The colonial commander surrendered with his remaining forces. Within a year, the
             { cost: 25, text: "Wars of independence against colonial rule occurred primarily in two waves: 1775-1783 and 1810-1825, ending three centuries of colonial rule.", explanation: "The independence war timeline helps narrow the date." }
         ],
         explanation: "This was the Battle of Ayacucho on December 9, 1824, the battle that ended Spanish colonial rule in South America. General Antonio José de Sucre commanded the liberation forces against Viceroy José de la Serna's royalist army at over 10,000 feet altitude in the Peruvian Andes. When the royalist cavalry inexplicably withdrew instead of counterattacking, their infantry line collapsed. Sucre captured the Viceroy himself. Within months, the last Spanish strongholds in South America surrendered, ending 'three centuries' of colonial rule (since Pizarro's conquest in the 1530s). Smoothbore flintlock muskets in linear formations (standard 1700-1840) and the South American independence context (1810-1825, following the Napoleonic disruption of Spain) date this precisely. Simón Bolívar's dream of a united South America would fail, but the colonial era was over.",
-        tags: ["pitched-battle", "19th-century", "south-america"]
+        tags: ["pitched-battle", "19th-century", "south-america"],
+        latitude: -13.0450,
+        longitude: -74.1228
     },
     {
         id: "campaign_100",
@@ -1943,7 +2137,9 @@ The assault succeeded through disciplined volleys and bayonet charges. The enemy
             { cost: 25, text: "European trading companies maintaining private armies in South Asia was characteristic of the 1750s-1820s, before colonial governments took direct control.", explanation: "The colonial context helps narrow the date." }
         ],
         explanation: "This was the Battle of Assaye on September 23, 1803, which Arthur Wellesley (the future Duke of Wellington) later called the finest thing he ever did in battle—higher praise than Waterloo. Wellesley's 7,000 troops attacked a Maratha army of 40,000 with 100 guns served by European-trained crews. He spotted the enemy crossing a river and attacked immediately rather than wait for support. The 74th Highlanders lost their commander and 400 men but pressed on. Wellesley had two horses shot from under him. The Marathas fought well—their European-trained artillery was particularly good—but disciplined volleys and bayonet charges took the guns. Flintlock muskets with bayonets (1700-1840) and a trading company's private army fighting Indian confederations with European-trained artillery identifies the East India Company expansion era (1750s-1820s).",
-        tags: ["pitched-battle", "19th-century", "south-asia"]
+        tags: ["pitched-battle", "19th-century", "south-asia"],
+        latitude: 20.2450,
+        longitude: 75.8903
     },
     {
         id: "campaign_101",
@@ -1962,7 +2158,9 @@ The king rallied his household troops and counterattacked. Reinforcements arrive
             { cost: 25, text: "Large empires capable of fielding thousands of chariots existed in the Near East primarily during the Late Bronze Age (1600-1200 BCE).", explanation: "The scale of chariot armies helps narrow the date." }
         ],
         explanation: "This was the Battle of Kadesh in 1274 BCE, between Pharaoh Ramesses II of Egypt and King Muwatalli II of the Hittite Empire. It's the earliest battle for which detailed tactical accounts survive. Ramesses was ambushed when Hittite chariots hidden behind Kadesh struck his strung-out column. Egyptian reliefs show Ramesses personally leading the counterattack. Both sides claimed victory; the eventual peace treaty (preserved in both Egyptian and Hittite versions) is the oldest surviving international agreement. Two-wheeled chariots as the primary striking arm dominated Near Eastern warfare 1700-1200 BCE; cavalry replaced them during the Iron Age transition. Empires fielding thousands of chariots existed only during the Late Bronze Age.",
-        tags: ["pitched-battle", "ancient", "middle-east"]
+        tags: ["pitched-battle", "ancient", "middle-east"],
+        latitude: 34.5572,
+        longitude: 36.5492
     },
     {
         id: "campaign_102",
@@ -1981,7 +2179,9 @@ In the narrow waters, the larger fleet couldn't maneuver. The defenders' better 
             { cost: 25, text: "Bronze rams as the primary naval weapon, with boarding as secondary, characterized Mediterranean naval warfare before the development of shipboard artillery.", explanation: "The combat style helps confirm the ancient timeframe." }
         ],
         explanation: "This was the Battle of Salamis in 480 BCE, where the Greek fleet under Themistocles of Athens destroyed the Persian navy of Xerxes I. The oracle's 'wooden walls' prophecy is recorded by Herodotus. The Greeks lured the Persians into the narrow strait between Salamis and the mainland, where Persian numerical superiority was neutralized. Xerxes watched from a throne on shore as his fleet was destroyed. He withdrew to Persia, leaving an army that was defeated at Plataea the following year. Triremes (three-banked oars, bronze rams) dominated Mediterranean warfare from 700-300 BCE. The style of combat—ramming and oar-breaking rather than artillery—confirms the pre-Hellenistic period.",
-        tags: ["naval", "ancient", "mediterranean"]
+        tags: ["naval", "ancient", "mediterranean"],
+        latitude: 37.9519,
+        longitude: 23.5594
     },
     {
         id: "campaign_103",
@@ -2000,7 +2200,9 @@ But the king had learned. He kept his cavalry in tight formation, advancing stea
             { cost: 25, text: "Steppe raiders terrorizing Central Europe before being defeated by organized heavy cavalry describes events of the 9th-10th centuries specifically.", explanation: "The historical pattern helps narrow the date." }
         ],
         explanation: "This was the Battle of Lechfeld on August 10, 955, where King Otto I of Germany crushed the Magyar (Hungarian) raiders who had terrorized Central Europe for decades. The Magyars had raided as far as France and Italy; Lechfeld ended their threat permanently. Otto's disciplined heavy cavalry refused to break formation during Magyar feigned retreats. The pursuit was merciless—Magyar leaders were executed, and few warriors returned home. Within decades, the Magyars settled, converted to Christianity, and founded the Kingdom of Hungary. Heavy cavalry in mail facing steppe horse archers was characteristic of 500-1200 CE. The specific pattern of steppe raiders being permanently defeated identifies the 10th century.",
-        tags: ["pitched-battle", "10th-century", "europe"]
+        tags: ["pitched-battle", "10th-century", "europe"],
+        latitude: 48.3705,
+        longitude: 10.8978
     },
     {
         id: "campaign_104",
@@ -2019,7 +2221,9 @@ The mud slowed the horses. The arrows came in storms—perhaps 30,000 per minute
             { cost: 25, text: "Heavy cavalry in mail with plate reinforcements (but not full plate harnesses) was characteristic of the early-to-mid 14th century, during the transition from mail to plate.", explanation: "The armor technology helps narrow the date." }
         ],
         explanation: "This was the Battle of Crécy on August 26, 1346, the first major English victory of the Hundred Years' War. Edward III's 12,000 troops defeated Philip VI of France's 30,000+. The English longbowmen—commoners who trained from childhood—slaughtered the flower of French chivalry. Perhaps 1,500 French knights and nobles died, including King John of Bohemia (blind, he charged anyway). The battle proved that disciplined infantry with missile weapons could defeat heavy cavalry. Longbows dominated English armies 1300-1450. Mail with plate reinforcements (not full plate, which came later) identifies the early-to-mid 14th century transition period.",
-        tags: ["pitched-battle", "14th-century", "europe"]
+        tags: ["pitched-battle", "14th-century", "europe"],
+        latitude: 50.2520,
+        longitude: 1.8860
     },
     {
         id: "campaign_105",
@@ -2038,7 +2242,9 @@ The king captured so many noble prisoners that when a (false) alarm suggested a 
             { cost: 25, text: "Longbows used en masse with sharpened stakes for defense was a specific western tactic of the 14th-15th centuries (roughly 1337-1453).", explanation: "The tactical combination helps narrow the date." }
         ],
         explanation: "This was the Battle of Agincourt on October 25, 1415, Henry V of England's most famous victory. His 6,000 starving, dysentery-ridden troops destroyed a French army three times their size. The French dead included three dukes, ninety counts, and over 1,500 knights. The mud was so deep that armored knights who fell couldn't rise. The controversial prisoner massacre reflected the brutal realities of medieval warfare. Full plate armor reaching peak effectiveness identifies the early 15th century (1400-1450). Longbows with stakes as an English Hundred Years' War tactic (1337-1453) confirms the period.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 50.4636,
+        longitude: 2.1417
     },
     {
         id: "campaign_108",
@@ -2057,7 +2263,9 @@ The victors captured the empire's legendary cities and their wealth. But they co
             { cost: 25, text: "African empires encountering gunpowder weapons for the first time occurred primarily in the 16th-17th centuries as European and North African powers expanded.", explanation: "The gunpowder introduction helps narrow the date." }
         ],
         explanation: "This was the Battle of Tondibi on March 13, 1591, where a Moroccan army destroyed the Songhai Empire. Sultan Ahmad al-Mansur sent Judar Pasha with 4,000 men across the Sahara Desert—one of history's most remarkable military logistics feats. The Songhai under Askia Ishaq II had never faced gunpowder weapons. Their cattle stampede failed; their massed charges were cut down by arquebus fire. Timbuktu and Gao fell soon after. The Songhai Empire, which had dominated West Africa for a century, fragmented permanently. Matchlock arquebuses as standard infantry weapons with mounted arquebusiers identifies the late 16th century (1550-1620). First gunpowder encounters in sub-Saharan Africa occurred primarily in this period.",
-        tags: ["pitched-battle", "16th-century", "africa"]
+        tags: ["pitched-battle", "16th-century", "africa"],
+        latitude: 16.7667,
+        longitude: -3.0000
     },
     {
         id: "campaign_109",
@@ -2078,7 +2286,9 @@ The city was abandoned. The survivors founded a new capital downstream, beginnin
             { cost: 25, text: "War elephants as a significant military force persisted in Southeast Asia into the 18th century, longer than anywhere else in the world.", explanation: "The elephant warfare helps narrow the timeframe." }
         ],
         explanation: "This was the Fall of Ayutthaya on April 7, 1767, when Burmese forces under Hsinbyushin destroyed the Thai capital. Ayutthaya had been one of the world's great cities for 417 years—larger than contemporary Paris or London. The Burmese burned temples, melted golden statues, and destroyed irreplaceable chronicles and art. The royal family was deported; thousands were killed or enslaved. The city was abandoned and never rebuilt. General Taksin escaped and founded a new capital at Thonburi (later Bangkok). Matchlock muskets alongside war elephants with back-mounted cannon identifies 1600-1800 Southeast Asian warfare. Elephants remaining militarily significant into the 18th century was unique to this region.",
-        tags: ["siege", "18th-century", "asia"]
+        tags: ["siege", "18th-century", "asia"],
+        latitude: 14.3532,
+        longitude: 100.5684
     },
     {
         id: "campaign_110",
@@ -2097,7 +2307,9 @@ Within hours, the approaching fleet was destroyed. Of 38 ships, 21 were sunk, 7 
             { cost: 25, text: "The pre-dreadnought battleship era—before HMS Dreadnought (1906) made all earlier designs obsolete—was approximately 1890-1906.", explanation: "The battleship generation helps narrow the date." }
         ],
         explanation: "This was the Battle of Tsushima on May 27-28, 1905, where Admiral Togo Heihachiro's Japanese fleet annihilated the Russian Baltic Fleet under Admiral Rozhestvensky during the Russo-Japanese War. The Russians had sailed 18,000 miles around Africa (the Suez Canal was closed to them) to reach the Pacific. Togo 'crossed the T'—maneuvering so all his guns could fire while only the Russians' forward guns could reply. Japanese gunnery was superior at every range. Russia lost 21 ships sunk, over 4,000 killed, and 6,000 captured—the most decisive naval battle since Trafalgar. Steel battleships with 12-inch turret guns, wireless, and rangefinders characterize 1890-1920 naval warfare. Pre-dreadnought designs (before 1906) identify this as the early 20th century.",
-        tags: ["naval", "20th-century", "asia"]
+        tags: ["naval", "20th-century", "asia"],
+        latitude: 34.3333,
+        longitude: 129.5000
     },
     {
         id: "campaign_111",
@@ -2116,7 +2328,9 @@ When the barbarian lancers charged, arrows darkened the sky. The king himself wa
             { cost: 25, text: "The wars to reconquer the western provinces from barbarian kingdoms lasted from 535-554 CE.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Taginae (Busta Gallorum) in June or July 552, where Byzantine general Narses destroyed the Ostrogothic Kingdom. King Totila, who had nearly driven the Byzantines from Italy, died from an arrow wound early in the battle. Narses—a 74-year-old eunuch who had never commanded in the field before this campaign—proved a tactical genius. His 8,000 archers devastated the Gothic cavalry charges. The Ostrogothic Kingdom fell within months; Italy returned to imperial rule, though it would be lost again to the Lombards within a generation. Byzantine combined-arms tactics (dismounted cavalry, massed archers) and the Gothic Wars (535-554) precisely date this battle.",
-        tags: ["pitched-battle", "6th-century", "europe"]
+        tags: ["pitched-battle", "6th-century", "europe"],
+        latitude: 43.1764,
+        longitude: 12.7933
     },
     {
         id: "campaign_112",
@@ -2137,7 +2351,9 @@ The slaughter was total. Of the princes who led the army, six were captured and 
             { cost: 25, text: "The first steppe incursion into Eastern Europe from the great eastern empire occurred in 1223, nearly two decades before the main invasion.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Kalka River on May 31, 1223, where Mongol generals Jebe and Subutai destroyed a coalition of Kievan Rus' princes and Cuman (Kipchak) allies. Mstislav the Bold of Galicia led the charge; Mstislav III of Kiev held a fortified camp but surrendered after three days, only to be executed—the Mongols placed boards over the princes and feasted on top of them, crushing them to death (spilling royal blood on the ground was taboo). This was merely a reconnaissance raid; the main Mongol invasion came in 1237-1240. Mongol decimal organization and horse archery characterizes 13th-century steppe warfare. The 1223 incursion precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "eastern-europe"]
+        tags: ["pitched-battle", "13th-century", "eastern-europe"],
+        latitude: 47.3833,
+        longitude: 37.6667
     },
     {
         id: "campaign_113",
@@ -2158,7 +2374,9 @@ The victory gave the western nation a monopoly on the spice trade that would las
             { cost: 25, text: "A major eastern power's attempts to expel western seafarers from the spice trade routes occurred between 1505-1509.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Diu on February 3, 1509, where Portuguese Viceroy Francisco de Almeida destroyed a combined Mamluk-Gujarati fleet. The Mamluks had sent a fleet from Egypt via the Red Sea to challenge Portuguese control of Indian Ocean trade; Sultan Mahmud of Gujarat provided additional ships. Almeida's cannon-armed carracks devastated the allied fleet—the Mamluk commander Amir Husain was killed. Portugal's spice monopoly was secured for decades. Carracks with broadside cannon versus traditional dhows characterized early Portuguese Indian Ocean expansion (1498-1550). Mamluk naval attempts against Portugal (1505-1509) precisely date this battle.",
-        tags: ["naval", "16th-century", "asia"]
+        tags: ["naval", "16th-century", "asia"],
+        latitude: 20.7144,
+        longitude: 70.9875
     },
     {
         id: "campaign_114",
@@ -2177,7 +2395,9 @@ When the bridge collapsed—or was cut—the army was split in two. The cavalry 
             { cost: 25, text: "Heavy cavalry being defeated by defensive spearmen formations became increasingly common in the early 14th century, as infantry learned to hold ground against mounted charges.", explanation: "The tactical evolution helps narrow the date." }
         ],
         explanation: "This was the Battle of Stirling Bridge on September 11, 1297, where William Wallace and Andrew Moray destroyed an English army under John de Warenne, Earl of Surrey. Hugh de Cressingham, the English treasurer, was killed; Scots reportedly made a sword belt from his skin. The narrow bridge and causeway neutralized English cavalry superiority. Wallace was knighted and became Guardian of Scotland. The victory was short-lived—Edward I returned and won at Falkirk the next year. Schiltron formations were a Scottish innovation of the 1290s. English-Scottish warfare identifies the Wars of Scottish Independence (1296-1328).",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 56.1287,
+        longitude: -3.9372
     },
     {
         id: "campaign_115",
@@ -2196,7 +2416,9 @@ The army collapsed in rout. The occupying king fled the field—narrowly escapin
             { cost: 25, text: "Major infantry victories over heavy cavalry—using prepared positions with obstacles—marked the early 14th century as a turning point in medieval warfare.", explanation: "The tactical evolution helps narrow the date." }
         ],
         explanation: "This was the Battle of Bannockburn on June 23-24, 1314, where Robert the Bruce destroyed Edward II's English army. The English had the largest cavalry force ever deployed in Scotland—and lost it in the boggy ground Bruce had chosen. Edward fled, losing the Great Seal of England. The Declaration of Arbroath (1320) and Treaty of Edinburgh-Northampton (1328) secured Scottish independence. Heavy cavalry charges defeated by prepared positions with obstacles was the characteristic lesson of 14th-century warfare. English-Scottish cavalry-infantry battles identify the Wars of Scottish Independence (1296-1328).",
-        tags: ["pitched-battle", "14th-century", "europe"]
+        tags: ["pitched-battle", "14th-century", "europe"],
+        latitude: 56.0917,
+        longitude: -3.9333
     },
     {
         id: "campaign_116",
@@ -2217,7 +2439,9 @@ The kingdom fragmented into civil war and never recovered. Within a generation, 
             { cost: 25, text: "Conflicts between the major central-western kingdom and its colonial trading partners intensified after 1622 and reached crisis in the 1660s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Mbwila (Ulanga) on October 29, 1665, where Portuguese forces destroyed the Kingdom of Kongo. King António I led the Kongolese army against Governor André Vidal de Negreiros's smaller but better-equipped force. António was killed and beheaded; his head was displayed in Luanda. The battle ended Kongo as a unified power—civil wars fragmented it for the next century. The slave trade, which had enriched the kingdom, now consumed it. African kingdoms using trade-acquired matchlocks against European colonial forces was characteristic of 17th-century West-Central Africa. Kongo-Portuguese conflict peaked in the 1660s.",
-        tags: ["pitched-battle", "17th-century", "africa"]
+        tags: ["pitched-battle", "17th-century", "africa"],
+        latitude: -7.8333,
+        longitude: 14.8333
     },
     {
         id: "campaign_117",
@@ -2236,7 +2460,9 @@ The attackers waited in silence as the defenders approached. At 40 yards, they d
             { cost: 25, text: "Colonial warfare between rival powers over continental territories occurred primarily from 1689-1763, ending with the transfer of major colonies.", explanation: "The colonial context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Plains of Abraham on September 13, 1759, where General James Wolfe's British forces defeated the Marquis de Montcalm's French army outside Quebec City. Wolfe's daring night ascent of the cliffs achieved complete surprise. Both commanders died—Wolfe on the field, Montcalm the next morning. Quebec's fall effectively ended French power in North America; the Treaty of Paris (1763) confirmed British control of Canada. Flintlock muskets with bayonets in linear formations (1700-1840) and colonial warfare between European powers in North America (1689-1763) precisely identify the period.",
-        tags: ["pitched-battle", "18th-century", "americas"]
+        tags: ["pitched-battle", "18th-century", "americas"],
+        latitude: 46.8061,
+        longitude: -71.2223
     },
     {
         id: "campaign_118",
@@ -2255,7 +2481,9 @@ Surrounded, supplies exhausted, and with no hope of rescue, the army surrendered
             { cost: 25, text: "Colonial rebellion against a major power, with intervention by rival powers, characterized late 18th century warfare (1775-1783).", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Saratoga Campaign of September-October 1777, where General John Burgoyne surrendered 6,000 British soldiers to General Horatio Gates and Benedict Arnold (who was wounded at the decisive second battle). The victory convinced France to openly ally with the Americans, transforming a colonial rebellion into a world war. Burgoyne's surrender shocked Britain—Parliament later offered major concessions, too late to prevent independence. Riflemen as skirmishers alongside linear musket formations was a developing late 18th-century tactic. The American Revolution (1775-1783) was the defining colonial rebellion of the era.",
-        tags: ["campaign", "18th-century", "americas"]
+        tags: ["campaign", "18th-century", "americas"],
+        latitude: 42.9983,
+        longitude: -73.6425
     },
     {
         id: "campaign_119",
@@ -2274,7 +2502,9 @@ By evening, the allies had lost 27,000 men killed, wounded, or captured—includ
             { cost: 25, text: "A self-crowned emperor commanding armies personally against coalitions of traditional monarchies was unique to the 1796-1815 period.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Austerlitz on December 2, 1805—the 'Battle of the Three Emperors'—Napoleon's greatest victory. Emperor Francis I of Austria and Tsar Alexander I of Russia faced Napoleon. The Allied attack on Napoleon's right (held by Davout's corps) weakened the Pratzen Heights; Soult's corps stormed the heights at the decisive moment. Austria sued for peace; the Holy Roman Empire, founded in 800 CE, was dissolved. Military academies still study Austerlitz as the model of decisive battle. Napoleonic corps-level warfare (1796-1815) and emperors commanding personally against coalitions identify the period precisely.",
-        tags: ["pitched-battle", "19th-century", "europe"]
+        tags: ["pitched-battle", "19th-century", "europe"],
+        latitude: 49.1283,
+        longitude: 16.7628
     },
     {
         id: "campaign_120",
@@ -2293,7 +2523,9 @@ The victor united the realm within five years, founding a dynasty that would rul
             { cost: 25, text: "Warlords fighting to succeed the steppe dynasty that had ruled for a century occurred specifically during the mid-14th century (1350s-1368).", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Lake Poyang in 1363, where Zhu Yuanzhang defeated Chen Youliang in the largest naval battle in history until modern times. Chen's fleet of giant tower ships, chained together for stability, became deathtraps when Zhu's fireships set them ablaze. Chen was killed by an arrow; over 200,000 men may have died. Zhu went on to found the Ming Dynasty in 1368, ruling as the Hongwu Emperor. Tower ships with chains and fireships characterized Chinese naval warfare 1100-1400 CE. The warlord conflicts following Yuan collapse occurred in the 1350s-1360s.",
-        tags: ["naval", "14th-century", "asia"]
+        tags: ["naval", "14th-century", "asia"],
+        latitude: 29.1764,
+        longitude: 116.2731
     },
     {
         id: "campaign_121",
@@ -2312,7 +2544,9 @@ With no supplies, no peace treaty, and winter approaching, the invaders began th
             { cost: 25, text: "Scorched-earth retreats before massive invasions, culminating in the deliberate burning of capitals, occurred most famously in 1812.", explanation: "The strategic pattern helps narrow the date." }
         ],
         explanation: "This was the Battle of Borodino on September 7, 1812, the bloodiest day of the Napoleonic Wars. Marshal Kutuzov's Russian army fought Napoleon's Grande Armée to a standstill outside Moscow. Russia lost 44,000; France perhaps 35,000—but Russia could replace its losses, Napoleon couldn't. Moscow burned; Napoleon waited a month for a surrender that never came. The winter retreat destroyed the Grande Armée—of 600,000 who invaded, fewer than 100,000 returned. Napoleonic-scale armies (1796-1815) and the Russian scorched-earth strategy identify this campaign precisely.",
-        tags: ["pitched-battle", "19th-century", "europe"]
+        tags: ["pitched-battle", "19th-century", "europe"],
+        latitude: 55.5167,
+        longitude: 35.8167
     },
     {
         id: "campaign_122",
@@ -2333,7 +2567,9 @@ Yet the victory proved hollow: the sultan couldn't hold the mountainous territor
             { cost: 25, text: "Religious wars between Sunni and Shia powers with firearms versus cavalry were most intense from 1501-1639.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Chaldiran on August 23, 1514, where Ottoman Sultan Selim I crushed Shah Ismail I's Safavid army. The Ottoman janissaries' matchlocks and cannon devastated the Qizilbash cavalry charges. Selim captured Tabriz but couldn't hold Persia—the logistical difficulties were insurmountable. The Sunni-Shia divide deepened into permanent hostility. Ismail, previously considered divinely protected, lost his aura of invincibility and became a recluse. Janissaries with arquebuses behind chained guns (1450-1600) facing cavalry without firearms, and the early Ottoman-Safavid wars (1501-1639), precisely date this battle.",
-        tags: ["pitched-battle", "16th-century", "middle-east"]
+        tags: ["pitched-battle", "16th-century", "middle-east"],
+        latitude: 39.0917,
+        longitude: 44.3250
     },
     {
         id: "campaign_123",
@@ -2354,7 +2590,9 @@ The kingdom entered a golden age, its territory tripling over the following deca
             { cost: 25, text: "Caucasian kingdoms expanding against fragmented sultanate successor states occurred during the early 12th century, peaking in the 1120s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Didgori on August 12, 1121, where King David IV 'the Builder' of Georgia destroyed a massive Seljuk coalition. David's 40,000—including 15,000 Cuman mercenaries—routed perhaps 200,000 Seljuks. The 200-man suicide squad that attacked during 'negotiations' threw the Seljuk camp into chaos. Georgia's 'golden age' followed: David captured Tbilisi (1122) and tripled his territory. The battle is celebrated as Georgia's greatest military victory. Cuman horse archers (1050-1240) and Georgian expansion against Seljuk fragments (early 12th century) precisely date this battle.",
-        tags: ["pitched-battle", "12th-century", "caucasus"]
+        tags: ["pitched-battle", "12th-century", "caucasus"],
+        latitude: 41.6703,
+        longitude: 44.4789
     },
     {
         id: "campaign_124",
@@ -2373,7 +2611,9 @@ The emperor, ill and in despair, personally surrendered with 83,000 soldiers—t
             { cost: 25, text: "The unification of a major European power through warfare against a neighboring empire occurred in 1870-1871.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Sedan on September 1-2, 1870, where the Prussian-led German armies under Moltke the Elder trapped Napoleon III's Army of Châlons. Krupp's breech-loading steel artillery devastated the French, whose bronze muzzle-loaders couldn't reply effectively. Napoleon III surrendered personally—the only French emperor ever captured in battle since Francis I at Pavia. The Second French Empire collapsed; the German Empire was proclaimed at Versailles. Breech-loading steel versus bronze muzzle-loading artillery was the 1860s-1870s transition. German unification under Prussian leadership and French defeat occurred in 1870-1871.",
-        tags: ["pitched-battle", "19th-century", "europe"]
+        tags: ["pitched-battle", "19th-century", "europe"],
+        latitude: 49.7000,
+        longitude: 4.9333
     },
     {
         id: "campaign_125",
@@ -2392,7 +2632,9 @@ The victory saved the empire—for now. But four years of brutal warfare lay ahe
             { cost: 25, text: "Encirclement battles in 1914 were decisive on fronts where terrain permitted maneuver, in contrast to the trench stalemate elsewhere.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Tannenberg, August 26-30, 1914, where Hindenburg and Ludendorff destroyed the Russian Second Army under Samsonov (who committed suicide). The Germans used intercepted Russian wireless messages sent uncoded. The victory made Hindenburg a national hero—the battle was renamed 'Tannenberg' to symbolically avenge the Teutonic Knights' defeat there in 1410. Russia lost 92,000 captured and 30,000 killed; Germany lost 12,000. Wireless intercepts and railway mobility in massive infantry battles characterize early WWI. Eastern Front encirclements in 1914 differed markedly from Western Front stalemate.",
-        tags: ["pitched-battle", "20th-century", "europe"]
+        tags: ["pitched-battle", "20th-century", "europe"],
+        latitude: 53.4833,
+        longitude: 20.1167
     },
     {
         id: "campaign_126",
@@ -2411,7 +2653,9 @@ By year's end, the attackers had gained almost nothing and lost their strategic 
             { cost: 25, text: "Battles lasting months with hundreds of thousands of casualties for minimal territorial gain were unique to the trench warfare of 1914-1918.", explanation: "The battle pattern helps narrow the date." }
         ],
         explanation: "This was the Battle of Verdun, February-December 1916, where German Chief of Staff Falkenhayn tried to 'bleed France white.' General Pétain organized the defense along the Voie Sacrée (Sacred Road). France suffered 377,000 casualties; Germany 337,000—for a few miles of cratered moonscape. 'Ils ne passeront pas' (They shall not pass) became France's rallying cry. The battle epitomized WWI's industrial slaughter. 420mm howitzers destroying concrete forts and months-long battles for minimal gains were unique to WWI's Western Front (1914-1918).",
-        tags: ["siege", "20th-century", "europe"]
+        tags: ["siege", "20th-century", "europe"],
+        latitude: 49.2081,
+        longitude: 5.4219
     },
     {
         id: "campaign_127",
@@ -2430,7 +2674,9 @@ The smaller fleet lost fewer ships but retreated to port and never seriously cha
             { cost: 25, text: "The only major fleet engagement between dreadnought battleships occurred during the 1914-1918 war, when both sides were reluctant to risk their fleets.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Jutland on May 31-June 1, 1916, the only major dreadnought fleet action of WWI. Admiral Jellicoe's British Grand Fleet faced Admiral Scheer's German High Seas Fleet. Britain lost more ships (14 vs 11) and men (6,094 vs 2,551), but Germany retreated and never again seriously contested British control of the North Sea. Three British battlecruisers exploded when shells reached their magazines—their armor was inadequate. Dreadnoughts (1906-1945) with 12-15 inch guns in turrets and the single WWI fleet engagement precisely identify this battle.",
-        tags: ["naval", "20th-century", "europe"]
+        tags: ["naval", "20th-century", "europe"],
+        latitude: 57.0333,
+        longitude: 5.8167
     },
     {
         id: "campaign_128",
@@ -2449,7 +2695,9 @@ At dawn, after a night of farewells, the survivors charged down the hill with sw
             { cost: 25, text: "Rebellions by the traditional warrior class against a modernizing government occurred between 1874-1877, as the empire rapidly industrialized.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Shiroyama on September 24, 1877, the final battle of the Satsuma Rebellion. Saigo Takamori—the 'Last Samurai'—led his final 400 warriors in a sword charge against 30,000 Imperial troops armed with Gatling guns and modern artillery. Saigo was wounded and committed seppuku (or was beheaded by a retainer—accounts differ). The Meiji government's conscript army proved that modern weapons trumped samurai skill. The warrior class's military monopoly, lasting since the 12th century, ended that morning. Gatling guns versus traditional warriors (1870s) and anti-Meiji samurai rebellions (1874-1877) precisely date this battle.",
-        tags: ["pitched-battle", "19th-century", "asia"]
+        tags: ["pitched-battle", "19th-century", "asia"],
+        latitude: 31.6000,
+        longitude: 130.5500
     },
     {
         id: "campaign_129",
@@ -2468,7 +2716,9 @@ After 46 days, they surrendered. What happened next became the most infamous atr
             { cost: 25, text: "The wars of unification that ended the Warring States period occurred primarily between 260-221 BCE, culminating in a single kingdom conquering all rivals.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Changping in 260 BCE, where Qin general Bai Qi annihilated the army of Zhao. The Zhao commander Zhao Kuo—inexperienced and rash—replaced the cautious Lian Po and led his army into a trap. After 46 days without food, 400,000 Zhao soldiers surrendered; Bai Qi ordered them all executed to prevent future resistance. Only 240 boys were spared. Zhao never recovered; Qin unified China in 221 BCE. Mass infantry with crossbows characterizes Warring States warfare (475-221 BCE). Qin's wars of conquest (260-221 BCE) precisely date this battle.",
-        tags: ["pitched-battle", "ancient", "asia"]
+        tags: ["pitched-battle", "ancient", "asia"],
+        latitude: 35.7958,
+        longitude: 112.9236
     },
     {
         id: "campaign_130",
@@ -2487,7 +2737,9 @@ After two weeks, the attackers withdrew. They had lost 200,000 men and hundreds 
             { cost: 25, text: "Defensive preparations including deep minefields and anti-tank guns in depth were perfected by 1943 on fronts where massive armored warfare dominated.", explanation: "The defensive tactics help narrow the date." }
         ],
         explanation: "This was the Battle of Kursk, July-August 1943, the largest tank battle in history. Hitler's Operation Citadel attacked the Kursk salient with 900,000 men including new Tiger and Panther tanks. The Soviets under Zhukov and Vasilevsky had prepared defenses eight lines deep with thousands of anti-tank guns and millions of mines. German losses—200,000 casualties and 500+ tanks—were irreplaceable. The Soviets lost more but could replace them. After Kursk, the Wehrmacht never regained the initiative. Tiger tanks with 88mm guns facing T-34s in massive armored battles identifies 1943-1945 Eastern Front combat.",
-        tags: ["pitched-battle", "20th-century", "europe"]
+        tags: ["pitched-battle", "20th-century", "europe"],
+        latitude: 51.7333,
+        longitude: 36.1833
     },
     {
         id: "campaign_131",
@@ -2506,7 +2758,9 @@ He almost succeeded. The king's cavalry broke through the elite slave-soldier in
             { cost: 25, text: "Major crusading expeditions into the Balkans occurred in the 1390s-1440s, before the great eastern city fell and such efforts became hopeless.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Varna on November 10, 1444, where Sultan Murad II destroyed the Crusade of Varna. King Władysław III of Poland and Hungary—only 20 years old—broke a sworn truce to continue the crusade. When his cavalry charge reached Murad's bodyguard, the king was killed and beheaded; his head was preserved in honey and sent to the Ottoman capital. Cardinal Cesarini, who had urged breaking the truce, was also killed. Hungary lost its king and never recovered its strength; the Ottomans faced no serious European opposition until Vienna in 1529. Janissaries with early firearms (1380s-1500) and pre-1453 crusading identify this battle.",
-        tags: ["pitched-battle", "15th-century", "balkans"]
+        tags: ["pitched-battle", "15th-century", "balkans"],
+        latitude: 43.2167,
+        longitude: 27.8833
     },
     {
         id: "campaign_132",
@@ -2525,7 +2779,9 @@ The sultan mounted a larger expedition the following year and eventually forced 
             { cost: 25, text: "Small principalities defeating major empires through guerrilla ambush tactics was briefly possible in the late 15th century, before such states were absorbed.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Vaslui on January 10, 1475, where Stephen III 'the Great' of Moldavia destroyed an Ottoman army under Hadim Suleiman Pasha. Stephen's 40,000 men ambushed 120,000 Ottomans in a foggy valley; perhaps 45,000 Turks died. Pope Sixtus IV called Stephen 'Athlete of Christ.' The sultan's revenge expedition in 1476 forced Stephen to submit, but he continued resisting until his death in 1504. Light cavalry raids and ambush tactics against Ottoman armies characterized 15th-century Eastern European warfare. Moldavian independence struggles peaked in the 1470s.",
-        tags: ["pitched-battle", "15th-century", "eastern-europe"]
+        tags: ["pitched-battle", "15th-century", "eastern-europe"],
+        latitude: 46.5917,
+        longitude: 27.7333
     },
     {
         id: "campaign_133",
@@ -2544,7 +2800,9 @@ The disaster forced the empire to accept peace, ending a war that had begun with
             { cost: 25, text: "Major coalition victories pushing eastern empires back from central Europe occurred in the 1680s-1690s.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Zenta on September 11, 1697, where Prince Eugene of Savoy caught Sultan Mustafa II crossing the Tisza River. Eugene attacked as the Ottoman army was split by the river; the trapped forces were annihilated. Over 30,000 Ottomans died including Grand Vizier Elmas Mehmed Pasha; the sultan's treasury and harem were captured. The Treaty of Karlowitz (1699) followed, the first treaty where the Ottomans ceded major European territory. Flintlock-era European armies versus traditional Ottoman forces characterized the 1680s-1700s. The Great Turkish War (1683-1699) precisely dates this battle.",
-        tags: ["pitched-battle", "17th-century", "balkans"]
+        tags: ["pitched-battle", "17th-century", "balkans"],
+        latitude: 45.9333,
+        longitude: 20.0833
     },
     {
         id: "campaign_134",
@@ -2563,7 +2821,9 @@ The ancient dynasty ended that day. The invaders would rule the conquered lands 
             { cost: 25, text: "The conquest of an ancient dynasty's realm by a gunpowder empire occurred in 1516-1517.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Ridaniya on January 22, 1517, where Ottoman Sultan Selim I destroyed the Mamluk Sultanate. Sultan Tuman bay II's Mamluk cavalry, who scorned firearms, were slaughtered by Janissary arquebuses. Tuman bay was captured and hanged at the Zuweila Gate in Cairo. The Mamluks had ruled since 1250 and defeated the Mongols at Ain Jalut; their contempt for gunpowder weapons destroyed them. The Ottomans gained Egypt, the Hejaz (with Mecca and Medina), and the title of Caliph. Mamluk cavalry versus arquebus infantry was specific to 1516-1517. Ottoman conquest of Egypt precisely dates this battle.",
-        tags: ["pitched-battle", "16th-century", "middle-east"]
+        tags: ["pitched-battle", "16th-century", "middle-east"],
+        latitude: 30.1306,
+        longitude: 31.3250
     },
     {
         id: "campaign_135",
@@ -2582,7 +2842,9 @@ The imperial army was annihilated. The capital—one of the world's largest and 
             { cost: 25, text: "Coalitions of sultanates against the dominant empire in the subcontinent peaked in the 1560s-1570s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Talikota (Rakshasa-Tangadi) on January 26, 1565, where a coalition of Deccan sultanates destroyed the Vijayanagara Empire. The sultanates—Ahmadnagar, Bijapur, Golconda, Bidar, and Berar—united against Hindu Vijayanagara. Rama Raya, the imperial regent, was captured and beheaded on the battlefield; two Muslim generals in his service switched sides mid-battle. Vijayanagara, then among the world's largest cities, was sacked for months. Ottoman-trained artillery in Deccan warfare and the sultanate coalition characterize the 1560s-1570s.",
-        tags: ["pitched-battle", "16th-century", "asia"]
+        tags: ["pitched-battle", "16th-century", "asia"],
+        latitude: 16.1553,
+        longitude: 76.2625
     },
     {
         id: "campaign_136",
@@ -2601,7 +2863,9 @@ The king was wounded but escaped—carried from the field by his loyal horse, wh
             { cost: 25, text: "Imperial expansion into the western kingdoms of the subcontinent occurred primarily in the 1560s-1580s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Haldighati on June 18, 1576, where Mughal forces under Man Singh I fought Maharana Pratap of Mewar. Pratap's 3,000 Rajputs faced 10,000 Mughals in a mountain pass. Pratap, riding his legendary horse Chetak, nearly killed Man Singh before being wounded. Chetak carried Pratap to safety, then died. Pratap never submitted to Akbar, waging guerrilla war until his death in 1597. Mughal-Rajput warfare with cavalry and elephants characterized 16th-century India. Akbar's Rajputana campaigns (1560s-1580s) precisely date this battle.",
-        tags: ["pitched-battle", "16th-century", "asia"]
+        tags: ["pitched-battle", "16th-century", "asia"],
+        latitude: 24.8950,
+        longitude: 73.7050
     },
     {
         id: "campaign_137",
@@ -2618,7 +2882,9 @@ The young sultan, humiliated by his inability to break through, finally accepted
             { cost: 25, text: "Major campaigns between eastern empires and northern kingdoms occurred primarily in the 1620s and 1670s.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Khotin (Chocim) from September 2-October 9, 1621, where Polish-Lithuanian and Cossack forces under Grand Hetman Jan Karol Chodkiewicz stopped Sultan Osman II's invasion. The 35-day siege of the Polish camp cost the Ottomans 40,000 casualties. Chodkiewicz died during the battle but his army held. Osman II's humiliating peace contributed to his overthrow and murder the following year. Polish hussars with Cossack light cavalry was the distinctive 17th-century Commonwealth military system. Ottoman-Polish conflicts peaked in the 1620s and 1670s.",
-        tags: ["siege", "17th-century", "eastern-europe"]
+        tags: ["siege", "17th-century", "eastern-europe"],
+        latitude: 48.5000,
+        longitude: 26.5000
     },
     {
         id: "campaign_138",
@@ -2637,7 +2903,9 @@ The empire abandoned its claims. The kingdom would remain independent for the ne
             { cost: 25, text: "A Southeast Asian kingdom establishing independence from a great northern empire occurred in the 10th century.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Bạch Đằng River in 938, where Ngô Quyền destroyed the Southern Han fleet and established Vietnamese independence. Iron-tipped stakes driven into the riverbed at low tide impaled the Chinese ships when the tide fell; the stranded fleet was annihilated. General Liu Hongcao was killed. Vietnam remained independent for over a thousand years (with brief interruptions). The stake trap was used again in 981 and 1288 against later invaders. Vietnamese stake-trap tactics (10th-13th centuries) and the establishment of independence from China precisely date this battle.",
-        tags: ["naval", "10th-century", "asia"]
+        tags: ["naval", "10th-century", "asia"],
+        latitude: 20.8500,
+        longitude: 106.6333
     },
     {
         id: "campaign_139",
@@ -2656,7 +2924,9 @@ The empire captured a ruin filled with corpses. The sultan's body was carried ho
             { cost: 25, text: "The great eastern empire's greatest expansion, particularly in central Europe and the Mediterranean, occurred from the 1520s to the 1560s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Siege of Szigetvár from August 5 to September 8, 1566, where Croatian-Hungarian forces under Count Nikola Šubić Zrinski held off Sultan Suleiman the Magnificent's army. Suleiman died on September 6, two days before the fortress fell; Grand Vizier Sokollu Mehmed Pasha concealed his death. Zrinski led a final charge and was killed; the survivors detonated the magazine, killing 3,000 Janissaries. The Ottomans lost 20,000-30,000 men for a worthless ruin. Ottoman siege warfare against European fortifications characterized 16th-century warfare. Suleiman's reign (1520-1566) precisely dates this battle.",
-        tags: ["siege", "16th-century", "europe"]
+        tags: ["siege", "16th-century", "europe"],
+        latitude: 46.0500,
+        longitude: 17.8000
     },
     {
         id: "campaign_140",
@@ -2675,7 +2945,9 @@ The duke survived to fight again, but his legend of invincibility was shattered.
             { cost: 25, text: "The mountain confederation's decisive defeats of the great duchy established pike infantry's dominance over heavy cavalry, a reputation that lasted 50 years.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Grandson on March 2, 1476, where the Swiss Confederacy routed Charles the Bold of Burgundy. The Swiss pike squares, advancing in echelon formation, were unstoppable; Charles's cavalry and artillery couldn't break them. The Burgundians fled across frozen Lake Neuchâtel; many drowned. Charles lost his treasury, including the great Sancy diamond. Two more defeats followed—Morat and Nancy—and Charles died in 1477. Swiss pike tactics (1470s-1520s) and the Burgundian Wars (1474-1477) precisely date this battle.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 46.8086,
+        longitude: 6.6439
     },
     {
         id: "campaign_141",
@@ -2694,7 +2966,9 @@ The duke was last seen riding toward the enemy with a handful of knights. His na
             { cost: 25, text: "The great duchy's destruction by the mountain confederation occurred in the late 1470s, ending a generation of expansion.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Nancy on January 5, 1477, where Swiss and Lorrainer forces destroyed Charles the Bold's army. Charles's body was found two days later, frozen in a stream with his head split open. His death ended the Burgundian state—France seized the duchy, while the Low Countries passed to the Habsburgs through his daughter. Swiss pike and halberd tactics (1470s-1520s) and Charles's death (1477) precisely date this battle.",
-        tags: ["pitched-battle", "15th-century", "europe"]
+        tags: ["pitched-battle", "15th-century", "europe"],
+        latitude: 48.6921,
+        longitude: 6.1844
     },
     {
         id: "campaign_142",
@@ -2713,7 +2987,9 @@ The defending commander was killed. His army fled. For the first time in history
             { cost: 25, text: "The great wars over the southern peninsula lasted from 1494-1559, with the first decade seeing rapid military innovation.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Cerignola on April 28, 1503, the first battle in history decided by gunpowder small arms. Spanish commander Gonzalo Fernández de Córdoba placed his arquebusiers behind a ditch and palisade; their fire destroyed the French cavalry and Swiss pike charges. The Duke of Nemours was killed leading the French. Córdoba, 'the Great Captain,' pioneered the tactics that would evolve into the tercio. Arquebusiers defeating Swiss pikes (1500-1520) and the Italian Wars (1494-1559) precisely date this battle.",
-        tags: ["pitched-battle", "16th-century", "europe"]
+        tags: ["pitched-battle", "16th-century", "europe"],
+        latitude: 41.2656,
+        longitude: 15.8989
     },
     {
         id: "campaign_143",
@@ -2732,7 +3008,9 @@ The commander thought he was using the barbarians; instead, they used him. Withi
             { cost: 25, text: "The dynastic transition in which rebels captured the capital and northern invaders intervened occurred in 1644.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Shanhai Pass on May 27, 1644, where General Wu Sangui allied with the Manchus to defeat Li Zicheng's rebel army. Li had captured Beijing and driven the Chongzhen Emperor to suicide. Wu, caught between Li and the Manchus, chose to let the Manchus through the Great Wall. The Manchu cavalry routed Li's rebels; the Qing dynasty took Beijing within weeks. Wu later rebelled (the Revolt of the Three Feudatories) and was crushed. Manchu banner cavalry (1618-1683) and the Ming-Qing transition (1644) precisely date this battle.",
-        tags: ["pitched-battle", "17th-century", "asia"]
+        tags: ["pitched-battle", "17th-century", "asia"],
+        latitude: 40.0000,
+        longitude: 119.7500
     },
     {
         id: "campaign_144",
@@ -2751,7 +3029,9 @@ Both sides claimed victory. The war dragged on for another decade, ending in exh
             { cost: 25, text: "Three-day battles with dramatic reversals were characteristic of the chaotic warfare of the 1590s-1600s.", explanation: "The battle pattern helps narrow the date." }
         ],
         explanation: "This was the Battle of Mezőkeresztes on October 24-26, 1596, during the Long Turkish War. Sultan Mehmed III's Ottomans initially routed when Archduke Maximilian's coalition forces overran their camp. But the Christian soldiers stopped to loot; Ottoman sipahi cavalry counterattacked and annihilated the disorganized victors. Both sides lost roughly 20,000-30,000 men. The war continued until the Peace of Zsitvatorok (1606). Janissary-era Ottoman armies versus Habsburg coalitions characterized the Long Turkish War (1593-1606).",
-        tags: ["pitched-battle", "16th-century", "europe"]
+        tags: ["pitched-battle", "16th-century", "europe"],
+        latitude: 47.8167,
+        longitude: 20.7333
     },
     {
         id: "campaign_145",
@@ -2770,7 +3050,9 @@ The kingdom lost its king, its heir, and most of its nobility in a single aftern
             { cost: 25, text: "Crusading expeditions across the strait occurred from the 1410s to 1578, ending in decisive defeat.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Alcácer Quibir (Battle of Three Kings) on August 4, 1578, where Moroccan Sultan Abd al-Malik destroyed King Sebastian I of Portugal's crusading army. Three kings died: Sebastian (killed), Abd al-Malik (died of illness during the battle), and the pretender Muhammad II (drowned fleeing). Portugal lost 8,000 dead and 15,000 captured, including most of its nobility. The ransom bankrupted the nation; Philip II of Spain claimed the throne in 1580. Portuguese crusading in Morocco ended forever. Moroccan firearms defeating European cavalry characterized the late 16th century.",
-        tags: ["pitched-battle", "16th-century", "africa"]
+        tags: ["pitched-battle", "16th-century", "africa"],
+        latitude: 35.0167,
+        longitude: -5.9167
     },
     {
         id: "campaign_146",
@@ -2789,7 +3071,9 @@ The count fled; the kingdom abandoned the heretics. Within a generation, the wea
             { cost: 25, text: "Religious wars against 'heretical' Christians within western realms occurred primarily in the early 13th century (1209-1229).", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Muret on September 12, 1213, where Simon de Montfort (father of the English rebel) destroyed a combined Aragonese-Occitan army. King Peter II of Aragon—hero of Las Navas de Tolosa just a year before—was killed when his cavalry charged in disorder. Raymond VI of Toulouse fled. The Cathar heresy and Occitan culture were doomed; northern French language and customs replaced them. Heavy cavalry with couched lances in mail armor characterized 1100-1300 warfare. The Albigensian Crusade (1209-1229) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 43.4667,
+        longitude: 1.3333
     },
     {
         id: "campaign_147",
@@ -2808,7 +3092,9 @@ The king himself was captured. His ransom of 400,000 livres crippled the royal t
             { cost: 25, text: "Major western expeditions to the delta region occurred in 1249-1250 and again in 1270.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Mansurah and subsequent disaster in February-April 1250, during the Seventh Crusade. King Louis IX of France captured Damietta and advanced on Cairo; at Mansurah, his brother Robert of Artois led a rash charge and was killed. The retreating crusaders were trapped and forced to surrender—Louis IX was captured. His ransom of 400,000 livres nearly bankrupted France. Louis died on crusade again in 1270 at Tunis. Crusader cavalry with surcoats over mail facing Egyptian forces characterized mid-13th century warfare. The Seventh Crusade (1248-1254) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "middle-east"]
+        tags: ["pitched-battle", "13th-century", "middle-east"],
+        latitude: 31.0428,
+        longitude: 31.3789
     },
     {
         id: "campaign_148",
@@ -2827,9 +3113,11 @@ Two months later, the boy was publicly beheaded in the marketplace—the pope's 
             { cost: 25, text: "The papal-backed struggle for the southern kingdom between rival claimants occurred in 1266-1268.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Tagliacozzo on August 23, 1268, where Charles I of Anjou defeated Conradin, the last Hohenstaufen. Conradin's German cavalry broke two Angevin divisions, but Charles's hidden reserve under Erard de Valéry counterattacked and routed the disordered Germans. Conradin was captured and beheaded in Naples on October 29, 1268—he was sixteen. The Hohenstaufen dynasty ended; the Angevins ruled southern Italy until the Sicilian Vespers (1282). German heavy cavalry with great helms characterized 1260s warfare. The Hohenstaufen-Angevin conflict (1266-1268) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 42.0667,
+        longitude: 13.2500
     },
-    {
+{
         id: "campaign_149",
         title: "The Sultanate Broken",
         actualYear: 1243,
@@ -2846,7 +3134,9 @@ The sultanate became a vassal state, its independence ended forever. The invader
             { cost: 25, text: "The steppe invasion that reduced the region's major sultanate to vassalage occurred in the 1240s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Köse Dağ on June 26, 1243, where Mongol commander Baiju defeated Sultan Kaykhusraw II of the Seljuk Sultanate of Rum. The Seljuks had perhaps 80,000 men; the Mongols perhaps 30,000. The sultan's army panicked when Mongol horse archers began their encirclement; the rout was total. The sultanate became a Mongol vassal and never recovered independence. The Mongols dominated Anatolia until the Ilkhanate fragmented in the 1330s; the Ottomans rose from the chaos. Mongol cavalry tactics (1210-1280) and the invasion of Anatolia precisely date this battle.",
-        tags: ["pitched-battle", "13th-century", "middle-east"]
+        tags: ["pitched-battle", "13th-century", "middle-east"],
+        latitude: 40.2667,
+        longitude: 37.8333
     },
     {
         id: "campaign_150",
@@ -2865,7 +3155,9 @@ The pope's champion had won. But his harsh rule provoked rebellion within twenty
             { cost: 25, text: "The papal-backed conquest of the southern kingdom from the imperial dynasty occurred in 1265-1266.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Benevento on February 26, 1266, where Charles I of Anjou defeated and killed King Manfred of Sicily. Manfred, illegitimate son of Frederick II, held strong ground but his German cavalry charged prematurely. The battle in the riverbed favored the lighter French horse; Manfred died fighting on foot after his horse was killed. Charles's harsh rule provoked the Sicilian Vespers (1282), when the French were massacred and Sicily passed to Aragon. German imperial cavalry with great helms characterized 1260s warfare. Charles's conquest (1265-1266) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 41.1306,
+        longitude: 14.7772
     },
     {
         id: "campaign_151",
@@ -2884,7 +3176,9 @@ But the king's son escaped and raised an army. Within a year, the earl would be 
             { cost: 25, text: "The Second Barons' War occurred from 1264-1267, with parliament's role permanently expanded.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Lewes on May 14, 1264, where Simon de Montfort defeated King Henry III. Prince Edward's cavalry routed the Londoners but pursued too far; de Montfort destroyed the royal center. Henry was captured; Edward became a hostage. De Montfort summoned the first English parliament including commoners in 1265. Edward escaped and killed de Montfort at Evesham later that year, but parliamentary representation endured. English baronial cavalry with mail and surcoats characterized mid-13th century warfare. The Second Barons' War (1264-1267) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 50.8790,
+        longitude: 0.0030
     },
     {
         id: "campaign_152",
@@ -2903,7 +3197,9 @@ The earl was killed, his body dismembered. Yet the parliament he had created sur
             { cost: 25, text: "The royalist victory that ended Simon de Montfort's rule occurred in 1265.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Evesham on August 4, 1265, where Prince Edward destroyed Simon de Montfort's army. Edward had first destroyed de Montfort's son's army at Kenilworth, then trapped the earl at Evesham. De Montfort reportedly said 'May God have mercy on our souls, for our bodies are theirs.' His body was mutilated; his head was sent to Roger Mortimer's wife. Yet the Provisions of Oxford and parliamentary representation survived. English baronial warfare with charges and counter-charges characterized the 1260s. The Second Barons' War's climax (1265) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 52.0917,
+        longitude: -1.9467
     },
     {
         id: "campaign_153",
@@ -2922,7 +3218,9 @@ The emperor himself was captured. He was taken to the enemy capital and never se
             { cost: 25, text: "The Latin Empire of Constantinople, established by the Fourth Crusade, lasted from 1204-1261.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Adrianople on April 14, 1205, where Bulgarian Tsar Kaloyan destroyed the army of Latin Emperor Baldwin I. Baldwin led 300 knights against 14,000 Bulgarians and Cumans; his cavalry pursuit left his infantry exposed. Baldwin was captured and never seen again—legend says Kaloyan had his skull made into a drinking cup. The Latin Empire was fatally weakened; the Byzantines recaptured Constantinople in 1261. Frankish cavalry facing Cuman horse archers characterized early 13th-century Balkan warfare. The Latin Empire period (1204-1261) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "balkans"]
+        tags: ["pitched-battle", "13th-century", "balkans"],
+        latitude: 41.6750,
+        longitude: 26.5583
     },
     {
         id: "campaign_154",
@@ -2941,7 +3239,9 @@ But the invaders' reinforcements arrived overnight. The next morning's renewed a
             { cost: 25, text: "The final conquest of the great native powers in the subcontinent occurred in the late 1840s, ending an era of independent native armies.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Chillianwala on January 13, 1849, one of the bloodiest battles in British Indian history. Hugh Gough's British-Indian army attacked Sher Singh's Sikhs in thick jungle; the Sikh artillery devastated the attackers. The British lost 2,300 casualties—more than at many famous victories. The battle was inconclusive, but the British won decisively at Gujarat a month later. The Koh-i-Noor diamond went to Queen Victoria. European-trained native artillery facing British forces characterized the 1840s. The Second Anglo-Sikh War (1848-1849) precisely dates this battle.",
-        tags: ["pitched-battle", "19th-century", "asia"]
+        tags: ["pitched-battle", "19th-century", "asia"],
+        latitude: 32.6500,
+        longitude: 73.6000
     },
     {
         id: "campaign_155",
@@ -2960,7 +3260,9 @@ The defending empire accepted peace within weeks. A new nation was born; the map
             { cost: 25, text: "The wars of Italian unification, which reshaped the peninsula's map, occurred primarily from 1859-1870.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Solferino on June 24, 1859, where French and Sardinian forces defeated Austria during the Second Italian War of Independence. Over 300,000 men fought; 30,000+ became casualties. Henry Dunant, a Swiss businessman, witnessed the aftermath and wrote 'A Memory of Solferino,' leading to the founding of the International Committee of the Red Cross in 1863. Rifled muskets devastating formations and inadequate medical services characterized the 1855-1865 transition. Italian unification (1859-1870) precisely dates this battle.",
-        tags: ["pitched-battle", "19th-century", "europe"]
+        tags: ["pitched-battle", "19th-century", "europe"],
+        latitude: 45.3700,
+        longitude: 10.5600
     },
     {
         id: "campaign_156",
@@ -2979,7 +3281,9 @@ Navies worldwide drew the wrong lesson: for the next forty years, every warship 
             { cost: 25, text: "Major European power conflicts in the mid-1860s included significant naval actions in enclosed seas.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Lissa on July 20, 1866, where Austrian Rear Admiral Wilhelm von Tegetthoff defeated the Italian fleet. Tegetthoff's flagship Ferdinand Max rammed and sank the Italian Re d'Italia—the first ironclad sunk by ramming. Italy had more and larger ships, but Austrian aggression won the day. Navies built ram bows for decades afterward, though ramming would prove impractical. Early broadside ironclads with rams characterized 1860-1880 naval warfare. The Austro-Prussian War (1866) precisely dates this battle.",
-        tags: ["naval", "19th-century", "europe"]
+        tags: ["naval", "19th-century", "europe"],
+        latitude: 43.0500,
+        longitude: 16.1667
     },
     {
         id: "campaign_157",
@@ -2998,7 +3302,9 @@ Only a legendary march by a relief column—300 miles in 20 days—saved the sur
             { cost: 25, text: "Major colonial defeats in the mountain kingdom occurred in 1842 and 1880.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Maiwand on July 27, 1880, where Ayub Khan's Afghans destroyed a British-Indian brigade under Brigadier George Burrows. Of 2,500 soldiers, over 1,700 were killed. General Frederick Roberts's legendary march from Kabul—300 miles in 20 days—relieved Kandahar and defeated Ayub Khan. The battle inspired a fictional veteran: Dr. Watson of Sherlock Holmes. Martini-Henry rifles versus Afghan jezails characterized the 1878-1880 war. The Second Anglo-Afghan War precisely dates this battle.",
-        tags: ["pitched-battle", "19th-century", "asia"]
+        tags: ["pitched-battle", "19th-century", "asia"],
+        latitude: 31.7333,
+        longitude: 65.1333
     },
     {
         id: "campaign_158",
@@ -3017,7 +3323,9 @@ The empire, humiliated, granted the republic its independence—for a time. Twen
             { cost: 25, text: "Colonial rebellions that successfully humiliated great powers into granting independence were rare; the early 1880s saw a notable example in southern Africa.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Majuba Hill on February 27, 1881, where Boer farmers destroyed a British force under Major General George Colley. The Boers—400 excellent marksmen—held the hilltop against 350 British soldiers who attacked uphill in formation. Colley was killed; 92 British died versus 1 Boer killed. Britain granted Transvaal independence in the Pretoria Convention. Boer marksmanship defeating British regulars characterized the First Boer War (1880-1881). This humiliation contributed to British determination in the Second Boer War (1899-1902).",
-        tags: ["pitched-battle", "19th-century", "africa"]
+        tags: ["pitched-battle", "19th-century", "africa"],
+        latitude: -27.4667,
+        longitude: 29.8500
     },
     {
         id: "campaign_159",
@@ -3036,7 +3344,9 @@ The victory made the revolutionary leader's reputation. He would free five more 
             { cost: 25, text: "Major mountain crossings for liberation campaigns in South America occurred in the late 1810s-early 1820s.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Boyacá on August 7, 1819, where Simón Bolívar destroyed the Spanish royalist army and liberated New Granada (Colombia). Bolívar's 2,800 men, having crossed the Andes in an epic march, surprised Colonel José María Barreiro's 3,000 royalists. The battle lasted two hours; Spanish losses were 200 killed and 1,600 captured. Bogotá fell three days later. Bolívar would liberate Venezuela, Ecuador, Peru, and Bolivia, but died in 1830, disappointed by South America's fragmentation. Revolutionary cavalry defeating royalists characterized the 1810-1825 independence wars.",
-        tags: ["pitched-battle", "19th-century", "americas"]
+        tags: ["pitched-battle", "19th-century", "americas"],
+        latitude: 5.4528,
+        longitude: -73.4319
     },
     {
         id: "campaign_160",
@@ -3055,7 +3365,9 @@ The colonel was captured and exiled. The great power would occupy the country fo
             { cost: 25, text: "Great power interventions to secure major canal routes occurred in the early 1880s.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Tel el-Kebir on September 13, 1882, where General Garnet Wolseley's British forces destroyed Ahmed Urabi's Egyptian nationalist army. Wolseley's night march achieved complete surprise; the battle lasted barely 30 minutes. Urabi was captured and exiled to Ceylon. Britain occupied Egypt to secure the Suez Canal, nominally maintaining Egyptian sovereignty while controlling the country until 1956. British-Indian forces with Martini-Henrys defeating Egyptian troops characterized the 1882 campaign.",
-        tags: ["pitched-battle", "19th-century", "africa"]
+        tags: ["pitched-battle", "19th-century", "africa"],
+        latitude: 30.5561,
+        longitude: 31.9422
     },
     {
         id: "campaign_161",
@@ -3074,7 +3386,9 @@ The western dynasty claimed the eastern lands and would rule them for over six c
             { cost: 25, text: "The Habsburg acquisition of Austria through battle occurred in 1278.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Dürnkrut (Marchfeld) on August 26, 1278, where Rudolf I of Habsburg defeated Ottokar II of Bohemia. Ottokar, the 'Golden King,' was killed—possibly murdered by personal enemies after his capture. The Habsburgs gained Austria, Styria, and Carinthia, beginning their 640-year rule. Heavy cavalry with mail and early plate characterized late 13th-century Central European warfare. The Habsburg acquisition of Austria (1278) precisely dates this battle.",
-        tags: ["pitched-battle", "13th-century", "europe"]
+        tags: ["pitched-battle", "13th-century", "europe"],
+        latitude: 48.4750,
+        longitude: 16.8500
     },
     {
         id: "campaign_162",
@@ -3093,7 +3407,9 @@ The slaughter was total. Over a thousand knights died—so many that the spurs c
             { cost: 25, text: "Urban rebellions against feudal overlords occurred primarily in the early 14th century.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Golden Spurs (Courtrai) on July 11, 1302, where Flemish militia destroyed the French army of Robert II of Artois. The Flemings—guildsmen armed with goedendags and pikes—killed over 1,000 French knights, including Robert himself. 500 golden spurs were hung in the Church of Our Lady as trophies. The battle proved that disciplined infantry could defeat heavy cavalry, foreshadowing Crécy and the end of knightly dominance. Urban militia defeating cavalry characterized the early 14th-century infantry revolution. The Franco-Flemish conflicts precisely date this battle.",
-        tags: ["pitched-battle", "14th-century", "europe"]
+        tags: ["pitched-battle", "14th-century", "europe"],
+        latitude: 50.8333,
+        longitude: 3.2667
     },
     {
         id: "campaign_163",
@@ -3112,7 +3428,9 @@ The battle became a national myth, commemorated for centuries as the death of fr
             { cost: 25, text: "Balkan coalitions resisting the advancing eastern empire fought decisive battles in the late 14th century.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Kosovo on June 15, 1389, where Ottoman Sultan Murad I fought Serbian Prince Lazar Hrebeljanović. Both leaders died—Murad stabbed by Miloš Obilić, Lazar executed after the battle. The outcome was ambiguous, but Serbia became an Ottoman vassal. The battle became central to Serbian national identity, commemorated in epic poetry for six centuries. The 1989 anniversary was used to inflame nationalism. Heavy cavalry facing early Ottoman forces characterized late 14th-century Balkans. Serbian-Ottoman Kosovo conflicts precisely date this battle.",
-        tags: ["pitched-battle", "14th-century", "balkans"]
+        tags: ["pitched-battle", "14th-century", "balkans"],
+        latitude: 42.6667,
+        longitude: 21.1667
     },
     {
         id: "campaign_164",
@@ -3131,7 +3449,9 @@ Then the hidden reserve struck. Fresh cavalry crashed into the horde's exhausted
             { cost: 25, text: "Tributary states resisting the steppe horde's demands emerged in the late 14th century during succession crises.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Kulikovo on September 8, 1380, where Grand Prince Dmitry of Moscow defeated Mamai of the Golden Horde. Dmitry earned the epithet 'Donskoy' (of the Don) for the victory. The ambush cavalry under Vladimir the Bold decided the battle. Russia still paid tribute afterward (Tokhtamysh sacked Moscow in 1382), but Kulikovo showed Mongol armies could be beaten, becoming a symbol of Russian resistance. Russian cavalry versus Golden Horde horse archers characterized 14th-century warfare. Russian resistance during Horde succession crises dates this battle.",
-        tags: ["pitched-battle", "14th-century", "eastern-europe"]
+        tags: ["pitched-battle", "14th-century", "eastern-europe"],
+        latitude: 53.6000,
+        longitude: 38.6667
     },
     {
         id: "campaign_165",
@@ -3150,7 +3470,9 @@ The small kingdom kept its independence for two more centuries—until marriage,
             { cost: 25, text: "Succession crises leading to wars between neighboring kingdoms on the western peninsula occurred in the 1380s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Aljubarrota on August 14, 1385, where Portuguese forces under João I and Nuno Álvares Pereira defeated Castilian King Juan I. English longbowmen under Thomas Aumale supported Portugal per the Treaty of Windsor (1373), the world's oldest active alliance. The victory secured Portuguese independence until the Iberian Union (1580-1640). The Monastery of Batalha commemorates the site. English longbowmen with Portuguese forces characterized the Hundred Years' War period. The Portuguese succession crisis (1383-1385) precisely dates this battle.",
-        tags: ["pitched-battle", "14th-century", "europe"]
+        tags: ["pitched-battle", "14th-century", "europe"],
+        latitude: 39.6389,
+        longitude: -8.8436
     },
     {
         id: "campaign_166",
@@ -3169,7 +3491,9 @@ The deposed king regained his throne—then proved so treacherous that within tw
             { cost: 25, text: "Foreign interventions in peninsular civil wars occurred in the 1360s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Nájera on April 3, 1367, where Edward the Black Prince defeated Henry of Trastámara and restored Peter I 'the Cruel' to the Castilian throne. Bertrand du Guesclin, France's future constable, was captured. Peter's treachery—refusing to pay Edward—led to a punitive expedition in 1370. Edward contracted the illness that killed him in 1376, never becoming king. English longbow tactics in Iberia characterized the Hundred Years' War period. English Castilian intervention (1366-1367) precisely dates this battle.",
-        tags: ["pitched-battle", "14th-century", "europe"]
+        tags: ["pitched-battle", "14th-century", "europe"],
+        latitude: 42.4167,
+        longitude: -2.7333
     },
     {
         id: "campaign_167",
@@ -3188,7 +3512,9 @@ By evening, the king was captured, the relic taken, and the Christian army destr
             { cost: 25, text: "The reunification of Muslim forces under a single commander and destruction of the Christian kingdoms' field army occurred in 1187.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Hattin on July 4, 1187, where Saladin annihilated the Crusader army of Guy of Lusignan. The Crusaders, dying of thirst after a waterless march, made their stand on the Horns of Hattin. King Guy was captured; the True Cross was taken; Reynald of Châtillon was personally beheaded by Saladin. Jerusalem fell in October. The Third Crusade followed, but the Kingdom of Jerusalem never recovered. Crusader cavalry with the True Cross facing Saladin's horse archers characterized 12th-century warfare. Saladin's reunification (1187) precisely dates this battle.",
-        tags: ["pitched-battle", "12th-century", "middle-east"]
+        tags: ["pitched-battle", "12th-century", "middle-east"],
+        latitude: 32.8050,
+        longitude: 35.4470
     },
     {
         id: "campaign_168",
@@ -3207,7 +3533,9 @@ When the city cavalry rallied and returned to the fight, the emperor himself was
             { cost: 25, text: "Imperial conflicts with leagues of independent cities occurred primarily from 1158-1183.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Legnano on May 29, 1176, where the Lombard League defeated Emperor Frederick Barbarossa. The Milanese infantry rallied around their carroccio; Barbarossa was unhorsed and nearly killed. The Peace of Constance (1183) recognized city autonomy. Italian city-states would dominate the peninsula for centuries. German knights versus Lombard militia with carroccio characterized 12th-century warfare. Barbarossa's Lombard League conflicts (1158-1183) precisely date this battle.",
-        tags: ["pitched-battle", "12th-century", "europe"]
+        tags: ["pitched-battle", "12th-century", "europe"],
+        latitude: 45.6000,
+        longitude: 8.9167
     },
     {
         id: "campaign_169",
@@ -3226,7 +3554,9 @@ The adventurers would go on to conquer the wealthy island to the south, then lau
             { cost: 25, text: "Papal attempts to expel northern adventurers from southern Italy occurred in the mid-11th century.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Civitate on June 18, 1053, where Norman forces under Humphrey of Hauteville and Robert Guiscard defeated Pope Leo IX's army. The pope was captured but treated respectfully; he died in Norman custody the next year. The Treaty of Melfi (1059) granted papal recognition to Norman conquests. The Normans conquered Sicily (1061-1091) and later launched the First Crusade's key contingent. Norman cavalry defeating Italian forces characterized the 1030-1100 conquest. Papal conflict with Normans in the mid-11th century dates this battle.",
-        tags: ["pitched-battle", "11th-century", "europe"]
+        tags: ["pitched-battle", "11th-century", "europe"],
+        latitude: 41.7333,
+        longitude: 15.2667
     },
     {
         id: "campaign_170",
@@ -3245,7 +3575,9 @@ The Viking Age was ending, but so was the dream of a united island. The high kin
             { cost: 25, text: "The final great sea-raider invasion of the western isles occurred in the early 11th century.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Clontarf on April 23, 1014, where High King Brian Boru defeated a Viking-Leinster alliance. Brian, too old to fight, was killed in his tent by fleeing Vikings. His son Murchad and grandson Toirdelbach also died. The Vikings never again threatened Ireland, but Brian's dynasty collapsed without him. Irish unity died with him; centuries of provincial warfare followed. Irish warriors facing Vikings characterized 10th-11th century warfare. The final Viking invasion of Ireland dates this battle.",
-        tags: ["pitched-battle", "11th-century", "europe"]
+        tags: ["pitched-battle", "11th-century", "europe"],
+        latitude: 53.3642,
+        longitude: -6.2061
     },
     {
         id: "campaign_171",
@@ -3264,7 +3596,9 @@ Within a year, miracles were reported at his grave. Within a decade, he was decl
             { cost: 25, text: "The Christianization of Scandinavia, often by force, occurred primarily in the 10th-11th centuries.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Stiklestad on July 29, 1030, where King Olaf II of Norway was killed trying to reclaim his throne. Olaf had Christianized Norway by force; rebellious lords allied with Cnut the Great of Denmark to drive him out. Though defeated, Olaf became Saint Olaf within a year, his feast day still celebrated. The Stiklestad Church marks where he fell. Viking-era weapons and armor characterized 800-1100 CE warfare. The Christianization of Scandinavia precisely dates this battle.",
-        tags: ["pitched-battle", "11th-century", "europe"]
+        tags: ["pitched-battle", "11th-century", "europe"],
+        latitude: 63.7964,
+        longitude: 11.5636
     },
     {
         id: "campaign_172",
@@ -3283,7 +3617,9 @@ The defending general was killed; his army was destroyed. Within two decades, th
             { cost: 25, text: "Major conquests by a newly-united desert people ending an ancient empire occurred in the 630s-640s.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of al-Qadisiyyah in 636, where Arab forces under Sa'd ibn Abi Waqqas destroyed the Sasanian Persian army of Rostam Farrokhzad. Fighting lasted three or four days; Rostam was killed when the wind blew his tent onto him. The Sasanian Empire, which had rivaled Rome for centuries, collapsed within fifteen years. Persia became Muslim and remains so. Persian cataphracts and elephants facing Arab cavalry characterized the early Islamic conquests (632-651). The conquest of Persia precisely dates this battle.",
-        tags: ["pitched-battle", "7th-century", "middle-east"]
+        tags: ["pitched-battle", "7th-century", "middle-east"],
+        latitude: 31.5794,
+        longitude: 44.5028
     },
     {
         id: "campaign_173",
@@ -3302,7 +3638,9 @@ By evening, the general was dead and his army shattered. The invasion was over; 
             { cost: 25, text: "Major eastern invasions of the city-states occurred in 490 BCE and 480-479 BCE.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Plataea in 479 BCE, where Greek forces under the Spartan regent Pausanias destroyed the Persian army of Mardonius. Mardonius was killed; the Persian invasion ended. Combined with the naval victory at Mycale the same day, Plataea secured Greek independence. The Greek hoplite phalanx proved superior to Persian infantry. Hoplite warfare against Persia characterized the Greco-Persian Wars (499-449 BCE). The second Persian invasion (480-479 BCE) precisely dates this battle.",
-        tags: ["pitched-battle", "ancient", "europe"]
+        tags: ["pitched-battle", "ancient", "europe"],
+        latitude: 38.2256,
+        longitude: 23.2778
     },
     {
         id: "campaign_174",
@@ -3321,7 +3659,9 @@ The eastern empire fell that day. The young king would march on to the edge of t
             { cost: 25, text: "The decisive battle that ended the great eastern empire and gave a conqueror control from Egypt to India occurred in 331 BCE.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Gaugamela on October 1, 331 BCE, where Alexander the Great destroyed the last army of Darius III. Alexander's oblique attack created a gap in the Persian line; his charge at Darius caused the Great King to flee. The Persian Empire fell; Alexander ruled from Egypt to India until his death in 323 BCE. Macedonian phalanx and Companions versus Persian scythed chariots characterized Alexander's campaigns (334-323 BCE). The decisive battle against Darius dates this precisely.",
-        tags: ["pitched-battle", "ancient", "middle-east"]
+        tags: ["pitched-battle", "ancient", "middle-east"],
+        latitude: 36.3667,
+        longitude: 43.2500
     },
     {
         id: "campaign_175",
@@ -3340,7 +3680,9 @@ But the returning cavalry struck the rear. The great general, for the first time
             { cost: 25, text: "The final battle of the Second Punic War, fought in Africa, occurred in 202 BCE.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Zama in 202 BCE, where Scipio Africanus defeated Hannibal Barca, ending the Second Punic War. Scipio's Numidian cavalry under Masinissa swept the field; returning to strike Hannibal's rear, they decided the battle. Hannibal, undefeated for 17 years in Italy, lost his first and only pitched battle. Carthage surrendered; Rome dominated the Mediterranean. Roman legions versus Carthaginian combined arms characterized the Second Punic War (218-201 BCE). The final battle in Africa dates this precisely.",
-        tags: ["pitched-battle", "ancient", "africa"]
+        tags: ["pitched-battle", "ancient", "africa"],
+        latitude: 36.1119,
+        longitude: 9.2869
     },
     {
         id: "campaign_176",
@@ -3359,7 +3701,9 @@ By morning, the attack had failed. The enemy lost 34 tanks, over 100 vehicles, a
             { cost: 25, text: "Indo-Pakistani tank battles in desert terrain occurred in the wars of 1965 and 1971.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Longewala on December 5-6, 1971, where 120 Indian soldiers under Major Kuldip Singh Chandpuri held off a Pakistani armored brigade. The single 106mm recoilless rifle, manned by Lance Naik Jawahar Singh, destroyed multiple tanks. IAF Hawker Hunters finished the Pakistani armor at dawn. Pakistan lost 34 tanks and 200 killed; India lost 2 men. The battle inspired the Bollywood film 'Border.' Jeep-mounted recoilless rifles versus armor characterized 1960s-1970s warfare. The 1971 Indo-Pakistani War precisely dates this battle.",
-        tags: ["pitched-battle", "20th-century", "asia"]
+        tags: ["pitched-battle", "20th-century", "asia"],
+        latitude: 27.5239,
+        longitude: 70.1583
     },
     {
         id: "campaign_177",
@@ -3378,7 +3722,9 @@ When the city finally fell, it was rubble. But the invaders' blitzkrieg had fail
             { cost: 25, text: "The Iran-Iraq War (1980-1988) featured prolonged urban combat and WWI-style attrition.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Khorramshahr, September-November 1980, during the Iran-Iraq War's opening phase. Iraq expected the city to fall in days; it took 34 days of house-to-house fighting. Iran called it 'City of Blood' (Khuninshahr). The battle cost Iraq its chance for quick victory; the war lasted eight years with over a million dead. Iran recaptured the city in 1982. T-62 tanks and RPG-7s in urban combat characterized 1980s Middle Eastern warfare. The Iran-Iraq War (1980-1988) precisely dates this battle.",
-        tags: ["siege", "20th-century", "middle-east"]
+        tags: ["siege", "20th-century", "middle-east"],
+        latitude: 30.4333,
+        longitude: 48.1833
     },
     {
         id: "campaign_178",
@@ -3397,7 +3743,9 @@ The battle lasted months. Perhaps 20,000 attackers died in the marshes; the defe
             { cost: 25, text: "Major Iranian offensives in the Hawizeh Marshes occurred in 1984-1985.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was Operation Kheibar, February-March 1984, one of the Iran-Iraq War's bloodiest battles. Iran launched 500,000 troops through the Hawizeh Marshes; the surprise captured Majnoon Island with its oil fields. But Iraq's counterattacks with chemical weapons and helicopter gunships halted the advance. Perhaps 40,000 died on both sides. Mass infantry assaults through marshlands characterized the war's 1984-1985 phase. The Iran-Iraq War's marsh offensives precisely date this battle.",
-        tags: ["pitched-battle", "20th-century", "middle-east"]
+        tags: ["pitched-battle", "20th-century", "middle-east"],
+        latitude: 31.5000,
+        longitude: 47.7500
     },
     {
         id: "campaign_179",
@@ -3416,7 +3764,9 @@ In six weeks, the defenders destroyed or captured 7,500 troops, 1,500 vehicles, 
             { cost: 25, text: "A desert nation's pickup-truck counteroffensive against a neighboring power's conventional armor occurred in early 1987.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Toyota War of early 1987, where Chad routed Libya's armored forces in the Aouzou Strip. Commander Hassan Djamous led Toyota pickup trucks armed with MILAN missiles and machine guns against Libyan T-55 tanks. At the Battle of Fada, Chad destroyed 70 tanks and killed 700 Libyans for 18 dead. Libya lost billions in equipment; Gaddafi's military reputation was shattered. Toyota pickups with MILAN missiles defeating conventional armor was unique to this conflict.",
-        tags: ["campaign", "20th-century", "africa"]
+        tags: ["campaign", "20th-century", "africa"],
+        latitude: 17.1833,
+        longitude: 21.5833
     },
     {
         id: "campaign_180",
@@ -3435,7 +3785,9 @@ Eventually, exhaustion forced negotiations. The regional power withdrew; the for
             { cost: 25, text: "The last major Cold War proxy battle on the continent, pitting a regional power against superpower-backed forces, occurred in 1987-1988.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Cuito Cuanavale, November 1987-March 1988, the largest African battle since WWII. South African forces besieged Angolan/Cuban troops for four months. Neither side won militarily, but the political consequences were immense: South Africa withdrew from Angola and Namibia; Cuba brought its troops home; and the resulting regional settlement contributed to apartheid's end. Ratel IFVs versus Cuban armor characterized late 1980s southern African warfare. The Angolan-Cuban-South African conflict precisely dates this battle.",
-        tags: ["siege", "20th-century", "africa"]
+        tags: ["siege", "20th-century", "africa"],
+        latitude: -15.1667,
+        longitude: 19.1667
     },
     {
         id: "campaign_181",
@@ -3454,7 +3806,9 @@ After three weeks, the great power declared victory and withdrew—having suffer
             { cost: 25, text: "A brief punitive border war between two socialist neighbors occurred in 1979, following one's invasion of a third country.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Sino-Vietnamese War of February-March 1979, China's 'punitive expedition' after Vietnam invaded Cambodia. China sent 200,000 troops against battle-hardened Vietnamese forces. The invasion captured Lạng Sơn but cost 20,000-30,000 Chinese casualties. China declared victory and withdrew; Vietnam stayed in Cambodia until 1989. Neither side achieved its objectives. Mass infantry attacks against entrenched forces characterized this 1979 border war.",
-        tags: ["campaign", "20th-century", "asia"]
+        tags: ["campaign", "20th-century", "asia"],
+        latitude: 21.8333,
+        longitude: 106.7500
     },
     {
         id: "campaign_182",
@@ -3473,7 +3827,9 @@ The counteroffensive was devastating. The invader's army was driven back in week
             { cost: 25, text: "A Cold War proxy conflict in which the superpowers switched client states mid-war occurred in 1977-1978.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Ogaden War of 1977-1978, where Somalia invaded Ethiopia's Ogaden region. Initially successful, Somalia was driven back when the USSR switched from supporting Somalia to Ethiopia. Cuban forces and Soviet advisors led Ethiopia's counteroffensive. Somalia lost 8,000 dead; Ethiopia perhaps 10,000. The war destabilized both nations for decades. T-55 tanks with Cuban/Soviet support characterized late 1970s Horn of Africa warfare. The Cold War power-switching makes this conflict unique.",
-        tags: ["campaign", "20th-century", "africa"]
+        tags: ["campaign", "20th-century", "africa"],
+        latitude: 9.3500,
+        longitude: 42.8000
     },
     {
         id: "campaign_183",
@@ -3490,7 +3846,9 @@ The cavalry wasn't gone. Returning during the battle, they struck the imperial f
             { cost: 25, text: "The defeat and death of an emperor by barbarians within imperial territory occurred in 378.", explanation: "The political context helps narrow the date." }
         ],
         explanation: "This was the Battle of Adrianople on August 9, 378, where Gothic cavalry destroyed Emperor Valens's army. Valens, impatient for glory, attacked without waiting for western reinforcements. Gothic heavy cavalry struck the Roman flanks; two-thirds of the army—perhaps 10,000 men—died, including Valens. The Goths were settled as foederati; within a century, their descendants ruled Italy. Roman infantry versus Gothic cavalry characterized late imperial warfare. Valens's death marks this as 378.",
-        tags: ["pitched-battle", "ancient", "europe"]
+        tags: ["pitched-battle", "ancient", "europe"],
+        latitude: 41.6772,
+        longitude: 26.5558
     },
     {
         id: "campaign_184",
@@ -3509,7 +3867,9 @@ The emperor himself was killed—the first to die in battle in over four centuri
             { cost: 25, text: "Eastern emperors dying in battle against Balkan enemies was extremely rare, occurring in 811.", explanation: "The rarity helps narrow the date." }
         ],
         explanation: "This was the Battle of Pliska on July 26, 811, where Khan Krum of Bulgaria annihilated Emperor Nicephorus I's Byzantine army. Nicephorus was the first Byzantine emperor to die in battle since Valens at Adrianople in 378—over 400 years earlier. Krum made the emperor's skull into a silver-lined drinking cup. The disaster ended Byzantine offensive operations against Bulgaria for decades. Byzantine tagmata versus Bulgar ambushes characterized 9th century Balkan warfare. An emperor dying in battle identifies this unique moment in Byzantine history.",
-        tags: ["ambush", "9th-century", "balkans"]
+        tags: ["ambush", "9th-century", "balkans"],
+        latitude: 43.1667,
+        longitude: 26.9667
     },
     {
         id: "campaign_185",
@@ -3528,7 +3888,9 @@ The ancient capital fell without a fight. The barbarian kingdom, which had terro
             { cost: 25, text: "Imperial reconquest of wealthy overseas provinces from barbarian kingdoms occurred in the 530s.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was Belisarius's Vandalic War of 533-534, including the Battles of Ad Decimum and Tricamarum. Belisarius landed in North Africa with 15,000 men; King Gelimer's Vandals charged piecemeal and were routed twice. Carthage fell; the Vandal kingdom, which had sacked Rome in 455, was destroyed in months. Belisarius went on to invade Italy. Byzantine cataphracts defeating Vandal cavalry characterized Justinian's reconquests. The African campaign of 533-534 precisely dates this.",
-        tags: ["campaign", "6th-century", "africa"]
+        tags: ["campaign", "6th-century", "africa"],
+        latitude: 36.8065,
+        longitude: 10.1815
     },
     {
         id: "campaign_186",
@@ -3547,7 +3909,9 @@ The prince drove the barbarians back across the river and restored the frontier.
             { cost: 25, text: "A junior emperor restoring a major river frontier against tribal confederations, before becoming sole emperor, occurred in 356-358.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Strasbourg (Argentoratum) on August 357, where Caesar Julian defeated the Alemanni confederation. Despite being outnumbered nearly 3:1, Julian's 13,000 legionaries destroyed King Chnodomar's 35,000 Germans. Julian later became emperor (361-363), famous for attempting to restore paganism. Late Roman legions versus Germanic warriors characterized 4th-century Rhine warfare. Julian's Gallic campaigns (356-358) precisely date this battle.",
-        tags: ["pitched-battle", "ancient", "europe"]
+        tags: ["pitched-battle", "ancient", "europe"],
+        latitude: 48.5734,
+        longitude: 7.7521
     },
     {
         id: "campaign_187",
@@ -3566,7 +3930,9 @@ The orthodox kingdom would become the most powerful in the west, eventually clai
             { cost: 25, text: "The conquest of Aquitaine by a northern kingdom from a southern one occurred in 507.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Vouillé in 507, where Clovis I of the Franks defeated and killed Alaric II of the Visigoths. Clovis, a recent convert to Catholicism, was supported by the church against the Arian Visigoths. The victory gave the Franks Aquitaine; the Visigoths retreated to Spain. The Frankish kingdom became medieval France's ancestor. Frankish axes facing Visigothic cavalry characterized early 6th-century warfare. The Frankish conquest of Aquitaine (507) precisely dates this battle.",
-        tags: ["pitched-battle", "6th-century", "europe"]
+        tags: ["pitched-battle", "6th-century", "europe"],
+        latitude: 46.6333,
+        longitude: 0.3333
     },
     {
         id: "campaign_188",
@@ -3585,7 +3951,9 @@ The great fortress was destroyed; the raiders' grip on the heart of the continen
             { cost: 25, text: "Major royal victories against entrenched northern raiders occurred in the late 880s-890s.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Leuven (Louvain) in 891, where King Arnulf of East Francia destroyed a major Viking force on the Dyle River. The Vikings had fortified camps along the rivers; Arnulf besieged and stormed their position. The Viking threat to the Carolingian heartland ended; survivors settled as Christians or returned to Scandinavia. Carolingian cavalry versus Viking camps characterized late 9th-century warfare. Arnulf's anti-Viking campaigns (889-891) precisely date this battle.",
-        tags: ["siege", "9th-century", "europe"]
+        tags: ["siege", "9th-century", "europe"],
+        latitude: 50.8833,
+        longitude: 4.7000
     },
     {
         id: "campaign_189",
@@ -3604,7 +3972,9 @@ The western provinces were lost forever. The caliphate would never reclaim them;
             { cost: 25, text: "The great tribal revolt in the western provinces of the caliphate occurred in 739-743.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Nobles (Battle of Bagdoura) in 740, where Berber rebels destroyed an Umayyad army sent from Syria. The Arab force—elite Syrian junds—was annihilated in a mountain ambush. The defeat cost the Umayyads their North African provinces permanently; the Berber kingdoms that emerged lasted centuries. The disaster contributed to the Abbasid revolution (750). Arab cavalry versus Berber warriors characterized 8th-century North African warfare. The Great Berber Revolt (739-743) precisely dates this battle.",
-        tags: ["pitched-battle", "8th-century", "africa"]
+        tags: ["pitched-battle", "8th-century", "africa"],
+        latitude: 34.2500,
+        longitude: -5.7167
     },
     {
         id: "campaign_190",
@@ -3623,7 +3993,9 @@ The battle raged across a plain bounded by a river and a forest. The tribal cava
             { cost: 25, text: "Major imperial campaigns to recover lost eagles occurred in the early 1st century AD.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Idistaviso in 16 AD, where Germanicus defeated the Germanic confederation led by Arminius—the same leader who had destroyed Varus's three legions at Teutoburg Forest in 9 AD. Germanicus recovered two of the three lost eagles and devastated the tribes, but Emperor Tiberius recalled him before total victory, fearing his popularity. Segmented plate armor (lorica segmentata) became standard around 1 AD and identifies the early Imperial period. The campaign to avenge Teutoburg dates this precisely to 14-16 AD.",
-        tags: ["pitched-battle", "1st-century", "europe"]
+        tags: ["pitched-battle", "1st-century", "europe"],
+        latitude: 52.2167,
+        longitude: 9.0833
     },
     {
         id: "campaign_191",
@@ -3642,7 +4014,9 @@ The tribal charge broke against the disciplined line. The legionaries hurled the
             { cost: 25, text: "Major tribal rebellions in the western provinces occurred mid-1st century AD.", explanation: "The strategic context helps narrow the date." }
         ],
         explanation: "This was the Battle of Watling Street in 61 AD, where Governor Gaius Suetonius Paulinus crushed the rebellion of Queen Boudica of the Iceni. Boudica had burned Camulodunum (Colchester), Londinium (London), and Verulamium (St Albans). Paulinus chose a narrow battlefield that neutralized her numbers; the tribal wagons blocked retreat and became a slaughter pen. Boudica poisoned herself; her people never rebelled again. Roman legionary equipment and tactics are unmistakably 1st century AD. The destruction of three major colonial cities in the western provinces identifies this period precisely.",
-        tags: ["pitched-battle", "1st-century", "europe"]
+        tags: ["pitched-battle", "1st-century", "europe"],
+        latitude: 52.5500,
+        longitude: -1.4833
     },
     {
         id: "campaign_192",
@@ -3657,7 +4031,9 @@ The tribes were a mix: infantry armed with spears, long swords, and large shield
             { cost: 25, text: "Major crossings of the frozen Rhine occurred during the 'Migration Period' of the early 5th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Crossing of the Rhine on December 31, 406 AD—one of history's pivotal moments. Vandals, Alans, and Suebi crossed the frozen river into Gaul, shattering the Roman frontier permanently. Within years they reached Spain; the Vandals would eventually take North Africa. The Western Empire, already weakened by civil war, never recovered these territories. Late Roman limitanei facing Germanic and nomadic invaders with mixed equipment characterizes 5th-century frontier collapse. The scale of migration—entire peoples, not just armies—distinguishes this period.",
-        tags: ["migration", "5th-century", "europe"]
+        tags: ["migration", "5th-century", "europe"],
+        latitude: 50.0000,
+        longitude: 8.2700
     },
     {
         id: "campaign_193",
@@ -3676,7 +4052,9 @@ The eastern emperor reunited the empire under one ruler. He died four months lat
             { cost: 25, text: "Civil wars between eastern and western emperors over religious policy occurred in the late 4th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Frigidus (Cold River) on September 5-6, 394 AD. Emperor Theodosius I of the East defeated the usurper Eugenius and his general Arbogast. Eugenius was Christian but had pagan senatorial support and restored the Altar of Victory; Theodosius had banned pagan worship in 391. The famous Bora wind on the second day demoralized Eugenius's troops—later Christians interpreted it as miraculous. Eugenius was executed; Arbogast committed suicide. Theodosius reunited the empire but died four months later.",
-        tags: ["pitched-battle", "4th-century", "europe"]
+        tags: ["pitched-battle", "4th-century", "europe"],
+        latitude: 45.8667,
+        longitude: 13.9333
     },
     {
         id: "campaign_194",
@@ -3697,7 +4075,9 @@ The peoples of the steppe would threaten again, centuries later. But this partic
             { cost: 25, text: "Major steppe empires collapsing after their founder's death occurred in the 450s AD.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Nedao in 454 AD, where a coalition of Germanic tribes under the Gepid king Ardaric destroyed Hunnic power in Europe. Attila had died in 453; his sons' quarrels gave the subject peoples their chance. Ellac, Attila's eldest son, was killed in the battle. The Huns scattered—some fled east, others became mercenaries. The Gepids and Ostrogoths divided the former Hunnic territories. Hunnic horse archers versus Germanic infantry and cavalry identifies the mid-5th century transition period. The collapse of a steppe empire after a great khan's death follows a recurring historical pattern.",
-        tags: ["pitched-battle", "5th-century", "europe"]
+        tags: ["pitched-battle", "5th-century", "europe"],
+        latitude: 47.5000,
+        longitude: 18.5000
     },
     {
         id: "campaign_195",
@@ -3716,7 +4096,9 @@ Within a year, the enemy empire sued for peace, returning everything they had ta
             { cost: 25, text: "Major counter-offensives into enemy heartland after long defensive wars occurred in the early 7th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Nineveh on December 12, 627 AD, where Emperor Heraclius of Byzantium crushed the Sasanian Persian army near the ruins of ancient Nineveh. The Persian commander Rhahzadh was killed. Heraclius had launched an audacious campaign through Armenia into the Persian heartland. The victory reversed twenty years of Persian conquests; Shah Khosrow II was overthrown by his own son. Both exhausted empires were then swept by the Arab conquests (630s-640s). Byzantine cataphracts versus Sasanian cavalry is unmistakably 7th century Roman-Persian warfare. The campaign into enemy heartland after long defensive wars dates this precisely.",
-        tags: ["pitched-battle", "7th-century", "middle-east"]
+        tags: ["pitched-battle", "7th-century", "middle-east"],
+        latitude: 36.3667,
+        longitude: 43.1500
     },
     {
         id: "campaign_196",
@@ -3735,7 +4117,9 @@ The arbitration resolved nothing; the schism deepened into permanent division. T
             { cost: 25, text: "The great fitna (civil wars) over caliphal succession occurred in the mid-7th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Siffin in 657 AD, between Caliph Ali ibn Abi Talib and Muawiya, governor of Syria. When Ali's forces gained advantage, Muawiya's men raised Qurans on their lances calling for arbitration—a tactic that worked. The inconclusive arbitration led to the Kharijite split; Ali was assassinated in 661. Muawiya founded the Umayyad dynasty. The battle created the permanent Sunni-Shia schism. Early Arab armies fighting each other are unmistakably from the Rashidun/early Umayyad period. The question of succession to the Prophet precisely dates this to the First Fitna (656-661).",
-        tags: ["pitched-battle", "7th-century", "middle-east"]
+        tags: ["pitched-battle", "7th-century", "middle-east"],
+        latitude: 35.9500,
+        longitude: 39.0500
     },
     {
         id: "campaign_197",
@@ -3754,7 +4138,9 @@ Within two years, the realm was formally divided into three kingdoms. Forty year
             { cost: 25, text: "Catastrophic civil wars dividing a great empire among its founder's grandsons occurred in the mid-9th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Fontenoy on June 25, 841, the bloodiest battle of the Carolingian era. Louis the German and Charles the Bald defeated their brother Emperor Lothar I. Casualty estimates of 40,000 may be exaggerated but reflect the battle's horror—chroniclers called it 'the end of Frankish strength.' The Treaty of Verdun (843) divided the empire into what became France, Germany, and a middle kingdom. Carolingian heavy cavalry with mail and conical helmets identifies 9th century Frankish warfare. A war between imperial brothers over Charlemagne's inheritance precisely dates this period.",
-        tags: ["pitched-battle", "9th-century", "europe"]
+        tags: ["pitched-battle", "9th-century", "europe"],
+        latitude: 47.6667,
+        longitude: 3.3667
     },
     {
         id: "campaign_198",
@@ -3775,7 +4161,9 @@ The king had saved the last independent realm of his people and begun the reconq
             { cost: 25, text: "Kings emerging from hiding to defeat invading raiders and force their conversion occurred in the late 9th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Edington in May 878, where King Alfred of Wessex defeated the Great Heathen Army under Guthrum. Alfred had spent the winter in the Somerset marshes; in spring he gathered the fyrd and crushed the Vikings. Guthrum was besieged at Chippenham and forced to accept baptism with Alfred as godfather. The Treaty of Wedmore created the Danelaw boundary. Alfred had saved the last Anglo-Saxon kingdom and begun England's unification. Anglo-Saxon shield walls versus Vikings characterizes 9th century British warfare. A king emerging from hiding to defeat invaders describes Alfred's desperate situation.",
-        tags: ["pitched-battle", "9th-century", "europe"]
+        tags: ["pitched-battle", "9th-century", "europe"],
+        latitude: 51.2753,
+        longitude: -2.1467
     },
     {
         id: "campaign_199",
@@ -3794,7 +4182,9 @@ The raider army was destroyed; their leaders were captured and hanged. The threa
             { cost: 25, text: "Decisive battles permanently ending decades of nomadic raids from the east occurred in the mid-10th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Lechfeld on August 10, 955, where King Otto I of Germany crushed the Magyars (Hungarians), ending sixty years of devastating raids. Otto's heavy cavalry—proto-knights in mail with lance and shield—destroyed the Magyar horse archers when they closed to fight. Magyar leaders were hanged; the survivors settled and converted, founding the Kingdom of Hungary. Otto was crowned Holy Roman Emperor in 962. Heavy cavalry lancers defeating steppe horse archers characterizes 10th century European military development. The permanent end of a nomadic threat identifies this decisive moment.",
-        tags: ["pitched-battle", "10th-century", "europe"]
+        tags: ["pitched-battle", "10th-century", "europe"],
+        latitude: 48.3705,
+        longitude: 10.8978
     },
     {
         id: "campaign_200",
@@ -3813,7 +4203,9 @@ The emperor barely escaped, swimming to a ship. He died within a year, probably 
             { cost: 25, text: "Major imperial campaigns against Muslim forces in the southern peninsula occurred in the late 10th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Stilo (Cape Colonna) on July 13, 982, where Emperor Otto II's German heavy cavalry was crushed by the Kalbid Emirate of Sicily. Otto lost half his army, including many nobles; he escaped by swimming to a Byzantine ship. He died in Rome in 983, age 28, leaving a 3-year-old heir. The disaster ended German expansion into southern Italy and emboldened the Slavic revolt that would follow. German heavy cavalry versus Arab-Berber forces identifies late 10th century Mediterranean conflicts. An emperor's rashness leading to disaster is a recurring theme.",
-        tags: ["pitched-battle", "10th-century", "mediterranean"]
+        tags: ["pitched-battle", "10th-century", "mediterranean"],
+        latitude: 38.0333,
+        longitude: 17.1333
     },
     {
         id: "campaign_201",
@@ -3832,7 +4224,9 @@ The defeat led to the first of the great tribute payments that would drain the k
             { cost: 25, text: "Major sea-borne raids resuming after decades of peace occurred in the 980s-990s.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Maldon on August 10-11, 991, where Ealdorman Byrhtnoth's Anglo-Saxons were defeated by a Viking army under Olaf Tryggvason. Byrhtnoth famously allowed the Vikings to cross the causeway from Northey Island—a decision medieval poets praised as heroic but modern strategists call foolish. His death led to the Danegeld payments that would total tens of thousands of pounds of silver. The poem 'The Battle of Maldon' immortalized the fight. Anglo-Saxon versus Viking infantry combat identifies late 10th century English warfare. Tribute payments following defeat describe the Danegeld era.",
-        tags: ["pitched-battle", "10th-century", "europe"]
+        tags: ["pitched-battle", "10th-century", "europe"],
+        latitude: 51.7256,
+        longitude: 0.7064
     },
     {
         id: "campaign_202",
@@ -3851,7 +4245,9 @@ Within four years, the invaders had conquered the entire peninsula except for mo
             { cost: 25, text: "Major invasions transforming the Iberian peninsula occurred in the early 8th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Guadalete on July 19, 711, where the Umayyad invasion under Tariq ibn Ziyad destroyed the Visigothic Kingdom. King Roderic (who had seized the throne from the rightful heir) died in the battle; legend says nobles who opposed him betrayed the army. Within four years, most of Iberia was under Muslim rule—beginning seven centuries of Al-Andalus. The Reconquista would not be complete until 1492. Visigothic heavy cavalry versus Arab-Berber forces precisely characterizes early 8th century Iberian warfare. A three-century-old kingdom falling to invasion identifies this transitional moment.",
-        tags: ["pitched-battle", "8th-century", "iberia"]
+        tags: ["pitched-battle", "8th-century", "iberia"],
+        latitude: 36.6000,
+        longitude: -5.9333
     },
     {
         id: "campaign_203",
@@ -3868,7 +4264,9 @@ The caliph fled west, where months later a small rebel detachment found him hidi
             { cost: 25, text: "Major dynastic revolutions in the caliphate occurred in the mid-8th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of the Zab on January 25, 750, where the Abbasid Revolution overthrew the Umayyad Caliphate. Abu al-Abbas, soon to be called 'al-Saffah' (the Blood-Shedder), defeated Caliph Marwan II near the Great Zab River. The Umayyads were nearly exterminated—only one prince escaped to Spain, where his descendants ruled for centuries. The Abbasids moved the capital from Damascus to Baghdad, shifting the empire's center of gravity eastward. Arab-Persian armies characterize the transition from Umayyad to Abbasid rule. A dynasty falling after a century identifies this pivotal 8th century moment.",
-        tags: ["pitched-battle", "8th-century", "middle-east"]
+        tags: ["pitched-battle", "8th-century", "middle-east"],
+        latitude: 35.9833,
+        longitude: 43.3333
     },
     {
         id: "campaign_204",
@@ -3889,7 +4287,9 @@ The minor skirmish became legend; the commander's sword and horn passed into myt
             { cost: 25, text: "Major western campaigns across the Pyrenees occurred in the late 8th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Roncevaux Pass on August 15, 778, where Basque ambushers destroyed Charlemagne's rearguard. The commander Roland died in the ambush—his last stand became 'The Song of Roland,' the foundational epic of medieval French literature. The attackers were Christian Basques, not Muslims as the epic claims. Roland's horn (Olifant) and sword (Durendal) became legendary. Charlemagne had been returning from an unsuccessful campaign against Zaragoza. Carolingian military equipment and the Pyrenean campaigns precisely date this to Charlemagne's reign (768-814).",
-        tags: ["ambush", "8th-century", "europe"]
+        tags: ["ambush", "8th-century", "europe"],
+        latitude: 43.0167,
+        longitude: -1.3167
     },
     {
         id: "campaign_205",
@@ -3908,7 +4308,9 @@ With the king dead and no successor chosen, resistance collapsed. The general al
             { cost: 25, text: "The final campaigns to reclaim a peninsula from barbarian kingdoms occurred in the mid-6th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Mons Lactarius (Mount Vesuvius) in October 553, where Byzantine general Narses destroyed the last Ostrogothic army. King Teia, who had succeeded Totila (killed at Taginae the year before), died in the battle after fighting for two days. With his death, the Ostrogothic Kingdom ended—Italy returned to Imperial rule after sixty years. Narses's combined-arms tactics (massed archers, heavy cavalry, infantry center) were characteristically 6th century Byzantine. The Gothic Wars (535-554) precisely date this final battle.",
-        tags: ["pitched-battle", "6th-century", "mediterranean"]
+        tags: ["pitched-battle", "6th-century", "mediterranean"],
+        latitude: 40.7000,
+        longitude: 14.5000
     },
     {
         id: "campaign_206",
@@ -3927,7 +4329,9 @@ But the cost was staggering. Sources report over 50,000 dead between both sides.
             { cost: 25, text: "Major civil wars between competing emperors occurred in the mid-4th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Mursa Major on September 28, 351, the bloodiest battle of the late Roman Empire. Emperor Constantius II faced the usurper Magnentius, who had murdered Constantius's brother Constans. Casualties may have reached 54,000—nearly half of both armies. Constantius won but lost so many soldiers that the empire's military strength was permanently weakened. Late Roman professional armies with cataphract cavalry and heavy infantry precisely characterize mid-4th century warfare. The civil wars following Constantine's death (337) date this precisely.",
-        tags: ["pitched-battle", "4th-century", "europe"]
+        tags: ["pitched-battle", "4th-century", "europe"],
+        latitude: 45.5550,
+        longitude: 18.6955
     },
     {
         id: "campaign_207",
@@ -3946,7 +4350,9 @@ The general would defend the empire for another eight years before jealous court
             { cost: 25, text: "A barbarian-born general defending the western imperial heartland against barbarian invaders specifically describes the early 400s.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Pollentia on April 6, 402 (Easter Sunday), where Stilicho defeated Alaric I's Visigoths. Stilicho—half-Vandal, regent for the child-emperor Honorius—saved Italy from the Gothic invasion. He even captured Alaric's wife and children. But the two would fight repeatedly; Alaric would eventually sack Rome in 410, two years after Stilicho's execution by the jealous court. Late Roman field armies with foederati precisely characterize early 5th century warfare. A barbarian general defending the empire identifies Stilicho's unique position.",
-        tags: ["pitched-battle", "5th-century", "europe"]
+        tags: ["pitched-battle", "5th-century", "europe"],
+        latitude: 44.6833,
+        longitude: 7.9333
     },
     {
         id: "campaign_208",
@@ -3965,7 +4371,9 @@ The victory ended the civil wars. The prince's father founded a dynasty that wou
             { cost: 25, text: "The unification campaigns founding the Tang Dynasty occurred in the early 620s.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Hulao Pass on May 28, 621, where Li Shimin (later Emperor Taizong) defeated the combined armies of Dou Jiande and Wang Shichong, effectively ending the wars that followed the Sui Dynasty's collapse. Li Shimin's brilliant cavalry tactics and personal valor—he reportedly killed or captured enemy commanders in single combat—became legendary. He became the second Tang emperor and is considered one of China's greatest rulers. Tang heavy cavalry with lance and crossbow characterized 7th century Chinese warfare. The unification following the Sui collapse precisely dates this to the early Tang founding.",
-        tags: ["pitched-battle", "7th-century", "asia"]
+        tags: ["pitched-battle", "7th-century", "asia"],
+        latitude: 34.8500,
+        longitude: 113.2333
     },
     {
         id: "campaign_209",
@@ -3982,6 +4390,8 @@ The consequences were concrete: within months, four neighboring kingdoms submitt
             { cost: 25, text: "Wars of unification among the island kingdoms, ending centuries of division, occurred in the early 9th century.", explanation: "The context helps narrow the date." }
         ],
         explanation: "This was the Battle of Ellandun (Wroughton) in 825, where King Egbert of Wessex defeated Beornwulf of Mercia. Mercia had dominated England for a century; this battle ended that dominance. Within months, Kent, Sussex, Surrey, and Essex submitted to Egbert. His grandson Alfred would complete England's unification. Anglo-Saxon shield wall combat characterizes 9th century British warfare. The wars ending Mercian dominance precisely date this to the 820s, the turning point in Wessex's rise.",
-        tags: ["pitched-battle", "9th-century", "europe"]
+        tags: ["pitched-battle", "9th-century", "europe"],
+        latitude: 51.5333,
+        longitude: -1.8000
     }
 ];

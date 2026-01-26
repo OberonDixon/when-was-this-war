@@ -20,6 +20,16 @@
    - Don't say "decades" if you mean centuries
    - Be precise about relative timing ("a century earlier," "within a generation")
 
+## Location Requirements
+
+1. **Look up coordinates based on reputable sources:**
+   - Don't assume you know the latitude and longitude for a campaign from training, make sure to look it up and verify
+   - Sites like Wikipedia often have latitude and longitude for e.g. cities, so if a battle happens by a modern-day city that is an easy way to check
+   - Scoring isn't very penalizing for roughly-correct things, so you also don't need to find perfect-resolution coordinates
+
+2. **When campaigns span multiple places, pick the location of the most decisive engagement:**
+   - This can be on land or sea, depending on the nature of the conflict
+
 ## Avoiding LLM-Style Prose
 
 LLM-generated text has characteristic patterns that make it feel artificial. Descriptions should be sparse, direct, and focused on conveying information efficiently.
@@ -196,6 +206,8 @@ The explanation should read like **an earnest historian helping students revise 
     id: "campaign_XXX",
     title: "Evocative but Non-Identifying Title",
     actualYear: YYYY,  // negative for BCE
+    latitude: XX.XXX,
+    longitude: XX.XXX,
     difficulty: "easy|medium|hard",
     description: `Multiple paragraphs with military technology details...`,
     hints: [
