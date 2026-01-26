@@ -20,6 +20,11 @@
    - Don't say "decades" if you mean centuries
    - Be precise about relative timing ("a century earlier," "within a generation")
 
+5. **Do not give away the location:**
+   - Do not ever say the country name, continent name, name of a body of water, subpopulation or ethnic group name
+   - The user is supposed to be guessing the location in some game modes. Do not ruin the fun! It is a puzzle of sorts
+   - Cardinal directions and descriptions of landscapes (mountains, seas, lakes, straits, rivers, etc)
+
 ## Location Requirements
 
 1. **Look up coordinates based on reputable sources:**
