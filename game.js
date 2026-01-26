@@ -332,7 +332,7 @@ function processRound() {
 
     // 1. Calculate Year Score (if applicable)
     if (state.mode !== 'place' && state.yearGuess !== null) {
-        yearPoints = calculateScore(state.yearGuess, campaign.actualYear);
+        yearPoints = calculateYearScore(state.yearGuess, campaign.actualYear);
     }
 
     // 2. Calculate Map Score (if applicable)
@@ -489,25 +489,24 @@ function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
 function deg2rad(deg) { return deg * (Math.PI / 180); }
 
 function calculateMapScore(distanceKm) {
-    if (distanceKm < 50) return 100;
-    if (distanceKm < 200) return 90;
-    if (distanceKm < 500) return 75;
-    if (distanceKm < 1000) return 50;
-    if (distanceKm < 2000) return 25;
-    return 0;
+    if (distanceKm <= 50) return 100;
+    const maxDist = 5000;
+    if (distanceKm >= maxDist) return 0;
+    const scale = 1200;
+    const decay = (scale / (scale + distanceKm)) * ((maxDist - distanceKm) / maxDist);
+    return Math.floor(100 * decay);
 }
 
-function calculateScore(guess, actual) {
-    const diff = Math.abs(guess - actual);
-    const age = 2026 - actual;
+function calculateYearScore(guess, actual) {
+    const age = Math.abs(2026 - actual);
     const scale = Math.min(3, Math.max(1, age / 500));
-    if (diff <= 5 * scale) return 100;
-    if (diff <= 10 * scale) return 90;
-    if (diff <= 25 * scale) return 75;
-    if (diff <= 50 * scale) return 60;
-    if (diff <= 100 * scale) return 40;
-    if (diff <= 200 * scale) return 20;
-    return 0;
+    const diff = Math.abs(guess - actual);
+    const minDist = 5 * scale;   // Score 100
+    const maxDist = 200 * scale; // Score 0
+    if (diff <= minDist) return 100;
+    if (diff >= maxDist) return 0;
+    const logFraction = Math.log(diff / minDist) / Math.log(maxDist / minDist);
+    return Math.floor(100 * Math.pow(1 - logFraction, 0.7));
 }
 
 function displayTimeline(guess, actual) {
