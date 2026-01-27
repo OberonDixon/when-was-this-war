@@ -4603,5 +4603,549 @@ Within decades, the jungle begins reclaiming the temples and reservoirs. The lar
         ],
         explanation: "This was the Sack of Angkor in 1431 by the Ayutthaya Kingdom (modern Thailand). The defeat of the Khmer Empire marked the end of the Angkorian period. While Angkor Wat was never completely abandoned, the Khmer court moved south to Phnom Penh to tap into maritime trade and escape proximity to the rival kingdom. The jungle slowly reclaimed the vast urban complex, which at its peak was the largest pre-industrial city in the world, with a sophisticated hydraulic system supporting nearly a million inhabitants.",
         tags: ["siege", "15th-century", "southeast-asia"]
+    },
+    {
+        id: "campaign_220",
+        title: "The First Recorded Battle",
+        actualYear: -1457,
+        latitude: 32.5847,
+        longitude: 35.1847,
+        difficulty: "medium",
+        description: `A young king, eager to prove himself after years under a regent's shadow, leads his army north to suppress a coalition of rebellious vassal states. The coalition has gathered behind the walls of a fortified city at the head of a strategic pass controlling the main trade route between two continents.
+
+The king's advisors urge him to take the safer, longer route around the ridge. He overrules them and marches his army single-file through a narrow pass where an ambush could be devastating. The gamble pays off—the coalition forces have not fortified the pass, and the king's army emerges onto the plain before the city.
+
+The army fights from lightweight horse-drawn chariots, each carrying a driver and an archer armed with a composite bow. Infantry carries bronze-tipped spears, axes, and large shields of wood and leather. Bronze scale armor protects the wealthiest warriors. The rebel coalition fields similar equipment but in smaller numbers and without unified command.
+
+The king's forces shatter the coalition's southern wing and drive the routed enemy back to the city walls. The survivors take refuge behind the fortifications, and the king settles in for a siege that lasts seven months before the city surrenders. He records the entire campaign in detailed inscriptions on the walls of a great temple.`,
+        hints: [
+            { cost: 20, text: "Chariot warfare with composite bows dominated Near Eastern and Mediterranean battlefields from roughly 1700 to 1200 BCE. Chariots were supplanted by cavalry as the primary mobile arm after about 900 BCE.", explanation: "The chariot tactics help date this battle." },
+            { cost: 25, text: "Bronze weapons and scale armor without any iron suggest a date before roughly 1200 BCE, when iron began replacing bronze across the region.", explanation: "The absence of iron weaponry narrows the timeframe." }
+        ],
+        explanation: "This was the Battle of Megiddo in approximately 1457 BCE, fought by Pharaoh Thutmose III against a coalition of Canaanite city-states led by the King of Kadesh. It is the earliest battle recorded in enough detail to reconstruct, thanks to inscriptions on the walls of the Temple of Karnak. Thutmose's decision to take the risky direct route through the Aruna Pass was a bold gamble that caught the coalition off guard. After the battle, the seven-month siege of Megiddo brought the entire Levant under Egyptian control. Chariot warfare with composite bows (standard 1700-1200 BCE) and bronze-only weaponry (before the iron transition around 1200 BCE) place this firmly in the Late Bronze Age.",
+        tags: ["land", "15th-century-bce", "middle-east"]
+    },
+    {
+        id: "campaign_221",
+        title: "The Plain by the Sea",
+        actualYear: -490,
+        latitude: 38.1147,
+        longitude: 23.9647,
+        difficulty: "medium",
+        description: `A vast empire sent a punitive expedition across the sea to punish a small city-state that had supported a failed rebellion in the empire's western provinces. The expeditionary force—perhaps 20,000 to 25,000 infantry and cavalry—landed on a coastal plain and prepared to advance on the city, which lay a day's march away.
+
+The city-state fielded roughly 10,000 citizen-soldiers. These were heavy infantry: each man carried a large round shield of wood faced with bronze, a thrusting spear roughly eight feet long, a short iron sword, and wore a bronze helmet and breastplate or corselet of stiffened linen. They fought in a tight formation called the phalanx, standing shoulder-to-shoulder with overlapping shields.
+
+The defenders deliberately thinned their center and strengthened their flanks. They then advanced at a run across the last stretch of open ground to close the distance before the enemy's archers could do much damage—the city-state's army had almost no archers or cavalry of its own.
+
+The imperial center pushed the defenders back, but the reinforced flanks crushed the weaker imperial wings and then turned inward, enveloping the center. The imperial troops broke and fled to their ships. Casualties were wildly lopsided: the sources claim roughly 6,400 imperial dead against fewer than 200 defenders, though ancient casualty figures are unreliable.
+
+A runner was supposedly dispatched to carry news of the victory to the city.`,
+        hints: [
+            { cost: 20, text: "The hoplite phalanx—heavy infantry with round bronze-faced shields, thrusting spears, and bronze armor—was the dominant military system of the Greek city-states from roughly 700 to 338 BCE.", explanation: "This formation defined warfare in the region for centuries." },
+            { cost: 25, text: "Corslets of stiffened linen (linothorax) were common alternatives to bronze breastplates from the 6th to 4th centuries BCE, being lighter and cheaper while still offering reasonable protection.", explanation: "This armor choice helps narrow the period." }
+        ],
+        explanation: "This was the Battle of Marathon in 490 BCE, where an Athenian army under Miltiades defeated a Persian expeditionary force sent by Darius I. The Athenians, reinforced only by the small city of Plataea, charged across the plain to minimize exposure to Persian archery. The double envelopment—strengthened flanks crushing the Persian wings then turning inward—was a remarkably sophisticated tactic for its era. The Persian losses were severe (Herodotus claims 6,400 dead) while the Athenians lost only 192 men (a figure that was carefully recorded because they were buried on the battlefield under a mound still visible today). The legendary run to Athens by Pheidippides inspired the modern marathon race, though the ancient sources actually describe a much longer run to Sparta before the battle.",
+        tags: ["land", "5th-century-bce", "mediterranean"]
+    },
+    {
+        id: "campaign_222",
+        title: "The Clash of Fleets",
+        actualYear: -256,
+        latitude: 37.15,
+        longitude: 13.75,
+        difficulty: "hard",
+        description: `Two rival republics, locked in a war for control of a large island, gathered the largest fleets either had ever assembled. The sources claim over 600 warships participated, making it one of the largest naval engagements in history, though ancient numbers are unreliable and the true count was likely somewhat smaller.
+
+Both sides relied on the same basic warship: a galley powered by several banks of oars, with a bronze ram at the prow as its primary weapon. Typical crew was roughly 300 rowers, plus a complement of marines armed with swords and javelins. Naval tactics centered on ramming enemy vessels at speed, or shearing off their oars with a close pass to leave them dead in the water.
+
+One fleet had adopted an innovation: hinged boarding bridges mounted on the prow, equipped with a heavy iron spike that dropped onto an enemy deck, locking the ships together. This device turned naval battles into infantry fights—an advantage for the republic with the stronger land army but weaker naval tradition.
+
+The battle developed in stages. One squadron feigned retreat to draw out part of the opposing fleet, while the main body engaged head-on. The boarding bridges proved decisive—enemy ships that attempted to ram found themselves locked against vessels full of trained infantry. The losing side lost roughly a hundred ships captured and dozens more sunk.`,
+        hints: [
+            { cost: 20, text: "Multi-banked oared galleys with bronze rams were the standard Mediterranean warship from roughly 700 BCE to 300 CE. Sail-only warships would not appear for another millennium.", explanation: "The warship type provides a broad timeframe." },
+            { cost: 25, text: "The corvus (boarding bridge with iron spike) was a specific naval innovation used by one major republic during its first major naval war, roughly 260-240 BCE. It was abandoned after a series of storm losses.", explanation: "This device saw only brief use and helps precisely date the battle." }
+        ],
+        explanation: "This was the Battle of Cape Ecnomus in 256 BCE, during the First Punic War between Rome and Carthage. Ancient sources claim 330 Roman ships faced 350 Carthaginian vessels, potentially involving over 300,000 men—making it possibly the largest naval battle in history by manpower, though the numbers are debated. The Roman corvus boarding bridge neutralized Carthaginian naval superiority by turning sea battles into infantry engagements. Rome won a decisive victory, capturing 64 Carthaginian ships and sinking over 30. The victory cleared the way for a Roman invasion of North Africa under Marcus Atilius Regulus, though that expedition ended in disaster. Rome eventually abandoned the corvus because its weight made ships top-heavy and vulnerable to storms.",
+        tags: ["naval", "3rd-century-bce", "mediterranean"]
+    },
+    {
+        id: "campaign_223",
+        title: "The Double Siege",
+        actualYear: -52,
+        latitude: 47.5356,
+        longitude: 4.5006,
+        difficulty: "medium",
+        description: `A great general, campaigning for years to subjugate the peoples of a vast territory north of his republic, finally faced a unified resistance. A charismatic young chieftain had rallied dozens of tribes into a coalition and dealt the general a rare defeat, forcing him to retreat.
+
+The chieftain then made his stand in a fortified hilltop town with roughly 80,000 warriors. The general, with about 60,000 men, chose not to storm the position. Instead, his soldiers—renowned as the finest military engineers of their era—constructed a complete ring of fortifications encircling the hilltop: a ditch, rampart, and palisade stretching over eighteen kilometers, studded with towers, sharpened stakes in concealed pits, and fields of iron barbs designed to maim horses and men.
+
+Then, learning that a massive relief army was approaching, the general ordered a second ring of fortifications facing outward—another eighteen kilometers of defenses. His army was now sandwiched between two forces, besieged as much as besieging.
+
+The relief army arrived—perhaps 250,000 strong, though the sources likely exaggerate—and attacked the outer ring while the besieged garrison sallied against the inner defenses. The general personally led cavalry reserves to the critical breakthrough point, throwing his last reserves into a counterattack that broke the relief army. The chieftain surrendered the next day.
+
+The infantry of both sides fought with iron swords and javelins. The legionary soldiers carried distinctive heavy javelins designed to bend on impact so they could not be thrown back, large curved shields, and short stabbing swords. They wore chain mail shirts and iron helmets.`,
+        hints: [
+            { cost: 20, text: "The pilum (heavy javelin designed to bend on impact), large curved shield, and short stabbing sword were the standard legionary equipment from roughly 300 BCE to 100 CE.", explanation: "This weapon combination was distinctive to one military tradition." },
+            { cost: 25, text: "The scale and sophistication of field fortifications described—double circumvallation with towers, obstacles, and booby traps—was characteristic of late Republican military engineering, roughly 100-50 BCE.", explanation: "This level of engineering narrows the timeframe." }
+        ],
+        explanation: "This was the Siege of Alesia in 52 BCE, Julius Caesar's decisive victory over the Gallic coalition led by Vercingetorix. Caesar's double circumvallation—simultaneously besieging Alesia while defending against a massive relief army—remains one of the most extraordinary feats of military engineering in history. The fortifications included towers every 24 meters, trenches flooded with diverted river water, and elaborate obstacle fields (the lilies and stimuli). Vercingetorix's surrender ended organized resistance to Roman conquest of Gaul. Caesar's legionaries with their distinctive pila, scuta, and gladii identify the late Roman Republic. The double siege works are described in detail in Caesar's own account, the Commentarii de Bello Gallico, which remains our primary source.",
+        tags: ["siege", "1st-century-bce", "western-europe"]
+    },
+    {
+        id: "campaign_224",
+        title: "The Last Fleet of the Republic",
+        actualYear: -31,
+        latitude: 38.9519,
+        longitude: 20.7181,
+        difficulty: "medium",
+        description: `A civil war that had consumed a great republic for over a decade came to its climax in a naval battle at the mouth of a gulf. On one side: the young heir of the republic's assassinated dictator, commanding a fleet of lighter, more maneuverable warships crewed by well-drilled sailors. On the other: a veteran general who controlled the republic's wealthier eastern provinces, allied with a foreign queen whose treasury funded his war effort.
+
+The eastern fleet included massive warships—some reportedly carrying catapults and armored towers—crewed by soldiers rather than trained oarsmen. Many of the rowers had been weakened by disease during a long encampment in malarial coastal lowlands. The western fleet favored smaller, faster vessels equipped with a new weapon: a catapult-launched grappling hook that could tear away an enemy ship's oars or rigging.
+
+The eastern fleet attempted to break out of the gulf, where it had been blockaded for months. The battle devolved into a sprawling melee. The foreign queen, commanding a squadron of sixty warships, broke through the center and fled south under sail. The general abandoned his flagship in a small fast boat and followed her, leaving his fleet to fight on without him. Many of his ships surrendered; others were burned.
+
+Within a year, the general and the queen were both dead by their own hands. The victor became sole ruler and eventually transformed the republic into an empire that would endure for centuries.`,
+        hints: [
+            { cost: 20, text: "Oared warships with rams and catapults, some carrying siege towers, were characteristic of the largest Mediterranean navies in the 3rd to 1st centuries BCE.", explanation: "These 'super-galleys' fell out of use as smaller, more practical warships proved superior." },
+            { cost: 25, text: "The harpax—a catapult-launched grappling hook for tearing away oars and rigging at range—was a specific naval innovation of the late 1st century BCE, used by one commander's fleet.", explanation: "This weapon helps pinpoint the date." }
+        ],
+        explanation: "This was the Battle of Actium on September 2, 31 BCE, where Octavian's fleet under Admiral Marcus Vipsanius Agrippa defeated the combined fleet of Mark Antony and Cleopatra VII of Egypt. Agrippa's harpax grappling device and his lighter, faster Liburnian galleys outfought Antony's massive but poorly-crewed warships. Cleopatra's flight with her sixty Egyptian ships—and Antony's decision to follow her—effectively ended the battle. Antony and Cleopatra committed suicide the following year in Alexandria. Octavian became Augustus, the first Roman Emperor, ending the Roman Republic after nearly 500 years. The battle shaped the Mediterranean world for centuries: Egypt became a Roman province, and the era of the Hellenistic kingdoms ended.",
+        tags: ["naval", "1st-century-bce", "mediterranean"]
+    },
+    {
+        id: "campaign_225",
+        title: "The River Aflame",
+        actualYear: 208,
+        latitude: 29.85,
+        longitude: 113.65,
+        difficulty: "hard",
+        description: `A powerful chancellor, who effectively controlled the imperial court and its puppet emperor, marched south with an army the sources claim numbered 800,000—though modern historians estimate 200,000 to 240,000 as more realistic. His aim was to crush two independent warlords in the south and reunify the empire.
+
+The southern defenders could muster roughly 50,000 men between them. Their one advantage was naval: the great river that divided north from south was so wide at this point that it resembled a lake, and southern sailors had spent their lives on these waters. The northern army, drawn from inland plains, had little experience with boats.
+
+The chancellor chained his transport ships together to create stable platforms for his seasick troops—a decision that proved catastrophic. The defenders sent fireships loaded with bundles of dry reeds and oil upstream on a favorable wind. The chained ships could not scatter, and the fire spread from vessel to vessel. Troops who leapt into the water drowned in their armor. The flames spread to the shore camps, and the northern army dissolved in panic.
+
+The chancellor retreated north, abandoning his dream of unification. The empire split into three rival states that would war for another seventy years. The period became the most romanticized era in the empire's literature, inspiring centuries of poetry, drama, and folklore.`,
+        hints: [
+            { cost: 20, text: "Fireships as a deliberate tactic—vessels loaded with combustibles and sent into an enemy fleet—appear in both Eastern and Western warfare from antiquity through the 18th century, but are most associated with riverine warfare in the 3rd-century partition of a great empire.", explanation: "The fireship tactic provides a broad range but the context narrows it." },
+            { cost: 25, text: "Chain-linking ships together to create stable platforms for troops unused to water was a tactic attempted only a few times in history. It consistently proved disastrous because the ships could not maneuver independently.", explanation: "This specific mistake is historically rare and identifiable." }
+        ],
+        explanation: "This was the Battle of Red Cliffs (Chibi) in 208 CE, the decisive engagement of the Three Kingdoms period. Cao Cao, Chancellor of the Han Dynasty controlling the north, marched against the allied forces of Liu Bei and Sun Quan in the south. Zhuge Liang and Zhou Yu devised the fireship strategy, with general Huang Gai feigning defection to approach the chained northern fleet before igniting his fireships. Cao Cao's army was devastated, and he retreated north. The battle ensured the Three Kingdoms partition—Wei (north), Shu (southwest), and Wu (southeast)—which lasted until 280 CE. The Romance of the Three Kingdoms later romanticized the battle extensively, making it one of the most famous military engagements in East Asian culture.",
+        tags: ["naval", "3rd-century", "east-asia"]
+    },
+    {
+        id: "campaign_226",
+        title: "The Panicked Millions",
+        actualYear: 383,
+        latitude: 32.63,
+        longitude: 116.98,
+        difficulty: "hard",
+        description: `A northern emperor who had unified the steppe and the northern plains declared he would conquer the surviving remnant of the old imperial dynasty, which held the territory south of a great river. He assembled what the sources claim was an army of nearly a million men—drawn from dozens of conquered peoples and led by a former nomad who had adopted the administrative systems of the empire he sought to overthrow.
+
+The southern dynasty, controlling perhaps a third of the empire's former territory, could field only about 80,000 men. But these were professional soldiers, well-drilled and well-led, fighting on familiar terrain with river crossings they knew how to defend.
+
+The first engagement went badly for the northern forces when an advance guard of 50,000 was routed. Then the northern emperor made a fateful decision. When the southern army requested that his forces pull back slightly from the riverbank to allow space for a formal battle, the emperor agreed, intending to use his cavalry to charge as the southerners crossed. But when the massive northern army began its withdrawal, the movement became confused. A southern defector in the northern ranks shouted that the northerners were defeated, and panic rippled through the huge, multi-ethnic army. The organized withdrawal became a rout.
+
+The emperor was wounded by an arrow during the retreat and barely escaped. His empire fragmented within two years as subject peoples revolted, ending the last serious attempt to reunify the old empire from the north for two centuries.`,
+        hints: [
+            { cost: 20, text: "Cavalry charges combined with massive infantry levies drawn from conquered steppe and settled peoples were characteristic of northern empires in the 4th-6th centuries CE in this region.", explanation: "This military system reflects the period of division." },
+            { cost: 25, text: "The old imperial administrative system being adopted by a conquering nomadic dynasty to govern settled agricultural populations was a recurring pattern in the 4th-5th centuries CE.", explanation: "This sinification of steppe rulers helps date the context." }
+        ],
+        explanation: "This was the Battle of Fei River (Feishui) in 383 CE, where the Eastern Jin dynasty defeated the Former Qin under Emperor Fu Jian. Fu Jian had unified northern China and assembled a massive army—the traditional figure of 870,000 is certainly exaggerated but his force was enormous. The Jin general Xie Xuan led roughly 80,000 troops and exploited the multi-ethnic northern army's lack of cohesion. When the Former Qin army pulled back from the river to allow a set-piece battle, the movement spiraled into chaos. Fu Jian's empire collapsed within two years as the Xianbei, Qiang, and other subject peoples revolted. The battle preserved the southern Jin dynasty and ensured China's north-south division would continue until the Sui reunification in 589 CE.",
+        tags: ["land", "4th-century", "east-asia"]
+    },
+    {
+        id: "campaign_227",
+        title: "The Wells of the Caravan Road",
+        actualYear: 624,
+        latitude: 23.7833,
+        longitude: 38.7833,
+        difficulty: "hard",
+        description: `A small community of religious exiles, driven from their home city by the merchant aristocracy that opposed their new faith, intercepted a large trade caravan escorted by a small guard. The caravan's home city then sent a relief force of roughly 950 warriors to protect their commercial lifeline.
+
+The exiles numbered only about 313 men. They took position near wells in a dry valley, controlling the water supply. Their leader ordered all but one well filled in, concentrating his force around the remaining water source and forcing the enemy to fight on ground of his choosing.
+
+Both sides fought primarily as individual warriors rather than in organized formations. Equipment was heterogeneous—swords, spears, and bows were common, with some warriors wearing chain mail or leather armor, but many fighting unarmored. Camels served as transport but not as fighting platforms; the actual combat was on foot and horseback.
+
+The battle opened with single combat between champions from each side, followed by a general melee. The smaller force, fighting with desperate conviction and superior tactical positioning, routed the larger force. Several prominent leaders of the opposing city were killed.
+
+The victory transformed the religious community from persecuted refugees into a credible military and political force. Within a decade, their movement would sweep across the entire region and beyond.`,
+        hints: [
+            { cost: 20, text: "Champion combat preceding a general melee was characteristic of Arabian warfare in the 6th-7th centuries CE, before more organized military systems developed.", explanation: "This fighting style helps date and locate the battle." },
+            { cost: 25, text: "Heterogeneous equipment with a mix of mail, leather, and no armor, combined with swords, spears, and bows, was typical of pre-imperial Arabian warfare before standardized military equipment became common in the late 7th century.", explanation: "The equipment variety narrows the date." }
+        ],
+        explanation: "This was the Battle of Badr on March 13, 624 CE, the first major military victory of the early Muslim community (ummah) under Prophet Muhammad. The Muslims, who had been driven from Mecca to Medina (the Hijra of 622), intercepted a Meccan caravan and then defeated the Quraysh relief force despite being outnumbered roughly three to one. The victory at the wells of Badr was a turning point: it established the Muslim community as a military power, boosted Muhammad's authority, and demoralized the Meccan opposition. Several prominent Quraysh leaders were killed, including Abu Jahl. Champion combat followed by a general melee was standard Arabian practice in the early 7th century, before the Muslim conquests created more organized armies.",
+        tags: ["land", "7th-century", "middle-east"]
+    },
+    {
+        id: "campaign_228",
+        title: "The Year-Long Siege by Land and Sea",
+        actualYear: 717,
+        latitude: 41.0082,
+        longitude: 28.9784,
+        difficulty: "hard",
+        description: `The greatest city in the western world faced its most dangerous siege. A massive fleet—reportedly 1,800 ships, though the number is certainly exaggerated—sailed up from the south, while a land army of perhaps 80,000 advanced from the east. The attackers aimed to capture the city that had been the bulwark between their expanding empire and the older civilizations to its north and west.
+
+The city's defenses were formidable: triple land walls that had stood for three centuries, and a chain boom across the harbor mouth to block enemy shipping. The defenders possessed a devastating secret weapon—a liquid incendiary compound pumped through bronze tubes mounted on ships, which burned on water and could not be extinguished. The exact composition remains unknown, though it likely involved naphtha, quicklime, and sulfur.
+
+The besieging fleet was devastated by this weapon. Ships carrying troops and supplies burned in the harbor approaches, and the attackers could not maintain an effective naval blockade. A harsh winter killed thousands of the besieging soldiers, who had marched from warmer climates and lacked adequate supplies. Reinforcement fleets sent the following spring were also destroyed by the incendiary weapon and by storms.
+
+After thirteen months, the siege was abandoned. The retreating fleet was scattered by storms, and fewer than a handful of the original ships reportedly made it home. The failed siege preserved the city for another seven centuries and halted the attackers' expansion into the northern continent.`,
+        hints: [
+            { cost: 20, text: "A liquid incendiary weapon pumped through tubes and capable of burning on water was a closely guarded military secret used from the 670s through roughly the 12th century.", explanation: "This weapon was unique to one civilization during this period." },
+            { cost: 25, text: "Triple land walls built in the early 5th century CE defended this city for over a thousand years. The combination of these walls with the naval incendiary weapon was decisive in two major sieges in the 7th and early 8th centuries.", explanation: "The fortification type helps identify the city and narrow the date." }
+        ],
+        explanation: "This was the Arab Siege of Constantinople in 717-718 CE, one of the most important sieges in world history. The Umayyad Caliphate under Maslama ibn Abd al-Malik besieged the Byzantine capital, defended by Emperor Leo III the Isaurian. Greek Fire—the Byzantine secret weapon—destroyed much of the Arab fleet. The harsh winter of 717-718 and Bulgarian attacks on the Arab land army further weakened the besiegers. The failure of the siege was a turning point: it ended the Arab threat to Constantinople and preserved the Byzantine Empire as a buffer between the Islamic world and Christian Europe. Greek Fire (first used around 672 CE) combined with the Theodosian Walls (built 413 CE) precisely identifies Byzantine Constantinople. The siege's failure, along with the Battle of Tours in 732, marked the limits of early Islamic expansion.",
+        tags: ["siege", "8th-century", "mediterranean"]
+    },
+    {
+        id: "campaign_229",
+        title: "The Steppe Lords' Victory",
+        actualYear: 1040,
+        latitude: 36.45,
+        longitude: 61.60,
+        difficulty: "hard",
+        description: `A confederation of nomadic horse warriors, recently converted to a new faith and led by two brothers, challenged the established empire that controlled the wealthy cities and trade routes of the region. The empire's sultan considered the nomads a minor nuisance and marched to crush them with a professional army that included war elephants, heavy cavalry, and well-equipped infantry.
+
+The nomads fought exclusively as mounted archers, riding hardy steppe ponies and carrying powerful composite recurve bows. They wore light leather or padded armor and carried sabers for close combat, but avoided melee whenever possible. Their strategy was mobility: they harassed the larger army for days, cutting off foragers, poisoning wells, and denying the enemy's horses water and pasture.
+
+When the sultan's army was weakened by thirst and exhaustion, the nomads surrounded it and attacked from all sides simultaneously, wheeling in to fire volleys and then retreating before the heavier cavalry could close. The war elephants, deprived of water for days, became uncontrollable and stampeded through the sultan's own ranks.
+
+The sultan's army disintegrated. He was captured fleeing the field and spent the rest of his life in captivity. The victorious brothers divided the conquered territories and established a dynasty that would dominate the region for over a century.`,
+        hints: [
+            { cost: 20, text: "Mounted archery with composite recurve bows as the primary fighting method was characteristic of Central Asian steppe peoples from antiquity through the medieval period, roughly 800 BCE to 1500 CE.", explanation: "This fighting style provides a broad date range." },
+            { cost: 25, text: "War elephants were used by armies in this region from roughly 300 BCE through the 15th century, but their combination with a professional army that was then defeated by steppe nomads occurred primarily in the 10th-11th centuries CE.", explanation: "The elephant-versus-nomad dynamic helps narrow the date." }
+        ],
+        explanation: "This was the Battle of Dandanaqan in 1040 CE, where the Seljuk Turks under Tughril Beg and Chaghri Beg defeated the Ghaznavid Empire under Sultan Mas'ud I. The Seljuks used classic steppe tactics—mobility, harassment, and attrition—to wear down the larger Ghaznavid army before destroying it in a final encirclement. Mas'ud was later captured and murdered by his own troops. The victory transformed the Seljuks from a nomadic confederation into masters of Khorasan and Iran, eventually establishing the Great Seljuk Empire that would dominate the Islamic world from Anatolia to Central Asia. The Seljuk expansion led directly to the Battle of Manzikert in 1071 and, ultimately, to the Crusades.",
+        tags: ["land", "11th-century", "central-asia"]
+    },
+    {
+        id: "campaign_230",
+        title: "The Strait of the Tides",
+        actualYear: 1185,
+        latitude: 33.9611,
+        longitude: 130.9528,
+        difficulty: "hard",
+        description: `Two rival clans, each claiming to represent the legitimate imperial court, fought a final naval battle in a narrow strait with powerful tidal currents. The clan that had dominated the court for decades was now in retreat, its fleet carrying the boy emperor, the imperial regalia, and the remnants of its army.
+
+Both fleets used similar vessels: flat-bottomed coastal craft propelled by oars and sails, with raised platforms fore and aft for archers. Samurai warriors in laced armor of iron and leather plates stood on the gunwales, firing arrows and boarding enemy ships when they closed. At this period, the bow—a tall asymmetric weapon of laminated bamboo and wood, taller than a man—was considered the premier warrior's weapon, more prestigious than the sword.
+
+The attacking clan had learned the rhythms of the tidal currents and timed their assault to ride the flood tide against the defenders. As the tide turned, the retreating clan found itself pushed back against the shore with no room to maneuver. Sailors and rowers who knew the local waters defected to the attackers at the critical moment.
+
+When defeat became certain, many of the retreating clan's warriors chose death over capture—leaping into the sea in their heavy armor. The boy emperor's grandmother carried him into the water, along with the sacred sword. The victor established a new military government that would rule for over a century.`,
+        hints: [
+            { cost: 20, text: "Laminated bamboo asymmetric longbows and laced plate armor (small iron and leather plates tied together with silk or leather cords) were characteristic of warrior elites in this region from the 10th to 16th centuries.", explanation: "This equipment identifies the region and provides a broad date range." },
+            { cost: 25, text: "Naval warfare using oared coastal craft with archer platforms, where individual warriors in heavy armor boarded enemy vessels, was characteristic of civil wars in this island nation in the 12th century.", explanation: "This style of naval combat helps narrow the date." }
+        ],
+        explanation: "This was the Battle of Dan-no-ura on March 24, 1185, the final battle of the Genpei War between the Minamoto and Taira clans. The Minamoto fleet under Minamoto no Yoshitsune trapped the Taira in the Shimonoseki Strait, and the tide's reversal sealed their fate. The six-year-old Emperor Antoku drowned when his grandmother Taira no Tokiko leapt into the sea carrying him and the sacred sword Kusanagi (one of the three Imperial Regalia). The Minamoto victory led to the establishment of the Kamakura Shogunate under Minamoto no Yoritomo—the first military government (bakufu) in Japanese history. The asymmetric longbow (yumi) and lamellar armor (ō-yoroi) are characteristic of Heian and Kamakura period warriors.",
+        tags: ["naval", "12th-century", "east-asia"]
+    },
+    {
+        id: "campaign_231",
+        title: "The Last Emperor's Fleet",
+        actualYear: 1279,
+        latitude: 22.28,
+        longitude: 113.05,
+        difficulty: "hard",
+        description: `The remnants of a dying dynasty, driven south for years by conquerors from the steppe, made their last stand in a naval battle near the coast. The imperial court had been reduced to a fleet of over a thousand ships carrying the boy emperor, his ministers, and tens of thousands of soldiers and refugees.
+
+The conquerors—steppe horsemen who had learned to fight at sea only out of necessity—assembled a fleet of their own and trapped the imperial flotilla against the shore. The defending ships were chained together in a defensive formation, creating a floating fortress that could not easily be boarded. But this also meant they could not retreat.
+
+The invaders' warships attacked with fire arrows and incendiaries. The defenders' chain formation, intended as a strength, became a death trap as fire spread from ship to ship. Crossbow bolts and arrows rained down from both sides. The fighting lasted a full day.
+
+When defeat was certain, the prime minister carried the eight-year-old emperor on his back and leapt into the sea. According to the sources, over 100,000 people drowned—soldiers, court officials, servants, and their families—choosing death over surrender. The dynasty that had ruled for three centuries, presiding over one of the most culturally brilliant periods in its civilization's history, was extinguished.`,
+        hints: [
+            { cost: 20, text: "Steppe warriors adapting to naval warfare by building or commandeering fleets occurred most notably in the 13th century, during a period of unprecedented nomadic expansion.", explanation: "This context narrows the date considerably." },
+            { cost: 25, text: "Fire arrows and crossbows used simultaneously in naval combat were standard in this region's warfare from the 10th through 14th centuries.", explanation: "This weapons combination helps confirm the period." }
+        ],
+        explanation: "This was the Battle of Yamen (Yaishan) on March 19, 1279, the final battle of the Mongol conquest of the Song Dynasty. The young Emperor Bing of Song, aged eight, perished when Prime Minister Lu Xiufu carried him into the sea rather than surrender to the Yuan (Mongol) fleet commanded by Zhang Hongfan. The Song fleet of over a thousand ships had been chained together in a defensive formation near modern-day Xinhui in Guangdong province. The mass suicide of the Song court marked the end of the dynasty that had invented movable type, paper money, and the magnetic compass. It was the first time all of China came under non-Chinese rule.",
+        tags: ["naval", "13th-century", "east-asia"]
+    },
+    {
+        id: "campaign_232",
+        title: "The Iron Stakes in the River",
+        actualYear: 1288,
+        latitude: 20.85,
+        longitude: 106.70,
+        difficulty: "hard",
+        description: `For the third time in three decades, a vast empire sent armies to conquer a small but fiercely independent kingdom to its south. The first two invasions had been repelled, and now the empire committed a fleet of several hundred warships carrying perhaps 70,000 troops, including heavy cavalry that had conquered half the known world.
+
+The defenders, outnumbered and unable to match the invaders in open battle, turned to a strategy that had worked against a previous northern invasion three centuries earlier. They planted thousands of iron-tipped wooden stakes in the muddy bottom of a tidal river, positioning them just below the waterline at high tide so they would be invisible.
+
+The defending fleet engaged the invaders upstream, then feigned retreat downriver, drawing the enemy fleet after them. As the tide fell, the pursuing ships found themselves impaled on the concealed stakes, their hulls pierced and immovable. Trapped vessels were swarmed by smaller boats carrying soldiers armed with crossbows and fire arrows. The retreating fleet was annihilated.
+
+The invasion's general was captured. The victorious king returned the prisoners and even sent tribute to the great empire, maintaining formal submission while preserving actual independence—a diplomatic strategy that would keep the kingdom autonomous for centuries.`,
+        hints: [
+            { cost: 20, text: "Iron-tipped stakes concealed in tidal rivers as an anti-naval tactic were used twice at the same river—once in the 10th century and once in the late 13th century.", explanation: "This tactic was specific to one particular waterway and defensive tradition." },
+            { cost: 25, text: "A great steppe empire sending naval expeditions to conquer a tropical kingdom to its south occurred during the period of peak steppe expansion in the late 13th century.", explanation: "The geopolitical context helps date this battle." }
+        ],
+        explanation: "This was the Battle of Bach Dang River in 1288, where the Tran Dynasty of Dai Viet (Vietnam) under General Tran Hung Dao destroyed the Yuan (Mongol) fleet. The iron-stake tactic had been used successfully at the same river in 938 CE by Ngo Quyen against the Southern Han Chinese. Tran Hung Dao adapted the ancient strategy against the Mongol fleet, timing the engagement with the tidal cycle to trap enemy ships on the concealed stakes. The Yuan general Ö-Ma-Er (Omar) was captured. The victory ended the third and final Mongol invasion of Vietnam, one of the few countries to successfully repel Mongol expansion. Tran Hung Dao remains one of Vietnam's greatest national heroes.",
+        tags: ["naval", "13th-century", "southeast-asia"]
+    },
+    {
+        id: "campaign_233",
+        title: "The Harbors of the Channel",
+        actualYear: 1340,
+        latitude: 51.35,
+        longitude: 3.38,
+        difficulty: "hard",
+        description: `A king who claimed the throne of a rival kingdom across the sea sailed to attack a large fleet assembled in a harbor on the coast. The rival kingdom's fleet—roughly 200 ships, many of them commandeered merchant vessels—was anchored in defensive lines across the harbor mouth, the ships chained together in three rows so that boarding one meant fighting across all three.
+
+The attacking king brought about 150 ships. He waited offshore for the tide and wind to favor him, then attacked in the afternoon with the sun behind his ships, blinding the defenders. The warships of this era were essentially floating platforms for infantry combat: high-sided vessels called cogs, with raised platforms (castles) at bow and stern from which archers and crossbowmen fired down into enemy ships.
+
+The attackers included large numbers of longbowmen whose rate of fire was devastating—an experienced archer could loose ten to twelve arrows per minute. They swept the defenders' decks with volleys before the knights and men-at-arms boarded. The fighting was savage; many ships changed hands multiple times. Some accounts describe the water thick with bodies and blood.
+
+By nightfall, the first two defensive lines had been captured or sunk. The third line cut their anchor cables and fled in the darkness. Nearly the entire defending fleet was destroyed—a catastrophic defeat that secured control of the narrow sea for years and made a land invasion possible.`,
+        hints: [
+            { cost: 20, text: "Cog warships with fore and aft castles were the standard northern European warship from roughly 1200 to 1400, before purpose-built warships with cannon replaced them.", explanation: "The ship type helps date this battle." },
+            { cost: 25, text: "Longbowmen capable of firing ten to twelve arrows per minute were fielded by one kingdom from roughly 1280 to 1450, and were a decisive advantage in both land and naval combat during this period.", explanation: "The longbow rate of fire identifies the period and the country." }
+        ],
+        explanation: "This was the Battle of Sluys on June 24, 1340, the opening naval engagement of the Hundred Years' War. King Edward III of England destroyed the French fleet commanded by Hugues Quiéret and Nicolas Béhuchet (both killed—Béhuchet was hanged from his own mast). The English longbowmen proved devastating in the naval context, sweeping French decks before boarding parties closed in. The French lost perhaps 170 of their 200 ships. Reportedly, no one dared tell French King Philip VI of the disaster; his court jester finally said, 'The English cowards didn't even have the guts to jump into the sea like the French.' The victory gave England naval superiority in the English Channel for years, enabling the campaigns that led to Crécy and Poitiers.",
+        tags: ["naval", "14th-century", "western-europe"]
+    },
+    {
+        id: "campaign_234",
+        title: "The Disaster on the Plain",
+        actualYear: 1526,
+        latitude: 45.95,
+        longitude: 18.68,
+        difficulty: "medium",
+        description: `A young king led his feudal army south to meet an invasion by one of the most powerful empires in the world. The emperor personally commanded his army, which included elite household infantry armed with matchlock arquebuses, heavy bronze cannon on wheeled carriages, and disciplined cavalry.
+
+The defending king's army of perhaps 25,000 was built around the traditional feudal levy: heavily armored knights charging with lance and sword, supported by light cavalry and infantry levies of indifferent quality. They had some cannon but positioned them poorly, and their arquebusiers were too few to matter.
+
+The imperial army—perhaps 50,000 to 70,000 strong—anchored its line on artillery chained together hub to hub, with the elite infantry firing from behind wooden mantlets between the guns. This combination of cannon and handgun fire created a killing zone that no cavalry charge could survive.
+
+The knights charged regardless. The imperial artillery and arquebusiers shattered their formation. The king was killed in the fighting or drowned in a stream while fleeing—the accounts disagree. Much of his nobility died with him. The kingdom, now leaderless, fell to the empire within years and would not regain its independence for centuries.
+
+The battle demonstrated, once again, that gunpowder weapons had made the armored cavalry charge obsolete.`,
+        hints: [
+            { cost: 20, text: "Matchlock arquebuses fired from behind wooden mantlets (portable shields) alongside chained cannon was a tactic specific to one major empire in the early 16th century.", explanation: "This combined-arms approach was highly effective against traditional cavalry armies." },
+            { cost: 25, text: "Feudal heavy cavalry armies losing decisively to disciplined gunpowder infantry occurred repeatedly in the period 1500-1550, as older military systems failed to adapt to firearms.", explanation: "The transition period narrows the date." }
+        ],
+        explanation: "This was the Battle of Mohács on August 29, 1526, where the Ottoman Empire under Sultan Suleiman the Magnificent destroyed the army of King Louis II of Hungary. Louis II drowned fleeing the battlefield, reportedly when his horse fell on him crossing a swollen stream. The Ottoman Janissary infantry, firing from behind a line of chained cannon, annihilated the Hungarian cavalry charges. The battle ended medieval Hungary as an independent kingdom; most of it became an Ottoman province for 150 years, with the remainder falling under Habsburg control. The Janissary-artillery combination with wooden mantlets was a distinctively Ottoman tactic of the early 16th century.",
+        tags: ["land", "16th-century", "central-europe"]
+    },
+    {
+        id: "campaign_235",
+        title: "The Retreat into Ruin",
+        actualYear: 1520,
+        latitude: 19.70,
+        longitude: -98.75,
+        difficulty: "medium",
+        description: `A small expeditionary force of roughly 1,300 soldiers from a distant empire, accompanied by several thousand indigenous allies, had been driven out of a vast island-city after a week of catastrophic street fighting. They lost two-thirds of their number in the night retreat across the lake causeways—men drowned in the canals under the weight of looted gold, horses screamed and fell into gaps in the broken bridges, and warriors from the city attacked from canoes on both sides.
+
+The survivors, battered and demoralized, retreated eastward. The pursuing army—perhaps 40,000 or more warriors armed with obsidian-edged clubs that could decapitate a horse, atlatl-thrown javelins, and bows—caught up with them on an open plain.
+
+The expeditionaries formed a defensive square with their remaining cavalry in the center. Their steel swords, crossbows, and a few surviving matchlock arquebuses gave them a technological edge, but they were exhausted and vastly outnumbered. The indigenous army surrounded them and pressed in from all sides.
+
+The battle turned when a small group of cavalry broke out of the square and charged directly at the enemy command group. The opposing general was struck down—killed or severely wounded in the charge. When their commander fell, the attacking warriors withdrew according to their military tradition, which prioritized the leader's safety above all else. The retreat continued, but the expeditionaries survived.`,
+        hints: [
+            { cost: 20, text: "Obsidian-edged weapons (macuahuitl) were unique to pre-Columbian warfare in one region, used from roughly 900 to 1520 CE until steel weapons made them obsolete.", explanation: "This weapon type is extremely distinctive and region-specific." },
+            { cost: 25, text: "Matchlock arquebuses and steel swords against obsidian-edged clubs and atlatl javelins represents the collision of two military traditions that occurred only in the early 16th century.", explanation: "This specific technological mismatch pinpoints the period." }
+        ],
+        explanation: "This was the Battle of Otumba on July 7, 1520, fought just days after the Noche Triste ('Sad Night'), Hernán Cortés's disastrous retreat from Tenochtitlan. The surviving Spanish and their Tlaxcalan allies faced an Aztec army on the plains near Otumba. Cortés himself led the cavalry charge that killed or unhorsed the Aztec general (cihuacóatl), causing the Aztec army to withdraw—in Aztec military culture, the capture or death of the commanding general ended the battle. The Spanish survived to reach Tlaxcala, regroup, and return the following year to besiege and destroy Tenochtitlan. The macuahuitl—a wooden club embedded with obsidian blades—was reportedly capable of decapitating a horse, but could not match European steel in prolonged combat.",
+        tags: ["land", "16th-century", "central-america"]
+    },
+    {
+        id: "campaign_236",
+        title: "The Ransom of an Empire",
+        actualYear: 1532,
+        latitude: -7.1631,
+        longitude: -78.5131,
+        difficulty: "medium",
+        description: `An emperor at the head of an army of perhaps 30,000 to 80,000 warriors agreed to meet a small party of foreigners who had arrived from across the sea. He entered their camp in a town square, carried on a golden litter and accompanied by thousands of unarmed attendants, confident that his overwhelming numbers made treachery impossible.
+
+The foreigners numbered fewer than 200 men, with perhaps 60 cavalry. They had concealed their soldiers in buildings around the square, along with two small falconet cannon. A friar approached the emperor, spoke through an interpreter, and presented a sacred book. When the emperor threw it to the ground, the foreigners' leader gave the signal.
+
+The cannon fired into the packed crowd. Cavalry charged from hidden positions, their steel armor impervious to the slings and clubs the few armed guards carried. The slaughter in the enclosed square was total—thousands of unarmed attendants were killed in minutes. The emperor was pulled from his litter and captured alive.
+
+The captive emperor offered to fill a large room with gold and two more with silver as ransom. For months, treasures poured in from across his vast empire—gold stripped from temple walls, silver from mines. The foreigners melted down works of art into bullion. After the ransom was paid, they executed the emperor anyway on charges of treason against a king he had never heard of.`,
+        hints: [
+            { cost: 20, text: "Falconet cannon—small guns firing balls of one to two pounds—were standard light artillery in the early 16th century, portable enough for expeditionary forces but devastating against unarmored opponents.", explanation: "These light guns were effective against opponents without gunpowder weapons." },
+            { cost: 25, text: "Steel armor that was virtually impervious to stone and bronze weapons created an extreme technological mismatch that occurred only during early contact between Old World and New World military systems in the 1520s-1530s.", explanation: "This one-sided technological gap precisely dates the encounter." }
+        ],
+        explanation: "This was the Battle of Cajamarca on November 16, 1532, when Francisco Pizarro captured the Inca Emperor Atahualpa. Pizarro's 168 soldiers ambushed Atahualpa's entourage in the town square of Cajamarca, killing thousands of unarmed Incas and seizing the emperor. Atahualpa offered to fill a room 22 feet long, 17 feet wide, and 8 feet high with gold and two similar rooms with silver—the 'Ransom Room' still stands in Cajamarca. Despite paying, Atahualpa was executed by garrote on July 26, 1533, on fabricated charges. The ransom was worth roughly $100 million in modern terms. The capture decapitated the Inca Empire and enabled the Spanish conquest of the largest empire in the pre-Columbian Americas.",
+        tags: ["land", "16th-century", "south-america"]
+    },
+    {
+        id: "campaign_237",
+        title: "The Imam's Conquest",
+        actualYear: 1529,
+        latitude: 9.00,
+        longitude: 39.00,
+        difficulty: "hard",
+        description: `A charismatic military imam from a coastal sultanate launched a devastating invasion of a highland kingdom that had been a center of one of the world's oldest forms of a major religion for over a millennium. The imam's forces were relatively small—perhaps 12,000 to 15,000 warriors—but they possessed a decisive advantage: matchlock firearms recently acquired from traders across the sea.
+
+The highland kingdom's army was much larger but fought in the traditional manner: infantry with swords, spears, and shields of rhinoceros hide, supported by cavalry. They had no firearms whatsoever. The highland terrain—plateaus and gorges rising to over 4,000 meters—had always protected the kingdom from invasion, but the imam's troops, acclimated to lowland heat, pushed upward relentlessly.
+
+In the decisive battle, the imam's musketeers shattered the highland cavalry charges. The kingdom's mounted warriors, despite fierce bravery, could not close with enemies who could kill at a distance. The king's army was routed, and the imam's forces swept across the highlands, burning churches and monasteries that had stood for centuries, destroying manuscripts and religious art.
+
+The highland kingdom was saved from complete destruction only when a small contingent of foreign musketeers—sent by a distant maritime power seeking allies against the imam's backers—arrived years later and helped turn the tide.`,
+        hints: [
+            { cost: 20, text: "Matchlock firearms acquired through Indian Ocean trade networks reached the Horn of Africa in the early 16th century, creating a severe imbalance against armies that still fought without gunpowder weapons.", explanation: "The introduction of firearms via maritime trade routes helps date this conflict." },
+            { cost: 25, text: "Shields of rhinoceros hide were characteristic of highland armies in the Horn of Africa from ancient times through the 19th century.", explanation: "This equipment detail identifies the region without naming it." }
+        ],
+        explanation: "This was the Battle of Shimbra Kure in 1529, a decisive engagement in the Ethiopian-Adal War (1529-1543). Imam Ahmad ibn Ibrahim al-Ghazi ('Ahmad Gran' or 'the Left-Handed') of the Adal Sultanate invaded the Ethiopian Empire with matchlock-armed troops, many of them Ottoman-supplied. Emperor Dawit II (Lebna Dengel) of Ethiopia was decisively defeated, and Ahmad Gran overran much of the Ethiopian highlands, destroying centuries of Christian art and manuscripts. Ethiopia was eventually saved by a Portuguese expeditionary force under Cristóvão da Gama, sent in 1541, which provided the firearms technology to match the Adal Sultanate. The war devastated the Ethiopian Empire and the Adal Sultanate alike.",
+        tags: ["land", "16th-century", "sub-saharan-africa"]
+    },
+    {
+        id: "campaign_238",
+        title: "The Castle's Last Summer",
+        actualYear: 1615,
+        latitude: 34.6873,
+        longitude: 135.5259,
+        difficulty: "medium",
+        description: `The most powerful warlord in the realm had unified the country after decades of civil war, but one great fortress remained in the hands of his predecessor's heir—a young lord who attracted tens of thousands of masterless warriors, dispossessed by the new order, to his banner.
+
+The fortress was the largest in the land: concentric rings of stone walls and moats defending a towering central keep. The garrison of roughly 100,000 fighters included many veterans of the recent civil wars. But they were a heterogeneous force without unified command—each contingent followed its own leader.
+
+The besieging army numbered perhaps 200,000 and possessed a decisive advantage in artillery. Heavy bronze cannon, some imported from distant trading partners across the sea and others cast domestically, battered the outer walls. Thousands of matchlock-armed infantry—the standard weapon of the realm's armies for two generations now—fired from prepared positions.
+
+In a winter campaign, the attackers had already stripped away the outer fortifications by negotiation and bombardment. Now, in the summer, they launched a final assault. The defenders sallied out to fight in the open but were overwhelmed. The keep burned—whether from artillery, arson, or accident remains debated. The young lord and his mother died inside.
+
+The fall of the fortress eliminated the last challenge to the ruling dynasty, which would govern in peace for over 250 years.`,
+        hints: [
+            { cost: 20, text: "Matchlock firearms as the standard infantry weapon, combined with stone castle architecture of concentric design, was characteristic of warfare in this island nation from roughly 1570 to 1640.", explanation: "The weapon and fortification types help date and locate the battle." },
+            { cost: 25, text: "Masterless warriors (rōnin) gathering around a defeated lord's heir, threatening a newly established political order, was a specific social phenomenon of the early 17th century.", explanation: "This context narrows the date to a specific transition period." }
+        ],
+        explanation: "This was the Siege of Osaka (Summer Campaign) in 1615, the final battle of Japan's Sengoku period. Tokugawa Ieyasu besieged Osaka Castle, held by Toyotomi Hideyori, son of Toyotomi Hideyoshi who had unified Japan a generation earlier. The castle, the largest in Japan, sheltered roughly 100,000 ronin and Toyotomi loyalists. After the Winter Campaign (1614-15) stripped away the outer defenses, the Summer Campaign saw a decisive battle at Tennōji before the castle itself fell. Hideyori and his mother Yodo-dono committed suicide as the keep burned. The victory established the Tokugawa Shogunate's unchallenged rule, beginning 250 years of peace (the Edo period). Matchlock warfare in concentric stone castles identifies Japan's late Sengoku to early Edo transition (1570-1640).",
+        tags: ["siege", "17th-century", "east-asia"]
+    },
+    {
+        id: "campaign_239",
+        title: "The Siege That Won Independence",
+        actualYear: 1781,
+        latitude: 37.2388,
+        longitude: -76.5097,
+        difficulty: "medium",
+        description: `A colonial rebellion that had dragged on for six years came to its decisive moment when the rebel commander, with the help of a major foreign ally, trapped a garrison of roughly 8,000 professional soldiers in a small port town.
+
+The foreign ally's fleet—28 ships of the line carrying over 1,700 guns—defeated a relief squadron in a naval engagement offshore, sealing off the garrison from resupply or escape by sea. On land, roughly 17,000 allied troops—about half colonial rebels and half foreign regulars—invested the town with formal siege lines.
+
+The siege followed the established conventions of 18th-century warfare: parallel trenches dug progressively closer to the walls, artillery batteries erected at each parallel to pound the fortifications, and eventually storm parties sent against weakened redoubts. The besiegers fired heated cannonballs (hot shot) at ships in the harbor, setting several ablaze.
+
+After three weeks of bombardment, the garrison attempted a breakout across the river but was turned back by a storm. With walls breached, ammunition exhausted, and men sick with fever, the garrison commander requested terms. The formal surrender ceremony followed European military protocol: the garrison marched out with flags cased (not flying) and drums beating a slow march—a deliberate humiliation.
+
+The surrender effectively ended the war, though a formal peace would not come for another two years. A new nation emerged.`,
+        hints: [
+            { cost: 20, text: "Ships of the line carrying 64 to 100+ guns each were the decisive naval weapon from roughly 1650 to 1850. A fleet of 28 such vessels represents a major naval power's commitment.", explanation: "The ship type and fleet size help date this battle." },
+            { cost: 25, text: "Formal siege warfare with parallel trenches, progressive approaches, and hot shot against harbored ships followed conventions standardized in the late 17th century and practiced through the early 19th century.", explanation: "The siege techniques help narrow the timeframe." }
+        ],
+        explanation: "This was the Siege of Yorktown in September-October 1781, the decisive engagement of the American Revolutionary War. General George Washington and the French Comte de Rochambeau besieged British General Lord Cornwallis's 8,000 troops. The French fleet under Admiral de Grasse defeated the British relief fleet at the Battle of the Chesapeake, sealing Cornwallis's fate. Washington's army included roughly 8,000 Continental troops and 8,000 French regulars. The formal surrender on October 19, 1781—with the British reportedly playing 'The World Turned Upside Down'—effectively ended the war. Ships of the line and formal siege conventions identify 18th-century European-style warfare; the colonial rebellion context and French alliance narrow it precisely.",
+        tags: ["siege", "18th-century", "north-america"]
+    },
+    {
+        id: "campaign_240",
+        title: "The River Runs Red",
+        actualYear: 1838,
+        latitude: -28.30,
+        longitude: 30.55,
+        difficulty: "medium",
+        description: `A community of frontier settlers, trekking into the interior to escape colonial rule, clashed with the powerful military kingdom that controlled the territory they sought to occupy. After the settlers' leader and roughly 100 of his men were killed at a negotiation meeting—lured into the royal enclosure unarmed and then massacred—the survivors swore revenge.
+
+A commando of roughly 470 mounted settlers, equipped with muzzle-loading flintlock muskets and a few small cannon, formed a defensive laager on the bank of a river. They circled their ox-wagons into a tight enclosure, lashing them together and filling gaps with thorn branches. Within this mobile fortress, they waited.
+
+The kingdom sent an army of perhaps 10,000 to 15,000 warriors armed with short stabbing spears, large cowhide shields, and throwing spears. These warriors fought in disciplined regiments organized by age-group, using sophisticated encirclement tactics—the "horns" formation that sent wings sweeping around an enemy's flanks while the "chest" engaged frontally.
+
+The warriors charged in waves at dawn, displaying extraordinary courage against an enemy they could not reach. The musket fire from behind the wagons was devastating at close range. After several hours of repeated charges, the warriors withdrew. The river reportedly turned red, giving it the name by which the battle is remembered.
+
+The victory opened the interior to settler colonization, though it would be decades before the kingdom was finally conquered.`,
+        hints: [
+            { cost: 20, text: "Flintlock muskets (not percussion cap) fired from wagon laagers against warriors armed primarily with stabbing spears indicates the 1830s-1840s, during the transition from flintlock to percussion ignition.", explanation: "Flintlocks rather than percussion caps helps date this precisely." },
+            { cost: 25, text: "Disciplined regiments organized by age-group using an encirclement formation ('chest and horns') were specific to one southern military kingdom of the early 19th century.", explanation: "This military system was unique and identifiable." }
+        ],
+        explanation: "This was the Battle of Blood River (Ncome) on December 16, 1838, fought between Voortrekker Boers under Andries Pretorius and the Zulu army of King Dingane kaSenzangakhona. The Boers avenged the massacre of Piet Retief and his party at Dingane's kraal earlier that year. The wagon laager—a tactic the Boers had perfected over generations on the frontier—proved impervious to the Zulu impis, whose iklwa stabbing spears could not reach defenders behind wagons and thorn barriers. An estimated 3,000 Zulu warriors were killed; the Boers suffered three wounded. The Zulu 'chest and horns' (impondo zankomo) formation—perfected by Shaka Zulu in the 1820s—was devastatingly effective against other indigenous armies but could not overcome massed musketry behind prepared positions.",
+        tags: ["land", "19th-century", "sub-saharan-africa"]
+    },
+    {
+        id: "campaign_241",
+        title: "The Turning Point at Sea",
+        actualYear: 1942,
+        latitude: 28.20,
+        longitude: -177.35,
+        difficulty: "medium",
+        description: `Six months after a devastating surprise attack that crippled the defending nation's battleship fleet, the two navies met in a battle that would determine control of the world's largest ocean. The attacking nation, riding a wave of conquest that had swept across thousands of miles of ocean and dozens of islands, sent four fleet carriers escorted by battleships, cruisers, and destroyers to seize a remote coral atoll and draw the remaining enemy carriers into a decisive battle.
+
+The defenders, though outnumbered, possessed a critical advantage: their intelligence service had broken the enemy's naval codes and knew the attack was coming. Three carriers were positioned northeast of the atoll, waiting in ambush.
+
+The battle turned on a matter of minutes. The attacking carriers, their flight decks loaded with aircraft being rearmed and refueled, were caught at the worst possible moment by dive bombers that had been searching for them all morning. In roughly five minutes, three carriers were turned into flaming wrecks. The fourth was sunk later that afternoon.
+
+The defenders lost one carrier and a destroyer. The attacking navy lost four fleet carriers, a heavy cruiser, and over 200 experienced pilots—losses it could never replace. The initiative in the ocean war shifted permanently.`,
+        hints: [
+            { cost: 20, text: "Fleet aircraft carriers as the decisive naval weapon—replacing battleships—became apparent only during the war that lasted from 1939-1945.", explanation: "Carrier-versus-carrier battles occurred only during this conflict." },
+            { cost: 25, text: "Dive bombers catching carriers with armed and fueled aircraft on their flight decks was the specific tactical circumstance that decided the greatest carrier battle of the 1939-1945 war.", explanation: "This moment is one of the most analyzed in naval history." }
+        ],
+        explanation: "This was the Battle of Midway on June 4-7, 1942, the turning point of the Pacific War. Admiral Chester Nimitz, forewarned by codebreakers who had deciphered the Japanese JN-25 naval code, positioned Admirals Fletcher and Spruance's three carriers (Enterprise, Hornet, Yorktown) to ambush Vice Admiral Nagumo Chuichi's four carriers (Akagi, Kaga, Soryu, Hiryu). SBD Dauntless dive bombers from Enterprise and Yorktown caught three Japanese carriers with armed aircraft on deck at 10:22 AM—in five minutes, Akagi, Kaga, and Soryu were fatally hit. Hiryu was sunk later that day. Japan lost four fleet carriers and 228 aircraft; the U.S. lost the Yorktown and 150 aircraft. The Japanese never recovered the initiative in the Pacific.",
+        tags: ["naval", "20th-century", "pacific"]
+    },
+    {
+        id: "campaign_242",
+        title: "The Greatest Naval Battle",
+        actualYear: 1944,
+        latitude: 10.50,
+        longitude: 125.35,
+        difficulty: "medium",
+        description: `The largest naval battle in history by tonnage and area unfolded across multiple engagements over three days, as one navy made a desperate attempt to destroy an invasion fleet that was landing troops on a large archipelago island.
+
+The defending navy employed a radical new tactic for the first time in the war: organized suicide aircraft attacks, in which pilots deliberately crashed their bomb-laden planes into enemy ships. These attacks would prove grimly effective in the months ahead, but in this battle they were still being improvised.
+
+The engagement consisted of four separate battles spread across an area of over 100,000 square miles. In the most dramatic, a force of escort carriers, destroyers, and destroyer escorts—small ships never intended for fleet combat—found themselves facing a surface force of battleships and heavy cruisers including the largest battleship ever built, mounting 18.1-inch guns. The small ships charged the vastly superior force, laying smoke and launching torpedoes, and the enemy commander, believing he faced a much stronger force, withdrew.
+
+In another engagement, a battle line of old battleships—several of them resurrected from the harbor mud where they had been sunk in the surprise attack three years earlier—crossed the T of an enemy column in the last battleship-versus-battleship action in history.
+
+The losing navy's surface fleet was effectively destroyed: three battleships, four carriers, and ten cruisers sunk.`,
+        hints: [
+            { cost: 20, text: "Organized suicide aircraft attacks against warships were a specific tactic first employed in October 1944, used through the end of the war in August 1945.", explanation: "This tactic precisely dates the battle." },
+            { cost: 25, text: "Escort carriers and destroyers engaging battleships mounting 18.1-inch guns—the largest naval rifles ever fitted to a warship—occurred in only one battle.", explanation: "The gun caliber identifies the specific ship and battle." }
+        ],
+        explanation: "This was the Battle of Leyte Gulf, October 23-26, 1944, the largest naval battle in history. It comprised four major engagements: the Battle of the Sibuyan Sea, the Battle of Surigao Strait, the Battle off Samar, and the Battle of Cape Engaño. At Samar, Rear Admiral Clifton Sprague's 'Taffy 3'—six escort carriers, three destroyers, and four destroyer escorts—fought Vice Admiral Kurita Takeo's Center Force, which included the super-battleship Yamato with her 18.1-inch guns. The destroyers' suicidal charges (USS Johnston, USS Hoel, USS Samuel B. Roberts all sunk) confused Kurita into withdrawing. At Surigao Strait, Rear Admiral Jesse Oldendorf's battleships—including Pearl Harbor survivors West Virginia, Maryland, and California—crossed the T of Vice Admiral Nishimura's column in the last major battleship action ever fought. The battle introduced kamikaze attacks and destroyed the Imperial Japanese Navy as an effective fighting force.",
+        tags: ["naval", "20th-century", "pacific"]
+    },
+    {
+        id: "campaign_243",
+        title: "The Forgotten Front",
+        actualYear: 1944,
+        latitude: 24.80,
+        longitude: 93.95,
+        difficulty: "hard",
+        description: `An army that had conquered vast territories across the western and southern regions of a continent launched its most ambitious offensive yet: an invasion across mountainous, jungle-covered terrain to capture a strategic supply base and cut the road that sustained resistance in a neighboring country.
+
+The attacking force of roughly 85,000 men advanced through roadless mountain jungle, carrying supplies on foot and by pack animal. Their plan depended on capturing enemy supply depots quickly to feed themselves—a calculated gamble driven by the impossibility of maintaining conventional supply lines through such terrain.
+
+The defenders, drawn from the subcontinent's colonial army, fought from prepared positions around the supply base and at a hill station sixty miles to the north. Both sides used bolt-action rifles, light machine guns, medium machine guns, mortars, and hand grenades. The defenders had air superiority and could resupply by air, dropping food and ammunition by parachute to surrounded positions.
+
+The fighting was among the most brutal of the war. Soldiers fought hand-to-hand among bunker complexes on jungle ridges. Monsoon rains turned every position into a morass. The attackers, running out of food and ravaged by malaria and dysentery, ate grass, leather, and their own dead horses. Attempts to storm the supply base failed against determined resistance.
+
+After four months, the starving remnants of the attacking army retreated through the monsoon jungle. Of the 85,000 who had advanced, over 50,000 were dead from combat, disease, and starvation. It was the largest defeat in their army's history.`,
+        hints: [
+            { cost: 20, text: "Bolt-action rifles, light machine guns, and resupply by parachute drops to surrounded positions were characteristic of the 1939-1945 war.", explanation: "The weapons and logistics identify the conflict." },
+            { cost: 25, text: "An offensive through roadless mountain jungle with a plan to capture enemy supply depots for sustenance—the 'living off the enemy' approach—was attempted in one major 1944 campaign with catastrophic results.", explanation: "This logistics strategy precisely dates the battle." }
+        ],
+        explanation: "This was the Battle of Imphal-Kohima, March to July 1944, the turning point of the Burma Campaign in World War II. Lieutenant General Mutaguchi Renya launched Operation U-Go with three divisions of the Japanese Fifteenth Army against the British-Indian IV Corps at Imphal and the garrison at Kohima. The battle of Kohima—fought around the District Commissioner's tennis court, where Japanese and British positions were separated by the width of the court—was described as 'the Stalingrad of the East.' General William Slim's Fourteenth Army held both positions, supplied by RAF and USAAF airdrops. The Japanese retreat through the monsoon was catastrophic: of 85,000 troops, over 53,000 became casualties, mostly from starvation and disease. The British official history called it 'the greatest defeat in Japanese military history.'",
+        tags: ["land", "20th-century", "southeast-asia"]
+    },
+    {
+        id: "campaign_244",
+        title: "The Typhoon of Steel",
+        actualYear: 1945,
+        latitude: 26.35,
+        longitude: 127.77,
+        difficulty: "medium",
+        description: `The largest amphibious assault in one ocean theater of the war saw over 180,000 troops land on a large island less than 400 miles from the enemy homeland. The defenders—roughly 100,000 soldiers and conscripted civilians—had abandoned the traditional strategy of defending the beaches and instead constructed an elaborate network of caves, tunnels, and bunkers deep in the island's limestone ridges.
+
+The naval armada supporting the landing was the largest ever assembled: over 1,300 ships. It was met by waves of suicide aircraft—over 1,900 organized attacks during the campaign—which sank or damaged dozens of ships. A massive enemy battleship, the largest afloat, was sent on its own suicide mission to beach itself and serve as a shore battery, but was sunk en route by carrier aircraft before it could reach the island.
+
+The fighting ashore lasted nearly three months. The attackers used flamethrowers, demolition charges, and point-blank tank fire to reduce each cave and bunker individually. Napalm—jellied gasoline dropped from aircraft—was used extensively for the first time. The defenders fought with absolute determination, launching massive counterattacks and refusing to surrender.
+
+Civilian casualties were catastrophic. Tens of thousands of local inhabitants died—some caught in crossfire, some killed by the defenders to prevent their surrender, some leaping from cliffs convinced by propaganda that capture meant torture.
+
+The battle's staggering cost—over 12,000 attackers killed and roughly 100,000 defenders dead—directly influenced the decision to use a revolutionary new weapon to end the war rather than invade the home islands.`,
+        hints: [
+            { cost: 20, text: "Napalm—jellied gasoline used as an incendiary weapon—was first developed in 1942 and first used extensively in ground combat in 1944-1945.", explanation: "Napalm's battlefield introduction helps date the campaign." },
+            { cost: 25, text: "Organized waves of suicide aircraft numbering in the thousands were used exclusively during the final year of the 1939-1945 war, from October 1944 through August 1945.", explanation: "The scale of suicide attacks pinpoints the date." }
+        ],
+        explanation: "This was the Battle of Okinawa, April 1 to June 22, 1945, the last major battle of World War II. Lieutenant General Simon Bolivar Buckner Jr.'s U.S. Tenth Army (Buckner himself was killed on June 18, making him the highest-ranking American killed in the Pacific War) fought Lieutenant General Ushijima Mitsuru's Thirty-Second Army through the Shuri Line cave defenses. The super-battleship Yamato was sunk on April 7 by 386 aircraft, losing 3,055 crew. Kamikaze attacks sank 36 Allied ships and damaged 368. An estimated 100,000 Japanese soldiers and 100,000+ Okinawan civilians died. The staggering casualties—the U.S. suffered over 49,000 casualties including 12,520 killed—were a major factor in the decision to use atomic bombs against Hiroshima and Nagasaki rather than launch Operation Downfall, the planned invasion of Japan."
     }
 ];
