@@ -5146,6 +5146,576 @@ The battle's staggering cost—over 12,000 attackers killed and roughly 100,000 
             { cost: 20, text: "Napalm—jellied gasoline used as an incendiary weapon—was first developed in 1942 and first used extensively in ground combat in 1944-1945.", explanation: "Napalm's battlefield introduction helps date the campaign." },
             { cost: 25, text: "Organized waves of suicide aircraft numbering in the thousands were used exclusively during the final year of the 1939-1945 war, from October 1944 through August 1945.", explanation: "The scale of suicide attacks pinpoints the date." }
         ],
-        explanation: "This was the Battle of Okinawa, April 1 to June 22, 1945, the last major battle of World War II. Lieutenant General Simon Bolivar Buckner Jr.'s U.S. Tenth Army (Buckner himself was killed on June 18, making him the highest-ranking American killed in the Pacific War) fought Lieutenant General Ushijima Mitsuru's Thirty-Second Army through the Shuri Line cave defenses. The super-battleship Yamato was sunk on April 7 by 386 aircraft, losing 3,055 crew. Kamikaze attacks sank 36 Allied ships and damaged 368. An estimated 100,000 Japanese soldiers and 100,000+ Okinawan civilians died. The staggering casualties—the U.S. suffered over 49,000 casualties including 12,520 killed—were a major factor in the decision to use atomic bombs against Hiroshima and Nagasaki rather than launch Operation Downfall, the planned invasion of Japan."
+        explanation: "This was the Battle of Okinawa, April 1 to June 22, 1945, the last major battle of World War II. Lieutenant General Simon Bolivar Buckner Jr.'s U.S. Tenth Army (Buckner himself was killed on June 18, making him the highest-ranking American killed in the Pacific War) fought Lieutenant General Ushijima Mitsuru's Thirty-Second Army through the Shuri Line cave defenses. The super-battleship Yamato was sunk on April 7 by 386 aircraft, losing 3,055 crew. Kamikaze attacks sank 36 Allied ships and damaged 368. An estimated 100,000 Japanese soldiers and 100,000+ Okinawan civilians died. The staggering casualties—the U.S. suffered over 49,000 casualties including 12,520 killed—were a major factor in the decision to use atomic bombs against Hiroshima and Nagasaki rather than launch Operation Downfall, the planned invasion of Japan.",
+        tags: ["land", "20th-century", "pacific"]
+    },
+    {
+        id: "campaign_245",
+        title: "The Hot Gates",
+        actualYear: -480,
+        latitude: 38.7961,
+        longitude: 22.5367,
+        difficulty: "easy",
+        description: `A vast invasion force—the sources claim over a million men, though modern estimates suggest 70,000 to 300,000—crossed from one continent to another on pontoon bridges and marched south to subjugate a peninsula of fiercely independent city-states.
+
+A small blocking force of roughly 7,000 defenders, led by a king commanding 300 elite warriors from his own city-state, took position in a narrow coastal pass where the mountains came down nearly to the sea. The pass was so narrow that the invaders' overwhelming numbers counted for nothing—only a few men could fight abreast at a time.
+
+The defenders fought as heavy infantry in tight formation: each man carried a large round bronze-faced shield, a thrusting spear eight to ten feet long, and wore a bronze helmet and breastplate. They held the pass for three days against repeated assaults, including an attack by the invading emperor's elite household guard—warriors who were considered the finest in the empire.
+
+The position was turned when a local shepherd revealed a mountain path that allowed the invaders to outflank the pass. Learning of the betrayal, the king dismissed most of the army but remained with his 300 warriors and perhaps 1,100 other volunteers to cover the retreat. They fought to the last man.
+
+The sacrifice bought time for the peninsula's naval forces to prepare a decisive engagement at sea, and the invasion was ultimately repelled.`,
+        hints: [
+            { cost: 20, text: "Heavy infantry with bronze-faced round shields, long thrusting spears, and bronze armor fighting in close formation (the phalanx) was the dominant military system from roughly 700 to 338 BCE.", explanation: "The phalanx identifies the period." },
+            { cost: 25, text: "A vast empire capable of bridging a strait with pontoon boats and fielding hundreds of thousands of men existed in the 6th-4th centuries BCE. Its elite household troops were famous throughout the ancient world.", explanation: "The imperial context narrows the date." }
+        ],
+        explanation: "This was the Battle of Thermopylae in 480 BCE, where King Leonidas I of Sparta and 300 Spartans (plus roughly 1,100 Thespians and Thebans who stayed) made their legendary last stand against the Persian invasion under Xerxes I. The pass of Thermopylae ('Hot Gates,' named for nearby hot springs) was ideal for defensive warfare—the phalanx made the Spartans nearly invincible in narrow terrain. The traitor Ephialtes revealed the Anopaea path, allowing the Persian Immortals to outflank the position. Leonidas's sacrifice allowed the Greek fleet to fight the Battle of Artemisium and then win the decisive naval Battle of Salamis. The hoplite phalanx with bronze equipment (700-338 BCE) and the Persian Empire's scale identify this as the Greco-Persian Wars.",
+        tags: ["land", "5th-century-bce", "mediterranean"]
+    },
+    {
+        id: "campaign_246",
+        title: "The River of Elephants",
+        actualYear: -326,
+        latitude: 32.49,
+        longitude: 73.63,
+        difficulty: "hard",
+        description: `A young conqueror from the west, already master of the largest empire the world had yet seen, crossed a great river in monsoon flood to attack a powerful regional king on the far bank. The crossing was one of the most daring operations of the ancient world—conducted at night, in driving rain, against a river swollen by seasonal rains.
+
+The western army was built around a phalanx of heavy infantry carrying long pikes eighteen to twenty feet in length, fighting in formations up to sixteen ranks deep. This pike phalanx was supported by elite companion cavalry—heavily armored horsemen who struck in wedge formations, using long lances for shock and short swords for close combat.
+
+The defending king fielded an army of perhaps 30,000 to 50,000, including 200 war elephants—massive beasts carrying wooden towers with archers and javelin men. The elephants were the most formidable weapons the western army had ever faced: horses panicked at their smell, and infantry could be trampled or seized by their trunks.
+
+The conqueror used a flanking cavalry attack to drive the enemy cavalry from the field, then turned his horsemen against the elephant line from behind, while his infantry advanced head-on with long pikes, stabbing at the elephants' legs and trunks. The elephants, maddened by wounds, stampeded through their own infantry. The defending king, a man reportedly over six and a half feet tall, fought from atop his largest elephant until wounded and captured.
+
+The conqueror was so impressed by his opponent's courage that he restored him as a client king. But the conqueror's own army, exhausted after years of marching, refused to go further. He turned back.`,
+        hints: [
+            { cost: 20, text: "Pike phalanxes with eighteen-to-twenty-foot sarissas and companion cavalry in wedge formations were specific to one military system, dominant from roughly 350 to 280 BCE.", explanation: "The pike length and cavalry tactics identify the army." },
+            { cost: 25, text: "War elephants with archers in wooden towers were used by armies in the Indian subcontinent from roughly 500 BCE onward. Their first encounter with a western pike phalanx occurred in the 4th century BCE.", explanation: "The elephant-versus-pike clash helps date the battle." }
+        ],
+        explanation: "This was the Battle of the Hydaspes (modern Jhelum River) in 326 BCE, where Alexander the Great defeated King Porus of the Paurava kingdom in what is now Punjab, Pakistan. Alexander's night river crossing in monsoon conditions is considered one of the finest tactical operations in military history. Porus's 200 war elephants were the most dangerous enemy Alexander had faced—the Macedonian phalanx had no experience against them. Alexander's solution—flanking the elephants with cavalry while the phalanx engaged frontally with their long sarissas—proved decisive. Porus fought with great bravery and was restored as a vassal king. The Macedonian sarissa phalanx (350-280 BCE) combined with war elephants with howdahs precisely identifies this as Alexander's Indian campaign.",
+        tags: ["land", "4th-century-bce", "south-asia"]
+    },
+    {
+        id: "campaign_247",
+        title: "The Lakeside Ambush",
+        actualYear: -217,
+        latitude: 43.10,
+        longitude: 12.11,
+        difficulty: "hard",
+        description: `A foreign general who had invaded from the north with a polyglot army—including cavalry from the deserts, infantry from the western coast, and allies from the recently conquered peoples—set a trap near a large lake. His army had crossed a great mountain range with war elephants (most of which had died in the crossing) and spent the winter raiding the fertile lowlands.
+
+The defending consul, eager for battle, pursued the invaders along a narrow road between the lake shore and forested hills. He failed to send scouts ahead or secure his flanks—a fatal oversight born of impatience and arrogance.
+
+The foreign general concealed his entire army in the wooded hills above the road. When the defending column was strung out along the lakeside, with fog limiting visibility to a few paces, the hidden army attacked simultaneously along the entire length of the column. There was no time to form battle lines—soldiers fought where they stood, unable to see more than a few feet in any direction.
+
+The defending infantry fought with heavy javelins, short stabbing swords, and large curved shields. The attackers used a mix of weapons: heavy cavalry with lances, slingers from island territories famous for their accuracy, and infantry armed with swords and the long oval shields of their homeland.
+
+The slaughter lasted roughly three hours. Nearly 15,000 defenders were killed, including the consul himself. Another 10,000 were captured. It was the worst ambush in the republic's history.`,
+        hints: [
+            { cost: 20, text: "Heavy javelins designed to bend on impact, short stabbing swords, and large curved shields were the standard infantry equipment of one republic from roughly 300 BCE to 100 CE.", explanation: "This distinctive weapon combination identifies the defenders." },
+            { cost: 25, text: "Slingers from western Mediterranean island territories were among the most sought-after mercenaries from the 4th to 1st centuries BCE, employed by multiple powers.", explanation: "The presence of island slingers helps identify the attacking army." }
+        ],
+        explanation: "This was the Battle of Lake Trasimene on June 21, 217 BCE, during the Second Punic War. Hannibal Barca ambushed the Roman army under Consul Gaius Flaminius along the northern shore of Lake Trasimene in Umbria. It remains the largest ambush in military history by number of troops involved. Hannibal concealed roughly 50,000 troops in the hills and attacked the Roman column—strung out over several miles in the morning fog—from three sides simultaneously. Flaminius was killed and his army destroyed: 15,000 killed and 10,000 captured, with minimal Carthaginian losses. Hannibal's army included Numidian cavalry, Balearic slingers (famous for their accuracy with lead shot), Libyan heavy infantry, and Celtic warriors. Roman equipment—pila, gladii, and scuta—identifies the mid-Republic period.",
+        tags: ["land", "3rd-century-bce", "mediterranean"]
+    },
+    {
+        id: "campaign_248",
+        title: "The Desert Fortress",
+        actualYear: 73,
+        latitude: 31.3156,
+        longitude: 35.3536,
+        difficulty: "hard",
+        description: `After a great city and its temple were destroyed by an imperial army, a group of rebels retreated to a fortress atop an isolated plateau in the desert, surrounded on all sides by sheer cliffs rising over 400 meters above the valley floor. The plateau could be reached only by a narrow winding path that a handful of defenders could hold against thousands.
+
+The rebels numbered fewer than a thousand—men, women, and children. They had stockpiled enough food and water (collected in cisterns carved into the rock by a previous king who had built a palatial complex atop the plateau) to hold out indefinitely.
+
+The besieging army—perhaps 8,000 to 10,000 soldiers—could not storm the cliffs. Instead, their engineers set thousands of prisoners and slaves to building a massive earthen ramp against the western face of the plateau, a project requiring months of labor. The soldiers were professional heavy infantry: they fought with heavy javelins, short swords, and large rectangular shields, wearing segmented plate armor and iron helmets. Their engineering capability—roads, siege ramps, fortified camps—was unmatched in the ancient world.
+
+When the ramp was completed and a siege tower moved into position, the besiegers breached the wall. But they found the fortress silent. The defenders had chosen death over slavery or capture—the men killing their families and then themselves. Only two women and five children, who had hidden in a water cistern, survived to tell the story.
+
+The account comes from a single ancient historian and some scholars question whether the mass suicide occurred as described.`,
+        hints: [
+            { cost: 20, text: "Segmented plate armor (lorica segmentata) was worn by heavy infantry from roughly 9 BCE to the late 2nd century CE. It replaced chain mail for front-line troops during this specific period.", explanation: "This distinctive armor type narrows the date considerably." },
+            { cost: 25, text: "Massive siege ramps built against natural cliff fortresses were an engineering feat attempted only a few times in the ancient world, requiring the kind of organized labor only one imperial army could deploy.", explanation: "The engineering capability helps identify the besiegers." }
+        ],
+        explanation: "This was the Siege of Masada in 73 CE (or possibly 74 CE), the final episode of the First Jewish-Roman War. The Sicarii zealots under Eleazar ben Ya'ir held the fortress built by Herod the Great atop a 400-meter mesa overlooking the Dead Sea. The Roman Tenth Legion under Governor Lucius Flavius Silva built an enormous siege ramp (still visible today) against the western cliff face. When the Romans breached the wall, they found 960 defenders had committed mass suicide rather than be enslaved. The account comes solely from Josephus (who was not present), and some modern archaeologists question the mass suicide narrative—archaeological evidence is ambiguous. Lorica segmentata (segmented plate armor) was standard Roman equipment from roughly the reign of Augustus through the 2nd century CE, dating this precisely.",
+        tags: ["siege", "1st-century", "middle-east"]
+    },
+    {
+        id: "campaign_249",
+        title: "The Vision Before Battle",
+        actualYear: 312,
+        latitude: 41.9389,
+        longitude: 12.3931,
+        difficulty: "medium",
+        description: `A civil war within a vast empire came to its climax at a stone bridge over a river just north of the capital city. Four rivals were contending for supreme power, each controlling a portion of the empire. The challenger marched south from the northern provinces with roughly 40,000 men, fewer than his rival could muster.
+
+The defending emperor had a larger army—perhaps 75,000 to 100,000—but made the fateful decision to fight outside the city walls rather than endure a siege. He dismantled the stone bridge and built a pontoon bridge alongside it, presumably to control the crossing but also trapping his own army with a river at its back if things went badly.
+
+Both armies fought in the style of the late empire: heavy infantry in chain mail and ridge helmets, carrying large oval shields and long swords rather than the javelins and short swords of earlier centuries. Heavy cavalry—cataphracts in scale armor on armored horses—played an increasingly important role.
+
+The challenger's cavalry routed the defenders' horsemen on the flanks. The defending infantry, pushed back against the river, broke and tried to flee across the pontoon bridge. The bridge collapsed under the weight of fleeing men, and thousands drowned—including the defending emperor himself, pulled under by his heavy armor.
+
+The victorious challenger attributed his victory to a vision of a sacred symbol in the sky before the battle. Whether the story is true or a later invention, the consequences were epochal: the new ruler would transform the state religion of the empire, reshaping civilization for the next two thousand years.`,
+        hints: [
+            { cost: 20, text: "Ridge helmets, oval shields, and long swords replacing the earlier legionary equipment of javelins, short swords, and rectangular shields occurred during the 3rd-4th centuries CE.", explanation: "The equipment transition helps date this battle." },
+            { cost: 25, text: "Cataphract cavalry—both horse and rider in scale armor—became a significant part of late imperial armies from roughly 250 to 600 CE, adopted from eastern neighbors.", explanation: "The heavy cavalry style narrows the period." }
+        ],
+        explanation: "This was the Battle of the Milvian Bridge on October 28, 312 CE, where Constantine I defeated his rival Maxentius for control of the Western Roman Empire. According to later Christian accounts, Constantine saw a vision of the Chi-Rho symbol (or a cross) in the sky before the battle with the words 'In this sign, conquer' (In Hoc Signo Vinces). Maxentius drowned when the pontoon bridge collapsed during his army's retreat across the Tiber. Constantine's subsequent Edict of Milan (313 CE) legalized Christianity throughout the Roman Empire, ultimately transforming it into the state religion. The transition from classic legionary equipment (pilum, gladius, scutum) to late Roman gear (spatha, oval clipeus, ridge helmet) identifies the late 3rd to 4th century.",
+        tags: ["land", "4th-century", "mediterranean"]
+    },
+    {
+        id: "campaign_250",
+        title: "The Fall of the Ancient Empire",
+        actualYear: 642,
+        latitude: 34.39,
+        longitude: 47.07,
+        difficulty: "hard",
+        description: `The last great army of an ancient empire—one that had contested dominion over the civilized world with its western rival for over four centuries—gathered at a fortified camp near a strategic mountain pass. The empire had already lost its richest western provinces to the same invaders in a series of devastating defeats over the previous decade, and this battle would determine whether the imperial heartland itself would fall.
+
+The imperial army numbered perhaps 60,000 to 150,000, though the sources are wildly contradictory. They were professional soldiers: heavy cavalry with long lances and bows, both horse and rider wearing scale or lamellar armor, supported by war elephants and infantry armed with spears and large wicker shields.
+
+The invading force, perhaps 30,000 strong, was driven by religious fervor following a recent conversion. Their cavalry fought with lance and sword, wearing chain mail, while their infantry combined spearmen with mobile archers. Their key advantage was unity of purpose and superior morale.
+
+The battle lasted three days. Desert winds blowing sand into the defenders' faces hampered their vision, and the invaders exploited a gap between two wings of the imperial army. On the final day, the imperial commander was killed, and the army disintegrated. The survivors scattered into the mountains.
+
+The ancient empire never recovered. Its last emperor was murdered by a miller in a remote eastern province a decade later, and its territories were absorbed into the invaders' rapidly expanding domain.`,
+        hints: [
+            { cost: 20, text: "Heavy cataphract cavalry with both horse and rider in scale or lamellar armor, combined with war elephants, was characteristic of one major empire's military from roughly 200 to 650 CE.", explanation: "This military style identifies the defenders." },
+            { cost: 25, text: "An ancient empire falling to religiously motivated invaders from the desert, with the last emperor killed as a fugitive, occurred in the mid-7th century CE.", explanation: "The geopolitical context narrows the date precisely." }
+        ],
+        explanation: "This was the Battle of Nihavand (Nahavand) in 642 CE, often called the 'Victory of Victories' (Fath al-Futuh) by Arab historians. The Rashidun Caliphate's army, commanded by Nu'man ibn Muqarrin (who was killed in the battle and replaced by Hudhayfah ibn al-Yaman), defeated the last major Sassanid Persian army under General Firuzan. The Sassanid Empire had rivaled Rome/Byzantium for over four centuries, and its cataphract cavalry and war elephants were among the finest military forces of late antiquity. The defeat at Nihavand ended organized Sassanid resistance; the last Sassanid emperor, Yazdegerd III, fled eastward and was murdered by a miller near Merv in 651 CE. The Sassanid military combination of cataphracts and elephants (200-650 CE) with the Arab conquest context precisely identifies the mid-7th century.",
+        tags: ["land", "7th-century", "middle-east"]
+    },
+    {
+        id: "campaign_251",
+        title: "The Three Kings at Sea",
+        actualYear: 1000,
+        latitude: 54.82,
+        longitude: 12.28,
+        difficulty: "hard",
+        description: `A naval battle in a narrow strait between two coasts decided the fate of a warrior-king whose ambitions had united much of the northern seas under his rule. Three rival rulers, alarmed by his growing power, formed an alliance and trapped his fleet as it sailed south.
+
+The king commanded roughly 11 longships—sleek, shallow-draft vessels propelled by both oar and sail, designed for both coastal raiding and open-ocean voyaging. His flagship was the largest warship in the northern seas, crewed by several hundred warriors. The allied fleet outnumbered his by perhaps five to one.
+
+The warriors on both sides fought in the manner of their people: standing on the gunwales and raised platforms of their longships, they hurled spears and shot arrows before closing to fight with swords, axes, and shields. Most wore chain mail byrnies over padded tunics; the wealthiest carried pattern-welded swords imported at great expense, while most fought with broad-bladed axes—the signature weapon of these seafaring peoples. Round wooden shields with iron bosses provided the primary defense.
+
+The king lashed his ships together into a floating fortress, their prows facing outward. The allies attacked from all sides, boarding and capturing the outer ships one by one. The king himself, standing on the raised stern of his flagship—the last ship still fighting—was surrounded. Rather than be captured, he leapt overboard in his mail shirt and was never seen again.
+
+Whether he drowned or escaped to live out his days in exile became a matter of legend for centuries afterward.`,
+        hints: [
+            { cost: 20, text: "Longships—shallow-draft vessels designed for both rowing and sailing—were the characteristic warship of northern European maritime peoples from roughly 700 to 1100 CE.", explanation: "The ship type identifies the culture and period." },
+            { cost: 25, text: "Pattern-welded swords, broad-bladed axes, chain mail byrnies, and round shields with iron bosses were the standard warrior equipment from the 8th to 11th centuries CE in northern maritime societies.", explanation: "The weapons combination helps narrow the date." }
+        ],
+        explanation: "This was the Battle of Svolder (Svold) in approximately 999 or 1000 CE, where King Olaf Tryggvason of Norway was defeated by a coalition of the Danish King Sweyn Forkbeard, the Swedish King Olof Skötkonung, and the Norwegian Earl Eirik Hákonarson. Olaf's flagship, the Long Serpent (Ormen Lange), was reputedly the largest longship ever built. Outnumbered roughly five to one, Olaf lashed his ships together and fought until his flagship alone remained. His leap from the Long Serpent in full mail became one of the great legends of the Viking Age—some later sources claimed he survived and went on pilgrimage to the Holy Land. The battle established Danish hegemony over Norway. Viking-age weaponry (pattern-welded swords, Dane axes, mail byrnies) and longship warfare identify the 10th-11th centuries.",
+        tags: ["naval", "11th-century", "northern-europe"]
+    },
+    {
+        id: "campaign_252",
+        title: "The Arrow in the Eye",
+        actualYear: 1066,
+        latitude: 50.9147,
+        longitude: 0.4878,
+        difficulty: "easy",
+        description: `A duke from across the sea claimed the throne of a neighboring kingdom, asserting that the dead king had promised it to him years earlier. He assembled an invasion fleet of roughly 700 ships carrying perhaps 7,000 to 10,000 men—knights, infantry, and archers—and crossed in favorable winds.
+
+The defending king had just force-marched his army south after defeating another invasion in the north. His soldiers were exhausted but assembled on a ridgeline behind a shield wall—the traditional defensive formation of the island kingdom. The defenders fought on foot, even their nobles, wielding two-handed axes capable of splitting a horse's skull, along with swords, spears, and javelins. Their armor was chain mail hauberks and conical helmets with nose guards.
+
+The invading duke's army was organized differently: heavy cavalry of mailed knights fighting with couched lances from horseback, supported by archers (some possibly with crossbows) and infantry. The cavalry charge was the centerpiece of continental military doctrine, while the defenders relied on the strength of their shield wall.
+
+The battle lasted most of the day—unusually long for the era. Repeated cavalry charges failed to break the shield wall on the ridge. The breakthrough came when groups of defenders broke ranks to pursue retreating horsemen, whether through a feigned or genuine retreat. Once gaps opened in the wall, the cavalry exploited them. The defending king was killed late in the day—tradition says by an arrow through the eye, though this is debated.
+
+The conquest that followed was swift and total. Within five years, the entire kingdom was under the duke's control, its ruling class replaced by the invaders' nobility. The consequences shaped the kingdom's language, law, and identity for centuries.`,
+        hints: [
+            { cost: 20, text: "The shield wall—dismounted infantry with overlapping shields, fighting on foot even for nobles—was the standard defensive tactic of one island kingdom's armies from the 9th to 11th centuries.", explanation: "This formation identifies the defenders' military tradition." },
+            { cost: 25, text: "Heavy cavalry charging with couched lances against dismounted shield wall infantry was a clash of two distinct military traditions that occurred most famously in the 11th century.", explanation: "The tactical contrast helps date and identify the battle." }
+        ],
+        explanation: "This was the Battle of Hastings on October 14, 1066, where Duke William of Normandy defeated King Harold II Godwinson, ending Anglo-Saxon rule in England. Harold had just defeated the Norwegian King Harald Hardrada at Stamford Bridge (September 25) and force-marched 250 miles south in less than two weeks. The Norman cavalry's eventual breakthrough of the Saxon shield wall—possibly through feigned retreats—decided one of the most consequential battles in Western history. Harold's death (the Bayeux Tapestry appears to show him with an arrow in his eye, though the identification is debated) ended the battle. The Norman Conquest transformed England's ruling class, language (French replaced Old English in court), and legal system. Shield wall infantry versus couched-lance cavalry identifies the 11th-century clash between Anglo-Saxon and Norman military traditions.",
+        tags: ["land", "11th-century", "western-europe"]
+    },
+    {
+        id: "campaign_253",
+        title: "The Gates of the Subcontinent",
+        actualYear: 1192,
+        latitude: 29.20,
+        longitude: 76.97,
+        difficulty: "hard",
+        description: `A central Asian warlord who had been defeated at the same location the previous year returned with a larger and better-prepared army. His force of roughly 120,000 was built around the mobile horse archers of the steppe tradition—mounted warriors with powerful composite bows, wearing mail or lamellar armor, riding fast horses suited to the flat plains.
+
+The defending king commanded perhaps 300,000 men (though this figure is likely exaggerated), including war elephants, heavy cavalry, and massed infantry levies. His army was the larger force, but it was composed of contingents from multiple feudal lords whose loyalty and coordination were uncertain.
+
+The invader had learned from his previous defeat. He organized his cavalry into four divisions and held a reserve of 12,000 fresh mounted archers. In the early phases, the defenders' elephants and heavy cavalry pushed the attackers back. But the invader launched his reserve in a dawn attack on the defending army's flanks, while light cavalry harassed the elephants with arrows, driving the great beasts into a frenzy.
+
+The defending king's coalition fractured as feudal contingents fled or switched sides. The king himself was captured fleeing the field. His kingdom—the most powerful in the northern part of the subcontinent—collapsed within months. The invader's successors established a sultanate that would dominate the region for over three centuries.`,
+        hints: [
+            { cost: 20, text: "Steppe horse archers with composite bows against armies relying on war elephants and feudal cavalry levies was a recurring dynamic in South Asian warfare from the 10th to 14th centuries.", explanation: "This military contrast helps date and locate the battle." },
+            { cost: 25, text: "The establishment of a sultanate following the defeat of a major feudal kingdom occurred in the late 12th century, transforming the political and religious landscape of the region.", explanation: "The political consequences narrow the date." }
+        ],
+        explanation: "This was the Second Battle of Tarain in 1192, where Muhammad of Ghor (Mu'izz ad-Din Muhammad) defeated Prithviraj III Chauhan, the Rajput King of Ajmer and Delhi. Muhammad had been defeated at the First Battle of Tarain in 1191 but returned with a larger army and superior tactics. The mounted archers of his Turkic-Afghan cavalry proved devastating against the Rajput heavy cavalry and elephants. Prithviraj was captured and executed. Muhammad's general Qutb ud-Din Aibak established the Delhi Sultanate in 1206, beginning over three centuries of Muslim rule in northern India. The sultanate's founding transformed the subcontinent's political, cultural, and religious landscape. Turkic horse archers versus elephant-cavalry armies identifies South Asian warfare of the 11th-13th centuries.",
+        tags: ["land", "12th-century", "south-asia"]
+    },
+    {
+        id: "campaign_254",
+        title: "The Elephant Riders of the Jungle",
+        actualYear: 1277,
+        latitude: 24.26,
+        longitude: 97.00,
+        difficulty: "hard",
+        description: `A vast empire that had conquered much of the known world dispatched an army to punish a southern kingdom that had refused to pay tribute and had executed the empire's ambassadors. The invading force—perhaps 12,000 cavalry, including many veteran horsemen from the steppes—crossed mountainous, jungle-covered terrain utterly different from the open grasslands where they normally fought.
+
+The defending kingdom fielded roughly 40,000 to 60,000 men and, crucially, 800 to 2,000 war elephants—an enormous number. Each elephant carried a wooden tower with several archers or javelin men, protected by leather or quilted armor. The elephants were the kingdom's primary weapon, bred and trained over generations for exactly this kind of warfare.
+
+The invading cavalry found that their horses panicked and refused to charge the elephants—the horses had never encountered such beasts. The commander ordered his horsemen to dismount and tie their horses to trees at the edge of a bamboo forest, then fight on foot as archers. Volleys from their powerful composite bows, fired at close range into the mass of elephants, drove the great beasts mad with pain. Wounded elephants stampeded through their own infantry, crushing as many defenders as attackers.
+
+Once the elephants were neutralized, the invading cavalry remounted and swept through the disordered defending army. The kingdom submitted and became a vassal state, though the empire's hold on such distant, jungle-covered territory was always tenuous.`,
+        hints: [
+            { cost: 20, text: "Composite bow-armed steppe cavalry fighting against war elephants in tropical jungle terrain occurred when the greatest steppe empire in history expanded southward in the late 13th century.", explanation: "This context precisely identifies the period." },
+            { cost: 25, text: "Dismounting cavalry to fight as archers against elephants—because horses refused to approach the beasts—was a specific tactical adaptation documented in the late 13th century.", explanation: "This unusual adaptation helps date the battle." }
+        ],
+        explanation: "This was the Battle of Ngasaunggyan (also called the Battle of Bagan) in 1277, where a Mongol Yuan Dynasty army defeated the Pagan Kingdom of Burma. Marco Polo claimed to have witnessed or heard firsthand accounts of the battle. The Mongol cavalry, unable to charge the Burmese war elephants, dismounted and used their bows to drive the elephants into a frenzy—the panicked beasts then trampled the Burmese infantry. The Pagan Kingdom had been one of Southeast Asia's most powerful states, famous for the thousands of Buddhist temples at its capital. The defeat began the kingdom's decline, though the Mongols found Burma's terrain too difficult for permanent occupation. The battle illustrates the limits of steppe cavalry in tropical environments.",
+        tags: ["land", "13th-century", "southeast-asia"]
+    },
+    {
+        id: "campaign_255",
+        title: "The Longbow's Triumph",
+        actualYear: 1346,
+        latitude: 50.2547,
+        longitude: 1.8839,
+        difficulty: "medium",
+        description: `A king who had invaded the northern coast of a rival kingdom was retreating toward a friendly territory when a much larger army caught up with him near a small village. Rather than continue his retreat, the king chose to fight from a strong defensive position on a gentle slope.
+
+His army of roughly 12,000 to 16,000 men was organized around a revolutionary weapon: the longbow. Archers—commoners, not nobles—stood in wedge-shaped formations on the flanks, protected by sharpened stakes and small pits dug to trip horses. The rate of fire was devastating: a trained man could loose ten to twelve arrows per minute at ranges exceeding 200 paces. Knights and men-at-arms, dismounted by royal order, held the center on foot.
+
+The attacking army was far larger—perhaps 25,000 to 30,000—and relied on the armored cavalry charge that had dominated warfare for centuries. Knights in full mail and early plate armor, riding armored warhorses, charged uphill into a storm of arrows.
+
+The slaughter was extraordinary. Wave after wave of cavalry charges was shattered by arrow fire before the knights could reach the English line. Some attackers employed crossbowmen, but a rainstorm had wetted their bowstrings—crossbow strings could not be unstrung and were vulnerable to moisture, while the longbow strings were easily removed and kept dry under hats.
+
+By nightfall, the larger army had lost thousands of men, including many of the kingdom's highest nobility. One near-blind king, insisting on fighting, rode into the melee with his horse tied to those of his companions and was killed.`,
+        hints: [
+            { cost: 20, text: "Longbows capable of firing ten to twelve arrows per minute outranging crossbows were the dominant missile weapon in one kingdom's armies from roughly 1280 to 1450.", explanation: "The longbow rate of fire identifies the army." },
+            { cost: 25, text: "Knights in mail and early plate armor (visored bascinets, coat of plates) date this to roughly 1300-1380, before full plate harness became standard.", explanation: "The armor evolution helps narrow the date." }
+        ],
+        explanation: "This was the Battle of Crécy on August 26, 1346, the first major land battle of the Hundred Years' War. King Edward III of England's longbowmen decimated the French cavalry of King Philip VI. The English longbow's rate of fire (10-12 arrows per minute versus 2-3 bolts for crossbows) created a killing zone that no cavalry charge could survive. The blind King John of Bohemia, aged 50, tied his horse to his companions' and charged into the English line; his body was found the next morning surrounded by his dead retinue. Edward's son, the Black Prince, won his spurs in this battle at age 16. French losses included roughly 1,500 knights and nobles killed—a catastrophic blow to the French feudal military system. The transitional armor (mail with early plate additions, visored bascinets) precisely dates this to the mid-14th century.",
+        tags: ["land", "14th-century", "western-europe"]
+    },
+    {
+        id: "campaign_256",
+        title: "The Maiden's Siege",
+        actualYear: 1429,
+        latitude: 47.9029,
+        longitude: 1.9039,
+        difficulty: "medium",
+        description: `A major city on a great river had been under siege for six months by an occupying army. The besiegers had constructed a ring of fortified bastilles (small forts) around the city, connected by trenches, slowly starving the garrison and populace inside. The city's fall would open the heartland of a kingdom to complete conquest by a rival power that already controlled the northern half of the country.
+
+The kingdom's legitimate heir—uncrowned, demoralized, and controlling only scattered territory south of the river—had all but given up. Then an illiterate peasant girl of seventeen arrived at his court claiming divine visions had sent her to save the city and see him crowned. Against the advice of his cautious counselors, the prince gave her armor, a small army, and his blessing.
+
+Both armies fought with the weapons of the early 15th century: men-at-arms in full plate armor fighting with pollaxes and swords on foot or with lances on horseback, supported by archers with longbows or crossbows, and some primitive cannon. The besieging army's fortifications were typical of the period—earthwork bastilles with wooden palisades and artillery positions.
+
+The relief force, inspired by the girl's presence, attacked the English bastilles one by one. The girl herself was wounded by a crossbow bolt through the shoulder but returned to the fighting the same day. Within nine days, the siege was broken. The besieging army withdrew north, having lost several bastilles and hundreds of men.
+
+The prince was crowned king within three months. The girl, captured by the enemy the following year, was burned as a heretic. She was declared a saint five centuries later.`,
+        hints: [
+            { cost: 20, text: "Full plate armor for men-at-arms, pollaxes, and a mix of longbows and early cannon together indicate the early to mid-15th century, roughly 1400-1460.", explanation: "The combination of mature plate armor with primitive cannon helps date this battle." },
+            { cost: 25, text: "Earthwork bastilles connected by trenches as a siege method were characteristic of the prolonged campaigns in one major 14th-15th century European war.", explanation: "The siege technique helps identify the conflict." }
+        ],
+        explanation: "This was the Siege of Orléans, lifted on May 8, 1429, the turning point of the Hundred Years' War. Joan of Arc, a 17-year-old peasant from Domrémy, arrived at the court of the Dauphin Charles VII claiming divine visions from Saints Michael, Catherine, and Margaret. She led the French relief army that broke the English siege in nine days, personally leading assaults on the English bastilles (including the Tourelles, where she was wounded by a crossbow bolt). Charles VII was crowned at Reims on July 17, 1429. Joan was captured by the Burgundians in 1430, sold to the English, tried for heresy, and burned at the stake on May 30, 1431. She was canonized in 1920. Full plate armor with pollaxes alongside early cannon precisely identifies the early 15th century.",
+        tags: ["siege", "15th-century", "western-europe"]
+    },
+    {
+        id: "campaign_257",
+        title: "The Siege by the Inca's Heir",
+        actualYear: 1536,
+        latitude: -13.52,
+        longitude: -71.98,
+        difficulty: "hard",
+        description: `Just four years after a small force of foreign invaders captured and executed the emperor, the dead emperor's successor raised a massive army—perhaps 100,000 to 200,000 warriors—and besieged the invaders' main garrison in the old imperial capital, a city of massive stone walls built without mortar, fitted so precisely that a knife blade could not be inserted between the blocks.
+
+The garrison numbered fewer than 200 foreign soldiers, supported by several thousand indigenous allies. They were armed with steel swords, lances, crossbows, a handful of matchlock arquebuses, and wore steel armor. Their horses—perhaps 80—gave them a decisive advantage in open terrain.
+
+The besieging army employed sling stones heated red-hot and wrapped in burning cotton, which they hurled onto the thatched roofs of the city, setting much of it ablaze. They diverted water channels and cut off food supplies. Their weapons—bronze-headed maces, slings capable of hurling stones with tremendous force, bolas, and spears—were effective at range but could not match steel in close combat.
+
+A critical engagement occurred when the defenders launched a desperate cavalry charge uphill against a fortress overlooking the city. The battle for this massive stone citadel lasted days, with the defenders scaling the terraced walls under a rain of sling stones and boulders. The citadel fell after its commanding general leapt from the walls rather than surrender.
+
+Relief eventually arrived, and the besieging army, unable to sustain its enormous numbers in the field through the planting season, gradually dispersed. The opportunity to drive out the invaders was lost.`,
+        hints: [
+            { cost: 20, text: "Bronze-headed maces, slings, and bolas against steel swords, crossbows, and matchlock arquebuses represents the technological collision between Old World and New World military systems in the 1530s.", explanation: "This specific mismatch occurred only during a narrow period." },
+            { cost: 25, text: "Massive stone walls built without mortar, with blocks fitted so precisely that joints are nearly invisible, is a construction technique unique to one pre-Columbian empire.", explanation: "The masonry technique identifies the civilization." }
+        ],
+        explanation: "This was the Siege of Cusco in 1536-1537, when Manco Inca Yupanqui raised a massive army to besiege the Spanish garrison under Hernando Pizarro in the former Inca capital. The battle for the fortress of Sacsayhuamán above Cusco was particularly fierce—the Inca commander, likely a noble named Cahuide (or Titu Cusi Huallpa), leapt from the walls to his death rather than surrender. The Incas used heated sling stones to set the city ablaze and showed remarkable tactical adaptation, but could not overcome the Spanish advantage in steel weapons and cavalry. The siege ultimately failed because the Inca agricultural economy required warriors to return home for planting season—a logistical limitation the Spanish did not face. Inca mortarless stone masonry and bronze-age weapons against Spanish steel and gunpowder precisely identify the 1530s conquest period.",
+        tags: ["siege", "16th-century", "south-america"]
+    },
+    {
+        id: "campaign_258",
+        title: "The Fleet in the Channel",
+        actualYear: 1588,
+        latitude: 50.92,
+        longitude: 1.85,
+        difficulty: "medium",
+        description: `The most powerful empire in the world assembled an enormous fleet—roughly 130 ships carrying 19,000 soldiers and 8,000 sailors—to invade an island kingdom that had been raiding its commerce and supporting rebels in its territories. The plan was for the fleet to sail up a narrow channel, rendezvous with an army of 30,000 veterans already stationed on the continental coast, and escort them across for the invasion.
+
+The defending kingdom's navy was smaller in total tonnage but possessed faster, more maneuverable warships. Their ships were purpose-built for gunnery: lower in profile, with longer-range culverin cannon that could fire at a distance rather than the heavy short-range cannon preferred by the attacking fleet, which was designed for closing and boarding.
+
+The two fleets fought running battles up the channel over several days. The defenders could not break the attacking fleet's tight crescent formation, but their superior gunnery prevented the attackers from closing to boarding range. Neither side inflicted decisive damage.
+
+The turning point came when the defenders sent eight fireships—vessels packed with pitch, gunpowder, and combustibles—into the attacking fleet's anchorage at night. The fireships caused panic; captains cut their anchor cables and scattered. The formation was broken, and the next day's battle was the most destructive of the campaign.
+
+Unable to rendezvous with the invasion army, battered by gales, and running low on ammunition, the attacking fleet was forced to sail home the long way around the northern islands. Storms wrecked dozens of ships on rocky coasts, and the fleet limped home having lost roughly a third of its ships and half its men.`,
+        hints: [
+            { cost: 20, text: "Culverin cannon—long-range, relatively light naval guns—began replacing heavier, shorter-range cannon on warships in the late 16th century. Culverins favored stand-off gunnery over close-range boarding.", explanation: "The shift in naval gunnery doctrine helps date the battle." },
+            { cost: 25, text: "Fireships sent into an anchored fleet to break its formation was a tactic used in several famous engagements, but its most consequential use was in a narrow channel in the late 16th century.", explanation: "The fireship tactic in this context narrows the date." }
+        ],
+        explanation: "This was the Spanish Armada campaign of 1588, when King Philip II of Spain sent 130 ships to invade England under the Duke of Medina Sidonia, opposed by the English fleet under Lord Howard of Effingham with Sir Francis Drake as vice admiral. The English ships' longer-range culverins kept the Spanish at a distance, preventing the boarding tactics at which the Spanish excelled. The fireships at Gravelines on the night of August 7-8 broke the Armada's formation, and the following Battle of Gravelines scattered the fleet. Unable to rendezvous with the Duke of Parma's army in the Netherlands, the Armada sailed home around Scotland and Ireland, losing roughly 50 ships to storms. The defeat marked the beginning of England's rise as a naval power and Spain's gradual decline. Culverin gunnery versus boarding tactics and the fireship attack identify this as the late 16th century naval revolution.",
+        tags: ["naval", "16th-century", "western-europe"]
+    },
+    {
+        id: "campaign_259",
+        title: "The Defenestration's Aftermath",
+        actualYear: 1620,
+        latitude: 50.0742,
+        longitude: 14.3192,
+        difficulty: "hard",
+        description: `A kingdom's Protestant estates had rebelled against their Catholic king, throwing his governors from a high window in a famous act of defiance. They elected a new Protestant king and raised an army to defend their independence. The deposed Catholic king, backed by a powerful imperial dynasty and a league of Catholic princes, sent an army to crush the rebellion.
+
+The rebel army of roughly 15,000—a mix of mercenaries, militia, and allied contingents—took a defensive position on a prominent hill near the kingdom's capital city. Their commander, a foreign prince who had accepted the rebel crown, watched from the city as his army deployed.
+
+The imperial-Catholic force of roughly 25,000 was a professional army built around the dominant infantry formation of the era: dense blocks of pikemen and musketeers. The musketeers carried heavy matchlock muskets requiring forked rests, while pikemen in the center of each formation carried sixteen-to-eighteen-foot pikes. Cavalry—cuirassiers in three-quarter plate armor charging with pistols—operated on the flanks.
+
+The battle was surprisingly brief. The imperial cavalry swept the rebel horsemen from the field in the opening minutes. When the imperial pike-and-musket formations advanced, several rebel units broke without fighting—they had not been paid in months and had no stomach for a desperate stand. The entire battle lasted less than two hours.
+
+The rebel king fled the country (his reign lasted one winter, earning him a mocking nickname). The consequences were severe: the kingdom lost its political independence for three centuries, and the wider religious war that followed would devastate the continent for nearly thirty years.`,
+        hints: [
+            { cost: 20, text: "Matchlock muskets with forked rests alongside pike formations were standard from roughly 1500 to 1650. Cuirassiers in three-quarter plate armor were characteristic of cavalry from 1550 to 1650.", explanation: "The weapons combination identifies the early 17th century." },
+            { cost: 25, text: "A rebellion triggered by a famous defenestration, ending in the loss of political independence and sparking a continent-wide religious war, occurred in the early 17th century.", explanation: "The political context narrows the date precisely." }
+        ],
+        explanation: "This was the Battle of White Mountain (Bílá Hora) on November 8, 1620, near Prague, the opening decisive battle of the Thirty Years' War. The Bohemian Protestant estates, who had triggered the war with the Defenestration of Prague in 1618, were crushed by the Catholic Imperial army under Count Tilly and the Catholic League under Maximilian I of Bavaria. Frederick V of the Palatinate—the 'Winter King' whose reign lasted only one season—fled Prague. Bohemia lost its political independence for 300 years (until 1918). The battle triggered the wider Thirty Years' War (1618-1648), which would kill roughly eight million people across Central Europe. Matchlocks with forked rests, pike formations, and cuirassiers in three-quarter armor identify the early 17th century.",
+        tags: ["land", "17th-century", "central-europe"]
+    },
+    {
+        id: "campaign_260",
+        title: "The Battle That Won an Empire",
+        actualYear: 1764,
+        latitude: 25.56,
+        longitude: 83.98,
+        difficulty: "hard",
+        description: `A commercial trading company's small army faced a coalition of three regional powers whose combined forces vastly outnumbered them. The coalition fielded roughly 40,000 soldiers, including disciplined infantry that had been trained and equipped along modern lines by foreign military advisors.
+
+The trading company's force numbered only about 7,000, but it possessed decisive advantages: European-trained sepoy infantry (local recruits drilled in continental military discipline), superior artillery with well-trained gunners, and disciplined volley fire. The sepoys carried flintlock muskets—reliable in the monsoon climate—and fought in linear formations that maximized firepower.
+
+The coalition army's strength was in its sheer numbers and its cavalry, which included thousands of horsemen. But its three component armies were commanded by rulers with conflicting interests, and coordination between them was poor. Their infantry used a mix of flintlocks and older matchlocks, and their artillery, though numerous, was poorly served and largely immobile—heavy guns on fixed platforms rather than mobile field pieces on wheeled carriages.
+
+The battle turned when the coalition's most powerful member withdrew his forces at a critical moment, possibly through secret agreement with the trading company. The remaining coalition forces, now exposed, were broken by disciplined volleys and a bayonet charge. The coalition's emperor, a figurehead who had joined the alliance hoping to restore his authority, was captured soon after and became a pensioner of the trading company.
+
+The victory gave the company effective control of the richest region of the subcontinent, generating revenues that funded an empire.`,
+        hints: [
+            { cost: 20, text: "Flintlock muskets in linear formations, combined with mobile wheeled artillery, were the standard European-trained military system from roughly 1700 to 1840.", explanation: "The weapons and tactics identify 18th-century warfare." },
+            { cost: 25, text: "A commercial trading company defeating a coalition of regional rulers and gaining control of a subcontinent's richest provinces occurred in the mid-to-late 18th century.", explanation: "The geopolitical context narrows the date." }
+        ],
+        explanation: "This was the Battle of Buxar on October 22, 1764, where the British East India Company's army under Major Hector Munro defeated the combined forces of the Mughal Emperor Shah Alam II, the Nawab of Awadh Shuja-ud-Daula, and the Nawab of Bengal Mir Qasim. Though less famous than Plassey (1757), Buxar was militarily more significant—the coalition army was much larger and better organized. The Nawab of Awadh's withdrawal during the battle was decisive. The subsequent Treaty of Allahabad (1765) gave the East India Company the diwani (revenue collection rights) of Bengal, Bihar, and Orissa—the economic foundation of British India. Flintlock muskets, bayonet charges, and mobile field artillery identify 18th-century European-style warfare.",
+        tags: ["land", "18th-century", "south-asia"]
+    },
+    {
+        id: "campaign_261",
+        title: "The Storming of the Island Fortress",
+        actualYear: 1799,
+        latitude: 12.4244,
+        longitude: 76.5769,
+        difficulty: "medium",
+        description: `A powerful island fortress, surrounded by a river that served as a natural moat, was the capital of a sultan who had been the most formidable opponent a colonial power had faced in the subcontinent. The sultan had modernized his army with help from a distant revolutionary republic: his infantry drilled in continental style, his arsenals produced muskets and rockets of remarkable sophistication—iron-cased rockets that could be fired in mass volleys at ranges of up to a mile.
+
+The besieging army—roughly 50,000 strong, including both colonial troops and allied local forces—approached the fortress city, which was defended by perhaps 30,000 soldiers behind thick walls of granite. The besiegers brought heavy siege artillery: eighteen-pounder and twenty-four-pounder iron guns that battered the walls from prepared positions.
+
+After a month of bombardment, a practicable breach was opened in the northwest wall where the river was shallowest. The assault column waded across the river—chest-deep in some places—under heavy fire from the walls. The fighting in the breach was savage: the defenders fired rockets, muskets, and cannon at point-blank range. The sultan himself was killed fighting in the breach, shot through the temple. His body was found later under a heap of slain defenders.
+
+The city was taken, and the sultanate was dismembered. The sultan's innovative rocket technology was studied by the victors and would influence the development of military rockets for decades afterward.`,
+        hints: [
+            { cost: 20, text: "Iron-cased war rockets fired in mass volleys were a specific military innovation of the late 18th century, developed by one South Asian state to a level of sophistication unmatched elsewhere at the time.", explanation: "The rocket technology identifies both the region and period." },
+            { cost: 25, text: "An island fortress surrounded by a river, besieged with eighteen-to-twenty-four-pounder cannon and stormed through a breach, was characteristic of late 18th-century siege warfare in the subcontinent.", explanation: "The siege technology and geography narrow the date." }
+        ],
+        explanation: "This was the Siege and Battle of Seringapatam on May 4, 1799, where British forces under General George Harris stormed the fortress capital of Tipu Sultan, the 'Tiger of Mysore.' Tipu had allied with Revolutionary France and modernized his army with French advisors. His most famous innovation was iron-cased Mysorean rockets—the most advanced military rockets in the world at the time. The assault column was led by Colonel Arthur Wellesley (the future Duke of Wellington). Tipu Sultan was killed fighting in the breach; his body was found with a musket ball through the right temple. The fall of Seringapatam ended the Kingdom of Mysore as an independent power. Tipu's rocket technology was studied by William Congreve, leading to the Congreve rocket used in the Napoleonic Wars (the 'rockets' red glare' of the American national anthem). Iron-cased rockets and 18-24 pounder siege guns identify the late 18th century.",
+        tags: ["siege", "18th-century", "south-asia"]
+    },
+    {
+        id: "campaign_262",
+        title: "The Ironclads' Duel",
+        actualYear: 1862,
+        latitude: 36.98,
+        longitude: -76.43,
+        difficulty: "easy",
+        description: `The first battle between ironclad warships transformed naval warfare overnight. In a coastal anchorage during a civil war, one side launched an armored warship built on the hull of a captured steam frigate—a vessel sheathed in four inches of iron plate, armed with ten guns, and equipped with an iron ram at the bow.
+
+On its first day, this ironclad attacked the opposing fleet of wooden warships anchored in a coastal roadstead. It rammed and sank one wooden sailing frigate, burned another with hot shot, and drove a third aground. Cannon balls from the wooden ships bounced harmlessly off its iron sides. In a single afternoon, every wooden navy in the world became obsolete.
+
+The next morning, a radically different ironclad arrived to oppose it. This vessel was unlike anything afloat: a flat, raft-like hull barely above the waterline, with a single rotating turret housing two large guns. It looked, observers said, like a tin can on a shingle.
+
+The two ironclads fought for roughly four hours at close range—sometimes as close as a few yards. Neither could penetrate the other's armor. Solid shot, explosive shell, and even attempts at ramming all failed to produce a decisive result. Both ships withdrew, damaged but undefeated.
+
+The tactical result was a draw, but the strategic impact was revolutionary. Naval powers around the world immediately began building ironclad fleets, rendering their entire existing navies worthless.`,
+        hints: [
+            { cost: 20, text: "The first battle between ironclad warships occurred during a civil war in 1862, instantly making wooden warships obsolete worldwide.", explanation: "This singular event precisely dates the battle." },
+            { cost: 25, text: "A rotating gun turret on a low-freeboard armored hull was a revolutionary naval innovation that first saw combat in early 1862.", explanation: "The turret design identifies one of the specific vessels." }
+        ],
+        explanation: "This was the Battle of Hampton Roads on March 8-9, 1862, during the American Civil War. The CSS Virginia (built on the hull of the captured USS Merrimack) attacked the Union wooden fleet on March 8, sinking USS Cumberland (the last major warship sunk by ramming) and burning USS Congress. The next day, the revolutionary USS Monitor—designed by John Ericsson with its distinctive rotating turret—fought the Virginia to a draw. Neither ironclad could sink the other. The battle made every wooden navy in the world instantly obsolete; Britain and France began crash programs to build ironclad fleets. The rotating turret concept pioneered by Monitor became the standard warship design that persisted through the age of the battleship. The battle occurred just months after ironclad technology became practical, precisely dating it to 1862.",
+        tags: ["naval", "19th-century", "north-america"]
+    },
+    {
+        id: "campaign_263",
+        title: "The General's Last Stand",
+        actualYear: 1885,
+        latitude: 15.5007,
+        longitude: 32.5599,
+        difficulty: "medium",
+        description: `A colonial general, famous and popular back home, had been sent to evacuate a garrison from a city threatened by a massive religious uprising. Instead of evacuating, he stayed, convinced he could hold the city with a small garrison of local troops against an army of religious warriors that eventually numbered 50,000 or more.
+
+The city sat at the confluence of two great rivers, and the general exploited this geography—defending with a perimeter of earthworks, trenches, and mines along the landward approaches. The garrison's weapons included Remington breech-loading rifles, a few Krupp artillery pieces, and several paddle-wheel steamers armed with small cannon that patrolled the rivers.
+
+The besieging army was driven by intense religious conviction. Their warriors, called by a title meaning "follower of the guided one," fought with swords, spears, and captured rifles. They wore distinctive white robes and were organized into banner contingents. Their leader claimed to be a divinely appointed figure who would purify the faith and establish justice.
+
+The siege lasted nearly a year. Supply became impossible as the river was blocked. The garrison was reduced to eating rats, donkeys, and palm fiber. The general kept meticulous diary entries throughout.
+
+Two days before a relief expedition could arrive, the besiegers launched a final assault at dawn, breaching the weakened defenses. The general was killed—speared on the steps of his headquarters, according to the most famous (though disputed) account. The city was sacked. The relief expedition arrived to find it already fallen.`,
+        hints: [
+            { cost: 20, text: "Remington breech-loading rifles and Krupp artillery were standard military equipment from roughly 1870 to 1900.", explanation: "The specific weapon types help date this siege." },
+            { cost: 25, text: "A religious uprising whose followers wore distinctive white robes and followed a self-proclaimed divinely guided leader occurred in northeast Africa in the 1880s-1890s.", explanation: "The religious context narrows the date and location." }
+        ],
+        explanation: "This was the Siege of Khartoum, which ended on January 26, 1885, when the Mahdist forces of Muhammad Ahmad (the self-proclaimed Mahdi) overran the city defended by Major General Charles George Gordon ('Gordon of Khartoum'). Gordon, a national hero in Britain for his earlier exploits, had been sent to evacuate the Egyptian garrison but chose to defend the city instead. The siege lasted 317 days. The relief expedition under Sir Garnet Wolseley arrived on January 28—two days too late. Gordon's death became one of the most famous episodes of the Victorian era, bringing down Gladstone's government. The Mahdist state controlled Sudan until the Battle of Omdurman in 1898. Remington rifles and Krupp guns (1870-1900) combined with the Mahdist religious movement precisely date this to the 1880s.",
+        tags: ["siege", "19th-century", "sub-saharan-africa"]
+    },
+    {
+        id: "campaign_264",
+        title: "The Dawn Attack in the Harbor",
+        actualYear: 1898,
+        latitude: 14.52,
+        longitude: 120.91,
+        difficulty: "medium",
+        description: `A naval squadron of modern steel warships—four protected cruisers and two gunboats—sailed into a harbor at midnight to attack the colonial fleet of a declining European empire. War had been declared only ten days earlier, triggered by the mysterious explosion of a warship in a distant harbor.
+
+The defending fleet was anchored under the guns of a shore battery: seven warships, mostly older vessels of iron and wood construction. The flagship was an iron-hulled cruiser; several others were wooden-hulled gunboats that would have been outdated even a decade earlier. The shore batteries were old smoothbore guns of limited range and accuracy.
+
+The attacking squadron's commander, a commodore who had been preparing for exactly this contingency, led his ships in a single column past the shore batteries at dawn. The batteries fired but scored no effective hits. The squadron then made repeated passes along the anchored enemy fleet, firing broadside after broadside from ranges of 2,000 to 5,000 yards.
+
+The engagement lasted roughly seven hours, though a pause for breakfast was taken midway when the commodore was incorrectly told ammunition was running low. By afternoon, the defending fleet was destroyed: every ship sunk, burned, or captured, and the shore batteries silenced. The attackers suffered only minor damage—one man killed (from heat stroke, not enemy fire) and fewer than ten wounded.
+
+The lopsided victory shocked the world, signaling the emergence of a new naval power and the final decline of a once-great maritime empire.`,
+        hints: [
+            { cost: 20, text: "Protected cruisers—steel warships with armored decks but no belt armor—were the standard medium warship from roughly 1880 to 1910.", explanation: "The ship type helps date this battle." },
+            { cost: 25, text: "A war triggered by the mysterious explosion of a warship in a harbor, leading to the destruction of a colonial fleet, occurred in 1898.", explanation: "The political context precisely dates the battle." }
+        ],
+        explanation: "This was the Battle of Manila Bay on May 1, 1898, during the Spanish-American War. Commodore George Dewey's Asiatic Squadron destroyed the Spanish Pacific fleet under Admiral Patricio Montojo in Manila Bay, Philippines. Dewey's famous signal was 'You may fire when you are ready, Gridley.' The Spanish fleet—mostly obsolete wooden-hulled vessels—was annihilated without a single American ship lost. The war had been triggered by the explosion of USS Maine in Havana harbor on February 15, 1898. The victory gave the United States control of the Philippines, marking America's emergence as a Pacific naval power and the end of Spain's colonial empire. Protected cruisers (steel with armored decks, 1880-1910) and the Maine explosion precisely date this to 1898.",
+        tags: ["naval", "19th-century", "pacific"]
+    },
+    {
+        id: "campaign_265",
+        title: "The Peninsula of Slaughter",
+        actualYear: 1915,
+        latitude: 40.25,
+        longitude: 26.28,
+        difficulty: "medium",
+        description: `A naval power conceived a bold plan to knock a declining empire out of a continental war by forcing a narrow strait connecting two seas, capturing the imperial capital, and opening a supply route to a struggling eastern ally. The plan would bypass the deadlocked trench warfare on the main front.
+
+The naval assault came first. A fleet of pre-dreadnought battleships attempted to force the strait but was turned back by mines, shore batteries, and mobile howitzers. Three battleships were sunk and three more crippled in a single day.
+
+The land campaign followed. Roughly 75,000 troops—a mix of soldiers from multiple countries within a far-flung empire, along with contingents from its allied nations—landed on beaches at the tip of a narrow peninsula. The defenders, underestimated and poorly supplied, fought with extraordinary determination. Both sides used bolt-action magazine rifles, machine guns, and hand grenades in terrain that funneled attackers into narrow gullies overlooked by ridgelines.
+
+The fighting devolved into trench warfare as brutal as the main front: trenches sometimes only meters apart, sapping, mining, and constant sniping. A major August offensive attempted to break the deadlock with new landings, but the defenders reinforced faster than the attackers could advance.
+
+After eight months and roughly 250,000 casualties on each side, the attacking forces were evacuated—the withdrawal itself being the most successful operation of the entire campaign. The failure brought down the political career of the operation's chief advocate, though he would return to prominence decades later.`,
+        hints: [
+            { cost: 20, text: "Pre-dreadnought battleships—older warships made obsolete by the Dreadnought revolution of 1906—were still used in secondary operations during the 1914-1918 war.", explanation: "The ship type helps date this battle." },
+            { cost: 25, text: "Bolt-action magazine rifles, machine guns, and hand grenades in trench warfare on a narrow peninsula, combined with an amphibious landing, identify a specific 1915-1916 campaign.", explanation: "The weapons and terrain combination narrows the date." }
+        ],
+        explanation: "This was the Gallipoli Campaign (February 1915 - January 1916), Winston Churchill's plan to force the Dardanelles Strait, capture Constantinople (Istanbul), and knock the Ottoman Empire out of World War I. The naval assault on March 18, 1915 lost three battleships to mines. The landings at Cape Helles and Anzac Cove on April 25 (commemorated as ANZAC Day in Australia and New Zealand) devolved into brutal trench warfare. The Ottoman defenders, brilliantly commanded by Mustafa Kemal (later Atatürk, founder of modern Turkey), held every position. The August landings at Suvla Bay failed due to incompetent leadership. Total casualties exceeded 470,000 on both sides. The evacuation in December 1915-January 1916 was flawless—not a single casualty. Churchill's political career was nearly destroyed, though he returned as Prime Minister in 1940.",
+        tags: ["land", "20th-century", "mediterranean"]
+    },
+    {
+        id: "campaign_266",
+        title: "The Desert Fox's Defeat",
+        actualYear: 1942,
+        latitude: 30.83,
+        longitude: 28.95,
+        difficulty: "medium",
+        description: `A desert army that had driven its opponents back hundreds of miles across a coastal wasteland was finally stopped at a defensive line where a geographic bottleneck—between the sea to the north and an impassable salt depression to the south—prevented the flanking maneuvers that had won previous battles.
+
+The defending commander, recently appointed, meticulously prepared a set-piece battle. He amassed a crushing superiority in men (195,000 vs. 104,000), tanks (over 1,000 vs. roughly 500, many of them obsolete), artillery (over 900 guns vs. 500), and complete air superiority. His plan was deliberate: a massive artillery barrage followed by infantry assaults to create gaps in the enemy minefields, then armored exploitation.
+
+Both sides deployed medium tanks—the defenders' newest models mounted 75mm guns that outmatched the attackers' lighter vehicles. The attackers relied on a core of battle-tested medium tanks with 50mm or 75mm guns, but fuel shortages limited their mobility. Anti-tank guns on both sides fired from concealed positions, creating killing zones in the minefields.
+
+The battle lasted twelve days. The initial infantry assaults bogged down in dense minefields and fierce resistance. The defenders' commander, under intense political pressure to produce results, shifted his axis of attack and eventually achieved a breakthrough. The attacking commander, ill and absent for part of the battle, ordered a retreat against his political leader's explicit orders to stand and die.
+
+The pursuit covered over a thousand miles of desert. The defeat marked the turning point in the desert campaign and was celebrated as the first major land victory by the defenders' nation in the war.`,
+        hints: [
+            { cost: 20, text: "Medium tanks with 50mm to 75mm guns, anti-tank guns in prepared positions, and extensive minefields were characteristic of North African desert warfare in 1941-1943.", explanation: "The armored warfare style identifies the theater and period." },
+            { cost: 25, text: "A geographic bottleneck between the sea and an impassable salt depression (the Qattara Depression) limited maneuver warfare to a narrow front in one famous 1942 battle.", explanation: "The specific terrain feature identifies the battle." }
+        ],
+        explanation: "This was the Second Battle of El Alamein, October 23 to November 11, 1942, where British Eighth Army under Lieutenant General Bernard Montgomery defeated Generalfeldmarschall Erwin Rommel's Panzerarmee Afrika. Montgomery's careful preparation—including Operation Bertram, an elaborate deception plan—achieved overwhelming superiority. The battle opened with a 1,000-gun artillery barrage, the largest since World War I. Rommel's Panzer IV tanks with 75mm guns faced the new American-supplied M4 Sherman tanks and British 6-pounder anti-tank guns. Rommel, ill in Germany when the battle began, returned to find his army being overwhelmed. His retreat against Hitler's 'stand or die' order saved his army but lost North Africa. Churchill famously said: 'Before Alamein we never had a victory. After Alamein we never had a defeat.'",
+        tags: ["land", "20th-century", "north-africa"]
+    },
+    {
+        id: "campaign_267",
+        title: "The First Carrier Battle",
+        actualYear: 1942,
+        latitude: -14.75,
+        longitude: 155.50,
+        difficulty: "hard",
+        description: `For the first time in naval history, two fleets fought a major engagement without ever coming within sight of each other. All offensive action was carried out by carrier-based aircraft; the surface ships never exchanged a single shot.
+
+One fleet—three carriers, including one large fleet carrier and two smaller ones—was escorting an invasion force to capture a strategic port on a large island. The opposing fleet—two fleet carriers and supporting warships—had been forewarned by intelligence and positioned to intercept.
+
+On the first day, aircraft from both sides searched for the enemy. The defending force sank a light carrier and a destroyer but mistakenly attacked an oiler and a destroyer, thinking they were the main fleet. The attacking force's aircraft found and heavily damaged a fleet carrier.
+
+The main engagement came the next morning. Strike aircraft from both sides launched almost simultaneously and passed each other in the air. Dive bombers and torpedo planes—the decisive weapons of carrier warfare—attacked through heavy anti-aircraft fire. One fleet carrier on each side was crippled: one sank immediately; the other was abandoned but sank weeks later while being towed home.
+
+The tactical result was roughly even. But the strategic impact was significant: the invasion was turned back, marking the first time the advancing power's expansion had been checked. Many of the attacking force's experienced pilots were killed, losses that would prove critical in a larger carrier battle the following month.`,
+        hints: [
+            { cost: 20, text: "Carrier-based dive bombers and torpedo planes as the sole offensive weapons in a naval battle—with surface ships never engaging—first occurred in May 1942.", explanation: "The all-carrier nature of the battle precisely dates it." },
+            { cost: 25, text: "The engagement was the first naval battle in history where opposing ships never sighted each other directly, with all combat conducted by aircraft.", explanation: "This tactical innovation identifies the specific battle." }
+        ],
+        explanation: "This was the Battle of the Coral Sea, May 4-8, 1942, the first pure carrier-versus-carrier battle in history. A Japanese force including the carriers Shokaku and Zuikaku (plus the light carrier Shoho) attempted to capture Port Moresby in New Guinea. The U.S. carriers Lexington and Yorktown, forewarned by codebreaking, intercepted. Shoho was sunk on May 7; the next day's exchange crippled Shokaku and fatally damaged Lexington (which was scuttled). Yorktown was damaged but was repaired in 72 hours at Pearl Harbor to fight at Midway. The battle was a tactical draw but a strategic Allied victory: the Port Moresby invasion was turned back, and Japanese pilot losses weakened Carrier Division 5 for the critical Battle of Midway the following month. It was the first naval battle where opposing ships never saw each other.",
+        tags: ["naval", "20th-century", "pacific"]
+    },
+    {
+        id: "campaign_268",
+        title: "The Longest Day",
+        actualYear: 1944,
+        latitude: 49.36,
+        longitude: -0.88,
+        difficulty: "easy",
+        description: `The largest amphibious invasion in history landed over 150,000 troops on five beaches along a 50-mile stretch of coast in a single day, supported by nearly 7,000 ships and 11,000 aircraft. The operation had been planned for over a year, and its timing depended on tides, moon phase, and weather—a 24-hour delay nearly forced a two-week postponement.
+
+The defenders had spent years fortifying the coast with concrete bunkers, gun emplacements, mined beach obstacles, and flooded lowlands. Yet they were fatally divided over strategy: one commander wanted the mobile reserves held far inland to counterattack after the landing site was known; another wanted tanks positioned right at the beaches. The compromise satisfied neither.
+
+The assault was preceded by massive air and naval bombardment and by airborne drops: paratroopers from three divisions landed behind the beaches in the predawn hours, seizing bridges and road junctions. Many landed far from their drop zones in the darkness and flooded fields, but small groups of paratroopers fought independently throughout the night.
+
+On the beaches themselves, the experience varied dramatically. At some, defenders had been stunned by the bombardment and resistance was light. At one beach, the bombardment missed its targets entirely, and the assault troops—wading ashore under heavy machine gun and mortar fire from bluffs overlooking the beach—suffered catastrophic casualties. Small units of infantry, led by sergeants and lieutenants after their officers fell, improvised their way off the beach and up the bluffs.
+
+By nightfall, the beachheads were secure but none of the first day's ambitious inland objectives had been reached. The breakout from the beachhead would take nearly two months of fierce fighting in close terrain.`,
+        hints: [
+            { cost: 20, text: "Airborne paratroopers from multiple divisions, combined with naval bombardment and amphibious landings on a heavily fortified coast, identifies the largest invasion of the 1939-1945 war.", explanation: "The scale and combined-arms nature help date the battle." },
+            { cost: 25, text: "An amphibious invasion requiring precise coordination of tides, moon phase, and weather, preceded by a 24-hour delay, occurred on a famous date in June 1944.", explanation: "The operational details pinpoint the date." }
+        ],
+        explanation: "This was D-Day—the Normandy landings—on June 6, 1944, Operation Overlord. Supreme Commander Dwight D. Eisenhower led the largest amphibious operation in history, landing 156,000 Allied troops on five beaches (Utah, Omaha, Gold, Juno, Sword) along the Normandy coast of France. Omaha Beach, where the U.S. 1st and 29th Infantry Divisions faced the German 352nd Infantry Division on high bluffs, was the bloodiest—roughly 2,000 American casualties on the first day. The German defensive strategy was paralyzed by the Rommel-Rundstedt disagreement over panzer reserves, and by Hitler's refusal to release them without his personal approval (he was asleep when the invasion began). Airborne divisions (U.S. 82nd and 101st, British 6th) secured the flanks. The breakout from Normandy took until late July (Operation Cobra). D-Day was the beginning of the end of the war in Western Europe.",
+        tags: ["land", "20th-century", "western-europe"]
+    },
+    {
+        id: "campaign_269",
+        title: "The Last Byzantine Outpost",
+        actualYear: 1461,
+        latitude: 41.0027,
+        longitude: 39.7168,
+        difficulty: "hard",
+        description: `Eight years after the great imperial capital fell, its conqueror turned his attention to the last surviving fragment of the ancient empire—a small state on the southern shore of a northern sea, perched between mountains and water. This state had survived for over two centuries as a trading republic, growing wealthy from the commerce that passed through its ports on the overland routes connecting east and west.
+
+The conqueror's army—perhaps 100,000 strong—marched along the coast, supported by a fleet of several hundred ships. The small state's defenses were strong in theory: a walled city backed by steep mountains, approachable only along a narrow coastal strip. But the garrison was tiny—perhaps 4,000 men—and no allies came to its aid.
+
+Both armies used the weapons of the mid-15th century: matchlock handguns were appearing alongside crossbows and composite bows, while cannon of various sizes—from light swivel guns to heavy bombards—battered the walls. The defenders' fortifications, though ancient, had been reinforced with the wealth of centuries of trade.
+
+The resistance lasted roughly a month before the city negotiated a surrender. The last emperor of this fragment state was allowed to live but was later executed along with his family when the conqueror learned of an alleged conspiracy.
+
+With this conquest, the last remnant of an empire that had endured for over fifteen centuries was extinguished. The conqueror now controlled both sides of the vital strait connecting his inland sea to the broader oceans of trade.`,
+        hints: [
+            { cost: 20, text: "Matchlock handguns appearing alongside crossbows and composite bows indicates the mid-15th century, roughly 1440-1470, during the transition from pure medieval to early gunpowder warfare.", explanation: "The weapons mix helps date the battle." },
+            { cost: 25, text: "The fall of the last fragment of an ancient fifteen-century-old empire occurred eight years after the fall of its famous capital city.", explanation: "The political context narrows the date precisely." }
+        ],
+        explanation: "This was the Fall of Trebizond (Trabzon) in August 1461, when Sultan Mehmed II ('the Conqueror') conquered the Empire of Trebizond, the last surviving successor state of the Byzantine Empire. Emperor David Komnenos surrendered the city after roughly a month of siege, hoping for clemency. He and his family were initially exiled to Adrianople but were executed in 1463. The Empire of Trebizond had been founded in 1204 after the Fourth Crusade shattered the Byzantine Empire, and had survived for 257 years through diplomacy, trade wealth (it controlled the western terminus of the Silk Road), and its inaccessible coastal mountain geography. Its fall, eight years after Constantinople (1453), ended the last vestige of the Roman Empire. The transition from crossbows to early matchlocks identifies the mid-15th century.",
+        tags: ["siege", "15th-century", "middle-east"]
     }
 ];
