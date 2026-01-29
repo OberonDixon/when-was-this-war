@@ -5717,5 +5717,235 @@ With this conquest, the last remnant of an empire that had endured for over fift
         ],
         explanation: "This was the Fall of Trebizond (Trabzon) in August 1461, when Sultan Mehmed II ('the Conqueror') conquered the Empire of Trebizond, the last surviving successor state of the Byzantine Empire. Emperor David Komnenos surrendered the city after roughly a month of siege, hoping for clemency. He and his family were initially exiled to Adrianople but were executed in 1463. The Empire of Trebizond had been founded in 1204 after the Fourth Crusade shattered the Byzantine Empire, and had survived for 257 years through diplomacy, trade wealth (it controlled the western terminus of the Silk Road), and its inaccessible coastal mountain geography. Its fall, eight years after Constantinople (1453), ended the last vestige of the Roman Empire. The transition from crossbows to early matchlocks identifies the mid-15th century.",
         tags: ["siege", "15th-century", "middle-east"]
+    },
+    {
+        id: "campaign_270",
+        title: "The Invaders from the Sea",
+        actualYear: -1175,
+        latitude: 31.25,
+        longitude: 31.85,
+        difficulty: "medium",
+        description: `A kingdom that had endured for millennia faced the most dangerous threat in its long history. A mass migration of peoples was sweeping along the coast, destroying ancient kingdoms in its path. Several civilizations to the north—palace-states that had flourished for centuries—had collapsed within a generation, their walled cities burned and abandoned.
+
+The invaders traveled in two columns: a land force with ox-carts carrying families and possessions, and a fleet of sailing ships with high prows. Their warriors carried long slashing swords of bronze and round shields, and wore distinctive horned or plumed helmets. All weapons on both sides were bronze—iron had not yet come into military use in the region.
+
+The defending king prepared a trap in the marshy channels at the mouth of a great river. He stationed archers in dense ranks along the riverbanks and positioned his own fleet—oar-powered galleys fitted with raised fighting platforms for bowmen—at the narrowest point of the channels. The invaders' broad-hulled sailing vessels, designed for open water, could not maneuver under sail in the confined waterways.
+
+When the enemy fleet entered the channels, archers from shore and ship poured volleys into the crowded vessels. Grappling ropes dragged ships together for boarding, and smaller craft were capsized. The land column was intercepted separately and defeated by the kingdom's chariot forces.
+
+The kingdom survived, enduring for several more centuries while the neighboring civilizations that had been destroyed never recovered. Detailed reliefs carved on the walls of a great temple record the naval engagement in vivid detail—among the earliest visual depictions of a sea battle in existence.`,
+        hints: [
+            { cost: 20, text: "All-bronze weaponry with no iron, combined with war chariots as the primary land arm, places this in the Late Bronze Age—roughly 1600 to 1100 BCE.", explanation: "The absence of iron helps date the battle." },
+            { cost: 25, text: "The widespread collapse of palace-civilizations across the eastern Mediterranean occurred around 1200-1150 BCE, a catastrophic period that saw the fall of multiple interconnected Bronze Age states.", explanation: "The Bronze Age collapse context narrows the date." }
+        ],
+        explanation: "This was the Battle of the Delta, fought around 1175 BCE between Pharaoh Ramesses III and the Sea Peoples—a confederation of Mediterranean raiders including the Peleset (later Philistines), Tjeker, Shekelesh, and Denyen. The battle is depicted in extraordinary detail on the walls of Ramesses III's mortuary temple at Medinet Habu. The Sea Peoples had already destroyed the Hittite Empire, the kingdom of Ugarit, and numerous other Late Bronze Age civilizations in the catastrophic collapse around 1200-1150 BCE. Ramesses prepared an ambush in the Nile Delta channels, using shore-based archers and oared warships against the Sea Peoples' sailing vessels, which could not maneuver in the confined waters. All-bronze weaponry and the absence of iron (which was just beginning to appear in the region) places this firmly in the Late Bronze Age. The battle is one of the earliest naval engagements depicted in art.",
+        tags: ["naval", "12th-century-bce", "north-africa"]
+    },
+    {
+        id: "campaign_271",
+        title: "The Tyrant's Downfall",
+        actualYear: -1046,
+        latitude: 35.17,
+        longitude: 113.88,
+        difficulty: "hard",
+        description: `A rising state in a western river valley had long submitted to a powerful but decaying kingdom to the east. The eastern king had become notorious for cruelty—later chronicles describe elaborate tortures inflicted on ministers who dared to object to his rule. Whether these accounts, written by the victors, are exaggerated is impossible to know, but the resentment across the realm was real.
+
+The western ruler gathered an alliance and marched east with perhaps 45,000 soldiers and 300 war chariots. These were four-horse vehicles, each carrying a driver and a warrior armed with a bronze dagger-axe—a weapon unique to this region, combining elements of an axe blade and a stabbing point mounted on a long wooden shaft. Some chariots also carried an archer with a composite bow. The infantry carried bronze-tipped spears, bronze halberds, and large shields of wood or wicker. No iron weapons appear in any account of the campaign.
+
+The defending kingdom allegedly mustered a far larger army—later sources claim hundreds of thousands, which is certainly a vast exaggeration for the era. Many of these troops were reportedly conscripts: slaves and prisoners of war whose loyalty to the throne was nonexistent.
+
+The two armies met on a plain outside the capital region. When battle was joined, the conscript troops refused to fight, and many reportedly reversed their weapons and joined the attackers. The front lines collapsed. The king fled back to his capital, where he set fire to his own palace and perished in the flames rather than submit to capture.
+
+The victory established a new dynasty that would endure for roughly eight centuries—the longest-lasting ruling house in the region's history.`,
+        hints: [
+            { cost: 20, text: "Bronze dagger-axes (a blade mounted perpendicular to a long shaft) were the signature melee weapon of armies in eastern Asia from roughly 1500 to 300 BCE, before being replaced by iron swords and crossbow-armed infantry.", explanation: "The dagger-axe helps identify the region and period." },
+            { cost: 25, text: "Four-horse war chariots as the primary striking arm, with no cavalry at all, characterized warfare in this region before approximately 400 BCE, when mounted warriors began replacing charioteers.", explanation: "The chariot-based warfare with no cavalry narrows the period." }
+        ],
+        explanation: "This was the Battle of Muye in approximately 1046 BCE, when King Wu of Zhou overthrew King Zhou of Shang (also known as Di Xin), the last Shang dynasty ruler. The Shang king is portrayed in Chinese tradition as a paradigm of tyranny—accused of building pools of wine and forests of meat, and torturing loyal ministers. These accounts were written by the victorious Zhou and are likely exaggerated, though the resentment was evidently real enough to trigger mass defection on the battlefield. The Zhou dynasty that followed lasted approximately 800 years (1046-256 BCE), the longest in Chinese history. The bronze dagger-axe (ge), a uniquely Chinese weapon, and four-horse chariots without any iron weapons or cavalry place this battle firmly in the late second millennium BCE.",
+        tags: ["land", "11th-century-bce", "east-asia"]
+    },
+    {
+        id: "campaign_272",
+        title: "The Coalition on the River",
+        actualYear: -853,
+        latitude: 35.40,
+        longitude: 36.37,
+        difficulty: "hard",
+        description: `A great empire had been expanding for generations, conquering its neighbors through superior military organization, iron weaponry, and a professional army maintained at state expense. The current king, inheriting the war machine built by his predecessors, marched west to impose tribute on the prosperous kingdoms along the coast and the inland trade routes.
+
+Twelve kings banded together to resist. Their coalition assembled a substantial army—the imperial inscriptions claim tens of thousands of infantry, thousands of chariots, and cavalry contingents, though imperial records routinely inflated enemy numbers to magnify victory.
+
+The imperial army represented a military in transition. Heavy war chariots with crews of three—driver, archer, and shield-bearer—remained important, but the empire had begun deploying units of mounted cavalry as a separate arm, riders fighting with composite bows and iron-tipped lances. This was a recent innovation in the region. Infantry fought with iron swords, spears, and axes, and archers used powerful composite bows effective at long range. Soldiers wore armor of iron or bronze scales laced into rows and stitched onto leather backing, with pointed conical helmets.
+
+The battle took place on a plain near a river. The imperial inscriptions claim a tremendous victory, boasting of enemy dead piled in heaps and rivers running with blood. But the empire did not advance further west that year, and the coalition kingdoms survived intact. The imperial army withdrew, and the king did not return to this region for several years—suggesting the proclaimed triumph was more costly than the official record admits.`,
+        hints: [
+            { cost: 20, text: "Iron weapons alongside heavy war chariots and the early use of organized cavalry as a separate arm characterize Near Eastern armies of the 9th to 7th centuries BCE, after the Bronze Age collapse but before cavalry fully replaced chariots.", explanation: "The iron-and-chariot combination helps date the battle." },
+            { cost: 25, text: "Lamellar armor of iron or bronze scales, with pointed conical helmets, was standard equipment for the dominant Near Eastern empire from roughly 900 to 600 BCE.", explanation: "The armor style narrows the timeframe." }
+        ],
+        explanation: "This was the Battle of Qarqar in 853 BCE, fought near the Orontes River in modern Syria. King Shalmaneser III of Assyria led his army against a coalition of twelve kings, most notably Hadadezer of Damascus and King Ahab of Israel—who contributed 2,000 chariots and 10,000 infantry according to the Kurkh Monolith inscription. This is notably the only Assyrian source to mention an Israelite king. Shalmaneser claimed a crushing victory, but the coalition survived intact and Assyria did not campaign in the region again for several years, strongly suggesting the battle was indecisive or even a strategic defeat. The Assyrian army at Qarqar illustrates the transition from chariot-based to cavalry-based warfare: both arms are present, but cavalry was becoming increasingly important. Iron weapons had fully replaced bronze in the Near East by this period.",
+        tags: ["land", "9th-century-bce", "middle-east"]
+    },
+    {
+        id: "campaign_273",
+        title: "The Reliefs of the Siege",
+        actualYear: -701,
+        latitude: 31.56,
+        longitude: 34.85,
+        difficulty: "medium",
+        description: `An empire at the height of its power sent a massive army to punish a vassal kingdom that had withheld tribute and sought alliances with a rival power to the south. The great king personally led the campaign. He would later commission an extraordinary series of carved stone panels for his palace depicting every phase of the siege in meticulous detail—the march, the construction of siege works, the assault, and the aftermath—making this one of the most thoroughly documented military operations of the ancient world.
+
+The target was a strongly fortified city on the frontier, the second-largest settlement in the rebellious kingdom. Its walls were thick mudbrick on stone foundations, reinforced with towers at regular intervals. The garrison had stockpiled sling stones by the thousands.
+
+The besieging army deployed the most sophisticated siege technology of the era. Engineers constructed a massive ramp of packed earth, stones, and timber, rising gradually from the valley floor to the height of the city walls. Armored battering rams on wheeled frames—covered shelters protecting crews who worked the heavy timber beams tipped with iron—were pushed up the ramp under covering fire from archers and slingers. Soldiers wore lamellar armor of iron scales and carried large shields of wicker or leather.
+
+The defenders fought desperately, pouring burning oil onto the siege engines and lowering chains to catch and overturn the rams. They constructed a counter-ramp inside the walls to meet the ascending siege works. Archaeological excavation has confirmed the scale of the operation: hundreds of arrowheads, sling stones, and fragments of armor at the base of the walls, and the remains of the siege ramp itself—still visible today.
+
+The city fell after a fierce assault. The stone panels depict the aftermath: captured defenders impaled on stakes outside the walls, families marching into exile, and the city's goods loaded onto carts. The rebel king survived by paying an enormous tribute of gold and silver, but his frontier territories were permanently lost.`,
+        hints: [
+            { cost: 20, text: "Wheeled battering rams under protective shelters, combined with massive earth siege ramps, represent the peak of ancient Near Eastern siege technology, standard from roughly 900 to 600 BCE.", explanation: "The siege technology helps date the battle." },
+            { cost: 25, text: "Iron lamellar armor (scales laced onto leather backing) was the standard military equipment of the region's dominant empire during the 8th and 7th centuries BCE. Carved stone reliefs depicting military campaigns in palace walls are characteristic of this same empire.", explanation: "The armor and artistic tradition narrow the date." }
+        ],
+        explanation: "This was the Siege of Lachish in 701 BCE, when the Assyrian king Sennacherib captured the second-largest city in the Kingdom of Judah during his campaign against King Hezekiah. The Lachish Reliefs, carved for Sennacherib's 'Palace Without Rival' at Nineveh, are now in the British Museum and depict every phase of the siege with extraordinary precision. Archaeological excavation of Tell ed-Duweir has confirmed the reliefs' accuracy in remarkable detail—the siege ramp (the oldest positively identified siege ramp in the archaeological record), hundreds of sling stones and arrowheads, and fragments of scale armor were found exactly where the reliefs show them. The defenders' counter-ramp was also discovered inside the walls. Assyrian siege technology—wheeled battering rams, earth ramps, and massed archery—represented the most sophisticated siege capability anywhere in the world before the Hellenistic period.",
+        tags: ["siege", "8th-century-bce", "middle-east"]
+    },
+    {
+        id: "campaign_274",
+        title: "The Enemy King's Head",
+        actualYear: -653,
+        latitude: 32.19,
+        longitude: 48.26,
+        difficulty: "hard",
+        description: `A great empire dispatched its army to punish a neighboring kingdom to the east that had been sheltering rebels and claimants to the imperial throne. The imperial army was the most formidable military force of its era—the product of centuries of institutional development, with professional soldiers equipped and trained at state expense.
+
+The enemy king mustered his forces and marched to meet the invaders near a river on the frontier between the two kingdoms. Both sides fought with iron weapons: swords, spears, and the powerful composite bows that dominated warfare in the region. But the two armies differed in their use of mobile forces. The defenders still relied heavily on war chariots, while the imperial army had largely transitioned to cavalry—mounted archers and lancers who could operate across terrain that chariots could not.
+
+The battle was decisive. The enemy king's chariot overturned during the fighting—whether struck by an arrow or simply broken on rough ground, the sources give conflicting accounts. He was captured and beheaded on the field. Two of his officers attempted to support the wounded king and were killed alongside him.
+
+What happened next was recorded with precise, almost celebratory detail in carved stone panels. The severed head was carried back to the imperial capital. In one relief, a messenger presents the head to the emperor in his chariot. In another, the head hangs from a tree in the palace garden while the emperor and his queen recline on couches beneath it, feasting. Court musicians play. The scene is depicted with a serenity that contrasts starkly with its subject.
+
+The defeated kingdom never fully recovered. Within a generation, imperial armies returned to sack its capital, destroying it as an independent power permanently.`,
+        hints: [
+            { cost: 20, text: "The transition from war chariots to cavalry as the primary mobile arm occurred in the Near East during the 8th to 6th centuries BCE. Armies using both simultaneously are characteristic of the 7th century BCE.", explanation: "The chariot-to-cavalry transition helps date the battle." },
+            { cost: 25, text: "Elaborate carved stone palace reliefs depicting military campaigns with near-photographic detail are characteristic of one specific Near Eastern empire, which flourished from roughly 900 to 612 BCE.", explanation: "The artistic tradition narrows the period." }
+        ],
+        explanation: "This was the Battle of Til-Tuba (also called the Battle of the River Ulai) in approximately 653 BCE, where the Assyrian king Ashurbanipal defeated the Elamite king Teumman. The battle is depicted in vivid relief panels from Ashurbanipal's North Palace at Nineveh, now in the British Museum. The reliefs show Teumman's chariot overturning, his capture, his decapitation, and—most infamously—his severed head hanging from a tree in the royal garden at Nineveh while Ashurbanipal and Queen Libbali-sharrat feast beneath it. Two Elamite officers, Ituni and Tammaritu, are shown trying to support the fallen king before being killed. These reliefs are among the most detailed depictions of ancient warfare ever created. Cavalry had largely replaced chariots in Assyrian armies by the mid-7th century BCE, while the Elamites still relied on chariots—a technological lag that contributed to their defeat.",
+        tags: ["land", "7th-century-bce", "middle-east"]
+    },
+    {
+        id: "campaign_275",
+        title: "The Three Days' Retreat",
+        actualYear: -632,
+        latitude: 35.55,
+        longitude: 115.55,
+        difficulty: "hard",
+        description: `Two rival states had competed for supremacy over a land fragmented into dozens of petty kingdoms. The northern state's ruler had spent years in exile before claiming his throne. During those wandering years, the southern state had sheltered him. In gratitude, he had promised that if the two ever met in war, he would retreat three days' march before giving battle.
+
+Now the moment had come. The southern kingdom's army, emboldened by recent conquests, had pushed north into disputed territory. The northern ruler honored his old promise: he pulled his forces back across open ground while the enemy advanced. The southern commander interpreted the retreat as cowardice and pursued eagerly, his forces spread thin with confidence.
+
+Both armies fought primarily from lightweight war chariots drawn by teams of horses, each carrying a driver and a warrior armed with a bronze dagger-axe or halberd. Infantry with bronze-tipped spears and wooden shields accompanied the chariots. All weapons were bronze; iron had not yet entered military use in this part of the world. Chariots numbered in the hundreds on each side—the measure of a state's military power.
+
+The northern army attacked on both flanks simultaneously. On one wing, chariots dragged tree branches behind them to raise clouds of dust, creating the impression of a much larger force. On the other, the main chariot force crashed into the enemy's weaker flank and routed it. The southern center, now exposed on both sides, collapsed.
+
+The victory established the northern ruler as the paramount leader among the many states of the region—a status formalized through a ceremony of alliance in which the lesser kings acknowledged his supremacy.`,
+        hints: [
+            { cost: 20, text: "Bronze dagger-axes and halberds as primary weapons, with chariot warfare and no cavalry at all, are characteristic of warfare in eastern Asia before roughly 400 BCE.", explanation: "The weapons and absence of cavalry help date the battle." },
+            { cost: 25, text: "A political system of many small states competing under nominal allegiance to a weak central authority, with formal hegemonic alliances, characterized one region from roughly 770 to 476 BCE.", explanation: "The political context narrows the period." }
+        ],
+        explanation: "This was the Battle of Chengpu in 632 BCE, a decisive engagement during China's Spring and Autumn period. Duke Wen of Jin—who had spent 19 years in exile before claiming the Jin throne—defeated the army of Chu under the general Zi Yu. The famous 'three days' retreat' fulfilled a promise Duke Wen had made to King Cheng of Chu, who had sheltered him during his exile. The retreat was also sound strategy, luring the overconfident Chu forces into a pursuit that stretched their lines. The victory at Chengpu established Duke Wen as the second official hegemon (ba) of the Spring and Autumn period. Chinese warfare of this era was chariot-centered: the ge (dagger-axe), a uniquely Chinese weapon, was the signature arm, while bronze weapons without iron and chariots without cavalry place this firmly before 500 BCE.",
+        tags: ["land", "7th-century-bce", "east-asia"]
+    },
+    {
+        id: "campaign_276",
+        title: "The River Breaks the Walls",
+        actualYear: -612,
+        latitude: 36.36,
+        longitude: 43.15,
+        difficulty: "hard",
+        description: `For over two centuries, one empire had dominated the entire region through military power, administrative efficiency, and calculated terror—conquered peoples were deported en masse, rebel cities were razed, and palace walls were decorated with scenes of torture and execution. At its height the empire stretched from the mountains in the east to the sea in the west, the most powerful state the world had yet seen.
+
+But the empire had overextended. Civil wars between rival claimants to the throne, constant rebellions in conquered territories, and the enormous expense of garrisoning distant provinces had sapped its strength. Two neighboring kingdoms—one from the river plains to the south, the other from the mountains to the east—formed an alliance and marched on the imperial capital itself.
+
+The capital was one of the largest cities in the world, protected by walls stretching over twelve kilometers, punctuated by towers and monumental gates flanked by carved stone guardian figures. A broad river flowed along one side of the city, feeding a defensive moat.
+
+The siege lasted approximately three months. The attackers employed siege ramps, battering rams, and scaling ladders—the same techniques the empire itself had perfected and used against countless cities over the preceding centuries. The defenders fought with iron weapons and composite bows from behind walls that had seemed impregnable.
+
+What broke the siege was the river itself. Whether through deliberate diversion, seasonal flooding, or both, the river breached a section of the walls. The attackers poured through the gap. The city was sacked and burned with a thoroughness that matched the empire's own reputation for destruction. It was never rebuilt. Within a few centuries the ruins had been largely forgotten; later travelers noted only low mounds along the riverbank, unaware of what lay beneath.
+
+The empire that had terrorized the region for centuries was extinguished within three years of its capital's fall.`,
+        hints: [
+            { cost: 20, text: "Iron weapons and composite bows as standard military equipment, combined with sophisticated siege technology (wheeled battering rams, earth ramps), characterize Near Eastern warfare from roughly 900 to 500 BCE.", explanation: "The military technology helps date the battle." },
+            { cost: 25, text: "An empire dominant for over two centuries, ruling from the mountains to the sea, whose capital's walls stretched twelve kilometers and whose palace art depicted scenes of conquest and cruelty, describes one specific power that fell in the late 7th century BCE.", explanation: "The imperial characteristics narrow the identification." }
+        ],
+        explanation: "This was the Fall of Nineveh in 612 BCE, when a coalition of Babylonians under Nabopolassar and Medes under Cyaxares destroyed the capital of the Neo-Assyrian Empire. Nineveh's walls stretched over 12 kilometers with 15 monumental gates, each flanked by massive carved stone lamassu (winged bull-men). The city had been the seat of kings like Sennacherib and Ashurbanipal, whose palaces contained some of the most remarkable art and libraries of the ancient world. The Babylonian Chronicle records that flooding of the Tigris breached the walls, allowing the attackers in. The destruction was so complete that when Xenophon's Greek mercenaries passed the site in 401 BCE, they did not recognize the ruins as the former capital of the world's most powerful empire. The fall of Nineveh ended the Neo-Assyrian Empire, which had dominated the Near East since the 9th century BCE.",
+        tags: ["siege", "7th-century-bce", "middle-east"]
+    },
+    {
+        id: "campaign_277",
+        title: "The Richest King's Last Battle",
+        actualYear: -547,
+        latitude: 38.48,
+        longitude: 28.04,
+        difficulty: "hard",
+        description: `A wealthy western kingdom, famous for its gold and for having pioneered the minting of standardized coinage, faced a new and rapidly expanding power from the east. The western king, confident in his cavalry and his alliances, crossed a river boundary and invaded his neighbor's territory. An ambiguous oracle had promised that if he crossed the river, a great empire would fall. He assumed it meant his enemy's.
+
+The eastern conqueror counterattacked and pursued the western king all the way back to his capital—a fortified city on a hilltop overlooking a fertile plain. The decisive battle was fought on the plain before the city walls.
+
+The western army's strength was its cavalry, considered the finest horsemen of the era—armored riders with long lances fighting in close formation. The infantry carried iron-tipped javelins, short swords, and large shields. The eastern army was more diverse: infantry with composite bows and short spears, cavalry, and—according to one account written generations later—a contingent of baggage camels repositioned to the front of the battle line.
+
+The horses of the western cavalry, unaccustomed to camels, panicked at their unfamiliar smell and refused to charge. The western cavalrymen dismounted and fought on foot, but lost their decisive advantage. The eastern army's infantry and cavalry enveloped the flanks. The western forces were driven back within the city walls.
+
+After a siege of fourteen days, the capital fell. The king was captured alive. Later traditions give conflicting accounts of his fate—the most famous version has the conqueror granting mercy after the captive offered wisdom from atop his own funeral pyre.`,
+        hints: [
+            { cost: 20, text: "The minting of standardized gold and silver coins began around 600 BCE. Cavalry with iron-tipped lances as the dominant arm, with no stirrups, characterizes warfare from roughly 700 to 300 BCE.", explanation: "Coinage and cavalry technology help date the battle." },
+            { cost: 25, text: "A rapidly expanding eastern empire that conquered kingdom after kingdom through a combination of military skill and political cunning, absorbing existing institutions rather than destroying them, emerged in the mid-6th century BCE.", explanation: "The conquering empire's characteristics narrow the date." }
+        ],
+        explanation: "This was the Battle of Thymbra in 547 BCE (the exact date is debated), where Cyrus the Great of Persia defeated King Croesus of Lydia near the Lydian capital of Sardis. Croesus was legendary for his wealth—Lydia had pioneered standardized coinage around 600 BCE. The famous oracle at Delphi told Croesus that if he crossed the River Halys, a great empire would fall—it turned out to be his own. According to Xenophon's Cyropaedia, Cyrus placed baggage camels at the front to panic the Lydian horses. Whether this actually happened is debated: Xenophon wrote the Cyropaedia as a partly fictional educational text, not strict history. After the battle, Sardis fell in fourteen days. Herodotus records Croesus placed on a funeral pyre but spared; other sources disagree. Cavalry with iron weapons and the reference to early coinage place this in the 6th century BCE.",
+        tags: ["land", "6th-century-bce", "mediterranean"]
+    },
+    {
+        id: "campaign_278",
+        title: "The Road to the Ancient Capital",
+        actualYear: -539,
+        latitude: 33.30,
+        longitude: 44.45,
+        difficulty: "hard",
+        description: `The ancient kingdom's days were numbered. Its last king had alienated the priesthood by neglecting traditional religious observances and spending years away from the capital pursuing antiquarian interests in the desert—or so the conqueror's propaganda would later claim. Whether the grievances were genuine or manufactured to justify invasion remains debated.
+
+The eastern conqueror, who had already absorbed several kingdoms to build the largest empire the world had yet seen, marched his army toward the ancient capital. The defending army met the invaders at a fortified position along a major river, blocking the road south.
+
+Sources for what followed are sparse—surviving accounts consist of a few lines on a clay tablet chronicle. The battle was fought, the defenders were decisively defeated, and there may have been a massacre in the aftermath. The fighting was evidently one-sided, because after the engagement the next major city downstream surrendered without resistance.
+
+Both armies fought with the standard weapons of the era: iron swords and spears, composite bows, and cavalry alongside remnants of the older chariot tradition that was rapidly falling out of use. The conqueror's army was larger and battle-hardened from a decade of campaigns across vast distances.
+
+The ancient capital itself—one of the greatest cities of the era, protected by massive double walls and a broad moat—fell almost without a fight days later. Later accounts claim the attackers diverted the river to lower the water beneath the walls and waded in along the exposed riverbed, though this dramatic story may conflate different events. The last king was captured. The conqueror entered the city as a liberator, restoring religious rites and issuing a declaration—inscribed on a clay cylinder—proclaiming freedom for the displaced peoples the old kingdom had held captive.`,
+        hints: [
+            { cost: 20, text: "Iron weapons as standard with cavalry replacing chariots, combined with empires spanning thousands of kilometers, characterizes the mid-first millennium BCE—roughly 600 to 300 BCE.", explanation: "The military technology and political scale help date the battle." },
+            { cost: 25, text: "A declaration of liberation inscribed on a clay cylinder, issued by a conqueror who presented himself as restoring religious traditions rather than imposing new ones, is one of the most famous documents of the ancient world and dates to the 6th century BCE.", explanation: "The specific document narrows the date precisely." }
+        ],
+        explanation: "This was the Battle of Opis in 539 BCE, one of the final engagements before the fall of Babylon to Cyrus the Great of Persia. The Nabonidus Chronicle records the battle in just a few lines: the armies fought at Opis on the Tigris, King Nabonidus's forces were defeated, and there was apparently a massacre. After Opis, the city of Sippar surrendered without resistance, and Babylon itself fell shortly after. Herodotus claims Cyrus diverted the Euphrates to enter under the walls, though this may conflate later events. The Cyrus Cylinder, often called the 'first declaration of human rights' (a modern exaggeration, but it is a remarkable propaganda document), proclaimed Cyrus as chosen by Marduk to restore Babylon's neglected religious rites and free peoples deported by the Babylonian kings. The battle established the Achaemenid Persian Empire as the dominant power of the ancient Near East.",
+        tags: ["land", "6th-century-bce", "middle-east"]
+    },
+    {
+        id: "campaign_279",
+        title: "The Frontier Fortress",
+        actualYear: -525,
+        latitude: 31.05,
+        longitude: 32.56,
+        difficulty: "hard",
+        description: `A kingdom that had endured for millennia—ruled by divine kings who built monuments of stone that would stand for thousands of years—faced its final great conqueror. The invading king, son and successor of the man who had built the world's largest empire, led his army across a barren frontier to strike at this ancient land.
+
+The defending army drew up before a fortress city that guarded the principal invasion route from the east. This fortress had served as the gateway to the kingdom for centuries; every invader who sought to enter by land had to pass it.
+
+The defenders fought with a mixture of bronze and iron weapons—the transition between the two metals was further advanced in the invader's army. The kingdom's infantry carried large shields, short swords, and bows, fighting in dense formations that had changed remarkably little over the preceding centuries. The invaders brought cavalry armed with composite bows and javelins, and a more tactically flexible system of combined arms that had proven effective against every opponent encountered so far.
+
+A writer composing centuries after the event claimed the invader placed sacred animals before his battle line, knowing the defenders' religious taboos would prevent them from shooting at them. This story is almost certainly a later embellishment—the writer in question was known for colorful anecdotes—but it reflects the cultural gulf between the two armies.
+
+The battle was one-sided. The ancient kingdom's army, effective against similar opponents for generations, could not withstand the combination of cavalry, massed archery, and tactical flexibility the invaders employed. The fortress fell, and the invading army advanced to the capital with little further resistance. The ancient kingdom became a province of the new empire—the first of many foreign occupations over the coming millennia.`,
+        hints: [
+            { cost: 20, text: "A kingdom that had endured for millennia, ruled by divine kings who built enduring stone monuments, combined with the transition from bronze to iron weapons, points to the first millennium BCE.", explanation: "The kingdom's longevity and the metallurgical transition help date the battle." },
+            { cost: 25, text: "The world's largest empire in the 6th century BCE conquered this ancient kingdom in the 520s BCE, adding it as a province that would not regain independence for over a century.", explanation: "The imperial context narrows the date." }
+        ],
+        explanation: "This was the Battle of Pelusium in 525 BCE, when King Cambyses II of Persia defeated Pharaoh Psamtik III and conquered Egypt. Pelusium (modern Tell el-Farama) guarded Egypt's northeastern frontier—the traditional invasion route from Asia. The story about sacred animals (usually told as cats) placed before the Persian battle line comes from Polyaenus, writing in the 2nd century CE, nearly 700 years after the event, and is almost certainly legendary. Herodotus, writing much closer to the events, visited the battlefield and described finding skulls of the dead still scattered on the ground, noting that the Egyptian skulls were noticeably thicker than the Persian ones—which he attributed to Egyptians going bareheaded in the sun. After Pelusium, Psamtik retreated to Memphis, which also fell. Egypt became a satrapy of the Achaemenid Empire and would not regain lasting independence until the 20th century CE.",
+        tags: ["land", "6th-century-bce", "north-africa"]
     }
 ];
